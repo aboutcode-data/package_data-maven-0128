@@ -1,0 +1,223 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.activemq",
+    "name": "activemq-http",
+    "version": "5.14.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "18b3f3a9-97bf-4ec8-ad3a-a6471367092d",
+            "packages": [
+                "pkg:maven/org.apache.activemq/activemq-http@5.14.5?uuid=b260f558-bc0a-4c69-a3e8-a8e74ad76982",
+                "pkg:maven/org.apache.activemq/activemq-http@5.14.5?classifier=sources&uuid=2082ee81-c03e-480e-8859-c832892b1ab0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ActiveMQ :: HTTP Protocol Support\nActiveMQ HTTP Protocol Support",
+    "release_date": "2017-04-11T15:48:29Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-http/5.14.5/activemq-http-5.14.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "eda4180ee69b02abd090266930b24732c28ef202",
+    "sha256": "84db20a17ad0a1e93b37190c0ae84e32a65ea338b734a6066440a910f452b3ea",
+    "sha512": "a6f06ecba0fa3cd60507fc73f64011fce625fe91cb32cdf23a2ac0c02bc44c3066e321a528eb22254adb75a866bca6d296e0e56ba57e80ba579400db13bbfcbc",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (public-domain AND bsd-new AND sax-pd AND apache-2.0 AND indiana-extreme-1.2 AND cc-pd AND epl-1.0 AND mit)",
+    "other_license_expression_spdx": "Apache-2.0 AND (LicenseRef-scancode-public-domain AND BSD-3-Clause AND SAX-PD AND Apache-2.0 AND xpp AND CC-PDDC AND EPL-1.0 AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.activemq/activemq-http@5.14.5?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-spring",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-jms",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-stomp",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-mqtt",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-all",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.thoughtworks.xstream/xstream",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-unit-tests",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-broker",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-jaas",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-java@2.25.0",
+            "extracted_requirement": "2.25.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@2.25.0",
+            "extracted_requirement": "2.25.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@2.25.0",
+            "extracted_requirement": "2.25.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-server",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.activemq/activemq-http@5.14.5?classifier=sources&uuid=2082ee81-c03e-480e-8859-c832892b1ab0",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.activemq/activemq-http@5.14.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-http/5.14.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-http/5.14.5/activemq-http-5.14.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-http/5.14.5/activemq-http-5.14.5.pom",
+    "file_references": []
+}

@@ -1,0 +1,63 @@
+{
+    "type": "maven",
+    "namespace": "org.keycloak",
+    "name": "keycloak-js-adapter",
+    "version": "21.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4d4a757f-87cc-4a4c-b440-a5bba7ddeddf",
+            "packages": [
+                "pkg:maven/org.keycloak/keycloak-js-adapter@21.0.2?uuid=af3e35ab-355c-40b7-9f55-7e9bf580b348",
+                "pkg:maven/org.keycloak/keycloak-js-adapter@21.0.2?classifier=sources&uuid=fcb23dc5-7ed1-47da-b715-ae56ea658806"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Keycloak JS Integration",
+    "release_date": "2023-03-30T10:54:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Keycloak Team",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://keycloak.org",
+    "download_url": "https://repo1.maven.org/maven2/org/keycloak/keycloak-js-adapter/21.0.2/keycloak-js-adapter-21.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "bfed5360cea7cb46f5f94fdf67467ed22e633bd1",
+    "sha256": "e9a5ff4fce2548efb22341d8da6499245b415542480b290ac99e4e5119138590",
+    "sha512": "b3fa916f6689df7a1e5a738437f07d05a41e2a46f675d39356ff17dce4c995e14be00af6aca2bc1ebced68c9c38d244d94f95f12466af84891ed6cd58ce972f6",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat, Inc. and/or its affiliates ~ and other contributors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.keycloak/keycloak-js-adapter@21.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.keycloak/keycloak-js-adapter@21.0.2?classifier=sources&uuid=fcb23dc5-7ed1-47da-b715-ae56ea658806",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.keycloak/keycloak-js-adapter@21.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

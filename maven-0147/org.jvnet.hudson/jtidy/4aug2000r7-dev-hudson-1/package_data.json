@@ -1,0 +1,83 @@
+{
+    "type": "maven",
+    "namespace": "org.jvnet.hudson",
+    "name": "jtidy",
+    "version": "4aug2000r7-dev-hudson-1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "126f1e98-3919-446b-a538-e242cf108b9c",
+            "packages": [
+                "pkg:maven/org.jvnet.hudson/jtidy@4aug2000r7-dev-hudson-1?uuid=fa3e6b5c-d1aa-47f0-9422-20cf2a78c664",
+                "pkg:maven/org.jvnet.hudson/jtidy@4aug2000r7-dev-hudson-1?classifier=sources&uuid=6efc7ca1-a162-44da-94f8-98aa2c461804"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JTidy\nJTidy is a Java port of HTML Tidy, a HTML syntax checker and pretty printer. Like its non-Java cousin,\n    JTidy can be used as a tool for cleaning up malformed and faulty HTML. In addition, JTidy provides a DOM parser\n    for real-world HTML.\n  \n    Hudson modifications:\n    =====================\n    Removed SAX APIs",
+    "release_date": "2008-07-15T00:09:48Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JTidy",
+            "email": null,
+            "url": "http://jtidy.sf.net"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jtidy.sourceforge.net",
+    "download_url": "https://repo1.maven.org/maven2/org/jvnet/hudson/jtidy/4aug2000r7-dev-hudson-1/jtidy-4aug2000r7-dev-hudson-1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e0e05e9f1bf11a9d0357038ac4f497912c96f63f",
+    "sha256": "38bdcb5c38893d1f0f76848f693c77128dde7d9ceab1cef491e73bf38f4fdf4a",
+    "sha512": "4f4a5e146df1ba8bca1687bfe2beb0dadf40f843853945ecba819a455ed64d503ba75de8ac00dc5627a7698ee960d4ec7837324f7a520eb1ee2a30b95ec84db9",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.sourceforge.net/viewcvs.cgi/jtidy/trunk/jtidy/",
+    "vcs_url": "svn+https://svn.sourceforge.net/svnroot/jtidy/trunk/jtidy/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "tidy",
+    "declared_license_expression_spdx": "HTMLTIDY",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/tidy_2.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Java HTML Tidy License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "tidy_2.RULE",
+                    "license_expression": "tidy"
+                }
+            ],
+            "identifier": "tidy-45701b40-0018-576f-ce3e-64441b0a1d40",
+            "license_expression": "tidy"
+        }
+    ],
+    "other_license_expression": "tidy AND w3c-software-19980720 AND public-domain-disclaimer AND sax-pd",
+    "other_license_expression_spdx": "HTMLTIDY AND W3C-19980720 AND LicenseRef-scancode-public-domain-disclaimer AND SAX-PD",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Java HTML Tidy License\n  url: http://svn.sourceforge.net/viewvc/*checkout*/jtidy/trunk/jtidy/LICENSE.txt?revision=95\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jvnet.hudson/jtidy@4aug2000r7-dev-hudson-1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.jvnet.hudson/jtidy@4aug2000r7-dev-hudson-1?classifier=sources&uuid=6efc7ca1-a162-44da-94f8-98aa2c461804",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jvnet.hudson/jtidy@4aug2000r7-dev-hudson-1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jvnet/hudson/jtidy/4aug2000r7-dev-hudson-1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jvnet/hudson/jtidy/4aug2000r7-dev-hudson-1/jtidy-4aug2000r7-dev-hudson-1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jvnet/hudson/jtidy/4aug2000r7-dev-hudson-1/jtidy-4aug2000r7-dev-hudson-1.pom",
+    "file_references": []
+}

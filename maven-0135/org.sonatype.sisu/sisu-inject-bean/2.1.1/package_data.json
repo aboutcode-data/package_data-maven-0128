@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.sonatype.sisu",
+    "name": "sisu-inject-bean",
+    "version": "2.1.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a709355d-107a-47ec-a0f3-1b2a16739c98",
+            "packages": [
+                "pkg:maven/org.sonatype.sisu/sisu-inject-bean@2.1.1?uuid=77f07aac-0df1-4093-bb76-3c8f1dc62a26",
+                "pkg:maven/org.sonatype.sisu/sisu-inject-bean@2.1.1?classifier=sources&uuid=382ecded-f6d4-42a3-8472-ee61c59bfd21"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Sisu - Inject (JSR330 bean support)",
+    "release_date": "2011-02-11T17:41:16Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Sonatype, Inc.",
+            "email": null,
+            "url": "http://www.sonatype.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://repository.sonatype.org/content/sites/maven-sites/forge-parent",
+    "download_url": "https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a8815b5416a544f88d056064b4b2aad5a6b086d1",
+    "sha256": "ca7beea3f3e9a7b7e6556ff91e27ecdaf249ee7d052c159db9c935ccb811c14d",
+    "sha512": "0f5827d9a3e264192ce3588aeec31cd33ebdab0ae36591234e65676e6000568212455164ae22318a9f958861fa041c4c5e495652aeb3cd087779e5bb663eb7b5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND epl-1.0",
+    "declared_license_expression_spdx": "Apache-2.0 AND EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.sonatype.sisu/sisu-inject-bean@2.1.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.sonatype.sisu/sisu-guice",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.sisu.inject/guice-bean-containers",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.sonatype.sisu/sisu-inject-bean@2.1.1?classifier=sources&uuid=382ecded-f6d4-42a3-8472-ee61c59bfd21",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.sonatype.sisu/sisu-inject-bean@2.1.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1.pom",
+    "file_references": []
+}

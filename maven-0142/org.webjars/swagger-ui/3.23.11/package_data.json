@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.webjars",
+    "name": "swagger-ui",
+    "version": "3.23.11",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Swagger UI\nWebJar for Swagger UI",
+    "release_date": "2019-10-17T14:34:02Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Ward",
+            "email": "james@jamesward.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://webjars.org",
+    "download_url": "https://repo1.maven.org/maven2/org/webjars/swagger-ui/3.23.11/swagger-ui-3.23.11.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "bff20dfc2ece823e5e398aba69bf78bfe9ac857c",
+    "sha256": "9c77cb3911a060d8a04fba54b9c518c34f66ecf0d343e4ac3165d5865e224d39",
+    "sha512": "81bb46671f792303a12b8157c77ad7bcaa0895b3719449999ce3033b676b5fbd62e3c191adefd5bce6b900295639377b067c3f749225cce14048f73265aed01b",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/webjars/swagger-ui",
+    "vcs_url": "git+https://github.com/webjars/swagger-ui.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-d66ab77d-a5cc-7104-e702-dc7df61fe9e8",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "mit AND (mit AND unlicense AND bsd-new)",
+    "other_license_expression_spdx": "MIT AND (MIT AND Unlicense AND BSD-3-Clause)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2.0\n  url: https://github.com/swagger-api/swagger-ui\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.webjars/swagger-ui@3.23.11?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "merge_ancestors: pkg:maven/org.sonatype.oss/oss-parent@9 data not added to package: ancestor package namespace is not contained in pkg:maven/org.webjars/swagger-ui@3.23.11 namespace"
+        ],
+        "package_content": 5
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.webjars/swagger-ui@3.23.11?uuid=f15a6a69-3dda-4224-a8e8-ed72819bcb78",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.webjars/swagger-ui@3.23.11",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/webjars/swagger-ui/3.23.11/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/webjars/swagger-ui/3.23.11/swagger-ui-3.23.11.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/webjars/swagger-ui/3.23.11/swagger-ui-3.23.11.pom",
+    "file_references": []
+}

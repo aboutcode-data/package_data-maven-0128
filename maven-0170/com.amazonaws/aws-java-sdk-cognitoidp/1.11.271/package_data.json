@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.amazonaws",
+    "name": "aws-java-sdk-cognitoidp",
+    "version": "1.11.271",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "41b92955-95eb-414c-8b77-653f7d74e611",
+            "packages": [
+                "pkg:maven/com.amazonaws/aws-java-sdk-cognitoidp@1.11.271?uuid=910ab561-63d0-458c-b1a9-aeff2518195f",
+                "pkg:maven/com.amazonaws/aws-java-sdk-cognitoidp@1.11.271?classifier=sources&uuid=18b1a93b-f11c-4590-932f-231ad601de20"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Java SDK for Amazon Cognito Identity Provider Service\nThe AWS Java SDK for Amazon Cognito Identity Provider Service module holds the client classes that are used for communicating with Amazon Cognito Identity Provider Service.",
+    "release_date": "2018-01-27T00:05:24Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cognitoidp/1.11.271/aws-java-sdk-cognitoidp-1.11.271-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2310214bda8714142eb429019bdea15bdbbb3b78",
+    "sha256": "03eadfb09cef118528655e26224e09d50a93e6979e6017a0025ee411508430c9",
+    "sha512": "3b8c3b74c19f2d8759b1cce7388677d9caef4c5f1718dbc9f0cc30192927498b79f9083bec4ffe6d7a9a7a471bc940b7952bf9bf6fb745f17cb52fd8481ea415",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-cognitoidp@1.11.271?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-core",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/jmespath-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-test-utils",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.amazonaws/aws-java-sdk-cognitoidp@1.11.271?classifier=sources&uuid=18b1a93b-f11c-4590-932f-231ad601de20",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.amazonaws/aws-java-sdk-cognitoidp@1.11.271?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cognitoidp/1.11.271/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cognitoidp/1.11.271/aws-java-sdk-cognitoidp-1.11.271-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-cognitoidp/1.11.271/aws-java-sdk-cognitoidp-1.11.271.pom",
+    "file_references": []
+}

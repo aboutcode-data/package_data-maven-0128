@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-resteasy-common",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a3d94828-2b88-4759-b931-f3bf7161ac99",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-resteasy-common@2.13.7.Final?uuid=3bf4a6bb-623d-48fc-a42f-5058702eeb21",
+                "pkg:maven/io.quarkus/quarkus-resteasy-common@2.13.7.Final?classifier=sources&uuid=2d6aba48-6970-437d-bb9f-f84388c2dc9f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - RESTEasy - Common - Runtime\nComponents common to the RESTEasy server and the REST Client",
+    "release_date": "2023-01-19T09:51:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-resteasy-common/2.13.7.Final/quarkus-resteasy-common-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "59500263fc2615cecdaaea8178aed153aaf3d3a3",
+    "sha256": "bf943a5cb109ed2614eba63480044ce86695d8e9ef2e5b04359e1cb51c45223c",
+    "sha512": "49e1115132dae7654bea5fb1f34e36636434b1859bd1e335fb29e985d9c3e54cab7837b83b8c402e59e8053f606cd04f71c7f904f63b97e6c16eecabaa60a710",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-resteasy-common@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.graalvm.nativeimage/svm",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-arc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.activation/jakarta.activation",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-jackson2-provider",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jakarta.json.bind/jakarta.json.bind-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-json-binding-provider",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-resteasy-common@2.13.7.Final?classifier=sources&uuid=2d6aba48-6970-437d-bb9f-f84388c2dc9f",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-resteasy-common@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

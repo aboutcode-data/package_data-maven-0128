@@ -1,0 +1,135 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.cxf",
+    "name": "cxf-tools-common",
+    "version": "2.7.11",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f2559112-5696-4729-bb4b-2a2bb3d0d6a3",
+            "packages": [
+                "pkg:maven/org.apache.cxf/cxf-tools-common@2.7.11?uuid=60cb93a3-3000-49b5-b51f-3b32da39f5f0",
+                "pkg:maven/org.apache.cxf/cxf-tools-common@2.7.11?classifier=sources&uuid=0e3e4e0f-0bcd-45bf-870a-ac167284fe91"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache CXF Command Line Tools Common",
+    "release_date": "2014-04-08T23:29:22Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Apache CXF Team",
+            "email": "dev@cxf.apache.org",
+            "url": "http://cxf.apache.org"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://cxf.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-tools-common/2.7.11/cxf-tools-common-2.7.11-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4ee9611c46bd285fda15a7c6489d90e42fbb2f44",
+    "sha256": "bd2e5e12d8b557078e40ef5703978d66c375e69de9d721833d7bc3e706e74a82",
+    "sha512": "d9db77bc1861a7ccfcdc361a4dbb7d8fe001eb019a7676a034eaa209467ea0fb4fa3253bf5ebf03d8337167f9568f49c1cc4ab0bb69e3184953210cceefb9c20",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "cpl-1.0 AND apache-2.0 AND bsd-new AND cddl-1.0",
+    "other_license_expression_spdx": "CPL-1.0 AND Apache-2.0 AND BSD-3-Clause AND CDDL-1.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.cxf/cxf-tools-common@2.7.11?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/%24%7Bcxf.asm.groupId%7D/%24%7Bcxf.asm.artifactId%7D",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.velocity/velocity",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/wsdl4j/wsdl4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-xjc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-impl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-api@2.7.11",
+            "extracted_requirement": "2.7.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-core@2.7.11",
+            "extracted_requirement": "2.7.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.cxf/cxf-tools-common@2.7.11?classifier=sources&uuid=0e3e4e0f-0bcd-45bf-870a-ac167284fe91",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.cxf/cxf-tools-common@2.7.11?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-tools-common/2.7.11/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-tools-common/2.7.11/cxf-tools-common-2.7.11-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-tools-common/2.7.11/cxf-tools-common-2.7.11.pom",
+    "file_references": []
+}

@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "io.protostuff",
+    "name": "protostuff-collectionschema",
+    "version": "1.5.5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "protostuff :: collectionschema\npredefined schemas for jdk collections and maps",
+    "release_date": "2017-05-24T20:01:11Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/protostuff/protostuff-collectionschema/1.5.5/protostuff-collectionschema-1.5.5.jar",
+    "size": 52442,
+    "md5": null,
+    "sha1": "693e49e441d6574b40c1fd08eb56739d74b9ea8b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.protostuff/protostuff-collectionschema@1.5.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.protostuff/protostuff-core",
+            "extracted_requirement": "1.5.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.protostuff/protostuff-api",
+            "extracted_requirement": "1.5.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.protostuff/protostuff-collectionschema@1.5.5?uuid=cc5a1c67-f173-4baa-9f08-1590a255dbac",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.protostuff/protostuff-collectionschema@1.5.5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/protostuff/protostuff-collectionschema/1.5.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/protostuff/protostuff-collectionschema/1.5.5/protostuff-collectionschema-1.5.5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/protostuff/protostuff-collectionschema/1.5.5/protostuff-collectionschema-1.5.5.pom",
+    "file_references": []
+}

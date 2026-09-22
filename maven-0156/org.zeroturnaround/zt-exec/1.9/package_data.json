@@ -1,0 +1,140 @@
+{
+    "type": "maven",
+    "namespace": "org.zeroturnaround",
+    "name": "zt-exec",
+    "version": "1.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "bbaf0aec-7e5e-4a63-9233-f7bf7325b86d",
+            "packages": [
+                "pkg:maven/org.zeroturnaround/zt-exec@1.9?uuid=f6a30dcb-867d-4847-ad04-c0e4cff0b5ed",
+                "pkg:maven/org.zeroturnaround/zt-exec@1.9?classifier=sources&uuid=99b3478e-d86d-49ba-9188-cb7bb6c9f2b7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ZT Process Executor\nA lightweight library to execute external processes from Java.",
+    "release_date": "2016-04-12T07:59:32Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rein",
+            "email": "rein@zeroturnaround.com",
+            "url": "http://www.linkedin.com/in/reinra"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Toomas",
+            "email": "toomas@zeroturnaround.com",
+            "url": "http://www.linkedin.com/in/toomasr"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "ZeroTurnaround",
+            "email": null,
+            "url": "http://zeroturnaround.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/zeroturnaround/zt-exec",
+    "download_url": "https://repo1.maven.org/maven2/org/zeroturnaround/zt-exec/1.9/zt-exec-1.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1b5e751ca678233609b307a2540d849c3d71a590",
+    "sha256": "4a2e9a717e03fd679837c91f1f401defae90a1eb32fddba71974fa55ef47362c",
+    "sha512": "162d9cf77b0044c0543a6459dc9387d718e95e83e0da4d43cd023bd6dc87f2e96a9187e6c3b0321d073c6e53a931a9d6739786758e11fb7f0acc67f0466f8182",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/scm:git:git@github.com:zeroturnaround/zt-exec.git",
+    "vcs_url": "git+https://github.com/zeroturnaround/zt-exec.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1277.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: A business-friendly OSS license",
+                    "match_coverage": 100.0,
+                    "matched_length": 23,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1277.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-a0cd95bb-90a3-a708-8b40-d282f4168353",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: A business-friendly OSS license\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.zeroturnaround/zt-exec@1.9?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-io/commons-io@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.2",
+            "extracted_requirement": "1.7.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@1.1.2",
+            "extracted_requirement": "1.1.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang@2.6",
+            "extracted_requirement": "2.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.zeroturnaround/zt-exec@1.9?classifier=sources&uuid=99b3478e-d86d-49ba-9188-cb7bb6c9f2b7",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.zeroturnaround/zt-exec@1.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/zeroturnaround/zt-exec/1.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/zeroturnaround/zt-exec/1.9/zt-exec-1.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/zeroturnaround/zt-exec/1.9/zt-exec-1.9.pom",
+    "file_references": []
+}

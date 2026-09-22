@@ -1,0 +1,76 @@
+{
+    "type": "maven",
+    "namespace": "com.fasterxml.jackson.core",
+    "name": "jackson-core",
+    "version": "2.9.10",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "934fa53c-085b-4f1c-a188-4516715afc3d",
+            "packages": [
+                "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10?uuid=4ba61285-d30c-47b3-854a-e63b3b089063",
+                "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10?classifier=sources&uuid=9142bb84-414f-4d95-81fe-91ad6a21d983"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jackson-core\nCore Jackson processing abstractions (aka Streaming API), implementation for JSON",
+    "release_date": "2019-09-21T17:52:57Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tatu Saloranta",
+            "email": "tatu@fasterxml.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "FasterXML",
+            "email": null,
+            "url": "http://fasterxml.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/FasterXML/jackson-core",
+    "download_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2bbe05a007ca22ecf0ed3d3b0b0d8cd9726271c2",
+    "sha256": "68c6cea3770d2a7660e4ec0ceac41fd0e95b9e0595f50db8471b2030d76213c7",
+    "sha512": "b12efaa4db3aec585914b4ae18eb0410be0df63dcdaa80da7a8ccb7a39d8d034f51e7c983077674acdd616c2ee789cdbc5ff1ff482265d20873c05c15cad2658",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/FasterXML/jackson-core",
+    "vcs_url": "git+https://github.com/FasterXML/jackson-core.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.fasterxml/oss-parent@34",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.fasterxml/oss-parent@34"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10?classifier=sources&uuid=9142bb84-414f-4d95-81fe-91ad6a21d983",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.pom",
+    "file_references": []
+}

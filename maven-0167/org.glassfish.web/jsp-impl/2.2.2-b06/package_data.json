@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.web",
+    "name": "jsp-impl",
+    "version": "2.2.2-b06",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "aef3b280-b6b3-4595-a671-7daeebe34a92",
+            "packages": [
+                "pkg:maven/org.glassfish.web/jsp-impl@2.2.2-b06?uuid=f3faaa99-69d8-416a-bce1-8ae0ac0370da",
+                "pkg:maven/org.glassfish.web/jsp-impl@2.2.2-b06?classifier=sources&uuid=ccc47eb1-e7a4-4fc4-b56e-a2ad35f7a5c3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JSP implementation",
+    "release_date": "2011-01-10T23:12:58Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kin-man Chung",
+            "email": null,
+            "url": "http://blogs.sun.com/kchung/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "GlassFish Community",
+            "email": null,
+            "url": "http://glassfish.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://java.net/projects/jsp",
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/web/jsp-impl/2.2.2-b06/jsp-impl-2.2.2-b06-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "536e95ba6a2d55c7a760abe79d9584a23121acb3",
+    "sha256": "bf1e47e1bfef864ed9f0555400bf92d15d37f1e163076dbf78e6f8a0b2072c93",
+    "sha512": "6c9bd5128b91db844469c604c702018ff56305bc59f35dd85b0b56886f4ebb1d874e0475ddaecad292442b87686412bae4f9d1cfd218bfd32f186380f96b5643",
+    "bug_tracking_url": null,
+    "code_view_url": "http://java.net/projects/uel/sources/svn/show/tags/jsp-impl-2.2.2-b06",
+    "vcs_url": "svn+ssh://janey@svn.java.net/jsp~svn/tags/jsp-impl-2.2.2-b06",
+    "copyright": "Copyright (c) Oracle and/or its affiliates",
+    "holder": null,
+    "declared_license_expression": "cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0",
+    "declared_license_expression_spdx": "CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "license_detections": [],
+    "other_license_expression": "(cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND apache-2.0",
+    "other_license_expression_spdx": "(CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.web/jsp-impl@2.2.2-b06?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.glassfish/javax.servlet@3.0-b72",
+            "extracted_requirement": "3.0-b72",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet.jsp/jsp-api@2.2.1-b03",
+            "extracted_requirement": "2.2.1-b03",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.el/el-api@2.2",
+            "extracted_requirement": "2.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.web/jsp-impl@2.2.2-b06?classifier=sources&uuid=ccc47eb1-e7a4-4fc4-b56e-a2ad35f7a5c3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.web/jsp-impl@2.2.2-b06?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/web/jsp-impl/2.2.2-b06/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/web/jsp-impl/2.2.2-b06/jsp-impl-2.2.2-b06-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/web/jsp-impl/2.2.2-b06/jsp-impl-2.2.2-b06.pom",
+    "file_references": []
+}

@@ -1,0 +1,94 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.woodstox",
+    "name": "wstx-asl",
+    "version": "3.2.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "18e4b042-cb2e-4c1e-b441-da2f191d2c20",
+            "packages": [
+                "pkg:maven/org.codehaus.woodstox/wstx-asl@3.2.6?uuid=46a6a456-3281-4ace-b0c0-9af8e0716270",
+                "pkg:maven/org.codehaus.woodstox/wstx-asl@3.2.6?classifier=sources&uuid=6b48388a-05ce-4ec3-b6da-1bde9a97eeea"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Woodstox\nWoodstox is a high-performance XML processor that implements Stax (JSR-173) API",
+    "release_date": "2008-06-02T16:25:16Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Codehaus",
+            "email": null,
+            "url": "http://www.codehaus.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://woodstox.codehaus.org",
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/woodstox/wstx-asl/3.2.6/wstx-asl-3.2.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "48610b8997a8852f9b7adfc422c59f7486a362cc",
+    "sha256": "f079f2e95418782be8aabf46411a2c1ad662e1aa3f4f0092714d74a43abd39dd",
+    "sha512": "9d25f2e5d815ec09a99f1288ae8a4c3223bb4e0a816a51804f30f5f5994fb1b58d711f8f46ad069aeeb49b14dd4f290f2f9175e6cd8b06039ceffc69920a00f5",
+    "bug_tracking_url": "http://jira.codehaus.org/browse/WSTX",
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND lgpl-2.0-plus AND (lgpl-2.0-plus AND lgpl-2.1) AND (lgpl-2.0-plus AND apache-2.0)",
+    "other_license_expression_spdx": "Apache-2.0 AND LGPL-2.0-or-later AND (LGPL-2.0-or-later AND LGPL-2.1-only) AND (LGPL-2.0-or-later AND Apache-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.woodstox/wstx-asl@3.2.6?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/stax/stax-api@1.0.1",
+            "extracted_requirement": "1.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.codehaus.woodstox/wstx-asl@3.2.6?classifier=sources&uuid=6b48388a-05ce-4ec3-b6da-1bde9a97eeea",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.codehaus.woodstox/wstx-asl@3.2.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/woodstox/wstx-asl/3.2.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/woodstox/wstx-asl/3.2.6/wstx-asl-3.2.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/woodstox/wstx-asl/3.2.6/wstx-asl-3.2.6.pom",
+    "file_references": []
+}

@@ -1,0 +1,150 @@
+{
+    "type": "maven",
+    "namespace": "net.sourceforge.htmlunit",
+    "name": "neko-htmlunit",
+    "version": "2.66.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f352c2cd-1763-4d77-b681-eb05953d6d41",
+            "packages": [
+                "pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.66.0?uuid=a9ec21e7-0b16-40e9-9862-efecb2d8e3a3",
+                "pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.66.0?classifier=sources&uuid=4c3813f6-b119-4562-a4a8-c4a777a3bb96"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "HtmlUnit NekoHtml\nHtmlUnit adaptation of NekoHtml.\n        It has the same functionality but exposing HTMLElements to be overridden.",
+    "release_date": "2022-10-22T11:11:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Andy Clark",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marc Guillemot",
+            "email": "mguillem@users.sourceforge.net",
+            "url": "http://mguillem.wordpress.com/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ahmed Ashour",
+            "email": "asashour@users.sourceforge.net",
+            "url": "http://asashour.blogspot.com/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ronald Brill",
+            "email": "rbri@rbri.de",
+            "url": "http://www.wetator.org/"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Markus Heiden",
+            "email": "markus@markusheiden.de",
+            "url": "www.markusheiden.de"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Gargoyle Software Inc.",
+            "email": null,
+            "url": "http://www.GargoyleSoftware.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://htmlunit.sourceforge.net",
+    "download_url": "https://repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.66.0/neko-htmlunit-2.66.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "69f8dd04ccfd8695bfbfb4f753fa94d6c1970c3c",
+    "sha256": "ffc171c82a9463ba430ad8bd0980a450aa36142c89a556533f6be70ffc01c7a9",
+    "sha512": "439481214a64ff574b539d54076bc3d327594c8308f0a1762bb5bc76cf5c13fc397fb7c7b9b23c6184e3d7753af940a67228169bb2282a336845f4555c871392",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/htmlunit",
+    "vcs_url": "git+https://github.com/HtmlUnit/htmlunit-neko.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_216.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_216.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-4571b303-7bd2-686b-401c-e805e9f4700e",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.66.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/xerces/xercesImpl@2.12.2",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.1",
+            "extracted_requirement": "5.9.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.66.0?classifier=sources&uuid=4c3813f6-b119-4562-a4a8-c4a777a3bb96",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.66.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.66.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.66.0/neko-htmlunit-2.66.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.66.0/neko-htmlunit-2.66.0.pom",
+    "file_references": []
+}

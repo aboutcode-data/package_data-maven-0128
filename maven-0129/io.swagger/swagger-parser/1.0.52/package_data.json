@@ -1,0 +1,158 @@
+{
+    "type": "maven",
+    "namespace": "io.swagger",
+    "name": "swagger-parser",
+    "version": "1.0.52",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3e94c801-58ca-4194-b2b5-ab142e154074",
+            "packages": [
+                "pkg:maven/io.swagger/swagger-parser@1.0.52?uuid=611d946e-6c6e-43a5-b46c-897a806d817b",
+                "pkg:maven/io.swagger/swagger-parser@1.0.52?classifier=sources&uuid=19ef5f63-822e-48f6-911f-8c0d329deef5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "swagger-parser",
+    "release_date": "2020-10-16T16:28:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tony Tam",
+            "email": "fehguy@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ron Ratovsky",
+            "email": "webron@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Francis Galiegue",
+            "email": "fgaliegue@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/swagger/swagger-parser/1.0.52/swagger-parser-1.0.52-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "818ebcb89da134a6f4e9e5378ae738ff27c6740b",
+    "sha256": "1e25646ce60e7687b54de031fcfb1113855017fbc32688d995835afbfe6da1fd",
+    "sha512": "f092b05354738e3f636ba7ac3829e0d925ab5c662f41ae335d5fa473c771bdc6c6da7aa3ce0e7054203a68fc31bed8e872d65bbc760db2b023abee1a8f7710f9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.swagger/swagger-parser@1.0.52?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.swagger/swagger-core",
+            "extracted_requirement": "${swagger-core-version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-ext",
+            "extracted_requirement": "${slf4j-version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "${slf4j-version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": "${commons-io-version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": "${testng-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jmockit/jmockit",
+            "extracted_requirement": "${jmockit-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.swagger/swagger-core",
+            "extracted_requirement": "${swagger-core-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "${junit-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple",
+            "extracted_requirement": "${slf4j-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.tomakehurst/wiremock",
+            "extracted_requirement": "${wiremock-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.swagger/swagger-parser@1.0.52?classifier=sources&uuid=19ef5f63-822e-48f6-911f-8c0d329deef5",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.swagger/swagger-parser@1.0.52?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

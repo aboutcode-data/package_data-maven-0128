@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.portal.osgi.web.servlet.context.helper",
+    "version": "2.1.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2016-09-27T20:52:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.osgi.web.servlet.context.helper/2.1.4/com.liferay.portal.osgi.web.servlet.context.helper-2.1.4.jar",
+    "size": 57736,
+    "md5": null,
+    "sha1": "ee3054a5e89fcd107f160a86029d51c25f93f754",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1 AND lgpl-2.1 AND unknown",
+    "declared_license_expression_spdx": "LGPL-2.1-only AND LGPL-2.1-only AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "LGPL 2.1\nhttp://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.portal.osgi.web.servlet.context.helper@2.1.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/biz.aQute.bnd/biz.aQute.bndlib",
+            "extracted_requirement": "3.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.osgi.util",
+            "extracted_requirement": "3.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.portal.osgi.web.servlet.jsp.compiler",
+            "extracted_requirement": "2.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.liferay.portal/com.liferay.portal.impl",
+            "extracted_requirement": "2.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.liferay.portal/com.liferay.portal.kernel",
+            "extracted_requirement": "2.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.portlet/portlet-api",
+            "extracted_requirement": "2.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.apache.felix.utils",
+            "extracted_requirement": "1.6.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish/javax.servlet",
+            "extracted_requirement": "3.2-b06",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core",
+            "extracted_requirement": "5.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.service.http.whiteboard",
+            "extracted_requirement": "1.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.portal.osgi.web.servlet.context.helper@2.1.4?uuid=e2541656-2f61-4771-9ea2-02b0734a9bbb",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.portal.osgi.web.servlet.context.helper@2.1.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.osgi.web.servlet.context.helper/2.1.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.osgi.web.servlet.context.helper/2.1.4/com.liferay.portal.osgi.web.servlet.context.helper-2.1.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.osgi.web.servlet.context.helper/2.1.4/com.liferay.portal.osgi.web.servlet.context.helper-2.1.4.pom",
+    "file_references": []
+}

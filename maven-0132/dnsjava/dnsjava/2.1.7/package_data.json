@@ -1,0 +1,105 @@
+{
+    "type": "maven",
+    "namespace": "dnsjava",
+    "name": "dnsjava",
+    "version": "2.1.7",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "58a87a74-e422-4678-9341-6c21738db8a8",
+            "packages": [
+                "pkg:maven/dnsjava/dnsjava@2.1.7?uuid=4dc08bd9-fe25-4f0d-9dc9-3c843943b016",
+                "pkg:maven/dnsjava/dnsjava@2.1.7?classifier=sources&uuid=d4f4c8d2-58f9-4ebb-a15b-48a9c9b9a7b3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "dnsjava\ndnsjava is an implementation of DNS in Java. It supports all defined record types (including the DNSSEC types), and unknown types. It can be used for queries, zone transfers, and dynamic updates. It includes a cache which can be used by clients, and a minimal implementation of a server. It supports TSIG authenticated messages, partial DNSSEC verification, and EDNS0.",
+    "release_date": "2015-02-17T15:38:53Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wellington",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.dnsjava.org",
+    "download_url": "https://repo1.maven.org/maven2/dnsjava/dnsjava/2.1.7/dnsjava-2.1.7-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "11749af9e3182b16f799e4d2e4b6506830163f5c",
+    "sha256": "8f8956fa200935df8a5417443f92f0985f70ee63d6a9b5605573051d89fd9e4d",
+    "sha512": "b4a17e3857aaefd3e1940830cc0e0f558a1d93ac5ce203ce9387df4269277f3d2545d9c0a35ceba6027c409ebc5edf16ade94c0263e63ac2836905d2ccc92843",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/dnsjava/dnsjava",
+    "vcs_url": "git+https://github.com/dnsjava/dnsjava",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-simplified",
+    "declared_license_expression_spdx": "BSD-2-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_83.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: BSD 2-Clause license",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-simplified_83.RULE",
+                    "license_expression": "bsd-simplified"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_138.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://opensource.org/licenses/BSD-2-Clause",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-simplified_138.RULE",
+                    "license_expression": "bsd-simplified"
+                }
+            ],
+            "identifier": "bsd_simplified-5b3c0238-4829-feb4-b050-29ee9d83ece0",
+            "license_expression": "bsd-simplified"
+        }
+    ],
+    "other_license_expression": "isc",
+    "other_license_expression_spdx": "ISC",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: BSD 2-Clause license\n  url: http://opensource.org/licenses/BSD-2-Clause\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/dnsjava/dnsjava@2.1.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.2",
+            "extracted_requirement": "3.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/dnsjava/dnsjava@2.1.7?classifier=sources&uuid=d4f4c8d2-58f9-4ebb-a15b-48a9c9b9a7b3",
+    "datasource_id": null,
+    "purl": "pkg:maven/dnsjava/dnsjava@2.1.7?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/dnsjava/dnsjava/2.1.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/dnsjava/dnsjava/2.1.7/dnsjava-2.1.7-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/dnsjava/dnsjava/2.1.7/dnsjava-2.1.7.pom",
+    "file_references": []
+}

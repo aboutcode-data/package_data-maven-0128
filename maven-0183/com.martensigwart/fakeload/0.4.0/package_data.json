@@ -1,0 +1,139 @@
+{
+    "type": "maven",
+    "namespace": "com.martensigwart",
+    "name": "fakeload",
+    "version": "0.4.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "82f8e8e7-c078-4819-afd6-eba2612a19e5",
+            "packages": [
+                "pkg:maven/com.martensigwart/fakeload@0.4.0?uuid=6133d6d4-d41c-45df-9ef0-3463c8b0df30",
+                "pkg:maven/com.martensigwart/fakeload@0.4.0?classifier=sources&uuid=04e0134c-e1ef-48e8-aa56-6df516edb73a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "FakeLoad\nA library which provides a simple and flexible way of producing \u00e2\u0080\u009cfake\" system loads in applications or tests.",
+    "release_date": "2017-11-06T20:41:19Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marten Sigwart",
+            "email": "marten@okamaja.de",
+            "url": "http://github.com/msigwart"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/msigwart/fakeload",
+    "download_url": "https://repo1.maven.org/maven2/com/martensigwart/fakeload/0.4.0/fakeload-0.4.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "03ae07d78bb406c5490daaf963cfdd847ce3e80f",
+    "sha256": "d33726dec3031b19b7054ddf9c12989187f02cf4da12ede60e900d47c0c9215b",
+    "sha512": "958c5c61f6fa959a8c46298c5990e9895a4adfbad3e98254c90f443040aba8323e531204bf212841c1388f38d090ed0f5c1a26903f0f1594523df7d4a64f0c8d",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/msigwart/fakeload/tree/master",
+    "vcs_url": "git://github.com/msigwart/fakeload.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_1106.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: MIT License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_1106.RULE",
+                    "license_expression": "mit"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_237.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.opensource.org/licenses/mit-license.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_237.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-16ea740c-efb8-e768-96f1-0de6cf2edb04",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: MIT License\n  url: http://www.opensource.org/licenses/mit-license.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.martensigwart/fakeload@0.4.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.25",
+            "extracted_requirement": "1.7.25",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305@2.0.1",
+            "extracted_requirement": "2.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@1.2.3",
+            "extracted_requirement": "1.2.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@2.8.47",
+            "extracted_requirement": "2.8.47",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.martensigwart/fakeload@0.4.0?classifier=sources&uuid=04e0134c-e1ef-48e8-aa56-6df516edb73a",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.martensigwart/fakeload@0.4.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/martensigwart/fakeload/0.4.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/martensigwart/fakeload/0.4.0/fakeload-0.4.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/martensigwart/fakeload/0.4.0/fakeload-0.4.0.pom",
+    "file_references": []
+}

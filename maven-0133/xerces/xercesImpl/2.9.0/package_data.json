@@ -1,0 +1,78 @@
+{
+    "type": "maven",
+    "namespace": "xerces",
+    "name": "xercesImpl",
+    "version": "2.9.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Xerces2 Java Parser\nXerces2 is the next generation of high performance, fully compliant XML parsers in the\n    Apache Xerces family. This new version of Xerces introduces the Xerces Native Interface (XNI),\n    a complete framework for building parser components and configurations that is extremely\n    modular and easy to program.",
+    "release_date": "2008-10-01T22:19:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://xerces.apache.org/xerces2-j",
+    "download_url": "https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.0/xercesImpl-2.9.0.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "868c0792233fc78d8c9bac29ac79ade988301318",
+    "sha256": "9c55051d9473f1a8d27b00eeeb139fd89983cd93a8b8da187abad53eaa84c3d4",
+    "sha512": "1449caba5537d6b46a85d9b9cb9c9259cc93c2d8a02c0ee12702e7f3faa1cb4413c7eb311b217253fd19bffcccfec4002f4c1fc426e3e64415f938a87fd25346",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/xerces/xercesImpl@2.9.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@4",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@4"
+        ],
+        "package_content": 5
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis@1.3.04",
+            "extracted_requirement": "1.3.04",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xml-resolver/xml-resolver@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/xerces/xercesImpl@2.9.0?uuid=08a3b384-f5ca-41ba-8651-c2394be7d8ab",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/xerces/xercesImpl@2.9.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.0/xercesImpl-2.9.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.0/xercesImpl-2.9.0.pom",
+    "file_references": []
+}

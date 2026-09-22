@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.slf4j",
+    "name": "jul-to-slf4j",
+    "version": "1.6.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c4b2a63e-114f-41aa-b381-6a2bff9d4c5c",
+            "packages": [
+                "pkg:maven/org.slf4j/jul-to-slf4j@1.6.1?uuid=86827de5-9f59-4c83-a090-1f383489abe6",
+                "pkg:maven/org.slf4j/jul-to-slf4j@1.6.1?classifier=sources&uuid=7c6e778e-1973-456a-9baf-30754901dcbe"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JUL to SLF4J bridge",
+    "release_date": "2010-07-05T20:30:56Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "QOS.ch",
+            "email": null,
+            "url": "http://www.qos.ch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.slf4j.org",
+    "download_url": "https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.6.1/jul-to-slf4j-1.6.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b6330c9f0b8054e456ac0e84bb5dac406231408e",
+    "sha256": "d5631892148cabfd44d2b6ad3ccc2334cd9c8afa073bfbf71f3521b2a66c6413",
+    "sha512": "36fd07c1359fd7a10b74a4ecd278adb01f41bd6a8e290ebf14f3339c0a4b40d4b369ee4ad5293a033dff042e6170d8466a6b7d1962d3c64c931d8a8930fc0a16",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": "x11",
+    "other_license_expression_spdx": "ICU",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.slf4j/jul-to-slf4j@1.6.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.6.1",
+            "extracted_requirement": "1.6.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.slf4j/jul-to-slf4j@1.6.1?classifier=sources&uuid=7c6e778e-1973-456a-9baf-30754901dcbe",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.slf4j/jul-to-slf4j@1.6.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.6.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.6.1/jul-to-slf4j-1.6.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.6.1/jul-to-slf4j-1.6.1.pom",
+    "file_references": []
+}

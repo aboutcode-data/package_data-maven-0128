@@ -1,0 +1,102 @@
+{
+    "type": "maven",
+    "namespace": "com.carrotsearch",
+    "name": "hppc",
+    "version": "0.5.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ab2ca73a-c6a7-4c5b-9d43-9cbbd03f010c",
+            "packages": [
+                "pkg:maven/com.carrotsearch/hppc@0.5.2?uuid=434683d7-dc5d-4543-8271-daeef5648c4d",
+                "pkg:maven/com.carrotsearch/hppc@0.5.2?classifier=sources&uuid=c6a3aa52-b5b3-4933-a51d-4ac17665ed34"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "HPPC Collections\nHigh Performance Primitive Collections. \n  Fundamental data structures (maps, sets, lists, stacks, queues) generated for\n  combinations of object and primitive types to conserve JVM memory and speed\n  up execution.",
+    "release_date": "2013-07-09T07:55:54Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dawid Weiss",
+            "email": "dawid.weiss@carrotsearch.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stanis\u00c5\u0082aw Osi\u00c5\u0084ski",
+            "email": "stanislaw.osinski@carrotsearch.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Carrot Search s.c.",
+            "email": null,
+            "url": "http://www.carrotsearch.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.5.2/hppc-0.5.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "881acc97fcf10f1e922cbeac2a5c20b72fd92fb3",
+    "sha256": "489689372ff7b1043c37dfd833f57da1981a0f1920fa082e8ca76833d3b4f99f",
+    "sha512": "500e7df9ed4ac0421f24d2a7a419635bee4577f9c7936153f4948600cf748917c861c89efe1dd56bef1d161759c9b3190acbd0eaf862c442bd8f933c885a7ec5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND lgpl-2.0-plus",
+    "other_license_expression_spdx": "Apache-2.0 AND LGPL-2.0-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.carrotsearch/hppc@0.5.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.carrotsearch.randomizedtesting/randomizedtesting-runner@2.0.10",
+            "extracted_requirement": "2.0.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.carrotsearch/hppc@0.5.2?classifier=sources&uuid=c6a3aa52-b5b3-4933-a51d-4ac17665ed34",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.carrotsearch/hppc@0.5.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.5.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.5.2/hppc-0.5.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.5.2/hppc-0.5.2.pom",
+    "file_references": []
+}

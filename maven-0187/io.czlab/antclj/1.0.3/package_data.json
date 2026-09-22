@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "io.czlab",
+    "name": "antclj",
+    "version": "1.0.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "antclj\nApache ant wrapped in clojure.",
+    "release_date": "2017-05-26T06:37:20Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Kenneth Leung",
+            "email": null,
+            "url": "https://github.com/llnek"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/llnek/antclj",
+    "download_url": "https://repo1.maven.org/maven2/io/czlab/antclj/1.0.3/antclj-1.0.3.jar",
+    "size": 300803,
+    "md5": null,
+    "sha1": "2e3922793077d0bdfedfacb0175112432743bacd",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-1.0 AND unknown",
+    "declared_license_expression_spdx": "EPL-1.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Eclipse Public License\nhttp://www.eclipse.org/legal/epl-v10.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.czlab/antclj@1.0.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/cider/cider-nrepl",
+            "extracted_requirement": "0.14.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant",
+            "extracted_requirement": "1.10.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant-junit4",
+            "extracted_requirement": "1.10.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant-junit",
+            "extracted_requirement": "1.10.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.mikera/cljunit",
+            "extracted_requirement": "0.6.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.clojure/clojure",
+            "extracted_requirement": "1.8.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.czlab/antclj@1.0.3?uuid=6a5f63e9-9393-4136-a60e-da1454228edd",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.czlab/antclj@1.0.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/czlab/antclj/1.0.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/czlab/antclj/1.0.3/antclj-1.0.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/czlab/antclj/1.0.3/antclj-1.0.3.pom",
+    "file_references": []
+}

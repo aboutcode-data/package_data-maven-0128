@@ -1,0 +1,156 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework",
+    "name": "spring-mock",
+    "version": "1.2.9",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Spring Framework: Mock",
+    "release_date": "2007-03-09T02:35:44Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Spring Framework",
+            "email": null,
+            "url": "http://www.springframework.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.springframework.org",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/spring-mock/1.2.9/spring-mock-1.2.9.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0ec70f063b252c294d9537a9046cbe624e038af9",
+    "sha256": "a9676cd545b8913f1077313f87bfb95c9ea89ab52f95b2903c8f03bd2e0a819d",
+    "sha512": "17b969a1b1b7c7b088b1fccbc806fcc0c64080f9a852e989c45992efb30d195fd0432d0e10b06a75ee5f3d51950e20780e0e198438d263ff10e52d960eced15b",
+    "bug_tracking_url": null,
+    "code_view_url": "http://springframework.cvs.sourceforge.net/springframework/",
+    "vcs_url": "cvs+pserver:anonymous:@springframework.cvs.sourceforge.net:/cvsroot/springframework",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework/spring-mock@1.2.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.0.4",
+            "extracted_requirement": "1.0.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/taglibs/standard@1.0.6",
+            "extracted_requirement": "1.0.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@1.2.9",
+            "extracted_requirement": "1.2.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context@1.2.9",
+            "extracted_requirement": "1.2.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@1.2.9",
+            "extracted_requirement": "1.2.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-dao@1.2.9",
+            "extracted_requirement": "1.2.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-jdbc@1.2.9",
+            "extracted_requirement": "1.2.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/jsp-api@2.0",
+            "extracted_requirement": "2.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.4",
+            "extracted_requirement": "2.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework/spring-mock@1.2.9?uuid=d84cf6f6-74c0-487c-a13d-12525dab2825",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework/spring-mock@1.2.9",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/spring-mock/1.2.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/spring-mock/1.2.9/spring-mock-1.2.9.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/spring-mock/1.2.9/spring-mock-1.2.9.pom",
+    "file_references": []
+}

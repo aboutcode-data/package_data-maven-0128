@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.maven.wagon",
+    "name": "wagon-file",
+    "version": "2.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7ea4c24c-c97e-4ae1-b75a-e70a0106d7d9",
+            "packages": [
+                "pkg:maven/org.apache.maven.wagon/wagon-file@2.9?uuid=1f5b1a29-b3b8-44b7-bd2e-ddaa954280c2",
+                "pkg:maven/org.apache.maven.wagon/wagon-file@2.9?classifier=sources&uuid=e96688bd-e406-4cfa-8238-0fff45d62e14"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Maven Wagon :: Providers :: File Provider\nWagon provider that gets and puts artifacts using file system protocol",
+    "release_date": "2015-04-21T13:27:59Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-file/2.9/wagon-file-2.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7956fad3b01ac14c875d8e473d0015b6ba16ad58",
+    "sha256": "02f9abf91273539ada6c00bc0aee629faa224be48ad3a80b4f6314e00c9f9465",
+    "sha512": "a9642c68c40647e544aecd2b4943d3092f0afbf6ae03445e5d82eae5a643f57a15eab86ae3d5cca02737ea2472700d994cd5596e11ee25e3aa33ec7d86d7bf84",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.maven.wagon/wagon-file@2.9?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@16",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@16",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@16"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.maven.wagon/wagon-file@2.9?classifier=sources&uuid=e96688bd-e406-4cfa-8238-0fff45d62e14",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.maven.wagon/wagon-file@2.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-file/2.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-file/2.9/wagon-file-2.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-file/2.9/wagon-file-2.9.pom",
+    "file_references": []
+}

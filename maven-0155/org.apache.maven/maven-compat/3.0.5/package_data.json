@@ -1,0 +1,168 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.maven",
+    "name": "maven-compat",
+    "version": "3.0.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5ef7357c-de67-4b63-a0e6-20f61c833eff",
+            "packages": [
+                "pkg:maven/org.apache.maven/maven-compat@3.0.5?uuid=1f229c40-3185-4ce4-a8b1-3daf81de491b",
+                "pkg:maven/org.apache.maven/maven-compat@3.0.5?classifier=sources&uuid=2730f350-8853-4b17-99aa-f897d76caf06"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Maven Compat\nMaven classes maintained as compatibility layer for tools done with Maven 2.",
+    "release_date": "2013-02-19T13:53:29Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-compat/3.0.5/maven-compat-3.0.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d766a2195cf676cfa1b50eae929493863c2cd875",
+    "sha256": "842109cb55ed786e2c8ceb1abdd8e847cdc298d18be9908dba3990607d58510f",
+    "sha512": "60c59deaae18e571f9705a37a80891b22eb0f9e1b102732133e89a9eedf091311d8f62c624758be75a5f64e2c87a9c7b4cae44a39e48e360487f354d3634464f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND epl-1.0)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND EPL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.maven/maven-compat@3.0.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-model",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-model-builder",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-settings",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-artifact",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-interpolation",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.sisu/sisu-inject-plexus",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-component-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven.wagon/wagon-provider-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven.wagon/wagon-file",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.aether/aether-connector-wagon",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.maven/maven-compat@3.0.5?classifier=sources&uuid=2730f350-8853-4b17-99aa-f897d76caf06",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.maven/maven-compat@3.0.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-compat/3.0.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-compat/3.0.5/maven-compat-3.0.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-compat/3.0.5/maven-compat-3.0.5.pom",
+    "file_references": []
+}

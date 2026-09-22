@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.amazonaws",
+    "name": "aws-java-sdk-lexmodelbuilding",
+    "version": "1.11.271",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4f591613-c534-41e7-af1b-62fc528d74df",
+            "packages": [
+                "pkg:maven/com.amazonaws/aws-java-sdk-lexmodelbuilding@1.11.271?uuid=6c8a9bae-a361-41bc-9a9c-ea3b035f65fd",
+                "pkg:maven/com.amazonaws/aws-java-sdk-lexmodelbuilding@1.11.271?classifier=sources&uuid=35006fe0-7670-466a-b94e-7d6830a23af7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Java SDK for Amazon Lex Model Building\nThe AWS Java SDK for Amazon Lex Model Building module holds the client classes that are used for communicating with Amazon Lex Model Building Service",
+    "release_date": "2018-01-27T00:05:16Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-lexmodelbuilding/1.11.271/aws-java-sdk-lexmodelbuilding-1.11.271-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f419bd186608dcc57e0e12ede483ce708ce3c211",
+    "sha256": "d7b8f9186bf351c2b515ea79523c4e6018b7428d72836b39de54554790e447fe",
+    "sha512": "35c20bfa603be0b2c7bba173a4059f447692fbe51e1bef002937cedd980a1fc3f687017f5c44e4c8492042604acef5b3b9da49d1c59a68bdf5a0f505f007aa0a",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-lexmodelbuilding@1.11.271?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-core",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/jmespath-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-test-utils",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.amazonaws/aws-java-sdk-lexmodelbuilding@1.11.271?classifier=sources&uuid=35006fe0-7670-466a-b94e-7d6830a23af7",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.amazonaws/aws-java-sdk-lexmodelbuilding@1.11.271?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-lexmodelbuilding/1.11.271/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-lexmodelbuilding/1.11.271/aws-java-sdk-lexmodelbuilding-1.11.271-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-lexmodelbuilding/1.11.271/aws-java-sdk-lexmodelbuilding-1.11.271.pom",
+    "file_references": []
+}

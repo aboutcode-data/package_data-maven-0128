@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "backport-util-concurrent",
+    "name": "backport-util-concurrent",
+    "version": "3.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "962d20b2-6686-43bf-95fa-a6f97c062eb1",
+            "packages": [
+                "pkg:maven/backport-util-concurrent/backport-util-concurrent@3.0?uuid=3928d1dc-c54c-4b7f-82c2-bdeaa907f44f",
+                "pkg:maven/backport-util-concurrent/backport-util-concurrent@3.0?classifier=sources&uuid=c200c58e-01fb-4e50-afb1-f358f4dc6513"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Backport of JSR 166\nDawid Kurzyniec's backport of JSR 166",
+    "release_date": "2006-11-16T08:58:54Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Dawid Kurzyniec",
+            "email": null,
+            "url": "http://www.mathcs.emory.edu/~dawidk/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.mathcs.emory.edu/dcl/util/backport-util-concurrent/",
+    "download_url": "https://repo1.maven.org/maven2/backport-util-concurrent/backport-util-concurrent/3.0/backport-util-concurrent-3.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3edfdbaeda3243a9b7edce30881c8d614e6ed047",
+    "sha256": "0bc87b6324d9f900ebc2532766d24bfe1bd118f9e3b6adf03a4a080dac1ab633",
+    "sha512": "060f399c2f0e73a704f6d604b93f8989141bb1bfcdf61404f0b0faf77140c0fbdb218144104048796a11d7652ec691243bc140fc26779dedd7bee51d07114645",
+    "bug_tracking_url": null,
+    "code_view_url": "http://dcl.mathcs.emory.edu/cgi-bin/viewcvs.cgi/software/util/backport-util-concurrent/",
+    "vcs_url": "http://dcl.mathcs.emory.edu/cgi-bin/viewcvs.cgi/software/util/backport-util-concurrent/",
+    "copyright": "Copyright (c) Distributed Computing Laboratory, Emory University",
+    "holder": null,
+    "declared_license_expression": "public-domain AND cc-pd",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain AND CC-PDDC",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 70.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/public-domain_bare_words.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Public Domain",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 70,
+                    "rule_identifier": "public-domain_bare_words.RULE",
+                    "license_expression": "public-domain"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cc-pd_1.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://creativecommons.org/licenses/publicdomain",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cc-pd_1.RULE",
+                    "license_expression": "cc-pd"
+                }
+            ],
+            "identifier": "public_domain_and_cc_pd-8f85b53b-e41a-6ceb-aef6-499d66ab4e0a",
+            "license_expression": "public-domain AND cc-pd"
+        }
+    ],
+    "other_license_expression": "cc-pd AND (public-domain AND cc-pd) AND public-domain AND cc0-1.0 AND (cc-pd AND public-domain AND cc0-1.0)",
+    "other_license_expression_spdx": "CC-PDDC AND (LicenseRef-scancode-public-domain AND CC-PDDC) AND LicenseRef-scancode-public-domain AND CC0-1.0 AND (CC-PDDC AND LicenseRef-scancode-public-domain AND CC0-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Public Domain\n  url: http://creativecommons.org/licenses/publicdomain\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/backport-util-concurrent/backport-util-concurrent@3.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/backport-util-concurrent/backport-util-concurrent@3.0?classifier=sources&uuid=c200c58e-01fb-4e50-afb1-f358f4dc6513",
+    "datasource_id": null,
+    "purl": "pkg:maven/backport-util-concurrent/backport-util-concurrent@3.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/backport-util-concurrent/backport-util-concurrent/3.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/backport-util-concurrent/backport-util-concurrent/3.0/backport-util-concurrent-3.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/backport-util-concurrent/backport-util-concurrent/3.0/backport-util-concurrent-3.0.pom",
+    "file_references": []
+}

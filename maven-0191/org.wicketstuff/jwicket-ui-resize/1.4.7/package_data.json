@@ -1,0 +1,62 @@
+{
+    "type": "maven",
+    "namespace": "org.wicketstuff",
+    "name": "jwicket-ui-resize",
+    "version": "1.4.7",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "jWicket: jQuery Wicket integration - ui.resize\nWicketJQuery by Stefan Lindner has been renamed to jWicket, mavenized, and migrated\n        to WicketStuff. This Wicketstuff version supercedes the original version which was available\n        at http://subversion.visionet.de/project/WicketJQuery/wiki",
+    "release_date": "2010-05-23T05:14:41Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Stefan Lindnnner",
+            "email": "lindner at visionet.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Tauren Mills",
+            "email": "tauren at tauren.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/wicketstuff/jwicket-ui-resize/1.4.7/jwicket-ui-resize-1.4.7.jar",
+    "size": 16103,
+    "md5": null,
+    "sha1": "f98f82fff73df71a0d29c02ad1c5abd3af7a186a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.wicketstuff/jwicket-ui-resize@1.4.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.wicketstuff/jwicket-ui-resize@1.4.7?uuid=983e43fe-bf1d-4442-a755-6ca428807c13",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.wicketstuff/jwicket-ui-resize@1.4.7",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/wicketstuff/jwicket-ui-resize/1.4.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/wicketstuff/jwicket-ui-resize/1.4.7/jwicket-ui-resize-1.4.7.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/wicketstuff/jwicket-ui-resize/1.4.7/jwicket-ui-resize-1.4.7.pom",
+    "file_references": []
+}

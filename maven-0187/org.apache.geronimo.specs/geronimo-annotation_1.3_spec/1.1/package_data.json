@@ -1,0 +1,69 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.geronimo.specs",
+    "name": "geronimo-annotation_1.3_spec",
+    "version": "1.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2d0d67e1-ba9d-44ee-9541-c63e0abd318b",
+            "packages": [
+                "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.3_spec@1.1?uuid=bc480bc2-1b37-4bb9-9e11-1fe79f22a587",
+                "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.3_spec@1.1?classifier=sources&uuid=21d57c2c-e67d-423b-a246-c3919f9b546f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Geronimo Annotation Spec 1.3\nCommon Annotations spec 1.3 API",
+    "release_date": "2018-08-28T16:58:18Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://geronimo.apache.org/maven/specs/geronimo-annotation_1.3_spec/1.1",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-annotation_1.3_spec/1.1/geronimo-annotation_1.3_spec-1.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2e0bb91979753b4e17531cfab9a2f30efd4f296a",
+    "sha256": "38d31ffe9b6bfd5f830e3abc4499b20071be06ebae20a86f635d745577812d90",
+    "sha512": "d6ba76c202c9d0c0dbd20d1538810a77677b3832fba7c2e2a092e01f60c9a1bb2f9047ffc5787446c88ab917335fe46207a7a3469a7ab6d3e65018b663a18caa",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewcvs.cgi/geronimo/specs/tags/geronimo-annotation_1.3_spec-1.1",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/geronimo/specs/tags/geronimo-annotation_1.3_spec-1.1",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.3_spec@1.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@14",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@14"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.3_spec@1.1?classifier=sources&uuid=21d57c2c-e67d-423b-a246-c3919f9b546f",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.3_spec@1.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-annotation_1.3_spec/1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-annotation_1.3_spec/1.1/geronimo-annotation_1.3_spec-1.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-annotation_1.3_spec/1.1/geronimo-annotation_1.3_spec-1.1.pom",
+    "file_references": []
+}

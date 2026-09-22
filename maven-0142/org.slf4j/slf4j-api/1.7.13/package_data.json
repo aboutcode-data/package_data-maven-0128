@@ -1,0 +1,76 @@
+{
+    "type": "maven",
+    "namespace": "org.slf4j",
+    "name": "slf4j-api",
+    "version": "1.7.13",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1a34809a-befc-427b-8202-b5101c2f324c",
+            "packages": [
+                "pkg:maven/org.slf4j/slf4j-api@1.7.13?uuid=f6ecaa01-36ad-489a-b11e-d16210334bc5",
+                "pkg:maven/org.slf4j/slf4j-api@1.7.13?classifier=sources&uuid=91ae2450-a8ea-44fe-85ba-f7f041f872ac"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SLF4J API Module\nThe slf4j API",
+    "release_date": "2015-11-10T20:14:37Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ceki Gulcu",
+            "email": "ceki@qos.ch",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "QOS.ch",
+            "email": null,
+            "url": "http://www.qos.ch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.slf4j.org",
+    "download_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "96e785df399a4e1a6c030877097807b7e18520cc",
+    "sha256": "de0c3497bd2dbfcba866e7b9d87ff524749123eacc2a138068537cf454fed635",
+    "sha512": "efda9205adeb73471623cd82700fb3a4cbe81396f85b8c5806635ce62abecbc0294445e813c973d894a4d52da03e6702d87d71227883d424f897ffd7fa7d575d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.13?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.slf4j/slf4j-parent@1.7.13",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.slf4j/slf4j-parent@1.7.13"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.slf4j/slf4j-api@1.7.13?classifier=sources&uuid=91ae2450-a8ea-44fe-85ba-f7f041f872ac",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.13?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.13/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.pom",
+    "file_references": []
+}

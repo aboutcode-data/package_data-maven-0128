@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.velocity.tools",
+    "name": "velocity-tools-view-jsp",
+    "version": "3.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3b27a60f-5c7a-4b4d-b35a-d4853584dc51",
+            "packages": [
+                "pkg:maven/org.apache.velocity.tools/velocity-tools-view-jsp@3.1?uuid=f1ae0d5f-28b8-460f-ad3e-8632bb3024a0",
+                "pkg:maven/org.apache.velocity.tools/velocity-tools-view-jsp@3.1?classifier=sources&uuid=d5a9d6ab-8f72-4ae0-ac55-fff2dc8ce26f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Velocity Tools - JSP support\nEnables the use of Velocity under a JSP environment.",
+    "release_date": "2021-02-27T20:20:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/velocity/tools/velocity-tools-view-jsp/3.1/velocity-tools-view-jsp-3.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ede54aed704b2247a9f01c33dd190bb573d5a85d",
+    "sha256": "20b00bbef44bec558c8e96bc299c8fbcadbdbcb38cf90d5f45de97d4eeef70d5",
+    "sha512": "f0dd65b7479cbfb289a2a0484feaa896812f502a8ad2b49b2b0bdb3623eca7cd73fac3a5338005cb991ce844f643cfc9825349ee3f12128623a14b99b9065616",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND mit",
+    "other_license_expression_spdx": "Apache-2.0 AND MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.velocity.tools/velocity-tools-view-jsp@3.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet.jsp/javax.servlet.jsp-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.el/javax.el-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.velocity/velocity-engine-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.velocity.tools/velocity-tools-view@3.1",
+            "extracted_requirement": "3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.velocity.tools/velocity-tools-view-jsp@3.1?classifier=sources&uuid=d5a9d6ab-8f72-4ae0-ac55-fff2dc8ce26f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.velocity.tools/velocity-tools-view-jsp@3.1?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

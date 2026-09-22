@@ -1,0 +1,167 @@
+{
+    "type": "maven",
+    "namespace": "software.amazon.awssdk",
+    "name": "utils",
+    "version": "2.17.63",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "85082887-cee6-43f9-8db1-0ea6becc187a",
+            "packages": [
+                "pkg:maven/software.amazon.awssdk/utils@2.17.63?uuid=5939ee4b-f3ea-4000-913c-0acca1a0b1ed",
+                "pkg:maven/software.amazon.awssdk/utils@2.17.63?classifier=sources&uuid=91822e92-5d9f-421c-b109-e1c6d490d5db"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Java SDK :: Utilities",
+    "release_date": "2021-10-19T19:21:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/utils/2.17.63/utils-2.17.63-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "611dab742b3c35b546c6d4f58abd37d8e952a36a",
+    "sha256": "dc8d354ec78de2bf5e0b2d6d9ac308fc2acf4e17a3eacde60b9f46c0c79b2ae0",
+    "sha512": "37afb610d07ef1d6385fa2fb4fb5b24be8d98406f35a339a033918c1b351f598b59a6877333d7cc034db48af000eedcdef7d7ebd8a91e3669e7bc366907fe3fc",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Amazon.com, Inc. or its affiliates",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/software.amazon.awssdk/utils@2.17.63?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/software.amazon.awssdk/aws-sdk-java-pom@2.17.63",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/software.amazon.awssdk/aws-sdk-java-pom@2.17.63",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/software.amazon.awssdk/aws-sdk-java-pom@2.17.63"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/bom-internal@2.17.63",
+            "extracted_requirement": "2.17.63",
+            "scope": "import",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.reactivestreams/reactive-streams",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/annotations",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-all",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.reactivestreams/reactive-streams-tck",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/bom-internal@2.17.63",
+            "extracted_requirement": "2.17.63",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/software.amazon.awssdk/utils@2.17.63?classifier=sources&uuid=91822e92-5d9f-421c-b109-e1c6d490d5db",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/software.amazon.awssdk/utils@2.17.63?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/utils/2.17.63/",
+    "repository_download_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/utils/2.17.63/utils-2.17.63-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/utils/2.17.63/utils-2.17.63.pom",
+    "file_references": []
+}

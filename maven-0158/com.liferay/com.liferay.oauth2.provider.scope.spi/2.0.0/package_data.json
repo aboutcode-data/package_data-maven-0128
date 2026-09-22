@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.oauth2.provider.scope.spi",
+    "version": "2.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "589bff5d-f954-4bf8-8ec3-2130518d2d09",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.oauth2.provider.scope.spi@2.0.0?uuid=84a6f2c5-56f8-40c6-a77f-af4123504097",
+                "pkg:maven/com.liferay/com.liferay.oauth2.provider.scope.spi@2.0.0?classifier=sources&uuid=ade7fbb8-c3ce-45bc-95d9-dec0be18cc7b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay OAuth2 Provider Scope SPI",
+    "release_date": "2019-04-25T07:25:06Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.oauth2.provider.scope.spi/2.0.0/com.liferay.oauth2.provider.scope.spi-2.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ab97804633644d6e2512d1b7809c08fe55089469",
+    "sha256": "a3e3a7a5485c335fbec5a0416d26c6a974eb00e860d473903316d0195a460116",
+    "sha512": "23f9769b73dcffde6044dc0518cfd950ce8488eb552850f562654c32c783673521ee2f114f2944247b351b0f4ba4df637a55a28d3498d137cab6e2364ee013b4",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.oauth2.provider.scope.spi@2.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.oauth2.provider.scope.spi@2.0.0?classifier=sources&uuid=ade7fbb8-c3ce-45bc-95d9-dec0be18cc7b",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.oauth2.provider.scope.spi@2.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.oauth2.provider.scope.spi/2.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.oauth2.provider.scope.spi/2.0.0/com.liferay.oauth2.provider.scope.spi-2.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.oauth2.provider.scope.spi/2.0.0/com.liferay.oauth2.provider.scope.spi-2.0.0.pom",
+    "file_references": []
+}

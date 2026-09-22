@@ -1,0 +1,167 @@
+{
+    "type": "maven",
+    "namespace": "org.jparsec",
+    "name": "jparsec",
+    "version": "3.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6aa866d4-6a24-4fc7-b86d-f12c7607bc2e",
+            "packages": [
+                "pkg:maven/org.jparsec/jparsec@3.1?uuid=1c2fa493-9636-4e1e-a61e-6ab4c2ba5841",
+                "pkg:maven/org.jparsec/jparsec@3.1?classifier=sources&uuid=d50d25ef-a3e5-444b-a9ae-cc7d8246094b",
+                "pkg:github/jparsec/jparsec@jparsec-root-3.1?uuid=c3e7c8fa-8362-4f46-aa7b-f1e5a5c0de49"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jParsec",
+    "release_date": "2019-01-10T05:26:18Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ben Yu",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Arnaud Bailly",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Alex Michael Berry",
+            "email": null,
+            "url": "https://github.com/almibe"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Gregory Ssi-Yan-Kai",
+            "email": null,
+            "url": "https://github.com/gssiyankai"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Michael",
+            "email": null,
+            "url": "https://github.com/michbarsinai"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Stepan Koltsov",
+            "email": null,
+            "url": "https://github.com/stepancheg"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Antoine Musso",
+            "email": null,
+            "url": "https://github.com/hashar"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Sergey",
+            "email": null,
+            "url": "https://github.com/hsestupin"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ian",
+            "email": null,
+            "url": "https://github.com/ianrae"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "jparsec",
+            "email": null,
+            "url": "http://jparsec.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/jparsec/jparsec",
+    "download_url": "https://repo1.maven.org/maven2/org/jparsec/jparsec/3.1/jparsec-3.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b752f7a53a1d44e56579d9191ce03942005e7949",
+    "sha256": "ddd118422ecc5e1b9cf460249b4a5f28b2d296be9a8feefd4e4ca1c70550cb77",
+    "sha512": "351c5ef4b8375d59e8e85d39fa69eb3985bd842620b442fce6146d29b7afdf3dbd2da1c4921b521f6cd10b9fcb86b6c91dfeedcdb753f8fb6d27cb9dcdd4487e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jparsec/jparsec@3.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.jparsec/jparsec-root@3.1",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.jparsec/jparsec-root@3.1",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.jparsec/jparsec-root@3.1"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easytesting/fest-assert",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jparsec/jparsec-testutils",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jparsec/jparsec@3.1?classifier=sources&uuid=d50d25ef-a3e5-444b-a9ae-cc7d8246094b",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.jparsec/jparsec@3.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jparsec/jparsec/3.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jparsec/jparsec/3.1/jparsec-3.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jparsec/jparsec/3.1/jparsec-3.1.pom",
+    "file_references": []
+}

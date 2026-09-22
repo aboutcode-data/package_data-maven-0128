@@ -1,0 +1,137 @@
+{
+    "type": "maven",
+    "namespace": "com.googlecode.mp4parser",
+    "name": "isoparser",
+    "version": "1.1.22",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8e6431c0-44c2-46b3-b2aa-643d2dc2dca3",
+            "packages": [
+                "pkg:maven/com.googlecode.mp4parser/isoparser@1.1.22?uuid=728f665f-cf99-4f53-ade5-ff0275d04b5c",
+                "pkg:maven/com.googlecode.mp4parser/isoparser@1.1.22?classifier=sources&uuid=43a7a3f9-6cbe-4338-ba22-5e24fca12720"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ISO Parser\nA generic parser and writer for all ISO 14496 based files (MP4, Quicktime, DCF, PDCF, ...)",
+    "release_date": "2017-03-23T11:16:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": "Sebastian.Annies@googlemail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://code.google.com/p/mp4parser/",
+    "download_url": "https://repo1.maven.org/maven2/com/googlecode/mp4parser/isoparser/1.1.22/isoparser-1.1.22-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "20cce1f0ec52229f0a0ee3a24cb67ba09a775128",
+    "sha256": "ff787d7287f02183f927c8c82ce2f4090ff7e2775da15796b2afc386433f0418",
+    "sha512": "4d8ed89d6b0fe12aa95f7af2a3cb79ef9a16a28a1eaaf1464787f77932a9ff15350d8984f533a3ebb56ea55eda5c41041de76332b46f001cb6db8e809d8038fc",
+    "bug_tracking_url": "https://github.com/sannies/mp4parser/issues",
+    "code_view_url": "https://github.com/sannies/mp4parser",
+    "vcs_url": "https://github.com/sannies/mp4parser",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 91.3,
+                    "matcher": "3-seq",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1277.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache Software License - Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: A business-friendly OSS license",
+                    "match_coverage": 91.3,
+                    "matched_length": 21,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1277.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-29bd3746-9f79-be63-2320-6cdf30101964",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-71ebb6bb1c4314c9fc37003b5a01f0712e041b6b",
+                    "start_line": 1,
+                    "matched_text": "license - name: Apache Software License - Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: A business-friendly OSS license",
+                    "match_coverage": 100.0,
+                    "matched_length": 23,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-71ebb6bb1c4314c9fc37003b5a01f0712e041b6b",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-1b8c8d0b-2bc0-bd95-31ca-d2c210bda8fa",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND epl-1.0 AND mit AND (apache-2.0 AND lgpl-2.1)",
+    "other_license_expression_spdx": "Apache-2.0 AND EPL-1.0 AND MIT AND (Apache-2.0 AND LGPL-2.1-only)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache Software License - Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: A business-friendly OSS license\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.googlecode.mp4parser/isoparser@1.1.22?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.android/android@1.6_r2",
+            "extracted_requirement": "1.6_r2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.10",
+            "extracted_requirement": "4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io@2.4",
+            "extracted_requirement": "2.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.googlecode.mp4parser/isoparser@1.1.22?classifier=sources&uuid=43a7a3f9-6cbe-4338-ba22-5e24fca12720",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.googlecode.mp4parser/isoparser@1.1.22?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/googlecode/mp4parser/isoparser/1.1.22/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/googlecode/mp4parser/isoparser/1.1.22/isoparser-1.1.22-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/googlecode/mp4parser/isoparser/1.1.22/isoparser-1.1.22.pom",
+    "file_references": []
+}

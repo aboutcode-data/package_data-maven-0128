@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "org.mini2Dx",
+    "name": "mini2Dx-desktop",
+    "version": "1.5.0-beta.10",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "mini2Dx-desktop\nnull",
+    "release_date": "2017-05-27T15:11:14Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Thomas Cashman",
+            "email": "thomascashman404@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/mini2Dx/mini2Dx",
+    "download_url": "https://repo1.maven.org/maven2/org/mini2Dx/mini2Dx-desktop/1.5.0-beta.10/mini2Dx-desktop-1.5.0-beta.10.jar",
+    "size": 29777,
+    "md5": null,
+    "sha1": "3c8a90f53c3dff7d563358cba869f9c95404b687",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new AND unknown",
+    "declared_license_expression_spdx": "BSD-3-Clause AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The BSD 3-Clause License\nhttps://opensource.org/licenses/BSD-3-Clause",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mini2Dx/mini2Dx-desktop@1.5.0-beta.10?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.mini2Dx/mini2Dx-core",
+            "extracted_requirement": "1.5.0-beta.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.badlogicgames.gdx/gdx-backend-lwjgl",
+            "extracted_requirement": "1.9.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.badlogicgames.gdx/gdx-platform",
+            "extracted_requirement": "1.9.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.badlogicgames.gdx/gdx-freetype-platform",
+            "extracted_requirement": "1.9.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.badlogicgames.gdx/gdx-controllers-desktop",
+            "extracted_requirement": "1.9.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.badlogicgames.gdx/gdx-controllers-platform",
+            "extracted_requirement": "1.9.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-beanutils/commons-beanutils",
+            "extracted_requirement": "1.8.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.reflections/reflections",
+            "extracted_requirement": "0.9.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jmock/jmock-junit4",
+            "extracted_requirement": "2.5.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jmock/jmock-legacy",
+            "extracted_requirement": "2.5.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mini2Dx/mini2Dx-core",
+            "extracted_requirement": "1.5.0-beta.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.mini2Dx/mini2Dx-desktop@1.5.0-beta.10?uuid=47593238-4cf1-461d-8760-9be7843e6410",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.mini2Dx/mini2Dx-desktop@1.5.0-beta.10",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mini2Dx/mini2Dx-desktop/1.5.0-beta.10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mini2Dx/mini2Dx-desktop/1.5.0-beta.10/mini2Dx-desktop-1.5.0-beta.10.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mini2Dx/mini2Dx-desktop/1.5.0-beta.10/mini2Dx-desktop-1.5.0-beta.10.pom",
+    "file_references": []
+}

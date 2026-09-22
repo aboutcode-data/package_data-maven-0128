@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.boot",
+    "name": "spring-boot-starter",
+    "version": "1.3.6.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f0aa3384-b52b-4c3a-a1a9-5a41e57d5c13",
+            "packages": [
+                "pkg:maven/org.springframework.boot/spring-boot-starter@1.3.6.RELEASE?uuid=262ec740-6e46-4396-bce5-04ba94a49b54",
+                "pkg:maven/org.springframework.boot/spring-boot-starter@1.3.6.RELEASE?classifier=sources&uuid=53c7bd4f-dee4-4ae1-bd04-1f1b826fa8e5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Spring Boot Starter",
+    "release_date": "2016-07-04T15:08:14Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Pivotal Software, Inc.",
+            "email": null,
+            "url": "http://www.spring.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://projects.spring.io/spring-boot/",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/1.3.6.RELEASE/spring-boot-starter-1.3.6.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "63deae55447ee3b2149236d403f0153e0e766ed4",
+    "sha256": "6e9eb189fe0e4e9bb10322b8fce2360e10a839ad7885c2cdb89e1070b2adbeac",
+    "sha512": "67defc4f7e01a05f8def4269ca95ac54b775eaad2bcb85c932d9e831ca1f8b9b7b6e54a074d69c3eff99ab1451b1789705f2b98c4f8726a0a2d5d5ed80d3fcf1",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.boot/spring-boot-starter@1.3.6.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-logging",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.yaml/snakeyaml",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.boot/spring-boot-starter@1.3.6.RELEASE?classifier=sources&uuid=53c7bd4f-dee4-4ae1-bd04-1f1b826fa8e5",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.boot/spring-boot-starter@1.3.6.RELEASE?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/1.3.6.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/1.3.6.RELEASE/spring-boot-starter-1.3.6.RELEASE-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/1.3.6.RELEASE/spring-boot-starter-1.3.6.RELEASE.pom",
+    "file_references": []
+}

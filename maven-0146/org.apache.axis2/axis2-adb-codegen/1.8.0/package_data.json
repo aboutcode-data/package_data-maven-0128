@@ -1,0 +1,126 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.axis2",
+    "name": "axis2-adb-codegen",
+    "version": "1.8.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "cdac7a9b-22ca-48f4-8fde-848eed94b497",
+            "packages": [
+                "pkg:maven/org.apache.axis2/axis2-adb-codegen@1.8.0?uuid=399ac2c6-076e-4874-8894-922aaec68eab",
+                "pkg:maven/org.apache.axis2/axis2-adb-codegen@1.8.0?classifier=sources&uuid=24ef1175-76d4-4b90-b4ce-098d773051bf"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Axis2 - ADB Codegen\nADB code generation support for Axis2",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://axis.apache.org/axis2/java/core/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/axis2/axis2-adb-codegen/1.8.0/axis2-adb-codegen-1.8.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "83293d29742fcab3bee9d7f67b56c372d56a976b",
+    "sha256": "e7d447828756644e26fca3e64b7b5a2842c232ff88b6bea21fc4c2f30705bca8",
+    "sha512": "439791362c4b37546e1910ea340e4aea8cd68308c0195d366b54f833c186e1957cbffdd6b6f147ac335cadc485567d5d1891e9485f3312ce8e26794ad1926426",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/axis/axis2/java/core/trunk/modules/adb-codegen",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/axis/axis2/java/core/trunk/modules/adb-codegen",
+    "copyright": "Copyright (c) International Business Machines Corp., WSO2, Inc., salesforce.com, inc., BEA Systems",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND gpl-2.0 WITH classpath-exception-2.0 AND mit AND cpl-1.0 AND bsd-new AND epl-2.0 AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND cddl-1.0 AND unknown-license-reference",
+    "other_license_expression_spdx": "Apache-2.0 AND GPL-2.0-only WITH Classpath-exception-2.0 AND MIT AND CPL-1.0 AND BSD-3-Clause AND EPL-2.0 AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND CDDL-1.0 AND LicenseRef-scancode-unknown-license-reference",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.axis2/axis2-adb-codegen@1.8.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.axis2/axis2-adb@1.8.0",
+            "extracted_requirement": "1.8.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.axis2/axis2-codegen@1.8.0",
+            "extracted_requirement": "1.8.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.axis2/axis2-kernel@1.8.0",
+            "extracted_requirement": "1.8.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-cli/commons-cli",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xmlunit/xmlunit-legacy",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.axis2/axis2-adb-codegen@1.8.0?classifier=sources&uuid=24ef1175-76d4-4b90-b4ce-098d773051bf",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.axis2/axis2-adb-codegen@1.8.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/axis2/axis2-adb-codegen/1.8.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/axis2/axis2-adb-codegen/1.8.0/axis2-adb-codegen-1.8.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/axis2/axis2-adb-codegen/1.8.0/axis2-adb-codegen-1.8.0.pom",
+    "file_references": []
+}

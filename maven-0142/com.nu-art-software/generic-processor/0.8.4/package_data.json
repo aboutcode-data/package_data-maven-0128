@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "com.nu-art-software",
+    "name": "generic-processor",
+    "version": "0.8.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "generic-processor\nA collection of core tools I use",
+    "release_date": "2017-07-16T12:41:44Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Adam van der Kruk",
+            "email": "adam.vdk@nu-art-software.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/nu-art/generic-processor",
+    "download_url": "https://repo1.maven.org/maven2/com/nu-art-software/generic-processor/0.8.4/generic-processor-0.8.4.jar",
+    "size": 4961,
+    "md5": null,
+    "sha1": "8e50884a8d2ccae646f325d437d0cf810d93ba75",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.nu-art-software/generic-processor@0.8.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.nu-art-software/module-manager",
+            "extracted_requirement": "0.8.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.nu-art-software/generic-processor@0.8.4?uuid=8d3065e2-f5ec-4a57-b96a-503d9472bb16",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.nu-art-software/generic-processor@0.8.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/nu-art-software/generic-processor/0.8.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/nu-art-software/generic-processor/0.8.4/generic-processor-0.8.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/nu-art-software/generic-processor/0.8.4/generic-processor-0.8.4.pom",
+    "file_references": []
+}

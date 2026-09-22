@@ -1,0 +1,105 @@
+{
+    "type": "maven",
+    "namespace": "xerces",
+    "name": "xercesImpl",
+    "version": "2.12.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a8d16adc-052c-49d2-9e62-e2a01acfdcc5",
+            "packages": [
+                "pkg:maven/xerces/xercesImpl@2.12.1?uuid=48920b6a-e435-4115-b5f1-2bf6d668e6ea",
+                "pkg:maven/xerces/xercesImpl@2.12.1?classifier=sources&uuid=0cfd2860-a630-4c56-93f6-335bcb924400"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Xerces2-j\nXerces2 is the next generation of high performance, fully compliant XML parsers in the Apache Xerces family. This new version of Xerces introduces the Xerces Native Interface (XNI), a complete framework for building parser components and configurations that is extremely modular and easy to program.\n\n    The Apache Xerces2 parser is the reference implementation of XNI but other parser components, configurations, and parsers can be written using the Xerces Native Interface. For complete design and implementation documents, refer to the XNI Manual.\n\n    Xerces2 is a fully conforming XML Schema 1.0 processor. A partial experimental implementation of the XML Schema 1.1 Structures and Datatypes Working Drafts (December 2009) and an experimental implementation of the XML Schema Definition Language (XSD): Component Designators (SCD) Candidate Recommendation (January 2010) are provided for evaluation. For more information, refer to the XML Schema page.\n\n    Xerces2 also provides a complete implementation of the Document Object Model Level 3 Core and Load/Save W3C Recommendations and provides a complete implementation of the XML Inclusions (XInclude) W3C Recommendation. It also provides support for OASIS XML Catalogs v1.1.\n\n    Xerces2 is able to parse documents written according to the XML 1.1 Recommendation, except that it does not yet provide an option to enable normalization checking as described in section 2.13 of this specification. It also handles namespaces according to the XML Namespaces 1.1 Recommendation, and will correctly serialize XML 1.1 documents if the DOM level 3 load/save APIs are in use.",
+    "release_date": "2021-01-04T08:05:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Apache Software Foundation",
+            "email": "j-dev@xerces.apache.org",
+            "url": "http://www.apache.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://xerces.apache.org/xerces2-j/",
+    "download_url": "https://repo1.maven.org/maven2/xerces/xercesImpl/2.12.1/xercesImpl-2.12.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1f04ff451cba8e02106473b67bfd6c6b7c75343c",
+    "sha256": "20c8a1e0cb90697d31d5a9d111e2d94f0b332462ba43a773d3a8ad92b3e214d5",
+    "sha512": "2c4ce274904eda6eb4b0b8800dc8383bc6504e215eb9603c45a25c32335651c8ea4d69539b984c048c1974d2aed3d852fff168eb44e2a9b1087ded578394b849",
+    "bug_tracking_url": null,
+    "code_view_url": "https://svn.apache.org/repos/asf/xerces/java/",
+    "vcs_url": "https://svn.apache.org/repos/asf/xerces/java/tags/Xerces-J_2_12_1/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND w3c-software-19980720",
+    "other_license_expression_spdx": "Apache-2.0 AND W3C-19980720",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/xerces/xercesImpl@2.12.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis@1.4.01",
+            "extracted_requirement": "1.4.01",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xml-resolver/xml-resolver@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/xerces/xercesImpl@2.12.1?classifier=sources&uuid=0cfd2860-a630-4c56-93f6-335bcb924400",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/xerces/xercesImpl@2.12.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/xerces/xercesImpl/2.12.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/xerces/xercesImpl/2.12.1/xercesImpl-2.12.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/xerces/xercesImpl/2.12.1/xercesImpl-2.12.1.pom",
+    "file_references": []
+}

@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "uk.gov.gchq.gaffer",
+    "name": "type",
+    "version": "0.7.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-23T15:30:51Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/uk/gov/gchq/gaffer/type/0.7.3/type-0.7.3.jar",
+    "size": 21249,
+    "md5": null,
+    "sha1": "f0bc9de14defc70211a98f3b8bd31fbd1c38973b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/uk.gov.gchq.gaffer/type@0.7.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/uk.gov.gchq.gaffer/serialisation",
+            "extracted_requirement": "0.7.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/uk.gov.gchq.koryphe/koryphe",
+            "extracted_requirement": "${koryphe.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/uk.gov.gchq.koryphe/koryphe",
+            "extracted_requirement": "${koryphe.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/uk.gov.gchq.gaffer/serialisation",
+            "extracted_requirement": "0.7.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/uk.gov.gchq.gaffer/common-util",
+            "extracted_requirement": "0.7.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/uk.gov.gchq.gaffer/type@0.7.3?uuid=22dc5559-9506-4758-af43-372e614c5683",
+    "datasource_id": null,
+    "purl": "pkg:maven/uk.gov.gchq.gaffer/type@0.7.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/uk/gov/gchq/gaffer/type/0.7.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/uk/gov/gchq/gaffer/type/0.7.3/type-0.7.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/uk/gov/gchq/gaffer/type/0.7.3/type-0.7.3.pom",
+    "file_references": []
+}

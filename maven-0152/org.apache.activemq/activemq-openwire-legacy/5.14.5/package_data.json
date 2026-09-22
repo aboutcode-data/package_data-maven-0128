@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.activemq",
+    "name": "activemq-openwire-legacy",
+    "version": "5.14.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "11cb0b13-d6a5-42b1-8e55-9c5ed4c9c5b9",
+            "packages": [
+                "pkg:maven/org.apache.activemq/activemq-openwire-legacy@5.14.5?uuid=af00df99-738b-48cd-a3af-0e432a88d1cf",
+                "pkg:maven/org.apache.activemq/activemq-openwire-legacy@5.14.5?classifier=sources&uuid=66a37d62-16d0-4cd9-b16f-342d6c36321c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ActiveMQ :: Openwire Legacy Support\nThe ActiveMQ Openwire Legacy Support Module",
+    "release_date": "2017-04-11T15:39:28Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-openwire-legacy/5.14.5/activemq-openwire-legacy-5.14.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6a7d7122994f6a9d7f46c92ee6e7f90cf9da385b",
+    "sha256": "2b2d05f58f1e774d6430bf8765bf48c26cb560a28eef6c2e3c2f0e527ed24822",
+    "sha512": "b653cee06fb365eca1b5cf178d6e56f756057aa25d50fae7a9b9d44ffd692c5bccf391c5b441c987cb3bbef3fdfc51bb33a9672f16877c70802e8ebbbe8c2f97",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND mit)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.activemq/activemq-openwire-legacy@5.14.5?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.activemq/activemq-openwire-legacy@5.14.5?classifier=sources&uuid=66a37d62-16d0-4cd9-b16f-342d6c36321c",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.activemq/activemq-openwire-legacy@5.14.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-openwire-legacy/5.14.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-openwire-legacy/5.14.5/activemq-openwire-legacy-5.14.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-openwire-legacy/5.14.5/activemq-openwire-legacy-5.14.5.pom",
+    "file_references": []
+}

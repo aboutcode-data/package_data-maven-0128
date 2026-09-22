@@ -1,0 +1,76 @@
+{
+    "type": "maven",
+    "namespace": "org.slf4j",
+    "name": "slf4j-api",
+    "version": "2.0.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "182afae5-8691-43f9-a7cc-b458d7a1ec26",
+            "packages": [
+                "pkg:maven/org.slf4j/slf4j-api@2.0.5?uuid=e00fefa6-571a-42c2-9186-c3ecf3cc0cb1",
+                "pkg:maven/org.slf4j/slf4j-api@2.0.5?classifier=sources&uuid=f0a41ad8-ee38-4ff7-ab6c-6175b999af70"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SLF4J API Module\nThe slf4j API",
+    "release_date": "2022-11-25T11:42:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ceki Gulcu",
+            "email": "ceki@qos.ch",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "QOS.ch",
+            "email": null,
+            "url": "http://www.qos.ch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.slf4j.org",
+    "download_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.5/slf4j-api-2.0.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1dacbf7761ce7b4062b1582f2fdef203f5ac471c",
+    "sha256": "fff20b8499c316e2b3c288b03b274762e016e6e9acb97fe80e129a81bdc13db5",
+    "sha512": "86c87168ccb3ed73bba38eca82681d1c029012e502c512f214caf136ac1c02fddfd5ab2bf4fcc61e1e2bb97b1cefa75b8e310faab6b2606b45933173b26811c8",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.slf4j/slf4j-api@2.0.5?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.slf4j/slf4j-parent@2.0.5",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.slf4j/slf4j-parent@2.0.5"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.slf4j/slf4j-api@2.0.5?classifier=sources&uuid=f0a41ad8-ee38-4ff7-ab6c-6175b999af70",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.5/slf4j-api-2.0.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.5/slf4j-api-2.0.5.pom",
+    "file_references": []
+}

@@ -1,0 +1,123 @@
+{
+    "type": "maven",
+    "namespace": "jakarta.inject",
+    "name": "jakarta.inject-api",
+    "version": "1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5d689c9a-eea4-4904-a67f-bfb3f457b26f",
+            "packages": [
+                "pkg:maven/jakarta.inject/jakarta.inject-api@1.0?uuid=fc707de9-2975-4719-9f8a-b8a578fc88f3",
+                "pkg:maven/jakarta.inject/jakarta.inject-api@1.0?classifier=sources&uuid=fba8f5a8-0d9d-49ff-88d6-6ee495f7c25f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jakarta Dependency Injection",
+    "release_date": "2019-08-04T02:01:15Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Antoine Sabot-Durand",
+            "email": "asd[at]redhat[dot]com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Kouba",
+            "email": "mkouba[at]redhat[dot]com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tomas Remes",
+            "email": "tremes[at]redhat[dot]com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Matej Novotny",
+            "email": "manovotn[at]redhat[dot]com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/eclipse-ee4j/injection-api",
+    "download_url": "https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/1.0/jakarta.inject-api-1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b0822f4eb6765e6cabf893df766ed71ec5d0c91e",
+    "sha256": "205e0bf93c0db3dc774b79c720d082e5ee02a2b38bb1b42a0336ef1a9897cb3a",
+    "sha512": "b56f0a6ff234b5f87d8130d064fc5d172c96a23384a47ff8e8f24fbe0872854af049ba36a33939f4308cb760825899bc1ff8c97ad03c722d6a9f4d396d5f1512",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/eclipse-ee4j/injection-api",
+    "vcs_url": "git+ssh://git@github.com/eclipse-ee4j/injection-api.git",
+    "copyright": "Copyright (c) The Eclipse Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/jakarta.inject/jakarta.inject-api@1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/jakarta.inject/jakarta.inject-api@1.0?classifier=sources&uuid=fba8f5a8-0d9d-49ff-88d6-6ee495f7c25f",
+    "datasource_id": null,
+    "purl": "pkg:maven/jakarta.inject/jakarta.inject-api@1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/1.0/jakarta.inject-api-1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/1.0/jakarta.inject-api-1.0.pom",
+    "file_references": []
+}

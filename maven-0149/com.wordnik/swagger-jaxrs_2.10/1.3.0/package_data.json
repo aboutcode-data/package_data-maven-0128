@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "com.wordnik",
+    "name": "swagger-jaxrs_2.10",
+    "version": "1.3.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "174dc783-e150-4140-a5b9-b14d94c7a701",
+            "packages": [
+                "pkg:maven/com.wordnik/swagger-jaxrs_2.10@1.3.0?uuid=35207578-bb32-4444-a28b-a7bc3543020e",
+                "pkg:maven/com.wordnik/swagger-jaxrs_2.10@1.3.0?classifier=sources&uuid=6d689894-7e79-4b6f-ae17-a6bdf9cd24a7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "swagger-jaxrs",
+    "release_date": "2013-08-14T04:42:18Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tony Tam",
+            "email": "fehguy@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/wordnik/swagger-jaxrs_2.10/1.3.0/swagger-jaxrs_2.10-1.3.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6bfe165467f058488be3a0975b0ca26b0ecb92b4",
+    "sha256": "ceb7ff352e06370badb4a7b487f342916b45aceb0f263710cb3c922e46f7f288",
+    "sha512": "c937ed10cd98666042e9ef95192e97bfb2014cd9a4d150bd2bbc9dc8b8133da0c474651217fcbe380d62d4b7f9c0435302acd9a3f4cb357df3afefe958f41cdd",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.wordnik/swagger-jaxrs_2.10@1.3.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.10",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.wordnik/swagger-core_2.10@1.3.0",
+            "extracted_requirement": "1.3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.ws.rs/jsr311-api@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.reflections/reflections@0.9.8",
+            "extracted_requirement": "0.9.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": "${logback-version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-core",
+            "extracted_requirement": "${logback-version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.wordnik/swagger-jaxrs_2.10@1.3.0?classifier=sources&uuid=6d689894-7e79-4b6f-ae17-a6bdf9cd24a7",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.wordnik/swagger-jaxrs_2.10@1.3.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/wordnik/swagger-jaxrs_2.10/1.3.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/wordnik/swagger-jaxrs_2.10/1.3.0/swagger-jaxrs_2.10-1.3.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/wordnik/swagger-jaxrs_2.10/1.3.0/swagger-jaxrs_2.10-1.3.0.pom",
+    "file_references": []
+}

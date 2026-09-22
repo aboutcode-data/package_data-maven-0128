@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.google.code.findbugs",
+    "name": "annotations",
+    "version": "2.0.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "FindBugs-Annotations\nAnnotation supports the FindBugs tool",
+    "release_date": "2012-07-29T22:18:01Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://findbugs.sourceforge.net/",
+    "download_url": "https://repo1.maven.org/maven2/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9ef6656259841cebfb9fb0697bb122ada4485498",
+    "sha256": "893b2203a27e4a8ba9d16cd6ed6e9f730736b4878a6bfffeff06861f32e6631b",
+    "sha512": "0f11fc3a2f18936a0a4fbbe274d07333dbc5c41f51aa196dd472fa5bab7f68e3fc8256b2ac0e0c3abaf6536d34928da6f171db885ad672d688cc318b1308b650",
+    "bug_tracking_url": null,
+    "code_view_url": "http://findbugs.googlecode.com/svn/trunk/",
+    "vcs_url": "svn+http://findbugs.googlecode.com/svn/trunk/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1-plus AND lgpl-2.0-plus",
+    "declared_license_expression_spdx": "LGPL-2.1-or-later AND LGPL-2.0-or-later",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 13.33,
+                    "matcher": "3-seq",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1-plus_455.RULE",
+                    "start_line": 1,
+                    "matched_text": "GNU Lesser Public License",
+                    "match_coverage": 13.33,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1-plus_455.RULE",
+                    "license_expression": "lgpl-2.1-plus"
+                }
+            ],
+            "identifier": null,
+            "license_expression": "lgpl-2.1-plus"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl_3.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.gnu.org/licenses/lgpl.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl_3.RULE",
+                    "license_expression": "lgpl-2.0-plus"
+                }
+            ],
+            "identifier": "lgpl_2_0_plus-bd2014ad-7f5c-e384-8316-a0068fe42d91",
+            "license_expression": "lgpl-2.0-plus"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus AND cc-by-2.5",
+    "other_license_expression_spdx": "LGPL-2.1-or-later AND CC-BY-2.5",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: GNU Lesser Public License\n  url: http://www.gnu.org/licenses/lgpl.html\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.code.findbugs/annotations@2.0.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 5
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.google.code.findbugs/annotations@2.0.1?uuid=8de4817e-327c-4158-baac-57ee3fe465c7",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.google.code.findbugs/annotations@2.0.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/code/findbugs/annotations/2.0.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.pom",
+    "file_references": []
+}

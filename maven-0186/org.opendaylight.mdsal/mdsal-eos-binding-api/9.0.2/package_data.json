@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.mdsal",
+    "name": "mdsal-eos-binding-api",
+    "version": "9.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2082dfb0-aa02-4263-9d53-780bfbce8791",
+            "packages": [
+                "pkg:maven/org.opendaylight.mdsal/mdsal-eos-binding-api@9.0.2?uuid=4c4e2899-e25c-4610-81fe-edf6e8244779",
+                "pkg:maven/org.opendaylight.mdsal/mdsal-eos-binding-api@9.0.2?classifier=sources&uuid=53b001c4-5431-4e20-b12e-7a4c3e47238b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2022-04-14T08:13:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/mdsal-eos-binding-api/9.0.2/mdsal-eos-binding-api-9.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c67fe64159ec7d10a71cedd4678a27f48c95084f",
+    "sha256": "533fa1f49a92177707df661308528430cac9b2dc529d07acaab05cca052342b1",
+    "sha512": "666428944d829dfd4c1bb1eb214b2db2ad726aae6824983a58420fefc2cd2e36b82771fcb97613c6030a14531ebfd700bb27dc2f84bc86a48c5267a7be58b8d5",
+    "bug_tracking_url": null,
+    "code_view_url": "https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL",
+    "vcs_url": "git+http://git.opendaylight.org/gerrit/controller.git",
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.mdsal/mdsal-eos-binding-api@9.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal/mdsal-eos-common-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal/mdsal-eos-common-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal.model/general-entity",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal/yang-binding",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.mdsal/mdsal-eos-binding-api@9.0.2?classifier=sources&uuid=53b001c4-5431-4e20-b12e-7a4c3e47238b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.mdsal/mdsal-eos-binding-api@9.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

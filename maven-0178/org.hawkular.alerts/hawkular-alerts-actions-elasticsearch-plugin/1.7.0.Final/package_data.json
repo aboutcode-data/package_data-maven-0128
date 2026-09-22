@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.hawkular.alerts",
+    "name": "hawkular-alerts-actions-elasticsearch-plugin",
+    "version": "1.7.0.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Hawkular Alerting: Action ElasticSearch Plugin implementation",
+    "release_date": "2017-05-24T18:11:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/hawkular/alerts/hawkular-alerts-actions-elasticsearch-plugin/1.7.0.Final/hawkular-alerts-actions-elasticsearch-plugin-1.7.0.Final.jar",
+    "size": 10006,
+    "md5": null,
+    "sha1": "b85967c82ba04b90d63f0d7c83b6742b1f9bfe7f",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.hawkular.alerts/hawkular-alerts-actions-elasticsearch-plugin@1.7.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.elasticsearch.client/rest",
+            "extracted_requirement": "${version.org.elasticsearch.client}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hawkular.alerts/hawkular-alerts-api",
+            "extracted_requirement": "1.7.0.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.bazaarvoice.jolt/jolt-core",
+            "extracted_requirement": "${version.com.bazaarvoice.jolt}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api",
+            "extracted_requirement": "${version.org.apache.logging.log4j-elasticsearch}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+            "extracted_requirement": "${version.org.apache.logging.log4j-elasticsearch}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hawkular.alerts/hawkular-alerts-actions-tests",
+            "extracted_requirement": "1.7.0.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.elasticsearch/elasticsearch",
+            "extracted_requirement": "${version.org.elasticsearch.client}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.elasticsearch.client/transport",
+            "extracted_requirement": "${version.org.elasticsearch.client}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+            "extracted_requirement": "${version.com.fasterxml.jackson.core-elasticsearch}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.hawkular.alerts/hawkular-alerts-actions-elasticsearch-plugin@1.7.0.Final?uuid=4818b81f-5c9a-45ba-8514-6fcb04360cf8",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.hawkular.alerts/hawkular-alerts-actions-elasticsearch-plugin@1.7.0.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/hawkular/alerts/hawkular-alerts-actions-elasticsearch-plugin/1.7.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/hawkular/alerts/hawkular-alerts-actions-elasticsearch-plugin/1.7.0.Final/hawkular-alerts-actions-elasticsearch-plugin-1.7.0.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/hawkular/alerts/hawkular-alerts-actions-elasticsearch-plugin/1.7.0.Final/hawkular-alerts-actions-elasticsearch-plugin-1.7.0.Final.pom",
+    "file_references": []
+}

@@ -1,0 +1,102 @@
+{
+    "type": "maven",
+    "namespace": "commons-collections",
+    "name": "commons-collections",
+    "version": "2.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9be4e7e6-f96b-4984-a114-cb288e8b2fff",
+            "packages": [
+                "pkg:maven/commons-collections/commons-collections@2.1?uuid=38262125-47ee-4231-baf8-907cd5eeeff0",
+                "pkg:maven/commons-collections/commons-collections@2.1?classifier=sources&uuid=946763e8-7a50-46e3-a8f1-2fa755abd8b4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Collections\nCommons Collections",
+    "release_date": "2005-11-01T16:07:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Morgan Delagrange",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Geir Magnusson",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Craig McClanahan",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rodney Waldoff",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Weinrich",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/commons-collections/commons-collections/2.1/commons-collections-2.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fa4c407195e317251a176b3dd04d6704d9df3ca6",
+    "sha256": "0d35c99e51cd502d20038f7a20a0027bba2653d55961e915f68fc40caba608cc",
+    "sha512": "2b556403a2bd88da23c4d2e344405f8d93e42673b52b91688ad355529779b2461e1d2f3e5b1a6f1c0f0516cb2edea2d6bbd828761a0a9b1a14e2b86ebea661b5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-1.1",
+    "other_license_expression_spdx": "Apache-1.1",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/commons-collections/commons-collections@2.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.7",
+            "extracted_requirement": "3.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/commons-collections/commons-collections@2.1?classifier=sources&uuid=946763e8-7a50-46e3-a8f1-2fa755abd8b4",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/commons-collections/commons-collections@2.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/commons-collections/commons-collections/2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/commons-collections/commons-collections/2.1/commons-collections-2.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/commons-collections/commons-collections/2.1/commons-collections-2.1.pom",
+    "file_references": []
+}

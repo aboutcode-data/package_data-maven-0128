@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.felix",
+    "name": "org.apache.felix.http.servlet-api",
+    "version": "1.1.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a1e5d44c-7b69-4587-bfad-ca10a8b8fdd4",
+            "packages": [
+                "pkg:maven/org.apache.felix/org.apache.felix.http.servlet-api@1.1.2?uuid=ca8e4b0d-a697-43ce-9904-182d5e9ff487",
+                "pkg:maven/org.apache.felix/org.apache.felix.http.servlet-api@1.1.2?classifier=sources&uuid=08e3ccc0-8916-4087-859b-8d21d13a16fd"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Felix Servlet API\nProvides the Servlet API for use by applications",
+    "release_date": "2015-08-05T23:11:46Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.1.2/org.apache.felix.http.servlet-api-1.1.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "415aad6a8c35ef3216464ad2fe09213e0d0faa21",
+    "sha256": "74246632f3fb3d480413db8b6e787140724f024b450875ed35335c17c32f32ff",
+    "sha512": "077101a7bc77f3b6448d0af47e054ea9185868f6c399688edea4288e9ebe7af86cefc5e834e8748c0efaaaed5756a38cd6aa9e4be8322fbc0861bacd65258560",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/felix/releases/org.apache.felix.http.servlet-api-1.1.2",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/felix/releases/org.apache.felix.http.servlet-api-1.1.2",
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.felix/org.apache.felix.http.servlet-api@1.1.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@8.0.9",
+            "extracted_requirement": "8.0.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.felix/org.apache.felix.http.servlet-api@1.1.2?classifier=sources&uuid=08e3ccc0-8916-4087-859b-8d21d13a16fd",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.felix/org.apache.felix.http.servlet-api@1.1.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.1.2/org.apache.felix.http.servlet-api-1.1.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.1.2/org.apache.felix.http.servlet-api-1.1.2.pom",
+    "file_references": []
+}

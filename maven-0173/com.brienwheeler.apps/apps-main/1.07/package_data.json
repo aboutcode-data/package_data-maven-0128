@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "com.brienwheeler.apps",
+    "name": "apps-main",
+    "version": "1.07",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-07-05T20:46:49Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/brienwheeler/apps/apps-main/1.07/apps-main-1.07.jar",
+    "size": 13268,
+    "md5": null,
+    "sha1": "c75b8c3bb785eeb430c0397845a1de452d3d5ac6",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.brienwheeler.apps/apps-main@1.07?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.brienwheeler.lib/lib-jmx",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.brienwheeler.lib/lib-spring-beans",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.brienwheeler.lib/lib-test",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-test",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.brienwheeler.apps/apps-main@1.07?uuid=332a4b0c-96c2-4844-ad6c-e0f4af4bc28c",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.brienwheeler.apps/apps-main@1.07",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/brienwheeler/apps/apps-main/1.07/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/brienwheeler/apps/apps-main/1.07/apps-main-1.07.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/brienwheeler/apps/apps-main/1.07/apps-main-1.07.pom",
+    "file_references": []
+}

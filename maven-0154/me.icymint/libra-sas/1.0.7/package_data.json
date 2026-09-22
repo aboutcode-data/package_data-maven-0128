@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "me.icymint",
+    "name": "libra-sas",
+    "version": "1.0.7",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "libra-sas",
+    "release_date": "2013-03-11T04:03:12Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://libra.icymint.me",
+    "download_url": "https://repo1.maven.org/maven2/me/icymint/libra-sas/1.0.7/libra-sas-1.0.7.jar",
+    "size": 58510,
+    "md5": null,
+    "sha1": "5995f84f1f44eef8928b153801f4db5b6b34da67",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/me.icymint/libra-sas@1.0.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": "2.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": "1.7.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.registry/jregistry",
+            "extracted_requirement": "1.8.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/me.icymint/libra-sas@1.0.7?uuid=2c3f6417-e297-402b-95bf-863d29701a2f",
+    "datasource_id": null,
+    "purl": "pkg:maven/me.icymint/libra-sas@1.0.7",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/me/icymint/libra-sas/1.0.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/me/icymint/libra-sas/1.0.7/libra-sas-1.0.7.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/me/icymint/libra-sas/1.0.7/libra-sas-1.0.7.pom",
+    "file_references": []
+}

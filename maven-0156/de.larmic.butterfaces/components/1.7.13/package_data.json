@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "de.larmic.butterfaces",
+    "name": "components",
+    "version": "1.7.13",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "ButterFaces components",
+    "release_date": "2015-04-24T18:24:10Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/de/larmic/butterfaces/components/1.7.13/components-1.7.13.jar",
+    "size": 1414980,
+    "md5": null,
+    "sha1": "db88b96957d44901074433146629cb1334d1d54a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/de.larmic.butterfaces/components@1.7.13?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.el/el-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.faces/javax.faces-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.servlet/jboss-servlet-api_3.1_spec",
+            "extracted_requirement": "1.0.0.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/de.larmic.butterfaces/components@1.7.13?uuid=28db04bb-6aff-47ad-b1f5-602975e3bcf5",
+    "datasource_id": null,
+    "purl": "pkg:maven/de.larmic.butterfaces/components@1.7.13",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/de/larmic/butterfaces/components/1.7.13/",
+    "repository_download_url": "https://repo1.maven.org/maven2/de/larmic/butterfaces/components/1.7.13/components-1.7.13.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/de/larmic/butterfaces/components/1.7.13/components-1.7.13.pom",
+    "file_references": []
+}

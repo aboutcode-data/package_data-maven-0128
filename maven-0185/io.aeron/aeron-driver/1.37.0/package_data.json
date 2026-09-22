@@ -1,0 +1,146 @@
+{
+    "type": "maven",
+    "namespace": "io.aeron",
+    "name": "aeron-driver",
+    "version": "1.37.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f2aee06e-6da1-4a34-831b-618ca7cee010",
+            "packages": [
+                "pkg:maven/io.aeron/aeron-driver@1.37.0?uuid=f3b8db18-0206-4e93-b3c1-fa3efedcb673",
+                "pkg:maven/io.aeron/aeron-driver@1.37.0?classifier=sources&uuid=63dab775-f934-4795-9db5-b001749484dc"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "aeron\nEfficient reliable UDP unicast, UDP multicast, and IPC transport protocol.",
+    "release_date": "2021-11-26T17:37:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Todd L. Montgomery",
+            "email": "tmont@nard.net",
+            "url": "https://github.com/tmontgomery"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Thompson",
+            "email": "mjpt777@gmail.com",
+            "url": "https://github.com/mjpt777"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Richard Warburton",
+            "email": "richard.warburton@gmail.com",
+            "url": "https://github.com/RichardWarburton"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Nitsan Wakart",
+            "email": "nitsanw@yahoo.com",
+            "url": "https://github.com/nitsanw"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mike Barker",
+            "email": "mikeb01@gmail.com",
+            "url": "https://github.com/mikeb01"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dmitry Vyazelenko",
+            "email": "vyazelenko@yahoo.com",
+            "url": "https://github.com/vyazelenko"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/real-logic/aeron",
+    "download_url": "https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.37.0/aeron-driver-1.37.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a150d0b3e0db5f0c59c99470141861d3561f7157",
+    "sha256": "0520db887924099ade9c9b0fe0cc144ec036e9e5ebf7dc763256269d553e0312",
+    "sha512": "53f70423329f99bc28169918f34983543352aff89cef8476da8c0677a0143e1c6a5e4c316e071fbf19b15dc190295d0b35d819da81f25020832716943c9c5ea5",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/real-logic/aeron.git",
+    "vcs_url": "git+https://github.com/real-logic/aeron.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_182.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_182.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-3b481945-ec95-7509-0433-96af863c23f8",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_216.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_216.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-cb92a9c9-c5a5-5d61-20d0-95d854e3e244",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.aeron/aeron-driver@1.37.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.aeron/aeron-client@1.37.0",
+            "extracted_requirement": "1.37.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.aeron/aeron-driver@1.37.0?classifier=sources&uuid=63dab775-f934-4795-9db5-b001749484dc",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.aeron/aeron-driver@1.37.0?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

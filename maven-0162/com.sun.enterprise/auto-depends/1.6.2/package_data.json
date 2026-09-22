@@ -1,0 +1,124 @@
+{
+    "type": "maven",
+    "namespace": "com.sun.enterprise",
+    "name": "auto-depends",
+    "version": "1.6.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "cbf6c075-eb37-495e-8149-a5056ffb6948",
+            "packages": [
+                "pkg:maven/com.sun.enterprise/auto-depends@1.6.2?uuid=6362ff4d-7a3c-457d-8640-c8c6769e782d",
+                "pkg:maven/com.sun.enterprise/auto-depends@1.6.2?classifier=sources&uuid=089afece-2216-4baf-9837-e347a7e89014"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Inversion of Control / Autodependency mechanism\n${project.name}",
+    "release_date": "2011-04-26T06:45:16Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kohsuke Kawaguchi",
+            "email": null,
+            "url": "http://weblogs.java.net/blog/kohsuke"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jerome Dochez",
+            "email": null,
+            "url": "http://blogs.sun.com/dochez"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sanjeeb Sahoo",
+            "email": null,
+            "url": "http://weblogs.java.net/ss141213"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeff Trent",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle Corporation",
+            "email": null,
+            "url": "http://www.oracle.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/sun/enterprise/auto-depends/1.6.2/auto-depends-1.6.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d92991dd636e0627d3937e43e9ce9fac08c066a9",
+    "sha256": "f5fb407482c756832c8125b415936a4d115fdd5d063783b8a636b1463e9d3303",
+    "sha512": "cd4994a3e26f882fa33f97fa80b58a94c466fc294ab5394cec7db9280a017edcdd0e76056e712a58278db0d1b124c4fd46677da6af2c4baf16bfccce06f1aa60",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "(cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND ((cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND w3c)",
+    "other_license_expression_spdx": "(CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND ((CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND W3C)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.sun.enterprise/auto-depends@1.6.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jvnet/tiger-types@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.hk2/class-model@1.6.2",
+            "extracted_requirement": "1.6.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.hk2.external/asm-all-repackaged@1.6.2",
+            "extracted_requirement": "1.6.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.3.1",
+            "extracted_requirement": "4.3.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.sun.enterprise/auto-depends@1.6.2?classifier=sources&uuid=089afece-2216-4baf-9837-e347a7e89014",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.sun.enterprise/auto-depends@1.6.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/sun/enterprise/auto-depends/1.6.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/sun/enterprise/auto-depends/1.6.2/auto-depends-1.6.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/sun/enterprise/auto-depends/1.6.2/auto-depends-1.6.2.pom",
+    "file_references": []
+}

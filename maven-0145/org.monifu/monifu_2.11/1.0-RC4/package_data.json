@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "org.monifu",
+    "name": "monifu_2.11",
+    "version": "1.0-RC4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "monifu",
+    "release_date": "2015-11-23T13:55:06Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Alexandru Nedelcu",
+            "email": null,
+            "url": "https://www.bionicspirit.com/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.monifu",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.monifu.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/monifu/monifu_2.11/1.0-RC4/monifu_2.11-1.0-RC4.jar",
+    "size": 1435277,
+    "md5": null,
+    "sha1": "ff6925131e4610d7ef24888ac3883dca8b22fba2",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttps://www.apache.org/licenses/LICENSE-2.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.monifu/monifu_2.11@1.0-RC4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.monifu/monifu-core_2.11",
+            "extracted_requirement": "1.0-RC4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-reflect",
+            "extracted_requirement": "2.11.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.reactivestreams/reactive-streams",
+            "extracted_requirement": "1.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scoverage/scalac-scoverage-runtime_2.11",
+            "extracted_requirement": "1.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scoverage/scalac-scoverage-plugin_2.11",
+            "extracted_requirement": "1.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.monifu/minitest_2.11",
+            "extracted_requirement": "0.14",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.monifu/monifu_2.11@1.0-RC4?uuid=f141cb50-3c15-4924-a616-0db37d2edaef",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.monifu/monifu_2.11@1.0-RC4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/monifu/monifu_2.11/1.0-RC4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/monifu/monifu_2.11/1.0-RC4/monifu_2.11-1.0-RC4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/monifu/monifu_2.11/1.0-RC4/monifu_2.11-1.0-RC4.pom",
+    "file_references": []
+}

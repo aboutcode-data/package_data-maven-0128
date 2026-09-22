@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.ws.commons.axiom",
+    "name": "axiom-testsuite",
+    "version": "1.2.14",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f960e081-a2cd-43cc-8477-301615738883",
+            "packages": [
+                "pkg:maven/org.apache.ws.commons.axiom/axiom-testsuite@1.2.14?uuid=41172736-49a2-4ea0-826d-0ef54371cfec",
+                "pkg:maven/org.apache.ws.commons.axiom/axiom-testsuite@1.2.14?classifier=sources&uuid=355c721f-bfa2-460e-8e19-22245c40a7a1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Axiom Implementation Test Suite\nThe Axiom implementation test suite. This test suite can be used to check conformance of a\n        particular Axiom implementation.",
+    "release_date": "2012-12-02T18:37:21Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://ws.apache.org/axiom/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/ws/commons/axiom/axiom-testsuite/1.2.14/axiom-testsuite-1.2.14-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8583043fa6535a911e60c762e1157515a45b0cd1",
+    "sha256": "e1b562626185e2d3ca462ef7031604c90bb6530b638e038fafa93fb5d3f9d57f",
+    "sha512": "bbb1e6adcacaec442420c4d1699d9c552131da6cbbd8cad72f81d89e7c1c2037003f6c73a80c65bd7426fd898aaa3b2422c751b948c8062c3d75e466db9799b4",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/webservices/commons/tags/axiom/1.2.14/modules/axiom-testsuite",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/webservices/commons/tags/axiom/1.2.14/modules/axiom-testsuite",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND sax-pd AND w3c AND bsd-new AND cpl-1.0)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND SAX-PD AND W3C AND BSD-3-Clause AND CPL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.ws.commons.axiom/axiom-testsuite@1.2.14?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.ws.commons.axiom/axiom-api@1.2.14",
+            "extracted_requirement": "1.2.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xmlunit/xmlunit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ws.commons.axiom/axiom-testutils@1.2.14",
+            "extracted_requirement": "1.2.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xalan/xalan",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ws.commons.axiom/axiom-jaxen-testsuite@1.2.14",
+            "extracted_requirement": "1.2.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.ws.commons.axiom/axiom-testsuite@1.2.14?classifier=sources&uuid=355c721f-bfa2-460e-8e19-22245c40a7a1",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.ws.commons.axiom/axiom-testsuite@1.2.14?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/ws/commons/axiom/axiom-testsuite/1.2.14/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/ws/commons/axiom/axiom-testsuite/1.2.14/axiom-testsuite-1.2.14-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/ws/commons/axiom/axiom-testsuite/1.2.14/axiom-testsuite-1.2.14.pom",
+    "file_references": []
+}

@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.kantega.reststop",
+    "name": "reststop-core",
+    "version": "2.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2015-12-14T13:52:08Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/kantega/reststop/reststop-core/2.2/reststop-core-2.2.jar",
+    "size": 48617,
+    "md5": null,
+    "sha1": "4ffb506d7f1a63abcdba859bddcc8e113f7b876c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.kantega.reststop/reststop-core@2.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.kantega.reststop/reststop-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kantega.reststop/reststop-classloader-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kantega.jexmec/jexmec-manager",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kantega.jexmec/jexmec-ctor-pl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.kantega.reststop/reststop-core@2.2?uuid=68796604-edc6-48e4-b629-65fe88a3808a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.kantega.reststop/reststop-core@2.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/kantega/reststop/reststop-core/2.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/kantega/reststop/reststop-core/2.2/reststop-core-2.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/kantega/reststop/reststop-core/2.2/reststop-core-2.2.pom",
+    "file_references": []
+}

@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "io.zipkin.brave",
+    "name": "brave-instrumentation-okhttp3",
+    "version": "4.3.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Brave Instrumentation: OkHttp v3.x",
+    "release_date": "2017-05-17T09:34:18Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-instrumentation-okhttp3/4.3.2/brave-instrumentation-okhttp3-4.3.2.jar",
+    "size": 9084,
+    "md5": null,
+    "sha1": "c7acf766d28e730abf22f7761fcc20c3528058d9",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.zipkin.brave/brave-instrumentation-okhttp3@4.3.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.zipkin.brave/brave-instrumentation-http",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.squareup.okhttp3/okhttp",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.zipkin.brave/brave-instrumentation-http-tests",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.zipkin.brave/brave-instrumentation-okhttp3@4.3.2?uuid=a653dd02-e6e1-43c4-8a0f-461693877505",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.zipkin.brave/brave-instrumentation-okhttp3@4.3.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-instrumentation-okhttp3/4.3.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-instrumentation-okhttp3/4.3.2/brave-instrumentation-okhttp3-4.3.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-instrumentation-okhttp3/4.3.2/brave-instrumentation-okhttp3-4.3.2.pom",
+    "file_references": []
+}

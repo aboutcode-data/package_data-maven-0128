@@ -1,0 +1,102 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.osgi",
+    "name": "org.eclipse.osgi",
+    "version": "3.7.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "57a08bad-7b76-4a63-bbcf-cdf3fd996efd",
+            "packages": [
+                "pkg:maven/org.eclipse.osgi/org.eclipse.osgi@3.7.1?uuid=f6c98d94-3dbe-4328-92b9-ce14c4a91b86",
+                "pkg:maven/org.eclipse.osgi/org.eclipse.osgi@3.7.1?classifier=sources&uuid=a0907299-6688-4041-8460-c497bb92dc99"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "%systemBundle",
+    "release_date": "2013-10-23T18:58:26Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "eclipse",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.eclipse.org",
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/osgi/org.eclipse.osgi/3.7.1/org.eclipse.osgi-3.7.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "99fd09ade6d329c7548fc4713fad9a2dd310e2a9",
+    "sha256": "6951f0280ed904d2ead5003b5326c7f418345ee3cd41c25e74a79aa7d154ce2e",
+    "sha512": "14c41d7e25915e167407b5c37f99aa6a86fe660654a1937f3ec987a3dbf027f49fa3e3a2ade0921966cce959685b738bb3098a81465ed645f98c5edc49d8015e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-1.0 AND unknown",
+    "declared_license_expression_spdx": "EPL-1.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "3-seq",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-1.0_94.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Eclipse Public License - v 1.0\n  url: http://www.eclipse.org/org/documents/epl-v10.html",
+                    "match_coverage": 80.0,
+                    "matched_length": 12,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-1.0_94.RULE",
+                    "license_expression": "epl-1.0"
+                }
+            ],
+            "identifier": "epl_1_0-fc5fa03f-447c-2d35-ebfd-4a3505be8c9e",
+            "license_expression": "epl-1.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-63357d92b1d7fd711b236251a81cb086233e5eb7",
+                    "start_line": 1,
+                    "matched_text": "license - name: Eclipse Public License - v 1.0\n  url: http://www.eclipse.org/org/documents/epl-v10.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-63357d92b1d7fd711b236251a81cb086233e5eb7",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-44bafa58-02f7-e83b-4fef-ebbe0f09c682",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Eclipse Public License - v 1.0\n  url: http://www.eclipse.org/org/documents/epl-v10.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.osgi/org.eclipse.osgi@3.7.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.eclipse.osgi/org.eclipse.osgi@3.7.1?classifier=sources&uuid=a0907299-6688-4041-8460-c497bb92dc99",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.osgi/org.eclipse.osgi@3.7.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/osgi/org.eclipse.osgi/3.7.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/osgi/org.eclipse.osgi/3.7.1/org.eclipse.osgi-3.7.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/osgi/org.eclipse.osgi/3.7.1/org.eclipse.osgi-3.7.1.pom",
+    "file_references": []
+}

@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.segments.web",
+    "version": "3.0.104",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3f132c9a-7ccb-45c2-9ee5-b249a155e113",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.segments.web@3.0.104?uuid=ae8386d1-6287-46d3-a773-f88fb8eff916",
+                "pkg:maven/com.liferay/com.liferay.segments.web@3.0.104?classifier=sources&uuid=8bfcbe71-29e7-4506-98ec-7d8affaa1e6f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Segments Web",
+    "release_date": "2023-08-11T00:00:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.segments.web/3.0.104/com.liferay.segments.web-3.0.104-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "80d342b18af9cf8dc3c41fd9fe8ce7b91570fc56",
+    "sha256": "6563b2784ea6326892b028de40fba69cfa9ebcb5a628f84fb9aeebee4bbe5b0a",
+    "sha512": "63c970e8a6af691b97f88953018021835d6f60ae8827b3b2360c264f285b4e789d8141cc84183cc74516fbff72bfa9c870a3193e643304ed89ea45633666b391",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR unknown-spdx",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.segments.web@3.0.104?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.segments.web@3.0.104?classifier=sources&uuid=8bfcbe71-29e7-4506-98ec-7d8affaa1e6f",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.segments.web@3.0.104?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.segments.web/3.0.104/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.segments.web/3.0.104/com.liferay.segments.web-3.0.104-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.segments.web/3.0.104/com.liferay.segments.web-3.0.104.pom",
+    "file_references": []
+}

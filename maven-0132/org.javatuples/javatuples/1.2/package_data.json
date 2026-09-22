@@ -1,0 +1,126 @@
+{
+    "type": "maven",
+    "namespace": "org.javatuples",
+    "name": "javatuples",
+    "version": "1.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "dd7d1cbb-2834-449b-ac7b-0b5c793e59c0",
+            "packages": [
+                "pkg:maven/org.javatuples/javatuples@1.2?uuid=6c5c9e92-5b9c-412b-b926-41510694a9e7",
+                "pkg:maven/org.javatuples/javatuples@1.2?classifier=sources&uuid=2802dd70-d114-4d72-95c3-83a0a70dbdc4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "javatuples\nJava library for tuples in Java.",
+    "release_date": "2011-10-15T17:42:59Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Daniel Fernandez",
+            "email": "dfernandez AT users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The JAVATUPLES team",
+            "email": null,
+            "url": "http://www.javatuples.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.javatuples.org",
+    "download_url": "https://repo1.maven.org/maven2/org/javatuples/javatuples/1.2/javatuples-1.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a7495f5370bdfcf46c6f3c6ed0badf52877aa467",
+    "sha256": "4ce31209fe06ced4c1977a19811e87257cef0e438023bc18682bbfa8ee69ea71",
+    "sha512": "f5879a4cf856386bf18907af3f9e38f041f69c412b66acf25002dc5c895da7bf91f08053a6f0c7aa985bdab74240a0ac09616edc1fc0a8cbe7d3a93bf710fc0b",
+    "bug_tracking_url": null,
+    "code_view_url": "scm:svn:http://java-tuples.svn.sourceforge.net/svnroot/java-tuples/tags/javatuples/javatuples-1.2",
+    "vcs_url": "svn+https://java-tuples.svn.sourceforge.net/svnroot/java-tuples/tags/javatuples/javatuples-1.2",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.javatuples/javatuples@1.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang@2.5",
+            "extracted_requirement": "2.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.8.2",
+            "extracted_requirement": "4.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.javatuples/javatuples@1.2?classifier=sources&uuid=2802dd70-d114-4d72-95c3-83a0a70dbdc4",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.javatuples/javatuples@1.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/javatuples/javatuples/1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/javatuples/javatuples/1.2/javatuples-1.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/javatuples/javatuples/1.2/javatuples-1.2.pom",
+    "file_references": []
+}

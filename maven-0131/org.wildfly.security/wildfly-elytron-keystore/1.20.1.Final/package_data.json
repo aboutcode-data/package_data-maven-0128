@@ -1,0 +1,160 @@
+{
+    "type": "maven",
+    "namespace": "org.wildfly.security",
+    "name": "wildfly-elytron-keystore",
+    "version": "1.20.1.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "663eabaa-d611-4ea6-bde7-e26eb5dca19a",
+            "packages": [
+                "pkg:maven/org.wildfly.security/wildfly-elytron-keystore@1.20.1.Final?uuid=82eb893e-618b-49d8-aac4-193df2005d06",
+                "pkg:maven/org.wildfly.security/wildfly-elytron-keystore@1.20.1.Final?classifier=sources&uuid=8a6b88df-12c8-4055-869a-782818549b33"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "WildFly Elytron - Credential\nWildFly Security Credential API",
+    "release_date": "2022-08-17T15:36:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/wildfly/security/wildfly-elytron-keystore/1.20.1.Final/wildfly-elytron-keystore-1.20.1.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f13b82b9cdaafc3693da7c424fa46a5ab07aabde",
+    "sha256": "6a73a5a462fcf208b43e8b5d557d8daf0633f4a476f798c9d42ab51b5682c7fd",
+    "sha512": "5f8b473766c461addb2be16997bd58527b6c9435fa5d3bee5b24ee4ceaac92294486088ab13eda0d1c57d6bda0d7c40242bcc6faf73c89b30cb56a794ea1ff05",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat, Inc., and individual contributors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.wildfly.security/wildfly-elytron-keystore@1.20.1.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-provider-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-x500-cert",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.common/wildfly-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-annotations",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-processor",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kohsuke.metainf-services/metainf-services",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-asn1",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-x500",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcmail-jdk15on",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.wildfly.security/wildfly-elytron-keystore@1.20.1.Final?classifier=sources&uuid=8a6b88df-12c8-4055-869a-782818549b33",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-keystore@1.20.1.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

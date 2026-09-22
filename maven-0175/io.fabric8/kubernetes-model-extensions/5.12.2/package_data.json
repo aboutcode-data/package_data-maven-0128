@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "io.fabric8",
+    "name": "kubernetes-model-extensions",
+    "version": "5.12.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4080c9e4-4bc7-4ba5-bfdf-643685a6676f",
+            "packages": [
+                "pkg:maven/io.fabric8/kubernetes-model-extensions@5.12.2?uuid=d49deef4-3796-4b70-8a2c-3cc72d3961bf",
+                "pkg:maven/io.fabric8/kubernetes-model-extensions@5.12.2?classifier=sources&uuid=a812e36a-9f09-4011-8106-65dfc8238132",
+                "pkg:github/fabric8io/kubernetes-client@v5.12.2?uuid=6af039a5-977e-45b8-90e8-aaf8698c1854"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Fabric8 :: Kubernetes Model :: Extensions",
+    "release_date": "2022-04-06T09:52:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Fabric8 Development Team",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Red Hat",
+            "email": null,
+            "url": "http://redhat.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://fabric8.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-extensions/5.12.2/kubernetes-model-extensions-5.12.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "194cac1aa4d0f0c8a36bd3906c2d04651673287e",
+    "sha256": "e2327911ed03109e9605a72ab88d7d716ae6c00ef9c149a6e863cdfdb78fbf54",
+    "sha512": "2814d1a493ce6a67b88618d60bfe51f6e9e7555b231db3edb279f6996e10a8b1130670ee110ad4a98c9524f682d6df443958236bbd4534fded2ab22752c5401c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.fabric8/kubernetes-model-extensions@5.12.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-model-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-model-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.fabric8/kubernetes-model-extensions@5.12.2?classifier=sources&uuid=a812e36a-9f09-4011-8106-65dfc8238132",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.fabric8/kubernetes-model-extensions@5.12.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-extensions/5.12.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-extensions/5.12.2/kubernetes-model-extensions-5.12.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-extensions/5.12.2/kubernetes-model-extensions-5.12.2.pom",
+    "file_references": []
+}

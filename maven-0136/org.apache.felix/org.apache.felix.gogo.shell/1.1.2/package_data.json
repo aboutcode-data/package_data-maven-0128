@@ -1,0 +1,110 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.felix",
+    "name": "org.apache.felix.gogo.shell",
+    "version": "1.1.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0bb7dbca-9b91-43f6-b6ab-e8cc8cd302b3",
+            "packages": [
+                "pkg:maven/org.apache.felix/org.apache.felix.gogo.shell@1.1.2?uuid=cd29d063-7b4d-4dc4-ba8c-9059c12b5ccc",
+                "pkg:maven/org.apache.felix/org.apache.felix.gogo.shell@1.1.2?classifier=sources&uuid=18c9f349-c170-48e0-8837-7995693683d3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Felix Gogo Shell",
+    "release_date": "2019-01-03T23:39:59Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://felix.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/1.1.2/org.apache.felix.gogo.shell-1.1.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d330f5e2f690a011a07300b1a6ba03b10a373c35",
+    "sha256": "eb72d975e634f7d1e44fb4da9780a0e3788e0921a1af890c729c032cdde5d24b",
+    "sha512": "2ab4a51e70611a7f3e0bf454c0341f1113551291aab45a7569b97eeffab4b4c6fa8aa00cb54c81f6372e1d80383568ba4ae6a208b9b07c09d59897082a57a5e3",
+    "bug_tracking_url": null,
+    "code_view_url": "https://svn.apache.org/repos/asf/felix/releases/org.apache.felix.gogo.shell-1.1.2",
+    "vcs_url": "svn+https://svn.apache.org/repos/asf/felix/releases/org.apache.felix.gogo.shell-1.1.2",
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.felix/org.apache.felix.gogo.shell@1.1.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@19",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@19"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.osgi/osgi.annotation",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/osgi.core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.apache.felix.gogo.runtime@1.1.2",
+            "extracted_requirement": "1.1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.felix/org.apache.felix.gogo.shell@1.1.2?classifier=sources&uuid=18c9f349-c170-48e0-8837-7995693683d3",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.felix/org.apache.felix.gogo.shell@1.1.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/1.1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/1.1.2/org.apache.felix.gogo.shell-1.1.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/1.1.2/org.apache.felix.gogo.shell-1.1.2.pom",
+    "file_references": []
+}

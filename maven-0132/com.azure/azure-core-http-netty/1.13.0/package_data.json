@@ -1,0 +1,260 @@
+{
+    "type": "maven",
+    "namespace": "com.azure",
+    "name": "azure-core-http-netty",
+    "version": "1.13.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4d773b04-3ec2-49be-867a-2d0d82454ff6",
+            "packages": [
+                "pkg:maven/com.azure/azure-core-http-netty@1.13.0?uuid=b10e160e-8e5d-4420-869a-06aff08ac40c",
+                "pkg:maven/com.azure/azure-core-http-netty@1.13.0?classifier=sources&uuid=80ec4c88-77c1-4ab0-a9fe-ec71f6d30e6e",
+                "pkg:github/azure/azure-sdk-for-java@azure-core-http-netty_1.13.0?uuid=0e449f5d-819a-4c38-8651-81c94e293bfa"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Microsoft Azure Netty HTTP Client Library\nThis package contains the Netty HTTP client plugin for azure-core.",
+    "release_date": "2023-02-01T22:42:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Microsoft",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/Azure/azure-sdk-for-java",
+    "download_url": "https://repo1.maven.org/maven2/com/azure/azure-core-http-netty/1.13.0/azure-core-http-netty-1.13.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a409dff4b004d4e4273f120acfdc5edb72770201",
+    "sha256": "4370d71882f72715213ac2b190f7f53098b17a3a06f14207bf80420bb859b5d8",
+    "sha512": "a8d104a628f95a8388880485a0d4eeb87086b61314d9c91205a3358e315c32bb7f6ef026dd2fe1fc7461503d9cb31ce3d1d319275ac92e93f865dbe9fd2bb050",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/Azure/azure-sdk-for-java",
+    "vcs_url": "git+https://github.com/Azure/azure-sdk-for-java.git",
+    "copyright": "Copyright (c) Microsoft",
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_26.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The MIT License (MIT)",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_26.RULE",
+                    "license_expression": "mit"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_82.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://opensource.org/licenses/MIT",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_82.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-eaccc7eb-1b49-2f2e-2c5f-0ccceab5f51a",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The MIT License (MIT)\n  url: http://opensource.org/licenses/MIT\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.azure/azure-core-http-netty@1.13.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.azure/azure-core@1.36.0",
+            "extracted_requirement": "1.36.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-handler@4.1.87.Final",
+            "extracted_requirement": "4.1.87.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-handler-proxy@4.1.87.Final",
+            "extracted_requirement": "4.1.87.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer@4.1.87.Final",
+            "extracted_requirement": "4.1.87.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec@4.1.87.Final",
+            "extracted_requirement": "4.1.87.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec-http@4.1.87.Final",
+            "extracted_requirement": "4.1.87.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec-http2@4.1.87.Final",
+            "extracted_requirement": "4.1.87.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.87.Final",
+            "extracted_requirement": "4.1.87.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.87.Final",
+            "extracted_requirement": "4.1.87.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.87.Final",
+            "extracted_requirement": "4.1.87.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-tcnative-boringssl-static@2.0.56.Final",
+            "extracted_requirement": "2.0.56.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.27",
+            "extracted_requirement": "1.0.27",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.azure/azure-core@1.36.0",
+            "extracted_requirement": "1.36.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.azure/azure-core-test@1.14.1",
+            "extracted_requirement": "1.14.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.projectreactor/reactor-test@3.4.26",
+            "extracted_requirement": "3.4.26",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.1",
+            "extracted_requirement": "5.9.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.1",
+            "extracted_requirement": "5.9.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.9.1",
+            "extracted_requirement": "5.9.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.tomakehurst/wiremock-standalone@2.24.1",
+            "extracted_requirement": "2.24.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@4.5.1",
+            "extracted_requirement": "4.5.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.azure/azure-core-http-netty@1.13.0?classifier=sources&uuid=80ec4c88-77c1-4ab0-a9fe-ec71f6d30e6e",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.azure/azure-core-http-netty@1.13.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/azure/azure-core-http-netty/1.13.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/azure/azure-core-http-netty/1.13.0/azure-core-http-netty-1.13.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/azure/azure-core-http-netty/1.13.0/azure-core-http-netty-1.13.0.pom",
+    "file_references": []
+}

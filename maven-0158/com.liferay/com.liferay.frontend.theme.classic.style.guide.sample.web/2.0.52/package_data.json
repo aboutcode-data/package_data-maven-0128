@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.frontend.theme.classic.style.guide.sample.web",
+    "version": "2.0.52",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a178bd0c-260c-48ae-8f39-f604229e3e42",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.frontend.theme.classic.style.guide.sample.web@2.0.52?uuid=47cf7f06-88e2-4f89-baeb-ee96e3459298",
+                "pkg:maven/com.liferay/com.liferay.frontend.theme.classic.style.guide.sample.web@2.0.52?classifier=sources&uuid=87a7ed3e-be25-4163-9b88-f82d3564391c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Frontend Theme Classic Style Guide Sample Web",
+    "release_date": "2023-05-04T16:18:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.theme.classic.style.guide.sample.web/2.0.52/com.liferay.frontend.theme.classic.style.guide.sample.web-2.0.52-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b8995679b931f8c502ed29625cf0ef3993aef9a5",
+    "sha256": "9c073fd08984fb66933ce5d0905d03aa41a44d690637814f8addd472c40c3f6e",
+    "sha512": "bf2a5e04a7be4ccfeb0c4d1ec06506082257478b7ca5f5078d4d42475dc19d2b4121d42063fe4f882f7c016dfde83a08a3e29540d30d6ee374ec92007cde25c1",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.frontend.theme.classic.style.guide.sample.web@2.0.52?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.frontend.theme.classic.style.guide.sample.web@2.0.52?classifier=sources&uuid=87a7ed3e-be25-4163-9b88-f82d3564391c",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.frontend.theme.classic.style.guide.sample.web@2.0.52?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

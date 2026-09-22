@@ -1,0 +1,127 @@
+{
+    "type": "maven",
+    "namespace": "io.zipkin.brave",
+    "name": "brave-instrumentation-spring-rabbit",
+    "version": "5.13.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9e8daf42-f46a-401f-9c3a-4def007e312a",
+            "packages": [
+                "pkg:maven/io.zipkin.brave/brave-instrumentation-spring-rabbit@5.13.9?uuid=9169ad87-2934-4de7-a6b5-5fa589584808",
+                "pkg:maven/io.zipkin.brave/brave-instrumentation-spring-rabbit@5.13.9?classifier=sources&uuid=d262de31-5e96-43de-9afb-2276a262a48f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Brave Instrumentation: Spring RabbitMQ",
+    "release_date": "2022-05-07T09:34:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "OpenZipkin Gitter",
+            "email": null,
+            "url": "https://gitter.im/openzipkin/zipkin"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "OpenZipkin",
+            "email": null,
+            "url": "https://zipkin.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/openzipkin/brave",
+    "download_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.13.9/brave-instrumentation-spring-rabbit-5.13.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "df86c41335a6af11556114d680ac3de574a445f2",
+    "sha256": "b37d32bf7357870b2aa58549b4401a6a2a95bf881539b90fe649d51b0a6d48bf",
+    "sha512": "5766e64127933ee0102169d130a8ef6c02594a462886c4058d4e811b56e396f731f4aac5adf1ff73ea33a10e9e51247c9fc548327fde763864d5372538ac0b2d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The OpenZipkin Authors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.zipkin.brave/brave-instrumentation-spring-rabbit@5.13.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.zipkin.brave/brave-instrumentation-messaging@5.13.9",
+            "extracted_requirement": "5.13.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-aop",
+            "extracted_requirement": "${spring5.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context",
+            "extracted_requirement": "${spring5.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.amqp/spring-rabbit",
+            "extracted_requirement": "${spring-rabbit.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.zipkin.brave/brave-tests@5.13.9",
+            "extracted_requirement": "5.13.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core",
+            "extracted_requirement": "${spring5.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testcontainers/testcontainers",
+            "extracted_requirement": "${testcontainers.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.zipkin.brave/brave-instrumentation-spring-rabbit@5.13.9?classifier=sources&uuid=d262de31-5e96-43de-9afb-2276a262a48f",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.zipkin.brave/brave-instrumentation-spring-rabbit@5.13.9?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

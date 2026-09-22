@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-undertow-spi",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4fc0b2cc-747c-4e2c-be39-b37a94726c51",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-undertow-spi@2.13.7.Final?uuid=b3e61251-bf0a-4046-a65e-a9b2c18ecf74",
+                "pkg:maven/io.quarkus/quarkus-undertow-spi@2.13.7.Final?classifier=sources&uuid=e413e5a4-72f6-4e77-9cb6-957aadf0fccd"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - Undertow - SPI",
+    "release_date": "2023-01-19T10:14:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-undertow-spi/2.13.7.Final/quarkus-undertow-spi-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d984e0ca5b77c6ab4005abadedbd55d9aeaf1253",
+    "sha256": "b0bf50ba003ab246e4178888f7309bbb1e132f34a54df1c41e23c80fcd66dea7",
+    "sha512": "f6089d847867ee7f2d1c04407640b2ca273e8acc9b2c0f74f5cf62ff659d4859cb1ebc8e30eeed8a2edf5f88865fd90a5471af82a47b8673a5cfd9c2c663e4ed",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-undertow-spi@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.quarkus.http/quarkus-http-servlet",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jakarta.servlet/jakarta.servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-core-deployment",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.metadata/jboss-metadata-web",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-undertow-spi@2.13.7.Final?classifier=sources&uuid=e413e5a4-72f6-4e77-9cb6-957aadf0fccd",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-undertow-spi@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

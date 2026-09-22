@@ -1,0 +1,115 @@
+{
+    "type": "maven",
+    "namespace": "ognl",
+    "name": "ognl",
+    "version": "3.0.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f75858d2-f4a6-471d-900b-c2cdf12975cf",
+            "packages": [
+                "pkg:maven/ognl/ognl@3.0.8?uuid=cb285fd7-6ab2-4c5d-8623-9ede2e1df276",
+                "pkg:maven/ognl/ognl@3.0.8?classifier=sources&uuid=583afde5-95ec-44ae-9459-0a82b2a554bf"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "OGNL - Object Graph Navigation Library",
+    "release_date": "2013-09-24T05:54:30Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": "lukaszlenart@apache.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "OpenSymphony",
+            "email": null,
+            "url": "http://www.opensymphony.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://ognl.org",
+    "download_url": "https://repo1.maven.org/maven2/ognl/ognl/3.0.8/ognl-3.0.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1b6bace3760cdf6dfb2c0fea0b266fa9d802c403",
+    "sha256": "32b149a07c5ae81ba33e438633d0b077ee8f73ed74239e46fdba73cf9af077a5",
+    "sha512": "60fe84fdbac19fabfabeda2631b6c630b789abcae56bf74f5304084d82a30e2b77136942f1f171c8d65923f4862da8793e628014f958f2df808a47811f4bd294",
+    "bug_tracking_url": "http://jira.opensymphony.com/browse/OGNL",
+    "code_view_url": "https://github.com/jkuhnert/ognl.git",
+    "vcs_url": "git+https://github.com/jkuhnert/ognl.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/ognl/ognl@3.0.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.9",
+            "extracted_requirement": "4.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock@2.3",
+            "extracted_requirement": "2.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javassist/javassist@3.11.0.GA",
+            "extracted_requirement": "3.11.0.GA",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/ognl/ognl@3.0.8?classifier=sources&uuid=583afde5-95ec-44ae-9459-0a82b2a554bf",
+    "datasource_id": null,
+    "purl": "pkg:maven/ognl/ognl@3.0.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/ognl/ognl/3.0.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/ognl/ognl/3.0.8/ognl-3.0.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/ognl/ognl/3.0.8/ognl-3.0.8.pom",
+    "file_references": []
+}

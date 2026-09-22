@@ -1,0 +1,105 @@
+{
+    "type": "maven",
+    "namespace": "org.bouncycastle",
+    "name": "bcpkix-jdk18on",
+    "version": "1.72",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8c15d948-aa00-487f-8143-4b227674c6da",
+            "packages": [
+                "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.72?uuid=85d4ef82-840a-431a-8ecc-3468e0f492fc",
+                "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.72?classifier=sources&uuid=c9dfa832-1aa9-4a89-8ef8-128a49162193"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs\nThe Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation. This jar contains APIs for JDK 1.8 and up. The APIs can be used in conjunction with a JCE/JCA provider such as the one provided with the Bouncy Castle Cryptography APIs.",
+    "release_date": "2022-09-28T23:05:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Legion of the Bouncy Castle Inc.",
+            "email": "feedback-crypto@bouncycastle.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.bouncycastle.org/java.html",
+    "download_url": "https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.72/bcpkix-jdk18on-1.72-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6fa7015a0be76b270e911bf426abf8efd1c5e42d",
+    "sha256": "8d0444699ddacc0a150b5e2bbdc0e98048783e6b227f98448a1bf49eefa1a1da",
+    "sha512": "d6e4729cb343cabb9093477ce9c50803f98a4c1c62d3ef8ff61496de66ce28a54cc87eac403b7bec5a24356f92c86c86b56ce81c466b51cc692aee48232d6651",
+    "bug_tracking_url": "https://github.com/bcgit/bc-java/issues",
+    "code_view_url": "https://github.com/bcgit/bc-java",
+    "vcs_url": "https://github.com/bcgit/bc-java",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 90.0,
+                    "matcher": "3-seq",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_1264.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Bouncy Castle Licence\n  url: https://www.bouncycastle.org/licence.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_1264.RULE",
+                    "license_expression": "mit",
+                    "license_expression_spdx": "MIT"
+                }
+            ],
+            "identifier": "mit-80ca9099-d3a7-3201-9d1c-c76d2dcee0f4",
+            "license_expression": "mit",
+            "license_expression_spdx": "MIT"
+        }
+    ],
+    "other_license_expression": "public-domain",
+    "other_license_expression_spdx": "LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Bouncy Castle Licence\n  url: https://www.bouncycastle.org/licence.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.72?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.72",
+            "extracted_requirement": "1.72",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.72",
+            "extracted_requirement": "1.72",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.72?classifier=sources&uuid=c9dfa832-1aa9-4a89-8ef8-128a49162193",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.72?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.72/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.72/bcpkix-jdk18on-1.72-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.72/bcpkix-jdk18on-1.72.pom",
+    "file_references": []
+}

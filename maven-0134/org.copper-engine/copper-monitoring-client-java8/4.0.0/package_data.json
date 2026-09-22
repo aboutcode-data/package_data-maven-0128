@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.copper-engine",
+    "name": "copper-monitoring-client-java8",
+    "version": "4.0.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "COPPER high-performance workflow engine\nCOPPER is an open-source, powerful, light-weight, and easily configurable workflow engine. The power of COPPER is that it uses Java as a description language for workflows.",
+    "release_date": "2016-04-13T07:09:47Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Copper Engine Development Team",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://copper-engine.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/copper-engine/copper-monitoring-client-java8/4.0.0/copper-monitoring-client-java8-4.0.0.jar",
+    "size": 1762,
+    "md5": null,
+    "sha1": "98c773d7d32179f21da9aad043c3325846e75eb8",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.copper-engine/copper-monitoring-client-java8@4.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.copper-engine/copper-monitoring-client",
+            "extracted_requirement": "4.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.12",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": "1.9.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.copper-engine/copper-monitoring-client-java8@4.0.0?uuid=bff10206-77dc-45c7-a6a2-89367668f803",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.copper-engine/copper-monitoring-client-java8@4.0.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/copper-engine/copper-monitoring-client-java8/4.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/copper-engine/copper-monitoring-client-java8/4.0.0/copper-monitoring-client-java8-4.0.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/copper-engine/copper-monitoring-client-java8/4.0.0/copper-monitoring-client-java8-4.0.0.pom",
+    "file_references": []
+}

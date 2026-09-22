@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.configuration.admin.web",
+    "version": "3.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "bfef6551-d8d3-4a8a-832d-768ac7c5a8e3",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.configuration.admin.web@3.0.0?uuid=cb6b31bd-ea65-42c2-84ab-6d1530828e47",
+                "pkg:maven/com.liferay/com.liferay.configuration.admin.web@3.0.0?classifier=sources&uuid=2e4df11f-e491-4d1c-a1ea-c338763c400e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Configuration Admin Web",
+    "release_date": "2019-04-25T22:57:32Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.configuration.admin.web/3.0.0/com.liferay.configuration.admin.web-3.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "27157f8f7923bb8b3cf47d6ba087d339f3fcb86a",
+    "sha256": "00e9fdf66f17a36251f15c73d7e2f77546f829050d85bb59f080ed366d68d1ed",
+    "sha512": "3733f66b4e85adb006387ec8d15fdd1e0929c3465c8ee2a7668c2ef9ff306efe459255095310e20735c2edc0259df91078afcea3dd10d9d9f941ee629d908ba3",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.configuration.admin.web@3.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.configuration.admin.web@3.0.0?classifier=sources&uuid=2e4df11f-e491-4d1c-a1ea-c338763c400e",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.configuration.admin.web@3.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.configuration.admin.web/3.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.configuration.admin.web/3.0.0/com.liferay.configuration.admin.web-3.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.configuration.admin.web/3.0.0/com.liferay.configuration.admin.web-3.0.0.pom",
+    "file_references": []
+}

@@ -1,0 +1,166 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.jersey.containers",
+    "name": "jersey-container-servlet-core",
+    "version": "2.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "969cd3b3-2534-4fea-96bd-764236624180",
+            "packages": [
+                "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.6?uuid=81488ff6-7569-43d6-8b16-6d4e9ab47d8c",
+                "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.6?classifier=sources&uuid=ab978c9e-0ed0-4e70-8551-8a84f60aa3f3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jersey-container-servlet-core\nJersey core Servlet 2.x implementation",
+    "release_date": "2014-02-18T20:55:45Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Pavel Bucek",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jakub Podlesak",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Santiago Pericas-Geertsen",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marek Potociar",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Matula",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michal Gajdos",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Miroslav Fuksa",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stepan Kopriva",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Libor Kramolis",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Adam Lindenthal",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle Corporation",
+            "email": null,
+            "url": "http://www.oracle.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://java.net/",
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.6/jersey-container-servlet-core-2.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "eea62f75f9732101b6f04e3a3c2d4ade0aa655d4",
+    "sha256": "b3ffa7890e8026cad379253e2c0c81a743bb2745f9e2b2158ef153a18c9f065c",
+    "sha512": "7fc69fe515e0e5ef0bf7448f8d94c2b8d993af6f66e8746d9fec2b5132b4f14808b9defaac976ebf0c17f82ac84eac29a934af7f1fa77bb9c2c21891ce418b4c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "(cddl-1.0 OR gpl-2.0) AND cddl-1.1",
+    "declared_license_expression_spdx": "(CDDL-1.0 OR GPL-2.0-only) AND CDDL-1.1",
+    "license_detections": [],
+    "other_license_expression": "cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0",
+    "other_license_expression_spdx": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": "${servlet2.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.persistence/persistence-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.hk2.external/javax.inject",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.core/jersey-server@2.6",
+            "extracted_requirement": "2.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.6?classifier=sources&uuid=ab978c9e-0ed0-4e70-8551-8a84f60aa3f3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.6/jersey-container-servlet-core-2.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.6/jersey-container-servlet-core-2.6.pom",
+    "file_references": []
+}

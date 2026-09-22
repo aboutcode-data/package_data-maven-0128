@@ -1,0 +1,75 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.external",
+    "name": "management-api",
+    "version": "3.1.0-b001",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "management-api\nGlassFish Common APIs",
+    "release_date": "2010-11-12T19:32:26Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Sun Microsystems",
+            "email": null,
+            "url": "http://www.sun.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://kenai.com/hg/gmbal~gf_common",
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/external/management-api/3.1.0-b001/management-api-3.1.0-b001.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "392870ed32dfad9dc91b6ba783d155d32cc85c1d",
+    "sha256": "b4d81c7235f7157f820937e19ba34604b8e3841a2c730badeb0d46e4502c1d2d",
+    "sha512": "32498afb61917bcba6293394636d61f927b908892244fa4d58b635d23806ee78ecef91c474130568e6e6c693c7cc133945c4eb62597527c96d9b8d5568f1373d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-fcfa9a6f604e8d0d91409d4fe9e6ce7f3571d940",
+                    "start_line": 1,
+                    "matched_text": "license - name: CDDL+GPL\n  url: https://glassfish.dev.java.net/public/CDDL+GPL.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 12,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-fcfa9a6f604e8d0d91409d4fe9e6ce7f3571d940",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-4b502be4-847e-3f88-7c73-ffaa743f9d76",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": "(gpl-1.0-plus AND gpl-2.0) AND (gpl-1.0-plus AND gpl-2.0 AND classpath-exception-2.0 AND liferay-ee AND cpal-1.0 AND cddl-1.1) AND unknown-license-reference",
+    "other_license_expression_spdx": "(GPL-1.0-or-later AND GPL-2.0-only) AND (GPL-1.0-or-later AND GPL-2.0-only AND Classpath-exception-2.0 AND LicenseRef-scancode-liferay-ee AND CPAL-1.0 AND CDDL-1.1) AND LicenseRef-scancode-unknown-license-reference",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: CDDL+GPL\n  url: https://glassfish.dev.java.net/public/CDDL+GPL.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.external/management-api@3.1.0-b001?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.glassfish.external/management-api@3.1.0-b001?uuid=592f6235-49d4-48a9-9d29-1a2b8fb83e4d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.external/management-api@3.1.0-b001",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/external/management-api/3.1.0-b001/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/external/management-api/3.1.0-b001/management-api-3.1.0-b001.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/external/management-api/3.1.0-b001/management-api-3.1.0-b001.pom",
+    "file_references": []
+}

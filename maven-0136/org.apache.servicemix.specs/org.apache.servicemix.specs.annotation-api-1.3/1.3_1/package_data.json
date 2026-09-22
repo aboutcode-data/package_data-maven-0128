@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.servicemix.specs",
+    "name": "org.apache.servicemix.specs.annotation-api-1.3",
+    "version": "1.3_1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7787c810-9754-4ee4-96e0-af91954cbcc7",
+            "packages": [
+                "pkg:maven/org.apache.servicemix.specs/org.apache.servicemix.specs.annotation-api-1.3@1.3_1?uuid=e5c02c46-6119-4681-86bf-0c4a7847972e",
+                "pkg:maven/org.apache.servicemix.specs/org.apache.servicemix.specs.annotation-api-1.3@1.3_1?classifier=sources&uuid=f0821c5b-4dc0-4a0e-b28b-ecd44a7bafd8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache ServiceMix :: Specs :: Annotation API 1.3",
+    "release_date": "2018-05-16T08:17:05Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/servicemix/specs/org.apache.servicemix.specs.annotation-api-1.3/1.3_1/org.apache.servicemix.specs.annotation-api-1.3-1.3_1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "30b4c71ea50b4e254572858a1e378abcc771e78c",
+    "sha256": "59593cb7431d2e8cb58f77d2014f0bb21806aa79e16e104f04581f6d0ff804ca",
+    "sha512": "c49cb2e294ca9d01c5903ea4f9156b7d08af2e14cd76d345c7cd53ea9bf69847c55f2ad79db910d4e0b53b168961a9c0793cc0c7e68378ecccf7567e14580cdd",
+    "bug_tracking_url": null,
+    "code_view_url": "https://git-wip-us.apache.org/repos/asf?p=servicemix-specs.git",
+    "vcs_url": "git+https://git-wip-us.apache.org/repos/asf/servicemix-specs.git",
+    "copyright": "Copyright (c) Oracle and/or its affiliates",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (gpl-2.0 WITH classpath-exception-2.0 OR cddl-1.1) AND ((cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND (gpl-2.0 WITH classpath-exception-2.0 OR cddl-1.1) AND apache-2.0) AND (gpl-2.0 WITH classpath-exception-2.0 OR cddl-1.0)",
+    "other_license_expression_spdx": "Apache-2.0 AND (GPL-2.0-only WITH Classpath-exception-2.0 OR CDDL-1.1) AND ((CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND (GPL-2.0-only WITH Classpath-exception-2.0 OR CDDL-1.1) AND Apache-2.0) AND (GPL-2.0-only WITH Classpath-exception-2.0 OR CDDL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.servicemix.specs/org.apache.servicemix.specs.annotation-api-1.3@1.3_1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.servicemix.specs/org.apache.servicemix.specs.locator@2.10",
+            "extracted_requirement": "2.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.servicemix.specs/org.apache.servicemix.specs.annotation-api-1.3@1.3_1?classifier=sources&uuid=f0821c5b-4dc0-4a0e-b28b-ecd44a7bafd8",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.servicemix.specs/org.apache.servicemix.specs.annotation-api-1.3@1.3_1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/servicemix/specs/org.apache.servicemix.specs.annotation-api-1.3/1.3_1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/servicemix/specs/org.apache.servicemix.specs.annotation-api-1.3/1.3_1/org.apache.servicemix.specs.annotation-api-1.3-1.3_1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/servicemix/specs/org.apache.servicemix.specs.annotation-api-1.3/1.3_1/org.apache.servicemix.specs.annotation-api-1.3-1.3_1.pom",
+    "file_references": []
+}

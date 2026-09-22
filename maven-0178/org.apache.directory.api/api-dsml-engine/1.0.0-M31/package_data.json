@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.directory.api",
+    "name": "api-dsml-engine",
+    "version": "1.0.0-M31",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "89b22d04-2344-47a7-8468-732b5cca8026",
+            "packages": [
+                "pkg:maven/org.apache.directory.api/api-dsml-engine@1.0.0-M31?uuid=6bda59e0-b9d9-46c4-8667-5b25933a448c",
+                "pkg:maven/org.apache.directory.api/api-dsml-engine@1.0.0-M31?classifier=sources&uuid=70b64690-4dc8-4367-80e5-794e4055715b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Directory LDAP API DSML Engine",
+    "release_date": "2015-06-30T16:55:25Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-dsml-engine/1.0.0-M31/api-dsml-engine-1.0.0-M31-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "02bd7eeef3bd936845e73dc222e09d429cd33665",
+    "sha256": "24e4ed66696e704ae34649ab1ebd9cd3e6ecb729c6ed7d6b7a4acf9e5689e0a8",
+    "sha512": "5ad02bdc69c013e1c1e7ff1cbc3918093868051475539d4acb58042a595eb87f20392670298495e1be67d5ea7a70c0cf62d221cfcaba729821ba050588c65d01",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND mit)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.directory.api/api-dsml-engine@1.0.0-M31?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-i18n",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-dsml-parser",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-ldap-client-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.xpp3",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.dom4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.directory.api/api-dsml-engine@1.0.0-M31?classifier=sources&uuid=70b64690-4dc8-4367-80e5-794e4055715b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.directory.api/api-dsml-engine@1.0.0-M31?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-dsml-engine/1.0.0-M31/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-dsml-engine/1.0.0-M31/api-dsml-engine-1.0.0-M31-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-dsml-engine/1.0.0-M31/api-dsml-engine-1.0.0-M31.pom",
+    "file_references": []
+}

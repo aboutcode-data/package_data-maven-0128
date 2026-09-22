@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.xwiki.rendering",
+    "name": "xwiki-rendering-syntax-wikimodel",
+    "version": "9.4-rc-1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "XWiki Rendering - Syntax - WikiModel Bridge\nBridge WikiModel Model and XWiki Rendering Model",
+    "release_date": "2017-05-23T14:34:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-syntax-wikimodel/9.4-rc-1/xwiki-rendering-syntax-wikimodel-9.4-rc-1.jar",
+    "size": 35319,
+    "md5": null,
+    "sha1": "a8e693cde412892299a5dde9c15373d1fe81efa0",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.xwiki.rendering/xwiki-rendering-syntax-wikimodel@9.4-rc-1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.xwiki.rendering/xwiki-rendering-wikimodel",
+            "extracted_requirement": "9.4-rc-1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xwiki.commons/xwiki-commons-xml",
+            "extracted_requirement": "${commons.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xwiki.rendering/xwiki-rendering-syntax-plain",
+            "extracted_requirement": "9.4-rc-1",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xwiki.rendering/xwiki-rendering-test",
+            "extracted_requirement": "9.4-rc-1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.xwiki.rendering/xwiki-rendering-syntax-wikimodel@9.4-rc-1?uuid=16f60655-1bb3-4ef5-b913-50a555f6fa8f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.xwiki.rendering/xwiki-rendering-syntax-wikimodel@9.4-rc-1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-syntax-wikimodel/9.4-rc-1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-syntax-wikimodel/9.4-rc-1/xwiki-rendering-syntax-wikimodel-9.4-rc-1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-syntax-wikimodel/9.4-rc-1/xwiki-rendering-syntax-wikimodel-9.4-rc-1.pom",
+    "file_references": []
+}

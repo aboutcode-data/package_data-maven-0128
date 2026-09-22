@@ -1,0 +1,116 @@
+{
+    "type": "maven",
+    "namespace": "com.fasterxml.jackson.core",
+    "name": "jackson-core",
+    "version": "2.14.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "20cb0b8e-5842-4c37-a85e-08243bc82e96",
+            "packages": [
+                "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.0?uuid=2ae0148b-88d7-4f25-b1ce-7e91dd729d15",
+                "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.0?classifier=sources&uuid=21e06ee3-6f56-4696-b924-673ff7b122a0",
+                "pkg:github/fasterxml/jackson-core@jackson-core-2.14.0?uuid=5552e5d3-83ee-44ad-90d0-52d82dae4cd7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jackson-core\nCore Jackson processing abstractions (aka Streaming API), implementation for JSON",
+    "release_date": "2022-11-05T20:38:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tatu Saloranta",
+            "email": "tatu@fasterxml.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "FasterXML",
+            "email": null,
+            "url": "http://fasterxml.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/FasterXML/jackson-core",
+    "download_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.14.0/jackson-core-2.14.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d030def6b745dfc2330741e5c49b86e71c398165",
+    "sha256": "698c16d35e2f1a103760a2970c47f8a84861b856e88a055132537e17f3abef9a",
+    "sha512": "e40581e19e99b2a58ca375cfec4dd16529e322b373c63807d0c5c3d11203498c8e47b71f0505731606b4624887dff5ce6c1c3ac38cc04d1051537eddfe0c4ade",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/FasterXML/jackson-core",
+    "vcs_url": "git+https://github.com/FasterXML/jackson-core.git",
+    "copyright": "",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_884.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_884.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-1dbda71e-19ae-9130-098e-68c493ebaced",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.fasterxml/oss-parent@48"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.junit.vintage/junit-vintage-engine@5.8.2",
+            "extracted_requirement": "5.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter@5.8.2",
+            "extracted_requirement": "5.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.0?classifier=sources&uuid=21e06ee3-6f56-4696-b924-673ff7b122a0",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.14.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.14.0/jackson-core-2.14.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.14.0/jackson-core-2.14.0.pom",
+    "file_references": []
+}

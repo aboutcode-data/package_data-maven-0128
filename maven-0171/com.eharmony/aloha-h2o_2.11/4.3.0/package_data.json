@@ -1,0 +1,143 @@
+{
+    "type": "maven",
+    "namespace": "com.eharmony",
+    "name": "aloha-h2o_2.11",
+    "version": "4.3.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "aloha-h2o",
+    "release_date": "2017-07-07T18:31:17Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "R M Deak",
+            "email": null,
+            "url": "https://deaktator.github.io"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.eharmony",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/eharmony/aloha",
+    "download_url": "https://repo1.maven.org/maven2/com/eharmony/aloha-h2o_2.11/4.3.0/aloha-h2o_2.11-4.3.0.jar",
+    "size": 297286,
+    "md5": null,
+    "sha1": "00ba8e4117d36b0ef1a1eb0e681338e610f4ca33",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit AND mit AND unknown",
+    "declared_license_expression_spdx": "MIT AND MIT AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT License\nhttps://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.eharmony/aloha-h2o_2.11@4.3.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.eharmony/aloha-core_2.11",
+            "extracted_requirement": "4.3.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ai.h2o/h2o-core",
+            "extracted_requirement": "3.8.2.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ai.h2o/h2o-genmodel",
+            "extracted_requirement": "3.8.2.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.scopt/scopt_2.11",
+            "extracted_requirement": "3.3.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.eharmony/aloha-io-proto_2.11",
+            "extracted_requirement": "4.3.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.novocode/junit-interface",
+            "extracted_requirement": "0.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": "1.7.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.eharmony/aloha-h2o_2.11@4.3.0?uuid=63171063-fa36-4116-9996-eb87768367e0",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.eharmony/aloha-h2o_2.11@4.3.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/eharmony/aloha-h2o_2.11/4.3.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/eharmony/aloha-h2o_2.11/4.3.0/aloha-h2o_2.11-4.3.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/eharmony/aloha-h2o_2.11/4.3.0/aloha-h2o_2.11-4.3.0.pom",
+    "file_references": []
+}

@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.graylog.autovalue",
+    "name": "auto-value-javabean",
+    "version": "2.3.0-alpha.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "AutoValue JavaBean extension",
+    "release_date": "2017-05-24T15:12:30Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/graylog/autovalue/auto-value-javabean/2.3.0-alpha.3/auto-value-javabean-2.3.0-alpha.3.jar",
+    "size": 6030,
+    "md5": null,
+    "sha1": "487c2604e98d3e6c67abac649c901d29611bd24b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.graylog.autovalue/auto-value-javabean@2.3.0-alpha.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.squareup/javapoet",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.auto.value/auto-value",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.gabrielittner.auto.value/auto-value-extension-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.graylog.autovalue/auto-value-javabean@2.3.0-alpha.3?uuid=d2ea7617-d9be-418e-8033-673dd234a517",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.graylog.autovalue/auto-value-javabean@2.3.0-alpha.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/graylog/autovalue/auto-value-javabean/2.3.0-alpha.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/graylog/autovalue/auto-value-javabean/2.3.0-alpha.3/auto-value-javabean-2.3.0-alpha.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/graylog/autovalue/auto-value-javabean/2.3.0-alpha.3/auto-value-javabean-2.3.0-alpha.3.pom",
+    "file_references": []
+}

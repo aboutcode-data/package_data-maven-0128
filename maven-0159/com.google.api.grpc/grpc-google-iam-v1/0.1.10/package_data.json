@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "com.google.api.grpc",
+    "name": "grpc-google-iam-v1",
+    "version": "0.1.10",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "com.google.api.grpc:grpc-google-iam-v1\nGRPC library for grpc-google-iam-v1",
+    "release_date": "2017-05-18T00:18:28Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Google Inc",
+            "email": "googleapis-packages@google.com",
+            "url": "https://github.com/googleapis/googleapis"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/googleapis/googleapis",
+    "download_url": "https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-iam-v1/0.1.10/grpc-google-iam-v1-0.1.10.jar",
+    "size": 9365,
+    "md5": null,
+    "sha1": "b6899564f07fb1a49ccbed1ce2a24953ec0fa3ab",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache-2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.api.grpc/grpc-google-iam-v1@0.1.10?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.grpc/grpc-stub",
+            "extracted_requirement": "1.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-protobuf",
+            "extracted_requirement": "1.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api.grpc/proto-google-iam-v1",
+            "extracted_requirement": "0.1.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.api.grpc/grpc-google-iam-v1@0.1.10?uuid=a14242b2-c3c1-4157-a370-9a8356cd2ad1",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.api.grpc/grpc-google-iam-v1@0.1.10",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-iam-v1/0.1.10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-iam-v1/0.1.10/grpc-google-iam-v1-0.1.10.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/api/grpc/grpc-google-iam-v1/0.1.10/grpc-google-iam-v1-0.1.10.pom",
+    "file_references": []
+}

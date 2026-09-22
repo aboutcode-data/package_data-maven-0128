@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "com.google.uzaygezen",
+    "name": "uzaygezen-core",
+    "version": "0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "effae06b-d42f-406f-bdfd-fd1b90c3c3fd",
+            "packages": [
+                "pkg:maven/com.google.uzaygezen/uzaygezen-core@0.2?uuid=38c6ad6f-ec6e-4c53-aa43-4403f44e7ae5",
+                "pkg:maven/com.google.uzaygezen/uzaygezen-core@0.2?classifier=sources&uuid=c7886408-cd44-4fb1-adb1-1772557cb26b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Uzaygezen-core",
+    "release_date": "2014-06-16T22:54:37Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://code.google.com/p/uzaygezen",
+    "download_url": "https://repo1.maven.org/maven2/com/google/uzaygezen/uzaygezen-core/0.2/uzaygezen-core-0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "37c6928fad84d1dd77e4e786859be3200bec6cc5",
+    "sha256": "3052de85f134d30120f762a062784cf96bcce3ef907a590abe800a3ea0f48ab4",
+    "sha512": "4ededed6dd838d807b4ea836645982c8cf8c1f428af2b5ad3e68e4de29408c0c93c248910cf35271178ddcd45d49a4fe0294e9d6b07e7a5f6914601679abb493",
+    "bug_tracking_url": null,
+    "code_view_url": "https://uzaygezen.googlecode.com/svn/tags/uzaygezen-core-0.2",
+    "vcs_url": "svn+https://uzaygezen.googlecode.com/svn/tags/uzaygezen-core-0.2",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.uzaygezen/uzaygezen-core@0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3@3.1",
+            "extracted_requirement": "3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava@14.0-rc1",
+            "extracted_requirement": "14.0-rc1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.17",
+            "extracted_requirement": "1.2.17",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock@3.1",
+            "extracted_requirement": "3.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-core@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.hbase/hbase@0.94.2",
+            "extracted_requirement": "0.94.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.uzaygezen/uzaygezen-core@0.2?classifier=sources&uuid=c7886408-cd44-4fb1-adb1-1772557cb26b",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.uzaygezen/uzaygezen-core@0.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/uzaygezen/uzaygezen-core/0.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/uzaygezen/uzaygezen-core/0.2/uzaygezen-core-0.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/uzaygezen/uzaygezen-core/0.2/uzaygezen-core-0.2.pom",
+    "file_references": []
+}

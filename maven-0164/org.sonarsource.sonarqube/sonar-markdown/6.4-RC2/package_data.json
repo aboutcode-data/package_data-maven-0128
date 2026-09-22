@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.sonarsource.sonarqube",
+    "name": "sonar-markdown",
+    "version": "6.4-RC2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "SonarQube :: Markdown",
+    "release_date": "2017-05-22T12:12:05Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/sonarsource/sonarqube/sonar-markdown/6.4-RC2/sonar-markdown-6.4-RC2.jar",
+    "size": 19257,
+    "md5": null,
+    "sha1": "588c3826956b8c0bc48353e9d86f2df9bd7d4350",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.sonarsource.sonarqube/sonar-markdown@6.4-RC2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.sonar/sonar-channel",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.sonarsource.sonarqube/sonar-markdown@6.4-RC2?uuid=b8bb4455-bb04-4c3e-9667-4c60d8c62c3b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.sonarsource.sonarqube/sonar-markdown@6.4-RC2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/sonarsource/sonarqube/sonar-markdown/6.4-RC2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/sonarsource/sonarqube/sonar-markdown/6.4-RC2/sonar-markdown-6.4-RC2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/sonarsource/sonarqube/sonar-markdown/6.4-RC2/sonar-markdown-6.4-RC2.pom",
+    "file_references": []
+}

@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.popperfw",
+    "name": "core",
+    "version": "0.8.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Popper Framework Core\nDefinition of the interfaces and base classes all Popper Framework\n\t\timplementations depend on",
+    "release_date": "2017-05-22T22:29:13Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Michael Bulla",
+            "email": "michaelbulla@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/popperfw/core/0.8.3/core-0.8.3.jar",
+    "size": 29366,
+    "md5": null,
+    "sha1": "fe370416abf8ad754a004c8530c4af210baf3d4e",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.popperfw/core@0.8.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jgrapht/jgrapht-core",
+            "extracted_requirement": "0.9.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javassist/javassist",
+            "extracted_requirement": "3.12.1.GA",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": "1.2.13",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.popperfw/core@0.8.3?uuid=b6241bae-de5f-4dfc-8bda-5b2a4d283dfb",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.popperfw/core@0.8.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/popperfw/core/0.8.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/popperfw/core/0.8.3/core-0.8.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/popperfw/core/0.8.3/core-0.8.3.pom",
+    "file_references": []
+}

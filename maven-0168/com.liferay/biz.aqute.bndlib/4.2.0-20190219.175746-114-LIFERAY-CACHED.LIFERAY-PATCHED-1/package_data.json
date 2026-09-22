@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "biz.aqute.bndlib",
+    "version": "4.2.0-20190219.175746-114-LIFERAY-CACHED.LIFERAY-PATCHED-1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "95f23bbb-4e5b-4e4c-920f-0242a73aa3cc",
+            "packages": [
+                "pkg:maven/com.liferay/biz.aqute.bndlib@4.2.0-20190219.175746-114-LIFERAY-CACHED.LIFERAY-PATCHED-1?uuid=d044a57a-6668-40b7-b8a0-884c91690d30",
+                "pkg:maven/com.liferay/biz.aqute.bndlib@4.2.0-20190219.175746-114-LIFERAY-CACHED.LIFERAY-PATCHED-1?classifier=sources&uuid=5a4800cc-84bb-4c20-8fbf-74cb07065cff"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/biz.aQute.bndlib/4.2.0-20190219.175746-114-LIFERAY-CACHED.LIFERAY-PATCHED-1/biz.aQute.bndlib-4.2.0-20190219.175746-114-LIFERAY-CACHED.LIFERAY-PATCHED-1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "89e48e097be3749a9dba157baffa7a38cb0d010f",
+    "sha256": "2d492b7d22b0b4597368a973f8690a27fb5e432375bf9138563df60111dc7332",
+    "sha512": "5c49aa1dc7b2683ab057cbe3e18c54459edfc674fb5db4d625d843c37bc73b7597f557715b96fcc8d684f1009a1d199c5dcc5a418ff2abb5861b57c8c11623e6",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND public-domain AND unknown-license-reference AND (apache-2.0 AND (lgpl-2.1 OR apache-2.0)) AND bsd-new AND (bsd-simplified AND bsd-2-clause-views AND bsd-new) AND (cddl-1.0 AND cddl-1.1) AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND cpl-1.0 AND (cpl-1.0 AND free-unknown) AND (gpl-1.0-plus AND unknown-license-reference AND gpl-2.0) AND gpl-3.0 AND (josl-1.0 AND apache-2.0) AND mit AND mpl-2.0 AND (unknown-license-reference AND epl-1.0) AND (unknown-license-reference AND lgpl-2.1)",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-public-domain AND LicenseRef-scancode-unknown-license-reference AND (Apache-2.0 AND (LGPL-2.1-only OR Apache-2.0)) AND BSD-3-Clause AND (BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause) AND (CDDL-1.0 AND CDDL-1.1) AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND CPL-1.0 AND (CPL-1.0 AND LicenseRef-scancode-free-unknown) AND (GPL-1.0-or-later AND LicenseRef-scancode-unknown-license-reference AND GPL-2.0-only) AND GPL-3.0-only AND (LicenseRef-scancode-josl-1.0 AND Apache-2.0) AND MIT AND MPL-2.0 AND (LicenseRef-scancode-unknown-license-reference AND EPL-1.0) AND (LicenseRef-scancode-unknown-license-reference AND LGPL-2.1-only)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/biz.aQute.bndlib@4.2.0-20190219.175746-114-LIFERAY-CACHED.LIFERAY-PATCHED-1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/biz.aqute.bndlib@4.2.0-20190219.175746-114-LIFERAY-CACHED.LIFERAY-PATCHED-1?classifier=sources&uuid=5a4800cc-84bb-4c20-8fbf-74cb07065cff",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/biz.aqute.bndlib@4.2.0-20190219.175746-114-LIFERAY-CACHED.LIFERAY-PATCHED-1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/biz.aQute.bndlib/4.2.0-20190219.175746-114-LIFERAY-CACHED.LIFERAY-PATCHED-1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/biz.aQute.bndlib/4.2.0-20190219.175746-114-LIFERAY-CACHED.LIFERAY-PATCHED-1/biz.aQute.bndlib-4.2.0-20190219.175746-114-LIFERAY-CACHED.LIFERAY-PATCHED-1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/biz.aQute.bndlib/4.2.0-20190219.175746-114-LIFERAY-CACHED.LIFERAY-PATCHED-1/biz.aQute.bndlib-4.2.0-20190219.175746-114-LIFERAY-CACHED.LIFERAY-PATCHED-1.pom",
+    "file_references": []
+}

@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.service-conduit",
+    "name": "sca4j-binding-ws-metro",
+    "version": "0.9.6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "SCA4J WS Binding (Metro)\nSCA4J WS Binding Implementation using Metro.",
+    "release_date": "2011-01-11T20:26:31Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/service-conduit/sca4j-binding-ws-metro/0.9.6/sca4j-binding-ws-metro-0.9.6.jar",
+    "size": 28549,
+    "md5": null,
+    "sha1": "c48c1f9d385c109d4edaa8ce3b3d221dc171f553",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.service-conduit/sca4j-binding-ws-metro@0.9.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.service-conduit/sca4j-spi",
+            "extracted_requirement": "0.9.6",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.service-conduit/sca4j-transform",
+            "extracted_requirement": "0.9.6",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.service-conduit/sca4j-binding-ws",
+            "extracted_requirement": "0.9.6",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/stax/stax-api",
+            "extracted_requirement": "1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": "2.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.ws/webservices-rt",
+            "extracted_requirement": "2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.codehaus.service-conduit/sca4j-binding-ws-metro@0.9.6?uuid=ab649041-28b5-42f7-ada3-fad2dc01469f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.codehaus.service-conduit/sca4j-binding-ws-metro@0.9.6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/service-conduit/sca4j-binding-ws-metro/0.9.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/service-conduit/sca4j-binding-ws-metro/0.9.6/sca4j-binding-ws-metro-0.9.6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/service-conduit/sca4j-binding-ws-metro/0.9.6/sca4j-binding-ws-metro-0.9.6.pom",
+    "file_references": []
+}

@@ -1,0 +1,124 @@
+{
+    "type": "maven",
+    "namespace": "org.elasticsearch",
+    "name": "elasticsearch-plugin-classloader",
+    "version": "7.17.12",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "cbb294e3-be14-4958-9be7-e4c0a39a072a",
+            "packages": [
+                "pkg:maven/org.elasticsearch/elasticsearch-plugin-classloader@7.17.12?uuid=14c2ea19-dda2-4903-9d60-5c772fff56d0",
+                "pkg:maven/org.elasticsearch/elasticsearch-plugin-classloader@7.17.12?classifier=sources&uuid=ecf26ef5-2c35-4780-86f3-9bc3979af487"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "elasticsearch-plugin-classloader\nElasticsearch subproject :libs:elasticsearch-plugin-classloader",
+    "release_date": "2023-07-25T13:20:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Elastic",
+            "email": null,
+            "url": "https://www.elastic.co"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/elastic/elasticsearch.git",
+    "download_url": "https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-plugin-classloader/7.17.12/elasticsearch-plugin-classloader-7.17.12-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d7a669606e826c9468bb8cd590f47b787213ad0c",
+    "sha256": "d30a56fe98845206a94c0a9b5dd8df6873f818b570b85fa8546002dc7ae26969",
+    "sha512": "de3b734adbccd55a32ed9c2366a83c703c1dfc5e1a9da0411791e1ad3d5efd352bcc006d39aa746083eb973ca326f89cee0899b9eaf6c907752ad5f3d34f932e",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/elastic/elasticsearch.git",
+    "vcs_url": "https://github.com/elastic/elasticsearch.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "elastic-license-v2 AND mongodb-sspl-1.0",
+    "declared_license_expression_spdx": "Elastic-2.0 AND SSPL-1.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/elastic-license-v2_3.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Elastic License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "elastic-license-v2_3.RULE",
+                    "license_expression": "elastic-license-v2"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/elastic-license-v2_2.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://raw.githubusercontent.com/elastic/elasticsearch/v7.17.12/licenses/ELASTIC-LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "elastic-license-v2_2.RULE",
+                    "license_expression": "elastic-license-v2"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mongodb-sspl-1.0_13.RULE",
+                    "start_line": 3,
+                    "matched_text": "- name: Server Side Public License, v 1",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mongodb-sspl-1.0_13.RULE",
+                    "license_expression": "mongodb-sspl-1.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mongodb-sspl-1.0_7.RULE",
+                    "start_line": 4,
+                    "matched_text": "  url: https://www.mongodb.com/licensing/server-side-public-license",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mongodb-sspl-1.0_7.RULE",
+                    "license_expression": "mongodb-sspl-1.0"
+                }
+            ],
+            "identifier": "elastic_license_v2_and_mongodb_sspl_1_0-1ef52e23-8928-8379-5e32-b1c571383a6a",
+            "license_expression": "elastic-license-v2 AND mongodb-sspl-1.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND elastic-license-v2 AND (elastic-license-v2 OR mongodb-sspl-1.0) AND mongodb-sspl-1.0",
+    "other_license_expression_spdx": "Apache-2.0 AND Elastic-2.0 AND (Elastic-2.0 OR SSPL-1.0) AND SSPL-1.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Elastic License 2.0\n  url: https://raw.githubusercontent.com/elastic/elasticsearch/v7.17.12/licenses/ELASTIC-LICENSE-2.0.txt\n- name: Server Side Public License, v 1\n  url: https://www.mongodb.com/licensing/server-side-public-license\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.elasticsearch/elasticsearch-plugin-classloader@7.17.12?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.elasticsearch/elasticsearch-plugin-classloader@7.17.12?classifier=sources&uuid=ecf26ef5-2c35-4780-86f3-9bc3979af487",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.elasticsearch/elasticsearch-plugin-classloader@7.17.12?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-plugin-classloader/7.17.12/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-plugin-classloader/7.17.12/elasticsearch-plugin-classloader-7.17.12-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-plugin-classloader/7.17.12/elasticsearch-plugin-classloader-7.17.12.pom",
+    "file_references": []
+}

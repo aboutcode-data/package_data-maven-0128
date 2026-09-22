@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "c3p0",
+    "name": "c3p0",
+    "version": "0.9.0.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "c3p0:JDBC DataSources/Resource Pools\nc3p0 is an easy-to-use library for augmenting traditional (DriverManager-based) JDBC drivers with JNDI-bindable DataSources,\n    including DataSources that implement Connection and Statement Pooling, as described by the jdbc3 spec and jdbc2 std extension.",
+    "release_date": "2006-01-24T03:21:04Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://c3p0.sourceforge.net",
+    "download_url": "https://repo1.maven.org/maven2/c3p0/c3p0/0.9.0.4/c3p0-0.9.0.4.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b9d4b63cec996feb3822be8c6dbec96fc9cad152",
+    "sha256": "ab191501ed3d5bbd56f9de456271de4dd61155b6c922cbfe9a51fc28432f527b",
+    "sha512": "2acb067c0b9cdeda1e5459fd82448c1cb55be5215e29fe7894a6d83b26c4edd729b38efe871f25ff5e8002ac6ebda88939e2a52b2c79a2e08d05346ef3332bfe",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.0-plus",
+    "declared_license_expression_spdx": "LGPL-2.0-or-later",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.0-plus_87.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: GNU LESSER GENERAL PUBLIC LICENSE",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.0-plus_87.RULE",
+                    "license_expression": "lgpl-2.0-plus"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.0-plus_204.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/lgpl.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.0-plus_204.RULE",
+                    "license_expression": "lgpl-2.0-plus"
+                }
+            ],
+            "identifier": "lgpl_2_0_plus-39338b95-daca-d7de-257c-fafb876cbd6d",
+            "license_expression": "lgpl-2.0-plus"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: GNU LESSER GENERAL PUBLIC LICENSE\n  url: http://www.gnu.org/licenses/lgpl.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/c3p0/c3p0@0.9.0.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/c3p0/c3p0@0.9.0.4?uuid=b5a2c666-8f19-4234-8919-787ba2145430",
+    "datasource_id": null,
+    "purl": "pkg:maven/c3p0/c3p0@0.9.0.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/c3p0/c3p0/0.9.0.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/c3p0/c3p0/0.9.0.4/c3p0-0.9.0.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/c3p0/c3p0/0.9.0.4/c3p0-0.9.0.4.pom",
+    "file_references": []
+}

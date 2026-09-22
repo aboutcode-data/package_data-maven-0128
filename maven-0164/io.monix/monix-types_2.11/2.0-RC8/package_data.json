@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "io.monix",
+    "name": "monix-types_2.11",
+    "version": "2.0-RC8",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "monix-types",
+    "release_date": "2016-06-29T15:33:05Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Alexandru Nedelcu",
+            "email": null,
+            "url": "https://bionicspirit.com/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "io.monix",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://monix.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/monix/monix-types_2.11/2.0-RC8/monix-types_2.11-2.0-RC8.jar",
+    "size": 23623,
+    "md5": null,
+    "sha1": "cf26f05528fb9bf75a58c592fd3c674f5cebb7d2",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttps://www.apache.org/licenses/LICENSE-2.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.monix/monix-types_2.11@2.0-RC8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.monix/minitest-laws_2.11",
+            "extracted_requirement": "0.21",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.monix/monix-types_2.11@2.0-RC8?uuid=4326e06f-0af4-4bb3-af23-f4c68fdae9b6",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.monix/monix-types_2.11@2.0-RC8",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/monix/monix-types_2.11/2.0-RC8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/monix/monix-types_2.11/2.0-RC8/monix-types_2.11-2.0-RC8.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/monix/monix-types_2.11/2.0-RC8/monix-types_2.11-2.0-RC8.pom",
+    "file_references": []
+}

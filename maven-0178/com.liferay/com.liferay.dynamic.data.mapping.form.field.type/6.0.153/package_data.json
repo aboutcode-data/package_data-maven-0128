@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.dynamic.data.mapping.form.field.type",
+    "version": "6.0.153",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a364ecf8-3d7c-4541-87ec-bcc9cb251488",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.dynamic.data.mapping.form.field.type@6.0.153?uuid=2df33af5-9862-4d6b-bb11-05b531154852",
+                "pkg:maven/com.liferay/com.liferay.dynamic.data.mapping.form.field.type@6.0.153?classifier=sources&uuid=03ddc8ea-f13c-496a-ba7a-9e884cba259f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Dynamic Data Mapping Form Field Type",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.dynamic.data.mapping.form.field.type/6.0.153/com.liferay.dynamic.data.mapping.form.field.type-6.0.153-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c25df3d135bc7c934afbbe7b535195b545c3a981",
+    "sha256": "0fb53a1a00cecec702d779b83428901a5cf39cf94f8cdd7f8a108f18d0793b97",
+    "sha512": "4cbfe5331f4c92e0c24ccb5d21083054e50755b44574c42361f72d9c49ddc0306393cdc0e7cc2db0fada1d70eee9e1cd4e6521d4e3ef66fa27ed94e76c5c5f49",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR unknown-spdx",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.dynamic.data.mapping.form.field.type@6.0.153?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.dynamic.data.mapping.form.field.type@6.0.153?classifier=sources&uuid=03ddc8ea-f13c-496a-ba7a-9e884cba259f",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.dynamic.data.mapping.form.field.type@6.0.153?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.dynamic.data.mapping.form.field.type/6.0.153/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.dynamic.data.mapping.form.field.type/6.0.153/com.liferay.dynamic.data.mapping.form.field.type-6.0.153-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.dynamic.data.mapping.form.field.type/6.0.153/com.liferay.dynamic.data.mapping.form.field.type-6.0.153.pom",
+    "file_references": []
+}

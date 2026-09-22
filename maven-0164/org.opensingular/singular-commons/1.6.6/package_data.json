@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.opensingular",
+    "name": "singular-commons",
+    "version": "1.6.6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "[singular :: libs :: commons]",
+    "release_date": "2017-05-24T19:29:31Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opensingular/singular-commons/1.6.6/singular-commons-1.6.6.jar",
+    "size": 129067,
+    "md5": null,
+    "sha1": "01fe80b4f52a0ea8f230275e9edbe236c5b1c435",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opensingular/singular-commons@1.6.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.12",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": "1.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-validator/commons-validator",
+            "extracted_requirement": "1.5.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.vidageek/mirror",
+            "extracted_requirement": "1.6.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.github.lukehutch/fast-classpath-scanner",
+            "extracted_requirement": "2.0.17",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.pdfbox/pdfbox",
+            "extracted_requirement": "2.0.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xerces/xercesImpl",
+            "extracted_requirement": "2.11.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis",
+            "extracted_requirement": "1.4.01",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.json/json",
+            "extracted_requirement": "20151123",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opensingular/singular-commons@1.6.6?uuid=0dace195-66a3-4b90-b979-4ee6dc09f6fc",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opensingular/singular-commons@1.6.6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/opensingular/singular-commons/1.6.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/opensingular/singular-commons/1.6.6/singular-commons-1.6.6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/opensingular/singular-commons/1.6.6/singular-commons-1.6.6.pom",
+    "file_references": []
+}

@@ -1,0 +1,87 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.felix",
+    "name": "org.apache.felix.utils",
+    "version": "1.10.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c521e83f-4dd5-4915-b3a0-f4fb81131334",
+            "packages": [
+                "pkg:maven/org.apache.felix/org.apache.felix.utils@1.10.4?uuid=cb919bb9-57f2-4478-b132-2117307b7d4a",
+                "pkg:maven/org.apache.felix/org.apache.felix.utils@1.10.4?classifier=sources&uuid=183e3b75-457a-490b-a967-69a4810510bc"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Felix Utils\nUtility classes for OSGi.",
+    "release_date": "2017-10-23T12:11:06Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.utils/1.10.4/org.apache.felix.utils-1.10.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "79beafebd1a42fca62db8c54bef62de37fafb46e",
+    "sha256": "3cd6a47bbfc4ea602e72b2f033bf5096e6e065a687b03c2856cb68743faace9b",
+    "sha512": "c8e872bebfbe1d5b1f23d7f6833d1b61fca9827efaabf87c2f7b9837158b36bf15e27e513dcad5da5cc6ab4cb745717902a2c1a8af78c4b492688bf4cc578958",
+    "bug_tracking_url": null,
+    "code_view_url": "scm:svn:https://svn.apache.org/repos/asf/felix/releases/org.apache.felix.utils-1.10.4",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/felix/releases/org.apache.felix.utils-1.10.4",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.felix/org.apache.felix.utils@1.10.4?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core@4.1.0",
+            "extracted_requirement": "4.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.compendium@4.2.0",
+            "extracted_requirement": "4.2.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.felix/org.apache.felix.utils@1.10.4?classifier=sources&uuid=183e3b75-457a-490b-a967-69a4810510bc",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.felix/org.apache.felix.utils@1.10.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.utils/1.10.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.utils/1.10.4/org.apache.felix.utils-1.10.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.utils/1.10.4/org.apache.felix.utils-1.10.4.pom",
+    "file_references": []
+}

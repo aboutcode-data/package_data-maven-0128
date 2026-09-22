@@ -1,0 +1,76 @@
+{
+    "type": "maven",
+    "namespace": "org.elasticsearch",
+    "name": "securesm",
+    "version": "1.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Elasticsearch SecureSM\nSecurityManager implementation that works around design flaws in Java",
+    "release_date": "2015-10-29T15:14:40Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/org/elasticsearch/securesm/1.0/securesm-1.0.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c0c6cf986ba0057390bfcc80c366a0e3157f944b",
+    "sha256": "c1c017c7a267fc3815a3dcfd3c0959e4d665eacf08fca0b6494112b70134449f",
+    "sha512": "dcf2118f527bc3323f0344699a046ed70817564ff2ae74819465479ef70f808535e07b94d074061c62a79b98817975cc5da09d65b9b9025ea16ff29d936a67db",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/elastic/securesm",
+    "vcs_url": "git+https://github.com/elastic/securesm.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.elasticsearch/securesm@1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.elasticsearch/securesm@1.0?uuid=14904082-c60f-42eb-bd24-386272620341",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.elasticsearch/securesm@1.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/elasticsearch/securesm/1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/elasticsearch/securesm/1.0/securesm-1.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/elasticsearch/securesm/1.0/securesm-1.0.pom",
+    "file_references": []
+}

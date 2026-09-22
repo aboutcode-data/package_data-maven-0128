@@ -1,0 +1,151 @@
+{
+    "type": "maven",
+    "namespace": "org.hibernate.orm.tooling",
+    "name": "hibernate-enhance-maven-plugin",
+    "version": "5.1.7.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Enhance Plugin of the Hibernate project for use with Maven build system.",
+    "release_date": "2017-05-22T05:30:58Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "The Hibernate Development Team",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Hibernate.org",
+            "email": null,
+            "url": "http://hibernate.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://hibernate.org",
+    "download_url": "https://repo1.maven.org/maven2/org/hibernate/orm/tooling/hibernate-enhance-maven-plugin/5.1.7.Final/hibernate-enhance-maven-plugin-5.1.7.Final.jar",
+    "size": 14710,
+    "md5": null,
+    "sha1": "20a74903ceac0043ab405187a2ba938b3090427b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1 AND unknown",
+    "declared_license_expression_spdx": "LGPL-2.1-only AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "GNU Lesser General Public License\nhttp://www.gnu.org/licenses/lgpl-2.1.html\nSee discussion at http://hibernate.org/license for more details.",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.hibernate.orm.tooling/hibernate-enhance-maven-plugin@5.1.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-core",
+            "extracted_requirement": "3.0.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-artifact",
+            "extracted_requirement": "3.0.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-plugin-api",
+            "extracted_requirement": "3.0.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations",
+            "extracted_requirement": "3.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate/hibernate-core",
+            "extracted_requirement": "5.1.7.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.1-api",
+            "extracted_requirement": "1.0.0.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.javassist/javassist",
+            "extracted_requirement": "3.20.0-GA",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils",
+            "extracted_requirement": "3.0.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": "3.3.0.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.plexus/plexus-build-api",
+            "extracted_requirement": "0.0.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.hibernate.orm.tooling/hibernate-enhance-maven-plugin@5.1.7.Final?uuid=844dc344-eed5-4e74-8ffd-0669d3650f11",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.hibernate.orm.tooling/hibernate-enhance-maven-plugin@5.1.7.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/hibernate/orm/tooling/hibernate-enhance-maven-plugin/5.1.7.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/hibernate/orm/tooling/hibernate-enhance-maven-plugin/5.1.7.Final/hibernate-enhance-maven-plugin-5.1.7.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/hibernate/orm/tooling/hibernate-enhance-maven-plugin/5.1.7.Final/hibernate-enhance-maven-plugin-5.1.7.Final.pom",
+    "file_references": []
+}

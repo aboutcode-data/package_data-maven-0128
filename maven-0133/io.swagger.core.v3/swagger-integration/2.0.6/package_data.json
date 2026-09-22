@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "io.swagger.core.v3",
+    "name": "swagger-integration",
+    "version": "2.0.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ffc89882-d96a-4b3d-8e4d-a1991e1041f1",
+            "packages": [
+                "pkg:maven/io.swagger.core.v3/swagger-integration@2.0.6?uuid=14d239c6-a0bb-4bc9-aecd-9d35fde69351",
+                "pkg:maven/io.swagger.core.v3/swagger-integration@2.0.6?classifier=sources&uuid=7038fe7e-394e-474f-865e-d7dfaa739781"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "swagger-integration",
+    "release_date": "2018-11-27T15:15:49Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tony Tam",
+            "email": "fehguy@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ron Ratovsky",
+            "email": "webron@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/io/swagger/core/v3/swagger-integration/2.0.6/swagger-integration-2.0.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fd7a997dd465e839a6842c8f33b6d29dff4834b3",
+    "sha256": "cbc786205208c84ee9d0aeb74a97a40c083a930c29088e61594255cfa1cd562e",
+    "sha512": "c0deef66923b8f37cb17f5a2fa91d35d7059337306841dbf46ccea306f1846fd206e7fdff89b7a50040f20341a4b1cb12b5a052618c84769acae057d10681507",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.swagger.core.v3/swagger-integration@2.0.6?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@5",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@5",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@5",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.swagger.core.v3/swagger-project@2.0.6",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.swagger.core.v3/swagger-project@2.0.6"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.reflections/reflections",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.swagger.core.v3/swagger-core@2.0.6",
+            "extracted_requirement": "2.0.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.swagger.core.v3/swagger-models@2.0.6",
+            "extracted_requirement": "2.0.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.ws.rs/javax.ws.rs-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.swagger.core.v3/swagger-integration@2.0.6?classifier=sources&uuid=7038fe7e-394e-474f-865e-d7dfaa739781",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.swagger.core.v3/swagger-integration@2.0.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/swagger/core/v3/swagger-integration/2.0.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/swagger/core/v3/swagger-integration/2.0.6/swagger-integration-2.0.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/swagger/core/v3/swagger-integration/2.0.6/swagger-integration-2.0.6.pom",
+    "file_references": []
+}

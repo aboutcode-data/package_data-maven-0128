@@ -1,0 +1,785 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.groovy",
+    "name": "groovy",
+    "version": "1.7.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "94d8633f-fb01-4d13-8261-7aa8336d9638",
+            "packages": [
+                "pkg:maven/org.codehaus.groovy/groovy@1.7.9?uuid=5196d1c2-8463-4114-a436-9ee17c3458db",
+                "pkg:maven/org.codehaus.groovy/groovy@1.7.9?classifier=sources&uuid=ad6c9162-da7c-4c68-8f74-ab69934852ff"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Groovy\nGroovy: A powerful, dynamic language for the JVM",
+    "release_date": "2011-03-09T16:48:04Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Guillaume Laforge",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jochen Theodorou",
+            "email": "blackdrag@gmx.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Paul King",
+            "email": "paulk@asert.com.au",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Roshan Dawrani",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "bob mcwhirter",
+            "email": "bob@werken.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Strachan",
+            "email": "james@coredevelopers.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joe Walnes",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Chris Stevenson",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jamie McCrindle",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Matt Foemmel",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sam Pullara",
+            "email": "sam@sampullara.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kasper Nielsen",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Travis Kay",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Zohar Melamed",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "John Wilson",
+            "email": "tug@wilson.co.uk",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Chris Poirier",
+            "email": "cpoirier@dreaming.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christiaan ten Klooster",
+            "email": "ckl@dacelo.nl",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Steve Goetze",
+            "email": "goetze@dovetail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bing Ran",
+            "email": "b55r@sina.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeremy Rayner",
+            "email": "jeremy.rayner@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "John Stump",
+            "email": "johnstump2@yahoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Russel Winder",
+            "email": "russel@russel.org.uk",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Pilho Kim",
+            "email": "phkim@cluecom.co.kr",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Stein",
+            "email": "sormuras@gmx.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dierk Koenig",
+            "email": "dierk.koenig@canoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Guillaume Alleon",
+            "email": "guillaume.alleon@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jason Dillon",
+            "email": "jason@planet57.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Danno Ferrin",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Williams",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Andres Almiray",
+            "email": "aalmiray@users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marc Guillemot",
+            "email": "mguillemot@yahoo.fr",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jim White",
+            "email": "jim@pagesmiths.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Peter Niederwieser",
+            "email": "pniederw@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Hamlet D'Arcy",
+            "email": "hamletdrc@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Joern Eyrich",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Robert Kuzelj",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Rod Cope",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Yuri Schimke",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "James Birchfield",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Robert Fuller",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Sergey Udovenko",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Hallvard Traetteberg",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Peter Reilly",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Brian McCallister",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Richard Monson-Haefel",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Brian Larson",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Artur Biesiadowski",
+            "email": "abies@pg.gda.pl",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ivan Z. Ganza",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Arjun Nayyar",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mark Chu-Carroll",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mark Turansky",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jean-Louis Berliet",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Graham Miller",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Marc Palmer",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Tugdual Grall",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Edwin Tellman",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Evan A Slatis",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mike Dillon",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bernhard Huber",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Marc DeXeT",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Dejan Bosanac",
+            "email": "dejan@nighttale.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Denver Dino",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ted Naleid",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Chanwit Kaewkasi",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Brad Long",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "John Bito",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jim Jagielski",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "John Hurst",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Merlyn Albery-Speyer",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "jeremi Joslin",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "UEHARA Junji",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "NAKANO Yasuharu",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Adam Murdoch",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Codehaus",
+            "email": null,
+            "url": "http://codehaus.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://groovy.codehaus.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/groovy/groovy/1.7.9/groovy-1.7.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d9cde9fb114ca0cb1af1a6287050db7f8f55b3d1",
+    "sha256": "bd60070df3e505c3c3506a39110857e2a3de0c186996be667b3bce6f7b200b1d",
+    "sha512": "afbb68b5a7f25c1630943373a0edb521961b7b3e3946a47f12b3cf34576a0a4392c274b71c940b3173a944ecc5d378a7bdb16587f0787306a4a0695303b0c9af",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.groovy.codehaus.org/browse/groovy/trunk/groovy/groovy-core",
+    "vcs_url": "svn+http://svn.groovy.codehaus.org/browse/groovy/trunk/groovy/groovy-core",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND public-domain AND warranty-disclaimer AND cc-pd AND ((epl-1.0 AND bsd-new) AND cpl-1.0 AND apache-2.0) AND bsd-new AND cc-by-2.5",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-public-domain AND LicenseRef-scancode-warranty-disclaimer AND CC-PDDC AND ((EPL-1.0 AND BSD-3-Clause) AND CPL-1.0 AND Apache-2.0) AND BSD-3-Clause AND CC-BY-2.5",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.groovy/groovy@1.7.9?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/antlr/antlr@2.7.7",
+            "extracted_requirement": "2.7.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/asm/asm@3.2",
+            "extracted_requirement": "3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.8.2",
+            "extracted_requirement": "4.8.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-cli/commons-cli@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant@1.8.2",
+            "extracted_requirement": "1.8.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/asm/asm-commons@3.2",
+            "extracted_requirement": "3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/asm/asm-util@3.2",
+            "extracted_requirement": "3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/asm/asm-analysis@3.2",
+            "extracted_requirement": "3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/asm/asm-tree@3.2",
+            "extracted_requirement": "3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/bsf/bsf@2.4.0",
+            "extracted_requirement": "2.4.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.4",
+            "extracted_requirement": "2.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/jsp-api@2.0",
+            "extracted_requirement": "2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.thoughtworks.xstream/xstream@1.3.1",
+            "extracted_requirement": "1.3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jline/jline@0.9.94",
+            "extracted_requirement": "0.9.94",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.fusesource.jansi/jansi@1.2.1",
+            "extracted_requirement": "1.2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ivy/ivy@2.2.0",
+            "extracted_requirement": "2.2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant-junit@1.8.2",
+            "extracted_requirement": "1.8.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant-launcher@1.8.2",
+            "extracted_requirement": "1.8.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant-antlr@1.8.2",
+            "extracted_requirement": "1.8.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jmock/jmock@1.2.0",
+            "extracted_requirement": "1.2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jmock/jmock-cglib@1.2.0",
+            "extracted_requirement": "1.2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.thoughtworks.qdox/qdox@1.12",
+            "extracted_requirement": "1.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xmlunit/xmlunit@1.3",
+            "extracted_requirement": "1.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/hsqldb/hsqldb@1.8.0.10",
+            "extracted_requirement": "1.8.0.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.livetribe/livetribe-jsr223@2.0.6",
+            "extracted_requirement": "2.0.6",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.codehaus.groovy/groovy@1.7.9?classifier=sources&uuid=ad6c9162-da7c-4c68-8f74-ab69934852ff",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.codehaus.groovy/groovy@1.7.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/groovy/groovy/1.7.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/groovy/groovy/1.7.9/groovy-1.7.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/groovy/groovy/1.7.9/groovy-1.7.9.pom",
+    "file_references": []
+}

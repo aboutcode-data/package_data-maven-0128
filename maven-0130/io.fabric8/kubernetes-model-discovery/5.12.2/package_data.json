@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "io.fabric8",
+    "name": "kubernetes-model-discovery",
+    "version": "5.12.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b437d5ad-3fdd-4790-95d7-478788be4297",
+            "packages": [
+                "pkg:maven/io.fabric8/kubernetes-model-discovery@5.12.2?uuid=668a95b9-a33d-4141-b39b-e02d82541bd1",
+                "pkg:maven/io.fabric8/kubernetes-model-discovery@5.12.2?classifier=sources&uuid=68a52e24-1069-43ce-8023-b22f182efcdd",
+                "pkg:github/fabric8io/kubernetes-client@v5.12.2?uuid=6af039a5-977e-45b8-90e8-aaf8698c1854"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Fabric8 :: Kubernetes Model :: Discovery",
+    "release_date": "2022-04-06T09:51:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Fabric8 Development Team",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Red Hat",
+            "email": null,
+            "url": "http://redhat.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://fabric8.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-discovery/5.12.2/kubernetes-model-discovery-5.12.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "92ff55918a7f11f554e4fdd27b56cc97264a5bf4",
+    "sha256": "d51ff57a07d5bf8071bbdfe616dd5aa6b9f5db83a58e02a900e9e2fd70c77389",
+    "sha512": "c0a9388a84190a24d981cecd16bd8738e3af2afb5533eff5a153a1f17f68771d44688b591b76d185c956ba7f6e9a7779bfac5c66586d05126d67ce314d58ee99",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.fabric8/kubernetes-model-discovery@5.12.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-model-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-model-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.fabric8/kubernetes-model-discovery@5.12.2?classifier=sources&uuid=68a52e24-1069-43ce-8023-b22f182efcdd",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.fabric8/kubernetes-model-discovery@5.12.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-discovery/5.12.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-discovery/5.12.2/kubernetes-model-discovery-5.12.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-discovery/5.12.2/kubernetes-model-discovery-5.12.2.pom",
+    "file_references": []
+}

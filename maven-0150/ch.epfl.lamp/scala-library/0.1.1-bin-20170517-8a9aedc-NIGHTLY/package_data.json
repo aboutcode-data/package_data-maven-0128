@@ -1,0 +1,107 @@
+{
+    "type": "maven",
+    "namespace": "ch.epfl.lamp",
+    "name": "scala-library",
+    "version": "0.1.1-bin-20170517-8a9aedc-NIGHTLY",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "scala-library",
+    "release_date": "2017-05-19T01:30:51Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Martin Odersky",
+            "email": "martin.odersky@epfl.ch",
+            "url": "https://github.com/odersky"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Dmitry Petrashko",
+            "email": "me@d-d.me",
+            "url": "https://d-d.me"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Guillaume Martres",
+            "email": "smarter@ubuntu.com",
+            "url": "http://guillaume.martres.me"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Felix Mulder",
+            "email": "felix.mulder@gmail.com",
+            "url": "http://felixmulder.com"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Liu Fengyun",
+            "email": "liufengyun@chaos-lab.com",
+            "url": "http://chaos-lab.com"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "LAMP/EPFL",
+            "email": null,
+            "url": "http://lamp.epfl.ch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/lampepfl/dotty",
+    "download_url": "https://repo1.maven.org/maven2/ch/epfl/lamp/scala-library/0.1.1-bin-20170517-8a9aedc-NIGHTLY/scala-library-0.1.1-bin-20170517-8a9aedc-NIGHTLY.jar",
+    "size": 348,
+    "md5": null,
+    "sha1": "c9e2700e35390b8e7d1a806d2fd00f07a73d04a1",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "BSD New\nhttps://github.com/lampepfl/dotty/blob/master/LICENSE.md",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/ch.epfl.lamp/scala-library@0.1.1-bin-20170517-8a9aedc-NIGHTLY?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/ch.epfl.lamp/dotty-library_0.1",
+            "extracted_requirement": "0.1.1-bin-20170517-8a9aedc-NIGHTLY",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/ch.epfl.lamp/scala-library@0.1.1-bin-20170517-8a9aedc-NIGHTLY?uuid=e0e59ce6-cb42-49cb-8646-46cb59ca39e8",
+    "datasource_id": null,
+    "purl": "pkg:maven/ch.epfl.lamp/scala-library@0.1.1-bin-20170517-8a9aedc-NIGHTLY",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/ch/epfl/lamp/scala-library/0.1.1-bin-20170517-8a9aedc-NIGHTLY/",
+    "repository_download_url": "https://repo1.maven.org/maven2/ch/epfl/lamp/scala-library/0.1.1-bin-20170517-8a9aedc-NIGHTLY/scala-library-0.1.1-bin-20170517-8a9aedc-NIGHTLY.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/ch/epfl/lamp/scala-library/0.1.1-bin-20170517-8a9aedc-NIGHTLY/scala-library-0.1.1-bin-20170517-8a9aedc-NIGHTLY.pom",
+    "file_references": []
+}

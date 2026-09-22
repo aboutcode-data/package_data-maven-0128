@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.frontend.taglib.clay",
+    "version": "2.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4fd28843-875f-48f6-b342-98bff0259f97",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.frontend.taglib.clay@2.0.0?uuid=5eaa5aa2-b59a-4d5d-a022-3a35cc8b2a1b",
+                "pkg:maven/com.liferay/com.liferay.frontend.taglib.clay@2.0.0?classifier=sources&uuid=e1a2fccf-4dd8-4f47-8910-97f074adb6fb"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Frontend Taglib Clay",
+    "release_date": "2019-04-25T08:56:54Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.taglib.clay/2.0.0/com.liferay.frontend.taglib.clay-2.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "71f06ca20bedd3c2006b5a5f1125d428d1c23d12",
+    "sha256": "a979472381fa92089af6855f840a2de1142692d76e3ce92a6018766a341697a6",
+    "sha512": "e5e67a18680e4184a31396dacff06856b35668c77728314ee0a0885fc096dac87af283a801080b1d3847dbc35af2a9c5393df5e8bf9ad0a7d25bcdd9f502dabe",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.frontend.taglib.clay@2.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.frontend.taglib.clay@2.0.0?classifier=sources&uuid=e1a2fccf-4dd8-4f47-8910-97f074adb6fb",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.frontend.taglib.clay@2.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.taglib.clay/2.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.taglib.clay/2.0.0/com.liferay.frontend.taglib.clay-2.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.taglib.clay/2.0.0/com.liferay.frontend.taglib.clay-2.0.0.pom",
+    "file_references": []
+}

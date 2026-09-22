@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.mdsal",
+    "name": "mdsal-dom-api",
+    "version": "9.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f9463b2e-15ff-4031-9e3c-53353312af33",
+            "packages": [
+                "pkg:maven/org.opendaylight.mdsal/mdsal-dom-api@9.0.2?uuid=6d13998e-2e73-4927-b93f-92080f3dbde5",
+                "pkg:maven/org.opendaylight.mdsal/mdsal-dom-api@9.0.2?classifier=sources&uuid=5308ea13-f16f-472f-9d16-4fed851c7a19"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2022-04-14T08:13:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/mdsal-dom-api/9.0.2/mdsal-dom-api-9.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a93a98989b7c40b9d1cadc8fabdc5e1a831d3f97",
+    "sha256": "c56322f35bd1b67e77c2aba69ed6ba6b5eaedb38eb13fd969ccb1889ed4a520a",
+    "sha512": "e22c616d12491d2ea3c886569810ab9ebcdf1751661b0719c5ac6545d7892746a99648f94a41149ae466348b56fbad2ef3b19f42456ebf322a60ddf0ee8a46cc",
+    "bug_tracking_url": null,
+    "code_view_url": "https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL",
+    "vcs_url": "git+http://git.opendaylight.org/gerrit/controller.git",
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.mdsal/mdsal-dom-api@9.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal/mdsal-common-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-data-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-data-tree-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-model-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-repo-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-repo-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-data-impl",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.mdsal/mdsal-dom-api@9.0.2?classifier=sources&uuid=5308ea13-f16f-472f-9d16-4fed851c7a19",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.mdsal/mdsal-dom-api@9.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

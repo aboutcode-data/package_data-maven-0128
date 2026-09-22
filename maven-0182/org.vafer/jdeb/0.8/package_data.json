@@ -1,0 +1,168 @@
+{
+    "type": "maven",
+    "namespace": "org.vafer",
+    "name": "jdeb",
+    "version": "0.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b9cedaa0-4180-4bde-8ba3-c0e51f5b0d9d",
+            "packages": [
+                "pkg:maven/org.vafer/jdeb@0.8?uuid=a74b7b33-fca0-42af-87f1-f49e8bd01e95",
+                "pkg:maven/org.vafer/jdeb@0.8?classifier=sources&uuid=e39a1bbe-8737-47c9-a77c-260d9ff70e01"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jdeb\nThis library provides an Ant task and a Maven plugin to create Debian packages from Java builds in a truly cross\n      platform manner. Build your Debian packages on any platform that has Java support. Windows, Linux - it does not\n      require additional native tools installed. The API underneath is well abstracted can easily be adopted for other\n      areas as well.",
+    "release_date": "2010-06-29T13:56:34Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Torsten Curdt",
+            "email": "tcurdt at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Emmanuel Bourg",
+            "email": "ebourg at apache.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://vafer.org/projects/jdeb",
+    "download_url": "https://repo1.maven.org/maven2/org/vafer/jdeb/0.8/jdeb-0.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ea7be5af3c72543acc1b74c5d4a118b7e98e2690",
+    "sha256": "a4c646c4f77381b06fef17dcd9ca1919bada71e6e042cb64674fbfd8009143d4",
+    "sha512": "e7f3f5bc00a8092c9d4026d2d748bf2f82ff8c4fffccf62ffd012ecd462ef50e4d395df71ca7de07b864b8f7d1a17dab8d436953d86fd76aa9008b454d9cf144",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/tcurdt/jdeb/tree/master",
+    "vcs_url": "git://github.com:tcurdt/jdeb.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_218.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License 2",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_218.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-17d42eac-c15e-3f02-3aee-fee489eb131a",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License 2\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.vafer/jdeb@0.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-compress@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-plugin-api@2.1.0",
+            "extracted_requirement": "2.1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-project@2.1.0",
+            "extracted_requirement": "2.1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-artifact@2.1.0",
+            "extracted_requirement": "2.1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils@1.4.1",
+            "extracted_requirement": "1.4.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant@1.7.1",
+            "extracted_requirement": "1.7.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcpg-jdk12@130",
+            "extracted_requirement": "130",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.2",
+            "extracted_requirement": "3.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.vafer/jdeb@0.8?classifier=sources&uuid=e39a1bbe-8737-47c9-a77c-260d9ff70e01",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.vafer/jdeb@0.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/vafer/jdeb/0.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/vafer/jdeb/0.8/jdeb-0.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/vafer/jdeb/0.8/jdeb-0.8.pom",
+    "file_references": []
+}

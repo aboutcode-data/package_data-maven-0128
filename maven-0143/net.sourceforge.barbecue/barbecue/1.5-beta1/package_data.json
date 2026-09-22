@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "net.sourceforge.barbecue",
+    "name": "barbecue",
+    "version": "1.5-beta1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "411e65c7-f084-4a9a-94e8-c8c411eca912",
+            "packages": [
+                "pkg:maven/net.sourceforge.barbecue/barbecue@1.5-beta1?uuid=5a62fc02-7bd6-4dd7-9651-119b642a5e80",
+                "pkg:maven/net.sourceforge.barbecue/barbecue@1.5-beta1?classifier=sources&uuid=ee475f0b-ce6a-4145-a2ba-7b13f85e1cdd"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "barbecue",
+    "release_date": "2009-07-08T22:57:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sean C. Sullivan",
+            "email": "sean --*-- seansullivan --*-- com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Werner Keil",
+            "email": "keilw --*-- users.sf.net",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "barbecue.sourceforge.net",
+            "email": null,
+            "url": "http://barbecue.sourceforge.net/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://barbecue.sourceforge.net/",
+    "download_url": "https://repo1.maven.org/maven2/net/sourceforge/barbecue/barbecue/1.5-beta1/barbecue-1.5-beta1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0363a84845554f87531abb9493dd2690321ef268",
+    "sha256": "2c512b027eeb4736dbd0b3ece1e7c185dbc381a30b367aa4ee67f596f29ecbe6",
+    "sha512": "55edc37ab34c288b542c3e807cbd1b8993925e49fa0e539dc50972d84c36d39dbcfda8ed0e6b2884254e28bea51706a5e2c1ee6f3400e90f43a818054a088b54",
+    "bug_tracking_url": "http://sourceforge.net/tracker/?group_id=78049",
+    "code_view_url": "http://barbecue.svn.sourceforge.net/viewvc/barbecue/trunk/",
+    "vcs_url": "svn+https://barbecue.svn.sourceforge.net/svnroot/barbecue",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.sourceforge.barbecue/barbecue@1.5-beta1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jdom/jdom@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.2",
+            "extracted_requirement": "2.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.portlet/portlet-api@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/net.sourceforge.barbecue/barbecue@1.5-beta1?classifier=sources&uuid=ee475f0b-ce6a-4145-a2ba-7b13f85e1cdd",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/net.sourceforge.barbecue/barbecue@1.5-beta1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/sourceforge/barbecue/barbecue/1.5-beta1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/sourceforge/barbecue/barbecue/1.5-beta1/barbecue-1.5-beta1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/sourceforge/barbecue/barbecue/1.5-beta1/barbecue-1.5-beta1.pom",
+    "file_references": []
+}

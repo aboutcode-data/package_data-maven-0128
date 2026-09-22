@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.wss4j",
+    "name": "wss4j-policy",
+    "version": "2.1.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "10deda89-5f25-4f35-bf0b-a548a481ba82",
+            "packages": [
+                "pkg:maven/org.apache.wss4j/wss4j-policy@2.1.8?uuid=d83b684a-46de-4672-8228-bfcb35766dce",
+                "pkg:maven/org.apache.wss4j/wss4j-policy@2.1.8?classifier=sources&uuid=384981df-cdc8-4a20-9c2a-5cf1164a9fc3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache WSS4J WS-SecurityPolicy model",
+    "release_date": "2016-12-05T12:31:59Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/wss4j/wss4j-policy/2.1.8/wss4j-policy-2.1.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4558e15be758bea06cf7bd555628dbc9f2f0ecfc",
+    "sha256": "d4a143725e0130e4d8d47c281fcf5f0d8a81a2c2cc46229b7a233ae4ded3a00c",
+    "sha512": "28925a4f28d91006509e9b5d424408fe5fd0d592812da88457de87ed230b5102eab393b3f8f7ba22a9757ebf536b578096b395ed8c8da5829603cdcec5aaf5b8",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (gpl-1.0-plus AND cddl-1.0 AND apache-2.0 AND bsd-new)",
+    "other_license_expression_spdx": "Apache-2.0 AND (GPL-1.0-or-later AND CDDL-1.0 AND Apache-2.0 AND BSD-3-Clause)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.wss4j/wss4j-policy@2.1.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.neethi/neethi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xmlunit/xmlunit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.wss4j/wss4j-policy@2.1.8?classifier=sources&uuid=384981df-cdc8-4a20-9c2a-5cf1164a9fc3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.wss4j/wss4j-policy@2.1.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/wss4j/wss4j-policy/2.1.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/wss4j/wss4j-policy/2.1.8/wss4j-policy-2.1.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/wss4j/wss4j-policy/2.1.8/wss4j-policy-2.1.8.pom",
+    "file_references": []
+}

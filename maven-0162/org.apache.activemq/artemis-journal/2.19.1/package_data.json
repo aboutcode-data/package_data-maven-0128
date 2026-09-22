@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.activemq",
+    "name": "artemis-journal",
+    "version": "2.19.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "50a06bb6-a95e-4fea-9090-218b176b05c8",
+            "packages": [
+                "pkg:maven/org.apache.activemq/artemis-journal@2.19.1?uuid=91177086-29ad-4762-925d-f169f64efb6a",
+                "pkg:maven/org.apache.activemq/artemis-journal@2.19.1?classifier=sources&uuid=3ca727fe-e6f1-4fdb-80f8-a0d8b4f922a3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ActiveMQ Artemis Journal",
+    "release_date": "2022-01-26T17:23:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/activemq/artemis-journal/2.19.1/artemis-journal-2.19.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e3e026e25a195c1f59fd9624dfae0869c438e41b",
+    "sha256": "66b8daa10b3a87242675bafb92205fc769d17779749ab5dac2922751e3f737e3",
+    "sha512": "6a6d1f7e3911a9971a564a0dc7abfd94cae9d62b54c942d03c1d919a6484987dc8717b1da28b3b1ce164b659dde12a5344b02e1ae07497a542e347be3957b947",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND epl-2.0 AND gpl-2.0 WITH classpath-exception-2.0 AND classpath-exception-2.0 AND gpl-2.0",
+    "other_license_expression_spdx": "Apache-2.0 AND EPL-2.0 AND GPL-2.0-only WITH Classpath-exception-2.0 AND Classpath-exception-2.0 AND GPL-2.0-only",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.activemq/artemis-journal@2.19.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-processor",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-annotations",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.errorprone/error_prone_core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/artemis-commons@2.19.1",
+            "extracted_requirement": "2.19.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jctools/jctools-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-artemis-native",
+            "extracted_requirement": "${activemq-artemis-native-version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logmanager/jboss-logmanager",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.activemq/artemis-journal@2.19.1?classifier=sources&uuid=3ca727fe-e6f1-4fdb-80f8-a0d8b4f922a3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.activemq/artemis-journal@2.19.1?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

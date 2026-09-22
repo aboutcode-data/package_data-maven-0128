@@ -1,0 +1,127 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework",
+    "name": "spring-web",
+    "version": "5.3.24",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2e9b9341-145a-43eb-bc33-650d3f214c0d",
+            "packages": [
+                "pkg:maven/org.springframework/spring-web@5.3.24?uuid=92561b5c-2dc2-4667-bdc8-2c64748c289d",
+                "pkg:maven/org.springframework/spring-web@5.3.24?classifier=sources&uuid=f895613c-8072-4c99-9385-86b600bcdeaa"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Spring Web",
+    "release_date": "2022-11-16T08:25:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Spring IO",
+            "email": null,
+            "url": "https://spring.io/projects/spring-framework"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/spring-projects/spring-framework",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/spring-web/5.3.24/spring-web-5.3.24-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6cd791c2d4822655a504537d15919be1a4a3e5b9",
+    "sha256": "1bd8e6ad68ba9576d05a32e3bdbf369564fac0d09d3d071722596a2bce6a1aad",
+    "sha512": "2875092ead37b8d058d09117c055d3fc2c889eec0c35fb99dd2557acc9c823023c93b05eff703f7c35b8d97e31d04fd30d3a696ba6e8d8d23f6920a4ad37a090",
+    "bug_tracking_url": "https://github.com/spring-projects/spring-framework/issues",
+    "code_view_url": "https://github.com/spring-projects/spring-framework",
+    "vcs_url": "git://github.com/spring-projects/spring-framework",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_url_1.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: https://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_url_1.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-8b0def3b-907f-4d50-db9d-c40959d8ddf2",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND public-domain",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework/spring-web@5.3.24?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@5.3.24",
+            "extracted_requirement": "5.3.24",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@5.3.24",
+            "extracted_requirement": "5.3.24",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework/spring-web@5.3.24?classifier=sources&uuid=f895613c-8072-4c99-9385-86b600bcdeaa",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.springframework/spring-web@5.3.24?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/spring-web/5.3.24/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/spring-web/5.3.24/spring-web-5.3.24-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/spring-web/5.3.24/spring-web-5.3.24.pom",
+    "file_references": []
+}

@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.maven.reporting",
+    "name": "maven-reporting-api",
+    "version": "2.2.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c2946932-310f-4817-b07a-17c82b1eae53",
+            "packages": [
+                "pkg:maven/org.apache.maven.reporting/maven-reporting-api@2.2.1?uuid=d879c7b6-2c97-45cb-b66a-d23c8aed0231",
+                "pkg:maven/org.apache.maven.reporting/maven-reporting-api@2.2.1?classifier=sources&uuid=cb770653-e6c9-4ad7-8701-7ce94f2099a8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Maven Reporting API",
+    "release_date": "2009-08-06T19:14:15Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Vincent Siveton",
+            "email": "vincent.siveton@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "10443e192957324e28cdccd4a416d12977d92e5d",
+    "sha256": "b6c292e84381760c191b3ee035eb7a6b23d3954454cec3feb1ce7dc373c2b9f4",
+    "sha512": "4f36a00b900d12500a1837ef332bbd3d5fcb113376f45a78c91c6d7fa53d20afec4291dc3683d3df45787c1a2f32039bf40d8ec8b1075cec22fa51db1fed7579",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.maven.reporting/maven-reporting-api@2.2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.maven.doxia/doxia-sink-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven.doxia/doxia-logging-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.maven.reporting/maven-reporting-api@2.2.1?classifier=sources&uuid=cb770653-e6c9-4ad7-8701-7ce94f2099a8",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.maven.reporting/maven-reporting-api@2.2.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom",
+    "file_references": []
+}

@@ -1,0 +1,129 @@
+{
+    "type": "maven",
+    "namespace": "org.flowable",
+    "name": "flowable-eventsubscription-service-api",
+    "version": "6.7.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "389c72c6-68b4-4345-84f0-5aebca86ed02",
+            "packages": [
+                "pkg:maven/org.flowable/flowable-eventsubscription-service-api@6.7.2?uuid=cd7e867c-bee7-45c2-b439-2b7a4157a4c2",
+                "pkg:maven/org.flowable/flowable-eventsubscription-service-api@6.7.2?classifier=sources&uuid=1f94f4b3-47aa-4d9d-be59-6e9231e12ae6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Flowable - Event Subscription Service API",
+    "release_date": "2021-12-28T14:09:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tijs Rademakers",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joram Barrez",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Yvo Swillens",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Josh Long",
+            "email": null,
+            "url": "http://www.pivotal.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Grofcik",
+            "email": null,
+            "url": "http://www.edorasware.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Muelder",
+            "email": null,
+            "url": "http://next-level-integration.com/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Stettler",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Flowable",
+            "email": null,
+            "url": "http://www.flowable.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.flowable.org",
+    "download_url": "https://repo1.maven.org/maven2/org/flowable/flowable-eventsubscription-service-api/6.7.2/flowable-eventsubscription-service-api-6.7.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "02e054444bb73577d182ad76b37ca63952e06720",
+    "sha256": "0cccfe19a15a8c7174cbad71ede68f37209774e1a265cb45a2c7f3da8a29fd32",
+    "sha512": "9ca911adbb007121fec5fa301d607b7543fc49818a5c86893efdadebd36b4f859a7d0059bcbf52f0a2e77a4e5cca44e68e28a0585283454a6f5065d92fa30352",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.flowable/flowable-eventsubscription-service-api@6.7.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.flowable/flowable-engine-common-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.flowable/flowable-bpmn-model",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.flowable/flowable-eventsubscription-service-api@6.7.2?classifier=sources&uuid=1f94f4b3-47aa-4d9d-be59-6e9231e12ae6",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.flowable/flowable-eventsubscription-service-api@6.7.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "io.zipkin.brave",
+    "name": "brave-jaxrs2",
+    "version": "4.3.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "archive/brave-jaxrs2\nJersey 2.x integration that uses the brave api to submit client and server side span information.",
+    "release_date": "2017-05-17T09:38:07Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-jaxrs2/4.3.2/brave-jaxrs2-4.3.2.jar",
+    "size": 17233,
+    "md5": null,
+    "sha1": "91d98675298459cb3f39efd6a28e84f862464d3f",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.zipkin.brave/brave-jaxrs2@4.3.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.zipkin.brave/brave-http",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.inject/javax.inject",
+            "extracted_requirement": "1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.annotation/javax.annotation-api",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.ws.rs/javax.ws.rs-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.inject/guice",
+            "extracted_requirement": "4.1.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.zipkin.brave/brave-jaxrs2@4.3.2?uuid=ea996894-ce57-436b-9ed3-d39bf7377959",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.zipkin.brave/brave-jaxrs2@4.3.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-jaxrs2/4.3.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-jaxrs2/4.3.2/brave-jaxrs2-4.3.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-jaxrs2/4.3.2/brave-jaxrs2-4.3.2.pom",
+    "file_references": []
+}

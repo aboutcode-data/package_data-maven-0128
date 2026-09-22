@@ -1,0 +1,125 @@
+{
+    "type": "maven",
+    "namespace": "javax.persistence",
+    "name": "javax.persistence-api",
+    "version": "2.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9b15b90d-4faf-4f0e-a10c-c189b3472a68",
+            "packages": [
+                "pkg:maven/javax.persistence/javax.persistence-api@2.2?uuid=2f84e5a3-ff16-4c42-aab9-763190a9b5e4",
+                "pkg:maven/javax.persistence/javax.persistence-api@2.2?classifier=sources&uuid=fe9ff38f-4cec-4bd5-86a4-8a8bf3040314"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Java(TM) Persistence API",
+    "release_date": "2017-08-21T14:59:19Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com/javaee/jpa-spec",
+    "download_url": "https://repo1.maven.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "462dff65f6f8bde02ee9d8afe07fe9d50268199c",
+    "sha256": "5e7c99a02c9902173d86826e655fdcdd24b0d52dc7ea4a2eed216a65f8b2504f",
+    "sha512": "07a31f509fc7215e3f671579ce63161ac3e776171a240c9d087e8f47423d65f590026fe7c2fcd67365894ee906eb4b39e81f070d7f795346e18697775efdf428",
+    "bug_tracking_url": "https://github.com/javaee/jpa-spec/issues",
+    "code_view_url": "https://github.com/javaee/jpa-spec.git",
+    "vcs_url": "git://github.com/javaee/jpa-spec.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "((bsd-new OR epl-1.0) AND bsd-new) AND unknown",
+    "declared_license_expression_spdx": "((BSD-3-Clause OR EPL-1.0) AND BSD-3-Clause) AND LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 26.67,
+                    "matcher": "3-seq",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_or_epl-1.0_2.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Eclipse Public License v1.0\n  url: http://www.eclipse.org/legal/epl-v10.html\n  comments: Standard Eclipse Licence\n- name: Eclipse Distribution License v. 1.0",
+                    "match_coverage": 26.67,
+                    "matched_length": 16,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_or_epl-1.0_2.RULE",
+                    "license_expression": "bsd-new OR epl-1.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 5,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/edl-1.0.RULE",
+                    "start_line": 5,
+                    "matched_text": "  url: http://www.eclipse.org/org/documents/edl-v10.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "edl-1.0.RULE",
+                    "license_expression": "bsd-new"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 6,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_802.RULE",
+                    "start_line": 6,
+                    "matched_text": "  comments: Standard Eclipse Distribution License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_802.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new_or_epl_1_0__and_bsd_new-d9244a5a-f80f-c5ba-5174-fd06a0cdee3a",
+            "license_expression": "(bsd-new OR epl-1.0) AND bsd-new"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 6,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-696d73fc6827496c74349c15889340af98a726d4",
+                    "start_line": 1,
+                    "matched_text": "license - name: Eclipse Public License v1.0\n  url: http://www.eclipse.org/legal/epl-v10.html\n  comments: Standard Eclipse Licence\n- name: Eclipse Distribution License v. 1.0\n  url: http://www.eclipse.org/org/documents/edl-v10.php\n  comments: Standard Eclipse Distribution License",
+                    "match_coverage": 100.0,
+                    "matched_length": 42,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-696d73fc6827496c74349c15889340af98a726d4",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-b71ef990-a7b6-7327-8d06-dd4c6f57777f",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": "epl-1.0 OR bsd-new",
+    "other_license_expression_spdx": "EPL-1.0 OR BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Eclipse Public License v1.0\n  url: http://www.eclipse.org/legal/epl-v10.html\n  comments: Standard Eclipse Licence\n- name: Eclipse Distribution License v. 1.0\n  url: http://www.eclipse.org/org/documents/edl-v10.php\n  comments: Standard Eclipse Distribution License\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.persistence/javax.persistence-api@2.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/net.java/jvnet-parent@5"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/javax.persistence/javax.persistence-api@2.2?classifier=sources&uuid=fe9ff38f-4cec-4bd5-86a4-8a8bf3040314",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/javax.persistence/javax.persistence-api@2.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/persistence/javax.persistence-api/2.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.pom",
+    "file_references": []
+}

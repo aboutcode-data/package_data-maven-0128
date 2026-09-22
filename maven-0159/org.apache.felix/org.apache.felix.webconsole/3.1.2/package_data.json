@@ -1,0 +1,160 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.felix",
+    "name": "org.apache.felix.webconsole",
+    "version": "3.1.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "85d835ba-ff8a-4d4e-bcad-5b10db3cca5f",
+            "packages": [
+                "pkg:maven/org.apache.felix/org.apache.felix.webconsole@3.1.2?uuid=e5ca99dc-7942-43a0-b79c-499bac287197",
+                "pkg:maven/org.apache.felix/org.apache.felix.webconsole@3.1.2?classifier=sources&uuid=2a2e4f6d-966a-47e4-a000-a4077c141126"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Felix Web Management Console\nWeb Based Management Console for OSGi Frameworks. See\n        http://felix.apache.org/site/apache-felix-web-console.html for more\n        information on this bundle.",
+    "release_date": "2010-08-11T11:38:35Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.webconsole/3.1.2/org.apache.felix.webconsole-3.1.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6272897d8c21b46d4466eb680864faa942807adf",
+    "sha256": "9db2da4370d202465817531f14614fbe840ce2d4a19f5c99ad4579f248840dfd",
+    "sha512": "07d61233e06ac60e4278c79631229f864988f1dce258a0165217b96797478aeab45a98985fd128b272de40ddff9060512bffb7a38ae1d561b216c1cf31e55968",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/felix/releases/org.apache.felix.webconsole-3.1.2",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/felix/releases/org.apache.felix.webconsole-3.1.2",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND mit AND (mit OR gpl-2.0) AND bsd-new AND cc-by-2.5 AND gpl-1.0-plus AND json AND (mit OR bsd-new OR gpl-2.0) AND (mit OR gpl-1.0-plus)",
+    "other_license_expression_spdx": "Apache-2.0 AND MIT AND (MIT OR GPL-2.0-only) AND BSD-3-Clause AND CC-BY-2.5 AND GPL-1.0-or-later AND JSON AND (MIT OR BSD-3-Clause OR GPL-2.0-only) AND (MIT OR GPL-1.0-or-later)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.felix/org.apache.felix.webconsole@3.1.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.4",
+            "extracted_requirement": "2.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-fileupload/commons-fileupload@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core@4.1.0",
+            "extracted_requirement": "4.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.compendium@4.1.0",
+            "extracted_requirement": "4.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.apache.felix.scr@1.6.0",
+            "extracted_requirement": "1.6.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.apache.felix.shell@1.0.0",
+            "extracted_requirement": "1.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.apache.felix.framework@2.0.2",
+            "extracted_requirement": "2.0.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.apache.felix.utils@1.0.0",
+            "extracted_requirement": "1.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.osgi.service.obr@1.0.2",
+            "extracted_requirement": "1.0.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.apache.felix.bundlerepository@1.6.0",
+            "extracted_requirement": "1.6.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.json/json@20070829",
+            "extracted_requirement": "20070829",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.felix/org.apache.felix.webconsole@3.1.2?classifier=sources&uuid=2a2e4f6d-966a-47e4-a000-a4077c141126",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.felix/org.apache.felix.webconsole@3.1.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.webconsole/3.1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.webconsole/3.1.2/org.apache.felix.webconsole-3.1.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.webconsole/3.1.2/org.apache.felix.webconsole-3.1.2.pom",
+    "file_references": []
+}

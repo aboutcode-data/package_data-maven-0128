@@ -1,0 +1,116 @@
+{
+    "type": "maven",
+    "namespace": "biz.aQute.bnd",
+    "name": "biz.aQute.launcher",
+    "version": "4.1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b2f60aa8-0ca6-4479-b14f-b21da6ebcc02",
+            "packages": [
+                "pkg:maven/biz.aQute.bnd/biz.aQute.launcher@4.1.0?uuid=70513eb8-542d-4b59-b6b7-fb547e3c93ed",
+                "pkg:maven/biz.aQute.bnd/biz.aQute.launcher@4.1.0?classifier=sources&uuid=69bddf69-312b-4b38-9405-422b76f22855"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "biz.aQute.launcher",
+    "release_date": "2018-10-18T15:56:03Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Peter Kriens",
+            "email": "Peter.Kriens@aQute.biz",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Bndtools",
+            "email": null,
+            "url": "http://bndtools.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://bnd.bndtools.org/",
+    "download_url": "https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.launcher/4.1.0/biz.aQute.launcher-4.1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f30c4a4b38abc846723956a1f3e7443f2f258785",
+    "sha256": "0d50b00f217a9f06f0a6e6a33157caac3763e9da36f00246dea4f965ce028141",
+    "sha512": "3ee3403ca5608c3bf7c959e66dc49da80da128e42f22e6ea0bbee1edbfeb7eaa898a98c4959ce1c9bb56ac88103d07f87912b550bd9fdae28c7f7590dd1f886d",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/bndtools/bnd",
+    "vcs_url": "git+https://github.com/bndtools/bnd.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 3,
+                    "matched_text": "  comments: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-1c3094b2-2789-f687-08a0-31200b3dd503",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n  comments: Apache License, Version 2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/biz.aQute.bnd/biz.aQute.launcher@4.1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/biz.aQute.bnd/biz.aQute.launcher@4.1.0?classifier=sources&uuid=69bddf69-312b-4b38-9405-422b76f22855",
+    "datasource_id": null,
+    "purl": "pkg:maven/biz.aQute.bnd/biz.aQute.launcher@4.1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.launcher/4.1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.launcher/4.1.0/biz.aQute.launcher-4.1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.launcher/4.1.0/biz.aQute.launcher-4.1.0.pom",
+    "file_references": []
+}

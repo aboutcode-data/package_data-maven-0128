@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.portal.security.sso.openid.api",
+    "version": "3.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0e69075c-07a6-43dc-a0c4-0a5f64a3b574",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.portal.security.sso.openid.api@3.0.0?uuid=8c6834b3-3b22-4ce4-95bb-db7b0dae0bc4",
+                "pkg:maven/com.liferay/com.liferay.portal.security.sso.openid.api@3.0.0?classifier=sources&uuid=ce33db58-ddb7-4b0f-ab1a-9963e9441e7f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Portal Security SSO OpenID API",
+    "release_date": "2019-04-25T05:23:27Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.security.sso.openid.api/3.0.0/com.liferay.portal.security.sso.openid.api-3.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6a99686b39791bb3183107f821ccbadf2fd7b95e",
+    "sha256": "ae547cf29cb3202b5de72d5310d59b2e5eb8d59ec637526b7fa6a9c5d7eb64f9",
+    "sha512": "74f1c4fbc60338ba6365f8651efe307303cf4c20dac926a987d92704dc2ca0d319a063550621cba754d73ad9c046a9cb3d4436453189fd0bac1f0ad680ddf892",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.portal.security.sso.openid.api@3.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.portal.security.sso.openid.api@3.0.0?classifier=sources&uuid=ce33db58-ddb7-4b0f-ab1a-9963e9441e7f",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.portal.security.sso.openid.api@3.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.security.sso.openid.api/3.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.security.sso.openid.api/3.0.0/com.liferay.portal.security.sso.openid.api-3.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.security.sso.openid.api/3.0.0/com.liferay.portal.security.sso.openid.api-3.0.0.pom",
+    "file_references": []
+}

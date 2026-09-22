@@ -1,0 +1,144 @@
+{
+    "type": "maven",
+    "namespace": "io.smallrye.reactive",
+    "name": "mutiny-smallrye-context-propagation",
+    "version": "1.7.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9d845929-eedb-4cbe-ac12-8bc0d0278514",
+            "packages": [
+                "pkg:maven/io.smallrye.reactive/mutiny-smallrye-context-propagation@1.7.0?uuid=9fecb335-9cfe-4898-a2f4-4ac498e7b40d",
+                "pkg:maven/io.smallrye.reactive/mutiny-smallrye-context-propagation@1.7.0?classifier=sources&uuid=c4f8a60d-3d5b-4bfd-8281-7edc8f5cfe71"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SmallRye Mutiny - Integration with SmallRye Context Propagation",
+    "release_date": "2022-08-04T08:46:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ken Finnigan",
+            "email": "ken@kenfinnigan.me",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://smallrye.io",
+    "download_url": "https://repo1.maven.org/maven2/io/smallrye/reactive/mutiny-smallrye-context-propagation/1.7.0/mutiny-smallrye-context-propagation-1.7.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c9a1cc4f038a6a1f0399987590e7e632ec68292a",
+    "sha256": "8d5bdb29355aed53663a8a7a44dc82360b8c39b731a7fe8d48ea267a1225bca8",
+    "sha512": "6ec61a3eff018e6ee0530c114b4f1f9ae782789a216d480dee105cba940634ea5d8c264a728fd7594367fa204cf0b742d22c4bc55c995e0be06f61f327550486",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.smallrye.reactive/mutiny-smallrye-context-propagation@1.7.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.microprofile.context-propagation/microprofile-context-propagation-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.smallrye.reactive/mutiny",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.smallrye.reactive/mutiny-test-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.smallrye/smallrye-context-propagation",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.smallrye.config/smallrye-config",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.smallrye.reactive/reactive-streams-junit5-tck@1.7.0",
+            "extracted_requirement": "1.7.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.reactivestreams/reactive-streams-tck",
+            "extracted_requirement": "${reactive-streams.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.awaitility/awaitility",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.smallrye.reactive/mutiny-smallrye-context-propagation@1.7.0?classifier=sources&uuid=c4f8a60d-3d5b-4bfd-8281-7edc8f5cfe71",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.smallrye.reactive/mutiny-smallrye-context-propagation@1.7.0?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

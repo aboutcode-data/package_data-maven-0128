@@ -1,0 +1,139 @@
+{
+    "type": "maven",
+    "namespace": "org.hsqldb",
+    "name": "hsqldb",
+    "version": "2.3.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8c73836d-46f0-4429-b071-61486c7d5505",
+            "packages": [
+                "pkg:maven/org.hsqldb/hsqldb@2.3.3?uuid=c4ba656c-0aa9-4528-92af-824ec48ebc4b",
+                "pkg:maven/org.hsqldb/hsqldb@2.3.3?classifier=sources&uuid=a943586d-334c-482b-8778-1a52c4c3ff23"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "HyperSQL Database\nHSQLDB - Lightweight 100% Java SQL Database Engine",
+    "release_date": "2015-07-01T01:41:31Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Blaine Simpson",
+            "email": "blaine.simpson@admc.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The HSQL Development Group",
+            "email": null,
+            "url": "http://hsqldb.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://hsqldb.org",
+    "download_url": "https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.3/hsqldb-2.3.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e61c74aec589c7227c5871387a3da92ea556fa0d",
+    "sha256": "f53cbe545ad1bef36074305f4c05527ebcd21448e33ac49190104ca1081944bc",
+    "sha512": "25d3526c73922effb968cfcfcc9600ac4e39413c03b1051b09a042ed35e79c1d9818c7015aa66903db5d41338bae431b3dd565128c18f2363f2486e0ba70fe69",
+    "bug_tracking_url": null,
+    "code_view_url": "http://sourceforge.net/p/hsqldb/svn/HEAD/tree/base/tags/2.3.3",
+    "vcs_url": "svn+http://svn.code.sf.net/p/hsqldb/svn/base/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new AND free-unknown",
+    "declared_license_expression_spdx": "BSD-3-Clause AND LicenseRef-scancode-free-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_363.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: HSQLDB License, a BSD open source license",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_363.RULE",
+                    "license_expression": "bsd-new",
+                    "spdx_license_expression": "BSD-3-Clause"
+                }
+            ],
+            "identifier": "bsd_new-a46e6f28-7101-60ae-3c6a-b57aa23264e5",
+            "license_expression": "bsd-new",
+            "license_expression_spdx": "BSD-3-Clause"
+        },
+        {
+            "matches": [
+                {
+                    "score": 50.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown_88.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: HSQLDB License, a BSD open source license",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 50,
+                    "rule_identifier": "free-unknown_88.RULE",
+                    "license_expression": "free-unknown",
+                    "spdx_license_expression": "LicenseRef-scancode-free-unknown"
+                }
+            ],
+            "identifier": "free_unknown-b39fd7e3-1b4f-cd1e-cea8-bbfc5796dde1",
+            "license_expression": "free-unknown",
+            "license_expression_spdx": "LicenseRef-scancode-free-unknown"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_82.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://hsqldb.org/web/hsqlLicense.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_82.RULE",
+                    "license_expression": "bsd-new",
+                    "spdx_license_expression": "BSD-3-Clause"
+                }
+            ],
+            "identifier": "bsd_new-f1ebd3aa-2540-19a3-338e-6a998e354d0e",
+            "license_expression": "bsd-new",
+            "license_expression_spdx": "BSD-3-Clause"
+        }
+    ],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: HSQLDB License, a BSD open source license\n  url: http://hsqldb.org/web/hsqlLicense.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.hsqldb/hsqldb@2.3.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.hsqldb/hsqldb@2.3.3?classifier=sources&uuid=a943586d-334c-482b-8778-1a52c4c3ff23",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.hsqldb/hsqldb@2.3.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.3/hsqldb-2.3.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.3/hsqldb-2.3.3.pom",
+    "file_references": []
+}

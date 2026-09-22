@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.duracloud",
+    "name": "manifest",
+    "version": "4.3.5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "DuraCloud Content Manifest",
+    "release_date": "2017-05-26T16:22:12Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://localhost:8080/manifest",
+    "download_url": "https://repo1.maven.org/maven2/org/duracloud/manifest/4.3.5/manifest-4.3.5.jar",
+    "size": 18769,
+    "md5": null,
+    "sha1": "f591a07789d0cec74d418dc3258f27ea7c9872d1",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.duracloud/manifest@4.3.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.duracloud/common",
+            "extracted_requirement": "4.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.duracloud/storageprovider",
+            "extracted_requirement": "4.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.duracloud.db/mill-db-repo",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.duracloud/common-test",
+            "extracted_requirement": "4.3.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.duracloud/manifest@4.3.5?uuid=e407a1f1-8c73-46bd-92cc-a456d06dfd43",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.duracloud/manifest@4.3.5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/duracloud/manifest/4.3.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/duracloud/manifest/4.3.5/manifest-4.3.5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/duracloud/manifest/4.3.5/manifest-4.3.5.pom",
+    "file_references": []
+}

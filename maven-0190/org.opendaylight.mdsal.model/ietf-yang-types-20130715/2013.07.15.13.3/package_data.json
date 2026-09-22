@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.mdsal.model",
+    "name": "ietf-yang-types-20130715",
+    "version": "2013.07.15.13.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "17b31245-e31f-4e7d-81f6-b18d6986d7a0",
+            "packages": [
+                "pkg:maven/org.opendaylight.mdsal.model/ietf-yang-types-20130715@2013.07.15.13.3?uuid=0ca60d73-7b3d-4250-b7ac-211433fed11e",
+                "pkg:maven/org.opendaylight.mdsal.model/ietf-yang-types-20130715@2013.07.15.13.3?classifier=sources&uuid=7a665907-bb72-46a2-af4e-5ac0174d6928"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ietf-yang-types-20130715",
+    "release_date": "2019-06-13T04:04:15Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/model/ietf-yang-types-20130715/2013.07.15.13.3/ietf-yang-types-20130715-2013.07.15.13.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "953203a57e2f145781c93963ae783fea04a5b68b",
+    "sha256": "3a8efa566478fa20c94c626adf4cc29542c21b6dd527ad9ec9f874041dbd13f7",
+    "sha512": "a442eb42b4f1b37cc3522a0389b9561692144597d15c61ad323272dc2a59f54b2367bf5859c35a7c766630e30133aa724ed9c1118b5c9a6b2ae8036c91ab0a60",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Brocade Communications Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.mdsal.model/ietf-yang-types-20130715@2013.07.15.13.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal.model/ietf-type-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.mdsal.model/ietf-yang-types-20130715@2013.07.15.13.3?classifier=sources&uuid=7a665907-bb72-46a2-af4e-5ac0174d6928",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.mdsal.model/ietf-yang-types-20130715@2013.07.15.13.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/model/ietf-yang-types-20130715/2013.07.15.13.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/model/ietf-yang-types-20130715/2013.07.15.13.3/ietf-yang-types-20130715-2013.07.15.13.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/model/ietf-yang-types-20130715/2013.07.15.13.3/ietf-yang-types-20130715-2013.07.15.13.3.pom",
+    "file_references": []
+}

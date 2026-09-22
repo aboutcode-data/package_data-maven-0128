@@ -1,0 +1,149 @@
+{
+    "type": "maven",
+    "namespace": "org.scalameta",
+    "name": "tokenizers_2.12",
+    "version": "1.8.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "tokenizers\nScalameta APIs for tokenization and their baseline implementation",
+    "release_date": "2017-05-22T20:17:23Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Eugene Burmako",
+            "email": null,
+            "url": "http://xeno.by"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Denys Shabalin",
+            "email": null,
+            "url": "http://den.sh"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "\u00d3lafur P\u00e1ll Geirsson",
+            "email": null,
+            "url": "https://geirsson.com/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.scalameta",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/scalameta/scalameta",
+    "download_url": "https://repo1.maven.org/maven2/org/scalameta/tokenizers_2.12/1.8.0/tokenizers_2.12-1.8.0.jar",
+    "size": 120774,
+    "md5": null,
+    "sha1": "e127812b46da9cc3fab34c44b22956c584e01045",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "BSD\nhttps://github.com/scalameta/scalameta/blob/master/LICENSE.md",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.scalameta/tokenizers_2.12@1.8.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalameta/common_2.12",
+            "extracted_requirement": "1.8.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalameta/dialects_2.12",
+            "extracted_requirement": "1.8.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalameta/inputs_2.12",
+            "extracted_requirement": "1.8.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalameta/tokens_2.12",
+            "extracted_requirement": "1.8.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/fastparse_2.12",
+            "extracted_requirement": "0.4.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.12",
+            "extracted_requirement": "3.0.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalacheck/scalacheck_2.12",
+            "extracted_requirement": "1.13.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-reflect",
+            "extracted_requirement": "2.12.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.scalameta/tokenizers_2.12@1.8.0?uuid=9de791e6-edb2-494a-835e-2dabff4990be",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.scalameta/tokenizers_2.12@1.8.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/scalameta/tokenizers_2.12/1.8.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/scalameta/tokenizers_2.12/1.8.0/tokenizers_2.12-1.8.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/scalameta/tokenizers_2.12/1.8.0/tokenizers_2.12-1.8.0.pom",
+    "file_references": []
+}

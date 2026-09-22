@@ -1,0 +1,134 @@
+{
+    "type": "maven",
+    "namespace": "com.tdunning",
+    "name": "t-digest",
+    "version": "3.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "00e86279-d576-4747-bf92-caa8182a9166",
+            "packages": [
+                "pkg:maven/com.tdunning/t-digest@3.1?uuid=1ae7dc05-4b7a-4945-bcc4-9a9be085cc56",
+                "pkg:maven/com.tdunning/t-digest@3.1?classifier=sources&uuid=3f0832d2-c130-4d11-a2de-2975a428e7c0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "T-Digest\nData structure which allows accurate estimation of quantiles and related rank statistics",
+    "release_date": "2015-04-06T01:05:20Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ted",
+            "email": "ted.dunning@gmail.com",
+            "url": "https://github.com/tdunning/t-digest"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/tdunning/t-digest",
+    "download_url": "https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "bd80162d96b5ee17fb2f88fab8ce496e1214b6d3",
+    "sha256": "d0973dacfbfb7c1b98e3e042fe9cd7df8ca3f7b628a297f662bb0b1114f2fc43",
+    "sha512": "c322206fa2808a56297c7b1e68868572b596146e6766349c34247a2f7b6ccfddc6af5b516e1c4b9cb2008aa0cfe07189f0340501f7ffeb5110c486153407f3aa",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/tdunning/t-digest",
+    "vcs_url": "git+https://github.com/tdunning/t-digest.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.tdunning/t-digest@3.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.mahout/mahout-math@0.9",
+            "extracted_requirement": "0.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.clearspring.analytics/stream@2.5.1",
+            "extracted_requirement": "2.5.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.caliper/caliper@1.0-beta-1",
+            "extracted_requirement": "1.0-beta-1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.carrotsearch/java-sizeof@0.0.5",
+            "extracted_requirement": "0.0.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava@14.0.1",
+            "extracted_requirement": "14.0.1",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.tdunning/t-digest@3.1?classifier=sources&uuid=3f0832d2-c130-4d11-a2de-2975a428e7c0",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.tdunning/t-digest@3.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1.pom",
+    "file_references": []
+}

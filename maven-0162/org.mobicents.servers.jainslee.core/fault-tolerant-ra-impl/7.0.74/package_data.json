@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.mobicents.servers.jainslee.core",
+    "name": "fault-tolerant-ra-impl",
+    "version": "7.0.74",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-23T12:41:17Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/mobicents/servers/jainslee/core/fault-tolerant-ra-impl/7.0.74/fault-tolerant-ra-impl-7.0.74.jar",
+    "size": 17135,
+    "md5": null,
+    "sha1": "ef14540b5e8d47dd22230c935692f8d6d514574a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mobicents.servers.jainslee.core/fault-tolerant-ra-impl@7.0.74?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.mobicents.servers.jainslee.core/fault-tolerant-ra-api",
+            "extracted_requirement": "7.0.74",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mobicents.servers.jainslee.core/spi",
+            "extracted_requirement": "7.0.74",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.restcomm.cluster/timers",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.mobicents.servers.jainslee.core/fault-tolerant-ra-impl@7.0.74?uuid=9e4b93d7-f796-4571-b2ac-9d2ea6eaeae7",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.mobicents.servers.jainslee.core/fault-tolerant-ra-impl@7.0.74",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mobicents/servers/jainslee/core/fault-tolerant-ra-impl/7.0.74/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mobicents/servers/jainslee/core/fault-tolerant-ra-impl/7.0.74/fault-tolerant-ra-impl-7.0.74.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mobicents/servers/jainslee/core/fault-tolerant-ra-impl/7.0.74/fault-tolerant-ra-impl-7.0.74.pom",
+    "file_references": []
+}

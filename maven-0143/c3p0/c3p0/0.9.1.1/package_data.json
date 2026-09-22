@@ -1,0 +1,90 @@
+{
+    "type": "maven",
+    "namespace": "c3p0",
+    "name": "c3p0",
+    "version": "0.9.1.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7be6c02e-09e7-4686-b09b-1235c8e53494",
+            "packages": [
+                "pkg:maven/c3p0/c3p0@0.9.1.1?uuid=594bcf9f-2b61-40e2-a7ce-7cfc38882603",
+                "pkg:maven/c3p0/c3p0@0.9.1.1?classifier=sources&uuid=30483eb2-ab95-4c37-b5d9-ddb9588a8312"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "c3p0:JDBC DataSources/Resource Pools\nc3p0 is an easy-to-use library for augmenting traditional (DriverManager-based) JDBC drivers with JNDI-bindable DataSources,\n    including DataSources that implement Connection and Statement Pooling, as described by the jdbc3 spec and jdbc2 std extension.",
+    "release_date": "2007-04-20T18:22:30Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://c3p0.sourceforge.net",
+    "download_url": "https://repo1.maven.org/maven2/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5a069468419fe3910c80d13a8971fd50ff2c77a6",
+    "sha256": "238ea59990092baeb665dcce8c99196b3aab3d7acc1fb60b95a476d33f71669d",
+    "sha512": "9e8429848937f2f6d632ebc6cc08d1ba959881130931217d6cdb199ae986fd6f157b539072c67b697c0a6222211738a91ce391efcd054a415bbb55ec14710f1e",
+    "bug_tracking_url": null,
+    "code_view_url": "http://c3p0.cvs.sourceforge.net/c3p0",
+    "vcs_url": "http://c3p0.cvs.sourceforge.net/c3p0",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.0-plus",
+    "declared_license_expression_spdx": "LGPL-2.0-or-later",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.0-plus_87.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: GNU LESSER GENERAL PUBLIC LICENSE",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.0-plus_87.RULE",
+                    "license_expression": "lgpl-2.0-plus"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.0-plus_204.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/lgpl.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.0-plus_204.RULE",
+                    "license_expression": "lgpl-2.0-plus"
+                }
+            ],
+            "identifier": "lgpl_2_0_plus-39338b95-daca-d7de-257c-fafb876cbd6d",
+            "license_expression": "lgpl-2.0-plus"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1 AND (lgpl-2.1 AND gpl-1.0-plus)",
+    "other_license_expression_spdx": "LGPL-2.1-only AND (LGPL-2.1-only AND GPL-1.0-or-later)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: GNU LESSER GENERAL PUBLIC LICENSE\n  url: http://www.gnu.org/licenses/lgpl.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/c3p0/c3p0@0.9.1.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/c3p0/c3p0@0.9.1.1?classifier=sources&uuid=30483eb2-ab95-4c37-b5d9-ddb9588a8312",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/c3p0/c3p0@0.9.1.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/c3p0/c3p0/0.9.1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1.pom",
+    "file_references": []
+}

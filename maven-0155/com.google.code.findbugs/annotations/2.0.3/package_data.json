@@ -1,0 +1,172 @@
+{
+    "type": "maven",
+    "namespace": "com.google.code.findbugs",
+    "name": "annotations",
+    "version": "2.0.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "41b1b39d-e435-4eb2-afc8-019a566c04bb",
+            "packages": [
+                "pkg:maven/com.google.code.findbugs/annotations@2.0.3?uuid=1be84240-a208-4924-b426-3788b28cb2bf",
+                "pkg:maven/com.google.code.findbugs/annotations@2.0.3?classifier=sources&uuid=4bfe61ce-0da0-46ff-aac5-6a88a6e5e396"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "FindBugs-Annotations\nAnnotation supports the FindBugs tool",
+    "release_date": "2013-12-31T07:35:16Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bill Pugh",
+            "email": "pugh at cs.umd.edu",
+            "url": "http://www.cs.umd.edu/~pugh/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Andrey Loskutov",
+            "email": "Loskutov@gmx.de",
+            "url": "http://andrei.gmxhome.de/privat.html"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Keith Lea",
+            "email": null,
+            "url": "http://keithlea.com/"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Garvin LeClaire",
+            "email": "gleclaire@codehaus.org",
+            "url": "http://gdleclaire.blogspot.com"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "David H. Hovemeyer",
+            "email": "dhovemey@ycp.edu",
+            "url": "http://goose.ycp.edu/~dhovemey/"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Nay Ayewah",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ben Langmead",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Tomas Pollak",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Phil Crosby",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Peter Friese",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Dave Brosius",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Brian Goetz",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Rohan Lloyd",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://findbugs.sourceforge.net/",
+    "download_url": "https://repo1.maven.org/maven2/com/google/code/findbugs/annotations/2.0.3/annotations-2.0.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "936f4430478909ed7b138d42f9ad73c919a87b26",
+    "sha256": "4de55af3c2a78d1df2a14fb5db64b23110f74ea462c5f56db443a96df431fad5",
+    "sha512": "496ad8eae347ae89998ce330c4541b3c599b278a17466992673090ecbb05b575966411519692b5f4e51eb31b89d0ce117301e3d4076cee1b00788c689fbc4677",
+    "bug_tracking_url": null,
+    "code_view_url": "https://code.google.com/p/findbugs/",
+    "vcs_url": "git+https://code.google.com/p/findbugs/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1-plus",
+    "declared_license_expression_spdx": "LGPL-2.1-or-later",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 72.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1-plus_473.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: GNU Lesser Public License\n  url: http://www.gnu.org/licenses/lgpl.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 13,
+                    "rule_relevance": 72,
+                    "rule_identifier": "lgpl-2.1-plus_473.RULE",
+                    "license_expression": "lgpl-2.1-plus",
+                    "spdx_license_expression": "LGPL-2.1-or-later"
+                }
+            ],
+            "identifier": "lgpl_2_1_plus-3712bad3-2879-36c4-b0d4-1777feb868d3",
+            "license_expression": "lgpl-2.1-plus",
+            "license_expression_spdx": "LGPL-2.1-or-later"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: GNU Lesser Public License\n  url: http://www.gnu.org/licenses/lgpl.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.code.findbugs/annotations@2.0.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.google.code.findbugs/annotations@2.0.3?classifier=sources&uuid=4bfe61ce-0da0-46ff-aac5-6a88a6e5e396",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.google.code.findbugs/annotations@2.0.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/code/findbugs/annotations/2.0.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/code/findbugs/annotations/2.0.3/annotations-2.0.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/code/findbugs/annotations/2.0.3/annotations-2.0.3.pom",
+    "file_references": []
+}

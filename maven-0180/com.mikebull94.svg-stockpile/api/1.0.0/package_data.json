@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.mikebull94.svg-stockpile",
+    "name": "api",
+    "version": "1.0.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "api\nAPI for interacting with svg-stockpile.",
+    "release_date": "2016-03-20T14:39:20Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Michael Bull",
+            "email": null,
+            "url": "https://michael-bull.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://michael-bull.com/projects/svg-stockpile",
+    "download_url": "https://repo1.maven.org/maven2/com/mikebull94/svg-stockpile/api/1.0.0/api-1.0.0.jar",
+    "size": 31845,
+    "md5": null,
+    "sha1": "92acbc8ccd34c285f01cd4ec6451cb35e7a0ee3f",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "isc AND isc AND unknown",
+    "declared_license_expression_spdx": "ISC AND ISC AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "ISC License\nhttp://opensource.org/licenses/isc-license.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.mikebull94.svg-stockpile/api@1.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": "19.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.19",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-jdk14",
+            "extracted_requirement": "1.7.19",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": "1.10.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.mikebull94.svg-stockpile/api@1.0.0?uuid=53258162-783a-44b9-aefc-121c89f2cb94",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.mikebull94.svg-stockpile/api@1.0.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/mikebull94/svg-stockpile/api/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/mikebull94/svg-stockpile/api/1.0.0/api-1.0.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/mikebull94/svg-stockpile/api/1.0.0/api-1.0.0.pom",
+    "file_references": []
+}

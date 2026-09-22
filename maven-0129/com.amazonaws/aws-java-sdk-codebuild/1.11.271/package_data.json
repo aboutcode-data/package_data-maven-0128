@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.amazonaws",
+    "name": "aws-java-sdk-codebuild",
+    "version": "1.11.271",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0f81f00c-af10-4f8e-8dae-e9b72f27c8c2",
+            "packages": [
+                "pkg:maven/com.amazonaws/aws-java-sdk-codebuild@1.11.271?uuid=e4c49f41-1454-4d74-8f67-d785c394c1fe",
+                "pkg:maven/com.amazonaws/aws-java-sdk-codebuild@1.11.271?classifier=sources&uuid=de41f659-cdf3-4392-974b-da8de479a39f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Java SDK for AWS Code Build\nThe AWS Java SDK for AWS Code Build module holds the client classes that are used for communicating with AWS Code Build.",
+    "release_date": "2018-01-27T00:05:08Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-codebuild/1.11.271/aws-java-sdk-codebuild-1.11.271-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "be59ac1e37ccf694962b0aec02168a441330b6e6",
+    "sha256": "9f608707c2ada36e8971d869d7e62ae69075c4097b85f85556ab9d6ce141311f",
+    "sha512": "6e33adde051ce4a3f784b2cda204c9983d3588760b4488dd759f6688402e82352fce5af02b75758d730c68f11869eb275e6cf08ee5816cc212400610880419f3",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-codebuild@1.11.271?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-core",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/jmespath-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-test-utils",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.amazonaws/aws-java-sdk-codebuild@1.11.271?classifier=sources&uuid=de41f659-cdf3-4392-974b-da8de479a39f",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.amazonaws/aws-java-sdk-codebuild@1.11.271?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-codebuild/1.11.271/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-codebuild/1.11.271/aws-java-sdk-codebuild-1.11.271-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-codebuild/1.11.271/aws-java-sdk-codebuild-1.11.271.pom",
+    "file_references": []
+}

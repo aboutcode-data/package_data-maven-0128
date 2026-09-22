@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "org.zalando",
+    "name": "logbook-spring",
+    "version": "0.4.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Logbook: Spring\nSpring RestTemplate interceptor for request and response logging",
+    "release_date": "2015-10-09T10:58:22Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/zalando/logbook-spring/0.4.0/logbook-spring-0.4.0.jar",
+    "size": 10307,
+    "md5": null,
+    "sha1": "a1e544d9b7c19c164b714040de24fb8f6c5079d6",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.zalando/logbook-spring@0.4.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.zalando/logbook-core",
+            "extracted_requirement": "0.4.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305",
+            "extracted_requirement": "3.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": "18.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.12",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-web",
+            "extracted_requirement": "4.2.0.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-nop",
+            "extracted_requirement": "1.7.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-junit",
+            "extracted_requirement": "2.0.0.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hobsoft.hamcrest/hamcrest-compose",
+            "extracted_requirement": "0.3.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": "2.0.31-beta",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-test",
+            "extracted_requirement": "4.2.0.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": "2.6.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.jayway.jsonpath/json-path-assert",
+            "extracted_requirement": "2.0.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.zalando/logbook-spring@0.4.0?uuid=064b539d-f163-4361-9ca4-f65fe00f5401",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.zalando/logbook-spring@0.4.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/zalando/logbook-spring/0.4.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/zalando/logbook-spring/0.4.0/logbook-spring-0.4.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/zalando/logbook-spring/0.4.0/logbook-spring-0.4.0.pom",
+    "file_references": []
+}

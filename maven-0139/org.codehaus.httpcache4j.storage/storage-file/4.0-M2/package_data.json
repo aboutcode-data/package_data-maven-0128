@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.httpcache4j.storage",
+    "name": "storage-file",
+    "version": "4.0-M2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Java HTTP cache :: Storage Engines :: FileStorage\nStorage using files",
+    "release_date": "2012-12-20T10:00:34Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/httpcache4j/storage/storage-file/4.0-M2/storage-file-4.0-M2.jar",
+    "size": 18091,
+    "md5": null,
+    "sha1": "3889f0f31ac9338be4348ed8007817dd0cd7b6a6",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.httpcache4j.storage/storage-file@4.0-M2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.httpcache4j/httpcache4j-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.httpcache4j/httpcache4j-storage-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.codehaus.httpcache4j.storage/storage-file@4.0-M2?uuid=538e8659-0a58-4f9b-abbe-d75d1164804d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.codehaus.httpcache4j.storage/storage-file@4.0-M2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/httpcache4j/storage/storage-file/4.0-M2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/httpcache4j/storage/storage-file/4.0-M2/storage-file-4.0-M2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/httpcache4j/storage/storage-file/4.0-M2/storage-file-4.0-M2.pom",
+    "file_references": []
+}

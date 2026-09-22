@@ -1,0 +1,123 @@
+{
+    "type": "maven",
+    "namespace": "org.bouncycastle",
+    "name": "bcpg-jdk16",
+    "version": "1.46",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "33298939-66e2-4cc4-a939-8ea001905db0",
+            "packages": [
+                "pkg:maven/org.bouncycastle/bcpg-jdk16@1.46?uuid=f8d1a713-c4e9-40ec-b455-bd486a405b3a",
+                "pkg:maven/org.bouncycastle/bcpg-jdk16@1.46?classifier=sources&uuid=663e3f15-e900-4734-b901-2a4868b874be"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Bouncy Castle OpenPGP API\nThe Bouncy Castle Java API for handling the OpenPGP protocol. This jar contains the OpenPGP API for JDK 1.6. The APIs can be used in conjunction with a JCE/JCA provider such as the one provided with the Bouncy Castle Cryptography APIs.",
+    "release_date": "2011-02-23T04:10:40Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://www.bouncycastle.org/java.html",
+    "download_url": "https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk16/1.46/bcpg-jdk16-1.46-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b4f4967c572536c91d5d1a52d4e15defb193106a",
+    "sha256": "994e058330107816de60e8ce4f7c28c4f922f7b735a8059c8ddde5fb9b6d733b",
+    "sha512": "127bab8ee691b102c91ba4d0483d5a3ddcb0bd04331deec01d3ef0dc4bedd2f55731155338ce2fe4176e8c2616ec802c307a623c9adf43d7e7fa978455505e27",
+    "bug_tracking_url": null,
+    "code_view_url": "http://www.bouncycastle.org/viewcvs/viewcvs.cgi/java",
+    "vcs_url": "http://www.bouncycastle.org/viewcvs/viewcvs.cgi/java",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit AND apache-1.1",
+    "declared_license_expression_spdx": "MIT AND Apache-1.1",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_239.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Bouncy Castle Licence",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_239.RULE",
+                    "license_expression": "mit"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_238.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.bouncycastle.org/licence.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_238.RULE",
+                    "license_expression": "mit"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-1.1_79.RULE",
+                    "start_line": 3,
+                    "matched_text": "- name: Apache Software License, Version 1.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-1.1_79.RULE",
+                    "license_expression": "apache-1.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-1.1_26.RULE",
+                    "start_line": 4,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-1.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-1.1_26.RULE",
+                    "license_expression": "apache-1.1"
+                }
+            ],
+            "identifier": "mit_and_apache_1_1-425476a1-26a8-380f-98b3-00a0b84da7a3",
+            "license_expression": "mit AND apache-1.1"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Bouncy Castle Licence\n  url: http://www.bouncycastle.org/licence.html\n- name: Apache Software License, Version 1.1\n  url: http://www.apache.org/licenses/LICENSE-1.1\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.bouncycastle/bcpg-jdk16@1.46?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcprov-jdk16@1.46",
+            "extracted_requirement": "1.46",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.bouncycastle/bcpg-jdk16@1.46?classifier=sources&uuid=663e3f15-e900-4734-b901-2a4868b874be",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.bouncycastle/bcpg-jdk16@1.46?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk16/1.46/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk16/1.46/bcpg-jdk16-1.46-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk16/1.46/bcpg-jdk16-1.46.pom",
+    "file_references": []
+}

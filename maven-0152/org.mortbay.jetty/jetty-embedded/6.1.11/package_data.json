@@ -1,0 +1,144 @@
+{
+    "type": "maven",
+    "namespace": "org.mortbay.jetty",
+    "name": "jetty-embedded",
+    "version": "6.1.11",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "cdf9277d-cf27-46b1-b59a-fa41ff1e37b8",
+            "packages": [
+                "pkg:maven/org.mortbay.jetty/jetty-embedded@6.1.11?uuid=26694dfa-b05b-4dba-8225-5d31ed096c8d",
+                "pkg:maven/org.mortbay.jetty/jetty-embedded@6.1.11?classifier=sources&uuid=2b5d420d-c0f2-4fcf-8b1d-b7b3b2c232f2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Embedded examples",
+    "release_date": "2008-06-09T14:44:44Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Greg Wilkins",
+            "email": "gregw@apache.org",
+            "url": "http://www.mortbay.com/mortbay/people/gregw"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jan Bartel",
+            "email": "janb@apache.org",
+            "url": "http://www.mortbay.com/people/janb"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jules Gosnell",
+            "email": "jules@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Strachan",
+            "email": "jstrachan@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Simone Bordet",
+            "email": "simone.bordet@simulalabs.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tim Vernum",
+            "email": "tim@adjective.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Nik Gonzalez",
+            "email": "ngonzalez@exist.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeanfrancois Arcand",
+            "email": "jfarcand@apache.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Mort Bay Consulting",
+            "email": null,
+            "url": "http://www.mortbay.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jetty.mortbay.org",
+    "download_url": "https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-embedded/6.1.11/jetty-embedded-6.1.11-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e8babfc811bf7e16374d2ab06d8a794ac4736eb9",
+    "sha256": "a3e0694204ff3727892cf521d9369c74df066b9227b2319b8a368242af200fd9",
+    "sha512": "92e5a9a6f2e4c8977da98a17fbc6b616f0e302a6ca39289a368d8e92d3dbb258e70a1c3d20c87cf3d1977a4147ac2c5cb9b19d8d9e4263ffa0bd0415b259c2e5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mortbay.jetty/jetty-embedded@6.1.11?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.mortbay.jetty/jetty@6.1.11",
+            "extracted_requirement": "6.1.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet.jsp/jsp-api@2.1",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.mortbay.jetty/jetty-embedded@6.1.11?classifier=sources&uuid=2b5d420d-c0f2-4fcf-8b1d-b7b3b2c232f2",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.mortbay.jetty/jetty-embedded@6.1.11?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-embedded/6.1.11/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-embedded/6.1.11/jetty-embedded-6.1.11-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-embedded/6.1.11/jetty-embedded-6.1.11.pom",
+    "file_references": []
+}

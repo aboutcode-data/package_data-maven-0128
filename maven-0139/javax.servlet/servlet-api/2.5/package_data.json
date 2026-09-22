@@ -1,0 +1,57 @@
+{
+    "type": "maven",
+    "namespace": "javax.servlet",
+    "name": "servlet-api",
+    "version": "2.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a99c3fae-0615-4655-9fe2-c472d5785200",
+            "packages": [
+                "pkg:maven/javax.servlet/servlet-api@2.5?uuid=11af232d-810e-443a-a4fd-a60bc8ef7cbb",
+                "pkg:maven/javax.servlet/servlet-api@2.5?classifier=sources&uuid=d4467d6c-c098-4540-9ded-7483a08c6d3f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2006-07-17T11:09:57Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "021599814ad9a605b86f3e6381571beccd861a32",
+    "sha256": "dd5b35da59ff04abf8e763ff409b96375e1c43fb116d26580c682bb715a4fc5a",
+    "sha512": "6590adea214ba7f59e033b8f450ca8fd3a0764ac6aaf2789d5824ddeecc4c520d004242e42e3a058517d5f556a41a970f782dfde35b2cf184874a77063dc0fef",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "cddl-1.0 AND proprietary-license",
+    "other_license_expression_spdx": "CDDL-1.0 AND LicenseRef-scancode-proprietary-license",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.servlet/servlet-api@2.5?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/javax.servlet/servlet-api@2.5?classifier=sources&uuid=d4467d6c-c098-4540-9ded-7483a08c6d3f",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/javax.servlet/servlet-api@2.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom",
+    "file_references": []
+}

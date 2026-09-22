@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.xhtmlrenderer",
+    "name": "flying-saucer-core",
+    "version": "9.1.7",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f988c2a9-edc2-43fb-9ece-939e5e8eb4a1",
+            "packages": [
+                "pkg:maven/org.xhtmlrenderer/flying-saucer-core@9.1.7?uuid=5a8fdba9-e605-4a64-bb2f-ebb8e09f7b9e",
+                "pkg:maven/org.xhtmlrenderer/flying-saucer-core@9.1.7?classifier=sources&uuid=60fe3ad9-63e8-42da-a1a7-7e7b398fdbc8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Flying Saucer Core Renderer\nFlying Saucer is a CSS 2.1 renderer written in Java.  This artifact contains the core rendering and layout code as well as Java2D output.",
+    "release_date": "2017-09-10T11:52:55Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Patrick Wright",
+            "email": "pdoubleya@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Peter Brant",
+            "email": "peter.brant@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://code.google.com/p/flying-saucer/",
+    "download_url": "https://repo1.maven.org/maven2/org/xhtmlrenderer/flying-saucer-core/9.1.7/flying-saucer-core-9.1.7-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "83f192b7286a4520fc9e4a8f7f06b2bc661c8a3a",
+    "sha256": "78752172a6f6ebf5eab67e525e8016ec244f90264346a877e73084e232bcf7c5",
+    "sha512": "21fdac3a24a0dc7e1627a215b9553c92c2f7c83ae62dd079b0d872f74cc917da12cd0025695eaa3a2499d513fbec5efcaf954cdaad3cbdd4456e7b1e986495a2",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1-plus AND lgpl-2.0-plus",
+    "declared_license_expression_spdx": "LGPL-2.1-or-later AND LGPL-2.0-or-later",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1-plus_226.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: GNU Lesser General Public License (LGPL), version 2.1 or later",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1-plus_226.RULE",
+                    "license_expression": "lgpl-2.1-plus"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl_3.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/lgpl.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl_3.RULE",
+                    "license_expression": "lgpl-2.0-plus"
+                }
+            ],
+            "identifier": "lgpl_2_1_plus_and_lgpl_2_0_plus-de7e53f2-1b2e-3f3a-48a2-5ba4c5d91a89",
+            "license_expression": "lgpl-2.1-plus AND lgpl-2.0-plus"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus AND iso-8879 AND mit-old-style AND other-permissive AND apache-2.0 AND gpl-2.0-plus AND agpl-3.0-plus AND cpl-1.0 AND (epl-1.0 AND public-domain) AND gpl-1.0-plus AND gpl-3.0 AND lgpl-2.0 AND lgpl-2.0-plus AND (lgpl-2.0-plus AND unknown-license-reference) AND lgpl-2.1 AND (lgpl-2.1-plus AND lgpl-2.0-plus AND gpl-2.0-plus AND lgpl-2.1 AND lgpl-3.0) AND lgpl-3.0 AND mpl-1.1 AND public-domain AND (w3c AND lgpl-2.1-plus AND lgpl-2.0-plus AND gpl-2.0-plus AND lgpl-2.1 AND lgpl-3.0 AND cpl-1.0 AND apache-2.0 AND mpl-1.1 AND agpl-3.0-plus AND epl-1.0 AND public-domain AND gpl-1.0-plus AND unknown-license-reference) AND w3c-docs-20021231",
+    "other_license_expression_spdx": "LGPL-2.1-or-later AND LicenseRef-scancode-iso-8879 AND LicenseRef-scancode-mit-old-style AND LicenseRef-scancode-other-permissive AND Apache-2.0 AND GPL-2.0-or-later AND AGPL-3.0-or-later AND CPL-1.0 AND (EPL-1.0 AND LicenseRef-scancode-public-domain) AND GPL-1.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.0-or-later AND (LGPL-2.0-or-later AND LicenseRef-scancode-unknown-license-reference) AND LGPL-2.1-only AND (LGPL-2.1-or-later AND LGPL-2.0-or-later AND GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only) AND LGPL-3.0-only AND MPL-1.1 AND LicenseRef-scancode-public-domain AND (W3C AND LGPL-2.1-or-later AND LGPL-2.0-or-later AND GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND CPL-1.0 AND Apache-2.0 AND MPL-1.1 AND AGPL-3.0-or-later AND EPL-1.0 AND LicenseRef-scancode-public-domain AND GPL-1.0-or-later AND LicenseRef-scancode-unknown-license-reference) AND LicenseRef-scancode-w3c-docs-20021231",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: GNU Lesser General Public License (LGPL), version 2.1 or later\n  url: http://www.gnu.org/licenses/lgpl.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.xhtmlrenderer/flying-saucer-core@9.1.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.10",
+            "extracted_requirement": "4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.xhtmlrenderer/flying-saucer-core@9.1.7?classifier=sources&uuid=60fe3ad9-63e8-42da-a1a7-7e7b398fdbc8",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.xhtmlrenderer/flying-saucer-core@9.1.7?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/xhtmlrenderer/flying-saucer-core/9.1.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/xhtmlrenderer/flying-saucer-core/9.1.7/flying-saucer-core-9.1.7-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/xhtmlrenderer/flying-saucer-core/9.1.7/flying-saucer-core-9.1.7.pom",
+    "file_references": []
+}

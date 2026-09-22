@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.maven",
+    "name": "maven-compat",
+    "version": "2.2.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8299ba56-8495-42cf-9d99-ec1cfa72ca83",
+            "packages": [
+                "pkg:maven/org.apache.maven/maven-compat@2.2.1?uuid=a5f802e1-b128-43dd-b08c-28334c38f051",
+                "pkg:maven/org.apache.maven/maven-compat@2.2.1?classifier=sources&uuid=86086e1a-6177-442d-bc5e-c8e36f7c92d7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Maven Compatibility Layer",
+    "release_date": "2009-08-06T19:16:49Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-compat/2.2.1/maven-compat-2.2.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "35c7bed9c1449b13c020913c2b7bd7772d161dd0",
+    "sha256": "4c0faffb05e446e8689d6bec93e884df630d51d334e319bfb37ec73845ba0114",
+    "sha512": "b2dc400d3327b01a936365959e45135312b28e20c93e0fe43e8c50cc3c60e4a16d11b6687aa66ebd0957cf6b9fdab5ba2305ca77bce5351ba1af24c66547d9ef",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND cc-pd AND bsd-new)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND CC-PDDC AND BSD-3-Clause)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.maven/maven-compat@2.2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-container-default",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-cli/commons-cli",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/classworlds/classworlds",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.maven/maven-compat@2.2.1?classifier=sources&uuid=86086e1a-6177-442d-bc5e-c8e36f7c92d7",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.maven/maven-compat@2.2.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-compat/2.2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-compat/2.2.1/maven-compat-2.2.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-compat/2.2.1/maven-compat-2.2.1.pom",
+    "file_references": []
+}

@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.ops4j.pax.web.samples",
+    "name": "war-authentication",
+    "version": "6.0.4",
+    "qualifiers": "type=war",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "OPS4J Pax Web - Samples - WAR Extender - Basic Authentication",
+    "release_date": "2017-05-25T11:32:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/ops4j/pax/web/samples/war-authentication/6.0.4/war-authentication-6.0.4.war",
+    "size": 33984,
+    "md5": null,
+    "sha1": "8b6954f0a4685d4763ca8e22234d6999ca643f2e",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.ops4j.pax.web.samples/war-authentication@6.0.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.osgi/osgi.core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/%24%7Bservlet.spec.groupId%7D/%24%7Bservlet.spec.artifactId%7D",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.swissbox/pax-swissbox-optional-jcl",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.web.samples/helloworld-wc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.ops4j.pax.web.samples/war-authentication@6.0.4?type=war&uuid=8cc00090-f07f-42ca-8366-9ce849595324",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.ops4j.pax.web.samples/war-authentication@6.0.4?type=war",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/ops4j/pax/web/samples/war-authentication/6.0.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/ops4j/pax/web/samples/war-authentication/6.0.4/war-authentication-6.0.4.war",
+    "api_data_url": "https://repo1.maven.org/maven2/org/ops4j/pax/web/samples/war-authentication/6.0.4/war-authentication-6.0.4.pom",
+    "file_references": []
+}

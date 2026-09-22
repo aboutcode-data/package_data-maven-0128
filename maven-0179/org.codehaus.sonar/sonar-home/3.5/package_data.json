@@ -1,0 +1,191 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.sonar",
+    "name": "sonar-home",
+    "version": "3.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "64c47635-97fc-4755-bbd7-69474d155cca",
+            "packages": [
+                "pkg:maven/org.codehaus.sonar/sonar-home@3.5?uuid=261e2714-afea-49f7-93fc-eed64d80c538",
+                "pkg:maven/org.codehaus.sonar/sonar-home@3.5?classifier=sources&uuid=4dbd99d2-eb69-4608-8d71-f9820eeb0e26"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Sonar :: Home\nAccess the user home directory that contains cache of files",
+    "release_date": "2013-03-13T19:14:50Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Racodon",
+            "email": "david.racodon@sonarsource.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dinesh Bolkensteyn",
+            "email": "dinesh.bolkensteyn@sonarsource.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Evgeny Mandrikov",
+            "email": "evgeny.mandrikov@sonarsource.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Fabrice Bellingard",
+            "email": "fabrice.bellingard@sonarsource.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Freddy Mallet",
+            "email": "freddy.mallet@sonarsource.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Julien Henry",
+            "email": "julien.henry@sonarsource.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Julien Lancelot",
+            "email": "julien.lancelot@sonarsource.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Olivier Gaudin",
+            "email": "olivier.gaudin@sonarsource.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Simon Brandhof",
+            "email": "simon.brandhof@sonarsource.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "SonarSource",
+            "email": null,
+            "url": "http://www.sonarsource.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.sonarsource.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/sonar/sonar-home/3.5/sonar-home-3.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "81607f5b4407d285b67a879605cab2f4365ec335",
+    "sha256": "b3815c99be7415dff7122bc3ae877d29871149547dc98ef83b0d6fd46094c151",
+    "sha512": "a1a80f6098bb61d19a464f2fb751356e70af3eb2df524d178e89c3d766f4bee8d0a112fdefcf415f147a0520208b921300bf6d144d044ecf4ac876447f0fcf5e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-3.0 AND lgpl-2.0-plus",
+    "declared_license_expression_spdx": "LGPL-3.0-only AND LGPL-2.0-or-later",
+    "license_detections": [],
+    "other_license_expression": "lgpl-3.0-plus",
+    "other_license_expression_spdx": "LGPL-3.0-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.sonar/sonar-home@3.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easytesting/fest-assert",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.codehaus.sonar/sonar-home@3.5?classifier=sources&uuid=4dbd99d2-eb69-4608-8d71-f9820eeb0e26",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.codehaus.sonar/sonar-home@3.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/sonar/sonar-home/3.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/sonar/sonar-home/3.5/sonar-home-3.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/sonar/sonar-home/3.5/sonar-home-3.5.pom",
+    "file_references": []
+}

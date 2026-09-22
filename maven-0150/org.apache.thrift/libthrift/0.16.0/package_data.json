@@ -1,0 +1,175 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.thrift",
+    "name": "libthrift",
+    "version": "0.16.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7928625c-5a4b-46d5-b56d-93228db806c6",
+            "packages": [
+                "pkg:maven/org.apache.thrift/libthrift@0.16.0?uuid=94f0c7e4-cc24-4f65-98b9-28845a67ccdb",
+                "pkg:maven/org.apache.thrift/libthrift@0.16.0?classifier=sources&uuid=d410ade3-8c54-408f-a408-c3eb0b877796"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Thrift\nThrift is a software framework for scalable cross-language services development.",
+    "release_date": "2022-02-17T19:44:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Apache Thrift Developers",
+            "email": "dev@thrift.apache.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://thrift.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/thrift/libthrift/0.16.0/libthrift-0.16.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fbc9a46bb14732af96357ff7ed0de4bb6dd8f78c",
+    "sha256": "5f01ce484ad2e71416a4470c2dd28aeb13746841c491a55d02f0158336e7c9c9",
+    "sha512": "54c5e32da9e7d3e4871356eccbd19e2e446aaf4b64821d9095f83417aa2c9cf991c655b40b99338de1ad6d2ceb5641beadb7cfe8963a13298e26d9fd153d9455",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/apache/thrift",
+    "vcs_url": "git+https://github.com/apache/thrift.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_216.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_216.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-cb92a9c9-c5a5-5d61-20d0-95d854e3e244",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.thrift/libthrift@0.16.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.35",
+            "extracted_requirement": "1.7.35",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13",
+            "extracted_requirement": "4.5.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.15",
+            "extracted_requirement": "4.4.15",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+            "extracted_requirement": "1.3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
+            "extracted_requirement": "3.12.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api@4.0.1",
+            "extracted_requirement": "4.0.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.2",
+            "extracted_requirement": "4.13.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all@1.10.19",
+            "extracted_requirement": "1.10.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.35",
+            "extracted_requirement": "1.7.35",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.thrift/libthrift@0.16.0?classifier=sources&uuid=d410ade3-8c54-408f-a408-c3eb0b877796",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.thrift/libthrift@0.16.0?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

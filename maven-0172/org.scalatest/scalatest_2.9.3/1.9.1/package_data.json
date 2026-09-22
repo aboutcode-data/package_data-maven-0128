@@ -1,0 +1,240 @@
+{
+    "type": "maven",
+    "namespace": "org.scalatest",
+    "name": "scalatest_2.9.3",
+    "version": "1.9.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f92faa46-f407-4b92-84d5-c71c901c027a",
+            "packages": [
+                "pkg:maven/org.scalatest/scalatest_2.9.3@1.9.1?uuid=972ada0c-55e7-42b8-9fdd-30db8b7ca976",
+                "pkg:maven/org.scalatest/scalatest_2.9.3@1.9.1?classifier=sources&uuid=8043d0fd-3b7c-40fa-9087-bd678e260829"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ScalaTest\nScalaTest is a free, open-source testing toolkit for Scala and Java\n    programmers.",
+    "release_date": "2013-02-28T23:46:33Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bill Venners",
+            "email": "bill@artima.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.scalatest.org",
+    "download_url": "https://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.3/1.9.1/scalatest_2.9.3-1.9.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "24f0dd29073d7be08623eeb48fb2aa2c5f0c503f",
+    "sha256": "1572c93bd40dfea04d57bfa2c18aa0ee3b14cca57eb2b39343c28a8281a591d9",
+    "sha512": "6cd53f450b247932db1533c15c6a7bc7183e20e76b36e4e4cfcbc52a5a526d1f1cf1a41a00ed5847428596e7fee793afde4c1723e90f0e635f490d7e7af0f782",
+    "bug_tracking_url": null,
+    "code_view_url": "http://code.google.com/p/scalatest/source/browse/",
+    "vcs_url": "svn+http://scalatest.googlecode.com/svn/trunk/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_223.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: the Apache License, ASL Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_223.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-a18805ce-2e54-f495-d24b-d95c534be674",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: the Apache License, ASL Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.scalatest/scalatest_2.9.3@1.9.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.9.3",
+            "extracted_requirement": "2.9.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-compiler@2.9.3",
+            "extracted_requirement": "2.9.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-tools.testing/test-interface@0.5",
+            "extracted_requirement": "0.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.antlr/stringtemplate@3.2",
+            "extracted_requirement": "3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scalacheck/scalacheck_2.9.3@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-actor@2.0.2",
+            "extracted_requirement": "2.0.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymockclassextension@3.1",
+            "extracted_requirement": "3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jmock/jmock-legacy@2.5.1",
+            "extracted_requirement": "2.5.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all@1.9.0",
+            "extracted_requirement": "1.9.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng@6.3.1",
+            "extracted_requirement": "6.3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.inject/guice@3.0",
+            "extracted_requirement": "3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.10",
+            "extracted_requirement": "4.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-java@2.21.0",
+            "extracted_requirement": "2.21.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.cobertura/cobertura@1.9.1",
+            "extracted_requirement": "1.9.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-io@1.3.2",
+            "extracted_requirement": "1.3.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server@8.0.1.v20110908",
+            "extracted_requirement": "8.0.1.v20110908",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp@8.0.1.v20110908",
+            "extracted_requirement": "8.0.1.v20110908",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.scalatest/scalatest_2.9.3@1.9.1?classifier=sources&uuid=8043d0fd-3b7c-40fa-9087-bd678e260829",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.scalatest/scalatest_2.9.3@1.9.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.3/1.9.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.3/1.9.1/scalatest_2.9.3-1.9.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/scalatest/scalatest_2.9.3/1.9.1/scalatest_2.9.3-1.9.1.pom",
+    "file_references": []
+}

@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.nifi",
+    "name": "nifi-amqp-processors",
+    "version": "0.7.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-14T22:39:33Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-amqp-processors/0.7.3/nifi-amqp-processors-0.7.3.jar",
+    "size": 39241,
+    "md5": null,
+    "sha1": "3da16a601fcaebafdb54b4962d2740396a16da17",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.nifi/nifi-amqp-processors@0.7.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.rabbitmq/amqp-client",
+            "extracted_requirement": "3.6.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-ssl-context-service-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-processor-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-mock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.nifi/nifi-amqp-processors@0.7.3?uuid=45a6eeab-f43d-4787-ac76-1c736c7f27f3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.nifi/nifi-amqp-processors@0.7.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-amqp-processors/0.7.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-amqp-processors/0.7.3/nifi-amqp-processors-0.7.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-amqp-processors/0.7.3/nifi-amqp-processors-0.7.3.pom",
+    "file_references": []
+}

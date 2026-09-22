@@ -1,0 +1,365 @@
+{
+    "type": "maven",
+    "namespace": "io.vertx",
+    "name": "vertx-core",
+    "version": "4.3.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a649e0f1-add5-40bb-b6f2-12b142e548f6",
+            "packages": [
+                "pkg:maven/io.vertx/vertx-core@4.3.4?uuid=18056902-862a-44ea-9b38-8b5e61023583",
+                "pkg:maven/io.vertx/vertx-core@4.3.4?classifier=sources&uuid=8912020e-4937-41f4-aa62-616d8975e7d9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Vert.x Core",
+    "release_date": "2022-09-30T09:52:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Eclipse",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/vertx/vertx-core/4.3.4/vertx-core-4.3.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7835a322ab508607a72fef7af9ea7cffefffc0a8",
+    "sha256": "7e05225326ae5ac410bfbeb83488083694a601b2ade44eaf2ac4dbd72a931f27",
+    "sha512": "36992af6cf7bc558f023730a083f1a40568ca5650e99a2f34cc54365ef5152e1105faea8aced263fb5c4e5589205252c9159fb104d6e3b45335e53fa3d25929b",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/eclipse/vert.x.git",
+    "vcs_url": "git+https://github.com/eclipse/vert.x.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND epl-2.0",
+    "declared_license_expression_spdx": "Apache-2.0 AND EPL-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-2.0_7.RULE",
+                    "start_line": 1,
+                    "matched_text": "Eclipse Public License - v 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-2.0_7.RULE",
+                    "license_expression": "epl-2.0"
+                }
+            ],
+            "identifier": "epl_2_0-8b57fcb6-9a6f-8562-02ee-d8ce94f7a353",
+            "license_expression": "epl-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-2.0_18.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.eclipse.org/legal/epl-v20.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-2.0_18.RULE",
+                    "license_expression": "epl-2.0"
+                }
+            ],
+            "identifier": "epl_2_0-9fe7fac0-e268-b30e-13b8-a5cbd0ded16a",
+            "license_expression": "epl-2.0"
+        }
+    ],
+    "other_license_expression": "(epl-2.0 OR apache-2.0) AND apache-2.0 AND ((epl-2.0 OR apache-2.0) AND apache-2.0) AND ((epl-2.0 OR apache-2.0) AND mit) AND ((epl-2.0 OR apache-2.0) AND unknown-license-reference) AND mit",
+    "other_license_expression_spdx": "(EPL-2.0 OR Apache-2.0) AND Apache-2.0 AND ((EPL-2.0 OR Apache-2.0) AND Apache-2.0) AND ((EPL-2.0 OR Apache-2.0) AND MIT) AND ((EPL-2.0 OR Apache-2.0) AND LicenseRef-scancode-unknown-license-reference) AND MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n- name: Eclipse Public License - v 2.0\n  url: http://www.eclipse.org/legal/epl-v20.html\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.vertx/vertx-core@4.3.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.vertx/vertx-dependencies@4.3.4",
+            "extracted_requirement": "4.3.4",
+            "scope": "import",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-handler",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-handler-proxy",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec-http",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec-http2",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-resolver",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-resolver-dns",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec-haproxy",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-native-epoll",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-native-kqueue",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-codegen",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-docgen",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.1",
+            "extracted_requirement": "2.17.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.1",
+            "extracted_requirement": "2.17.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.21",
+            "extracted_requirement": "1.7.21",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.1",
+            "extracted_requirement": "4.13.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-protocol-dns@1.5.7",
+            "extracted_requirement": "1.5.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core@3.4.1",
+            "extracted_requirement": "3.4.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple@1.7.21",
+            "extracted_requirement": "1.7.21",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-tcnative-boringssl-static",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.aayushatharva.brotli4j/brotli4j@1.7.1",
+            "extracted_requirement": "1.7.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.openjdk.jmh/jmh-core@1.19",
+            "extracted_requirement": "1.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-dependencies@4.3.4",
+            "extracted_requirement": "4.3.4",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.vertx/vertx-core@4.3.4?classifier=sources&uuid=8912020e-4937-41f4-aa62-616d8975e7d9",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.vertx/vertx-core@4.3.4?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

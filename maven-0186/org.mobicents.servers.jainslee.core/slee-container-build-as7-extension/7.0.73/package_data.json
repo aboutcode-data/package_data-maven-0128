@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.mobicents.servers.jainslee.core",
+    "name": "slee-container-build-as7-extension",
+    "version": "7.0.73",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-23T11:51:10Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/mobicents/servers/jainslee/core/slee-container-build-as7-extension/7.0.73/slee-container-build-as7-extension-7.0.73.jar",
+    "size": 126194,
+    "md5": null,
+    "sha1": "25a471e9a3f52091942e38134650352da4daec63",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mobicents.servers.jainslee.core/slee-container-build-as7-extension@7.0.73?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.opencloud/sleetck",
+            "extracted_requirement": "1.1.r111.redhat",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mobicents.servers.jainslee.core/slee-container-build-as7-modules",
+            "extracted_requirement": "7.0.73",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.restcomm.cluster/core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.core/wildfly-controller",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.core/wildfly-jmx",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.core/wildfly-server",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly/wildfly-transactions",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly/wildfly-connector",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.mobicents.servers.jainslee.core/slee-container-build-as7-extension@7.0.73?uuid=a3241628-e9df-4ad0-823c-54fc901ac791",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.mobicents.servers.jainslee.core/slee-container-build-as7-extension@7.0.73",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mobicents/servers/jainslee/core/slee-container-build-as7-extension/7.0.73/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mobicents/servers/jainslee/core/slee-container-build-as7-extension/7.0.73/slee-container-build-as7-extension-7.0.73.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mobicents/servers/jainslee/core/slee-container-build-as7-extension/7.0.73/slee-container-build-as7-extension-7.0.73.pom",
+    "file_references": []
+}

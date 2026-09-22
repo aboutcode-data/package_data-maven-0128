@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.site.navigation.menu.web",
+    "version": "6.0.48",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "84864275-d072-420e-8bea-d8ad85883909",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.site.navigation.menu.web@6.0.48?uuid=d695e844-3dcb-4049-b475-dd6884df3bc5",
+                "pkg:maven/com.liferay/com.liferay.site.navigation.menu.web@6.0.48?classifier=sources&uuid=2dd6b81f-f4c0-4a48-82e4-9a1470205701"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Site Navigation Menu Web",
+    "release_date": "2023-07-31T07:51:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.site.navigation.menu.web/6.0.48/com.liferay.site.navigation.menu.web-6.0.48-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8cb1dd0e501f00976ec55e8ae603cc34b90ae7b0",
+    "sha256": "6e33b0ea56403679b93b12ce112446bf85d0cc29db693f7deb8e724ab85c4a9e",
+    "sha512": "159995d4f30934ce51ddd8b6232ed212b7116ca074f7cb21cd289cdd5fd0865ec937045224a1c8d9255cb3c1300735261ed89a82b21c2d664b88730967832550",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR unknown-spdx",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.site.navigation.menu.web@6.0.48?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.site.navigation.menu.web@6.0.48?classifier=sources&uuid=2dd6b81f-f4c0-4a48-82e4-9a1470205701",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.site.navigation.menu.web@6.0.48?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.site.navigation.menu.web/6.0.48/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.site.navigation.menu.web/6.0.48/com.liferay.site.navigation.menu.web-6.0.48-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.site.navigation.menu.web/6.0.48/com.liferay.site.navigation.menu.web-6.0.48.pom",
+    "file_references": []
+}

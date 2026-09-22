@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "net.oauth.core",
+    "name": "oauth-provider",
+    "version": "20090531",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "84bace57-a1e1-45ba-9546-62489a548762",
+            "packages": [
+                "pkg:maven/net.oauth.core/oauth-provider@20090531?uuid=b2d52b35-9949-484b-a0bd-d5be4df66995",
+                "pkg:maven/net.oauth.core/oauth-provider@20090531?classifier=sources&uuid=69d392d6-bf77-4115-927b-d51ed7ba1782"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "OAuth Core: Provider",
+    "release_date": "2016-05-26T14:23:24Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "net.oauth",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://oauth.net/code/",
+    "download_url": "https://repo1.maven.org/maven2/net/oauth/core/oauth-provider/20090531/oauth-provider-20090531-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7a01d5565da7e92fec012d897076bc2c8c198170",
+    "sha256": "294d6f66cfa50c5752e8a5a95539b8586aed8a531c2a58e24a24104a5c1a7f97",
+    "sha512": "2b14467d3bf0fdd1d752927ee5c97f098e1fae7d81188e875b9c40b528815a8536f184488a21c1cc3a3ef9c4ab30f3747ed1c8eecab86ceb46e80d05243a4a1b",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.oauth.core/oauth-provider@20090531?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/net.oauth.core/oauth@20090531",
+            "extracted_requirement": "20090531",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.4",
+            "extracted_requirement": "2.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/net.oauth.core/oauth-provider@20090531?classifier=sources&uuid=69d392d6-bf77-4115-927b-d51ed7ba1782",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.oauth.core/oauth-provider@20090531?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/oauth/core/oauth-provider/20090531/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/oauth/core/oauth-provider/20090531/oauth-provider-20090531-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/oauth/core/oauth-provider/20090531/oauth-provider-20090531.pom",
+    "file_references": []
+}

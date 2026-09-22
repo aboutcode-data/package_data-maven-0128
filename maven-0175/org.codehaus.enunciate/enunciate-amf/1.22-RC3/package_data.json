@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.enunciate",
+    "name": "enunciate-amf",
+    "version": "1.22-RC3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Enunciate - AMF Module\nThe Enunciate AMF module generates the artifacts needed for mounting AMF endpoints.",
+    "release_date": "2011-04-09T04:10:37Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/enunciate/enunciate-amf/1.22-RC3/enunciate-amf-1.22-RC3.jar",
+    "size": 46038,
+    "md5": null,
+    "sha1": "d5edc4b6d9633113cc5b5297d21f1ab8b10f309b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.enunciate/enunciate-amf@1.22-RC3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.enunciate/enunciate-core",
+            "extracted_requirement": "1.22-RC3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.enunciate/enunciate-amf-rt",
+            "extracted_requirement": "1.22-RC3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.enunciate/enunciate-core",
+            "extracted_requirement": "1.22-RC3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.codehaus.enunciate/enunciate-amf@1.22-RC3?uuid=cd739047-bad4-4e3b-bbe4-d0b592831249",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.codehaus.enunciate/enunciate-amf@1.22-RC3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/enunciate/enunciate-amf/1.22-RC3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/enunciate/enunciate-amf/1.22-RC3/enunciate-amf-1.22-RC3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/enunciate/enunciate-amf/1.22-RC3/enunciate-amf-1.22-RC3.pom",
+    "file_references": []
+}

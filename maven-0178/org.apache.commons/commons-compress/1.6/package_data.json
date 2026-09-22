@@ -1,0 +1,162 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.commons",
+    "name": "commons-compress",
+    "version": "1.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2dafb278-0dac-423e-9446-596e096b46e8",
+            "packages": [
+                "pkg:maven/org.apache.commons/commons-compress@1.6?uuid=e2f94af8-2911-443e-84f3-5677a71f6333",
+                "pkg:maven/org.apache.commons/commons-compress@1.6?classifier=sources&uuid=78ca816b-f4d3-4f88-98de-78ce550a5667"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Commons Compress\nApache Commons Compress software defines an API for working with compression and archive formats.\nThese include: bzip2, gzip, pack200, xz and ar, cpio, jar, tar, zip, dump, 7z, arj.",
+    "release_date": "2013-10-23T04:16:11Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Torsten Curdt",
+            "email": "tcurdt at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stefan Bodewig",
+            "email": "bodewig at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sebastian Bazley",
+            "email": "sebb at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Grobmeier",
+            "email": "grobmeier at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Julius Davies",
+            "email": "julius at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Damjan Jovanovic",
+            "email": "damjan at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Wolfgang Glas",
+            "email": "wolfgang.glas at ev-i.at",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Christian Kohlsch\u00c3\u00bctte",
+            "email": "ck@newsclub.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bear Giles",
+            "email": "bgiles@coyotesong.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Michael Kuss",
+            "email": "mail at michael minus kuss.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Lasse Collin",
+            "email": "lasse.collin@tukaani.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "John Kodis",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://commons.apache.org/proper/commons-compress/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.6/commons-compress-1.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "396b81bdfd0fb617178e1707ef64832215307c78",
+    "sha256": "3b2adbcacfe5e4a2950a2fe082a439f516a73ea58b94c42d0cbd41aaeab1a7e1",
+    "sha512": "373b4ae1d48af40b933f6b2f345137acaf6ceca9e9c4a0fbf409403a94902b94e7dc8df4c55030a113f4c7523c738abcb6852c68c9e75fe5868fc48e772fa6df",
+    "bug_tracking_url": "http://issues.apache.org/jira/browse/COMPRESS",
+    "code_view_url": "http://svn.apache.org/repos/asf/commons/proper/compress/tags/COMPRESS-1.6",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/commons/proper/compress/trunk",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND bsd-new AND public-domain",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.commons/commons-compress@1.6?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@13"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.tukaani/xz@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.commons/commons-compress@1.6?classifier=sources&uuid=78ca816b-f4d3-4f88-98de-78ce550a5667",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.commons/commons-compress@1.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.6/commons-compress-1.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.6/commons-compress-1.6.pom",
+    "file_references": []
+}

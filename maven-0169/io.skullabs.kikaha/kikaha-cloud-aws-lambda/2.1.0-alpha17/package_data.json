@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "io.skullabs.kikaha",
+    "name": "kikaha-cloud-aws-lambda",
+    "version": "2.1.0-alpha17",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Kikaha: Cloud Providers: AWS Lambda",
+    "release_date": "2017-05-21T14:51:31Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-cloud-aws-lambda/2.1.0-alpha17/kikaha-cloud-aws-lambda-2.1.0-alpha17.jar",
+    "size": 21502,
+    "md5": null,
+    "sha1": "1b1e8e1f891b20640ee0ae9550197aaca65335fe",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.skullabs.kikaha/kikaha-cloud-aws-lambda@2.1.0-alpha17?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.skullabs.kikaha/kikaha-urouting",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": "${version.jackson}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+            "extracted_requirement": "${version.jackson}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-lambda-java-log4j",
+            "extracted_requirement": "1.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": "${version.slf4j}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.skullabs.kikaha/kikaha-cloud-aws-lambda@2.1.0-alpha17?uuid=86e55e5f-6f08-4faf-9571-3c420762a85b",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.skullabs.kikaha/kikaha-cloud-aws-lambda@2.1.0-alpha17",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-cloud-aws-lambda/2.1.0-alpha17/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-cloud-aws-lambda/2.1.0-alpha17/kikaha-cloud-aws-lambda-2.1.0-alpha17.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-cloud-aws-lambda/2.1.0-alpha17/kikaha-cloud-aws-lambda-2.1.0-alpha17.pom",
+    "file_references": []
+}

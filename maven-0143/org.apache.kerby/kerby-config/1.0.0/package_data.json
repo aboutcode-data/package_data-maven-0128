@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.kerby",
+    "name": "kerby-config",
+    "version": "1.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2499bed5-4405-4b07-8ea7-6ecbbba82a71",
+            "packages": [
+                "pkg:maven/org.apache.kerby/kerby-config@1.0.0?uuid=d9eff7f2-b26b-41c2-9bc1-ca47fe3b620b",
+                "pkg:maven/org.apache.kerby/kerby-config@1.0.0?classifier=sources&uuid=cc36af0a-6182-4cd5-bb3c-1f991451d2f5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Kerby Config\nKerby config library",
+    "release_date": "2017-05-10T09:06:37Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerby-config/1.0.0/kerby-config-1.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3850abc691bcf2e28682ec1cccf40858be26410f",
+    "sha256": "cc2fd9e9ad2bb5ac6210dced66a1fc249bec50c3eb5990ee8b8aea1de3209e8a",
+    "sha512": "b3da21e7b04b2aed51b6d0e109ac47ff54fa79f52b8437e4ea8762dff0a7d87f576485b72402e3e797c98405f65c57c660a7c48b9f486f9ea64696a847112144",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.kerby/kerby-config@1.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "${slf4j.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple",
+            "extracted_requirement": "${slf4j.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.kerby/kerby-config@1.0.0?classifier=sources&uuid=cc36af0a-6182-4cd5-bb3c-1f991451d2f5",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.kerby/kerby-config@1.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerby-config/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerby-config/1.0.0/kerby-config-1.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerby-config/1.0.0/kerby-config-1.0.0.pom",
+    "file_references": []
+}

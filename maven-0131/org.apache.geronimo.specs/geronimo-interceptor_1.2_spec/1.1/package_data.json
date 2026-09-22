@@ -1,0 +1,69 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.geronimo.specs",
+    "name": "geronimo-interceptor_1.2_spec",
+    "version": "1.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "849f30e3-68ca-45c3-a94a-506536fbe291",
+            "packages": [
+                "pkg:maven/org.apache.geronimo.specs/geronimo-interceptor_1.2_spec@1.1?uuid=117762fc-4609-4a0f-b0df-6e8a8c81d7a4",
+                "pkg:maven/org.apache.geronimo.specs/geronimo-interceptor_1.2_spec@1.1?classifier=sources&uuid=814fd7d7-fb2d-43e7-851a-8b09dc4c6fd6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Geronimo Interceptor Spec 1.2\nInterceptor API 1.2",
+    "release_date": "2018-08-28T16:53:26Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://geronimo.apache.org/maven/specs/geronimo-interceptor_1.2_spec/1.1",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-interceptor_1.2_spec/1.1/geronimo-interceptor_1.2_spec-1.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "790e17271b87d6f6a8725d21f216dbbac14d1e01",
+    "sha256": "a6c873731b7a8f274f0f3d3f8c3bc3106c134a0de3c707981556e3a2fa87bfdd",
+    "sha512": "21f1f83a870a1178accd235ecc1af5c13f60d83fc5eee2d648c7ffe9c2134f1eb644d9b591c12a0e154e52f97ad817b5616538cde2a72023e8408dc0966384d7",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewcvs.cgi/geronimo/specs/tags/geronimo-interceptor_1.2_spec-1.1",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/geronimo/specs/tags/geronimo-interceptor_1.2_spec-1.1",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.geronimo.specs/geronimo-interceptor_1.2_spec@1.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@14",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@14"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.apache.geronimo.specs/geronimo-interceptor_1.2_spec@1.1?classifier=sources&uuid=814fd7d7-fb2d-43e7-851a-8b09dc4c6fd6",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-interceptor_1.2_spec@1.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-interceptor_1.2_spec/1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-interceptor_1.2_spec/1.1/geronimo-interceptor_1.2_spec-1.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-interceptor_1.2_spec/1.1/geronimo-interceptor_1.2_spec-1.1.pom",
+    "file_references": []
+}

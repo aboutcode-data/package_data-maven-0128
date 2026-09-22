@@ -1,0 +1,155 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.tomcat",
+    "name": "tomcat-jasper",
+    "version": "9.0.75",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "10372e9e-0628-4b3b-a29e-98a549f08600",
+            "packages": [
+                "pkg:maven/org.apache.tomcat/tomcat-jasper@9.0.75?uuid=5e64e2d0-1690-4416-978b-040fb37e9263",
+                "pkg:maven/org.apache.tomcat/tomcat-jasper@9.0.75?classifier=sources&uuid=3507d21d-bdb3-400b-8dba-58401bf21b9d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Tomcats JSP Parser",
+    "release_date": "2023-05-04T13:59:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://tomcat.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-jasper/9.0.75/tomcat-jasper-9.0.75-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6edb5bc9f164285b8a596ed133542e9270f1d2f7",
+    "sha256": "3139f794f5d55d274fdc79b8261c7b902b143effffa2e9b7a9e2d86c6ef35701",
+    "sha512": "f8035a52fb82877b1ae5af8db30d382e8dd68063feea88c6fa37824caeeca86c0a052408d63091774cc66a8be4eef33b1b063010c4a4f4b13bb22ea4bdcd0b4d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-efc1b129-3bcc-a9c0-71ea-964bc53d5512",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.tomcat/tomcat-jasper@9.0.75?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.tomcat/tomcat-servlet-api@9.0.75",
+            "extracted_requirement": "9.0.75",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat/tomcat-juli@9.0.75",
+            "extracted_requirement": "9.0.75",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat/tomcat-jsp-api@9.0.75",
+            "extracted_requirement": "9.0.75",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat/tomcat-el-api@9.0.75",
+            "extracted_requirement": "9.0.75",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jdt/ecj@3.26.0",
+            "extracted_requirement": "3.26.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat/tomcat-jasper-el@9.0.75",
+            "extracted_requirement": "9.0.75",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat/tomcat-api@9.0.75",
+            "extracted_requirement": "9.0.75",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat/tomcat-util-scan@9.0.75",
+            "extracted_requirement": "9.0.75",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.tomcat/tomcat-jasper@9.0.75?classifier=sources&uuid=3507d21d-bdb3-400b-8dba-58401bf21b9d",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.tomcat/tomcat-jasper@9.0.75?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-jasper/9.0.75/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-jasper/9.0.75/tomcat-jasper-9.0.75-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-jasper/9.0.75/tomcat-jasper-9.0.75.pom",
+    "file_references": []
+}

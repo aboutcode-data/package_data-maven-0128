@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.yangtools",
+    "name": "yang-model-spi",
+    "version": "8.0.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b035e3ca-fdb7-4a47-be69-73e28b2b6ffe",
+            "packages": [
+                "pkg:maven/org.opendaylight.yangtools/yang-model-spi@8.0.6?uuid=3fdc9b88-4131-49fa-90d8-855b1bf97f1f",
+                "pkg:maven/org.opendaylight.yangtools/yang-model-spi@8.0.6?classifier=sources&uuid=18a98d58-1b6c-4210-a967-74cdf74fba4a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "yang-model-spi",
+    "release_date": "2022-05-25T13:36:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/yangtools/yang-model-spi/8.0.6/yang-model-spi-8.0.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "97f079297d5b856d36e15547f33ca8ba160abec2",
+    "sha256": "f82e139e62b3f912bc795bffc1c5f3f04831f592a32358eae6fc5dd32bf3f8e8",
+    "sha512": "018611711cdf7247b61c6a6898e5feb853c27670df7a1430d043a09497f246b776a3b1a555a1c622f2dbb70437b81553fd91add7c3c2b6df6ac9dc5ddfa41b1d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) PANTHEON.tech, s.r.o.. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.yangtools/yang-model-spi@8.0.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/concepts",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-model-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-xpath-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/rfc7952-model-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.yangtools/yang-model-spi@8.0.6?classifier=sources&uuid=18a98d58-1b6c-4210-a967-74cdf74fba4a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.yangtools/yang-model-spi@8.0.6?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

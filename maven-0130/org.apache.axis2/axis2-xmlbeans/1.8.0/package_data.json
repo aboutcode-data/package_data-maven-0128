@@ -1,0 +1,118 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.axis2",
+    "name": "axis2-xmlbeans",
+    "version": "1.8.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "251b6eae-9695-407e-8e6c-8bee75a849bc",
+            "packages": [
+                "pkg:maven/org.apache.axis2/axis2-xmlbeans@1.8.0?uuid=b2708d0c-eff8-44c4-b3a3-995a652ac822",
+                "pkg:maven/org.apache.axis2/axis2-xmlbeans@1.8.0?classifier=sources&uuid=4e22cef5-4717-41b2-a7d7-fba7a7d0fad5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Axis2 - XMLBeans Data Binding\nXMLBeans data binding support for Axis2",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://axis.apache.org/axis2/java/core/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/axis2/axis2-xmlbeans/1.8.0/axis2-xmlbeans-1.8.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1d1c4286cc7deec5922ad4d67d6f3bcdc3f47f7d",
+    "sha256": "aadf5a21b9e565b81c0a26a92ffd56c446d8b96838d1d1344ff8707bc529802f",
+    "sha512": "b0aef259587414867023f22b468bf638867f42c0f0bc9ed0ae2e8889bce2945cd62da373b4e6720dd8585d6dfd5a46b9697ff156734653de3771424d95cae70b",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/axis/axis2/java/core/trunk/modules/xmlbeans",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/axis/axis2/java/core/trunk/modules/xmlbeans",
+    "copyright": "Copyright (c) International Business Machines Corp., WSO2, Inc., salesforce.com, inc., BEA Systems",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "cpl-1.0 AND apache-2.0 AND bsd-new AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND cddl-1.0 AND unknown-license-reference",
+    "other_license_expression_spdx": "CPL-1.0 AND Apache-2.0 AND BSD-3-Clause AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND CDDL-1.0 AND LicenseRef-scancode-unknown-license-reference",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.axis2/axis2-xmlbeans@1.8.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.axis2/axis2-kernel@1.8.0",
+            "extracted_requirement": "1.8.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlbeans/xmlbeans",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.axis2/axis2-xmlbeans-codegen@1.8.0",
+            "extracted_requirement": "1.8.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant-launcher",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.axis2/axis2-xmlbeans@1.8.0?classifier=sources&uuid=4e22cef5-4717-41b2-a7d7-fba7a7d0fad5",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.axis2/axis2-xmlbeans@1.8.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/axis2/axis2-xmlbeans/1.8.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/axis2/axis2-xmlbeans/1.8.0/axis2-xmlbeans-1.8.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/axis2/axis2-xmlbeans/1.8.0/axis2-xmlbeans-1.8.0.pom",
+    "file_references": []
+}

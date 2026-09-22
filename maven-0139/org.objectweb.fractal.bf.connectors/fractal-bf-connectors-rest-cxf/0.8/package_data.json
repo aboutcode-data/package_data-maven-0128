@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.objectweb.fractal.bf.connectors",
+    "name": "fractal-bf-connectors-rest-cxf",
+    "version": "0.8",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Fractal-BF: RESTful/CXF Connector\nBinding Factory plugin to export component interfaces via \n\t\tRESTful protocol, and to expose them as RESTful Web Services.\n\t\tThis plugin relies on Apache CXF http://cxf.apache.org/ to transparently\n\t\texport a Fractal server interface as a RESTful web service, and to bind\n\t\ta Fractal client interface to a RESTful web service.",
+    "release_date": "2010-07-22T12:53:24Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/objectweb/fractal/bf/connectors/fractal-bf-connectors-rest-cxf/0.8/fractal-bf-connectors-rest-cxf-0.8.jar",
+    "size": 12290,
+    "md5": null,
+    "sha1": "c171f14cdb7b310389e0c930cf4d4a2db50a7be6",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.objectweb.fractal.bf.connectors/fractal-bf-connectors-rest-cxf@0.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.ws.rs/jsr311-api",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-frontend-jaxrs",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-http-jetty",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.objectweb.fractal.bf.connectors/fractal-bf-connectors-common",
+            "extracted_requirement": "0.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": "2.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.objectweb.fractal.bf.testing/fractal-bf-testing-fixtures",
+            "extracted_requirement": "0.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.objectweb.fractal.bf.connectors/fractal-bf-connectors-rest-cxf@0.8?uuid=f0d02c6d-6135-421d-8029-a3309c792092",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.objectweb.fractal.bf.connectors/fractal-bf-connectors-rest-cxf@0.8",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/objectweb/fractal/bf/connectors/fractal-bf-connectors-rest-cxf/0.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/objectweb/fractal/bf/connectors/fractal-bf-connectors-rest-cxf/0.8/fractal-bf-connectors-rest-cxf-0.8.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/objectweb/fractal/bf/connectors/fractal-bf-connectors-rest-cxf/0.8/fractal-bf-connectors-rest-cxf-0.8.pom",
+    "file_references": []
+}

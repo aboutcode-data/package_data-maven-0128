@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.wildfly.security",
+    "name": "wildfly-elytron-encryption",
+    "version": "1.20.3.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2aac01b5-33d7-427e-af9e-467a0e946992",
+            "packages": [
+                "pkg:maven/org.wildfly.security/wildfly-elytron-encryption@1.20.3.Final?uuid=905037c9-90f8-4f2f-b8f7-6a3cd1df0f42",
+                "pkg:maven/org.wildfly.security/wildfly-elytron-encryption@1.20.3.Final?classifier=sources&uuid=2190c3a8-73b3-48c2-ad15-c5dff8ac59db"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "WildFly Elytron - Encryption\nWildFly Security Encryption",
+    "release_date": "2023-02-21T15:36:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/wildfly/security/wildfly-elytron-encryption/1.20.3.Final/wildfly-elytron-encryption-1.20.3.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "18bad549a44c379b2bdb5992b6e28a477abdf237",
+    "sha256": "7b0da7307f609a29788c139a60895253836ee089eea78bdf2a4d20d376eaafb6",
+    "sha512": "0b4fc3b56216de25cca8176f88ceac8f349ca70ae46a9b7b3e1966f75f6d184aaad9214f982ed55bc9e8fb39156bd937857aa129ff269961b67032e72a48fbaa",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat, Inc., and individual contributors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.wildfly.security/wildfly-elytron-encryption@1.20.3.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-annotations",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-processor",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.common/wildfly-common",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.wildfly.security/wildfly-elytron-encryption@1.20.3.Final?classifier=sources&uuid=2190c3a8-73b3-48c2-ad15-c5dff8ac59db",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-encryption@1.20.3.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

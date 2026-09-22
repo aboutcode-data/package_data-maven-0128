@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.commons",
+    "name": "commons-compress",
+    "version": "1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "015e4a69-6515-4458-858f-2b2a132faf1d",
+            "packages": [
+                "pkg:maven/org.apache.commons/commons-compress@1.0?uuid=7fec37ec-3733-4118-84f8-d16ad48d1e60",
+                "pkg:maven/org.apache.commons/commons-compress@1.0?classifier=sources&uuid=4ce61c1e-0625-4540-a356-88f003ad9271"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Commons Compress\nCommons Compress is a component that contains Ar, Cpio, Jar, Tar, Zip and BZip2 packages",
+    "release_date": "2009-05-21T16:42:38Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Torsten Curdt",
+            "email": "tcurdt at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stefan Bodewig",
+            "email": "bodewig at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sebastian Bazley",
+            "email": "sebb at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Grobmeier",
+            "email": "grobmeier at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Wolfgang Glas",
+            "email": "wolfgang.glas at ev-i.at",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Christian Kohlsch\u00c3\u00bctte",
+            "email": "ck@newsclub.de",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://commons.apache.org/compress/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.0/commons-compress-1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "913e9963c558d36bdfdc19bab739a282999d08eb",
+    "sha256": "6a275ae4210ecbefc361b2031613d9dcf1b0201f4a75cb79340605f0fdd3e450",
+    "sha512": "5fdd6681cbb1663ebda6f4b96a17d227489a8114c6af7c09891e833893ebc3b0f6365b4f4ea026188c9b945cf57373e7e87499de384d515295bc59a0ee75e55f",
+    "bug_tracking_url": "http://issues.apache.org/jira/browse/COMPRESS",
+    "code_view_url": "http://svn.apache.org/repos/asf/commons/proper/compress/tags/commons-compress-1.0",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/commons/proper/compress/tags/commons-compress-1.0",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.commons/commons-compress@1.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@4"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.2",
+            "extracted_requirement": "3.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.commons/commons-compress@1.0?classifier=sources&uuid=4ce61c1e-0625-4540-a356-88f003ad9271",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.commons/commons-compress@1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.0/commons-compress-1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.0/commons-compress-1.0.pom",
+    "file_references": []
+}

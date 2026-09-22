@@ -1,0 +1,83 @@
+{
+    "type": "maven",
+    "namespace": "org.graalvm.sdk",
+    "name": "graal-sdk",
+    "version": "22.3.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6bde3752-e361-4559-af6c-718c6b6970ca",
+            "packages": [
+                "pkg:maven/org.graalvm.sdk/graal-sdk@22.3.0?uuid=e4f8b46f-5c94-44b0-8666-11cbc71f261c",
+                "pkg:maven/org.graalvm.sdk/graal-sdk@22.3.0?classifier=sources&uuid=f09ac4b4-686d-421b-aab4-ced3a533b693"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Graal Sdk\nGraalVM is an ecosystem for compiling and running applications written in multiple languages.\nGraalVM removes the isolation between programming languages and enables interoperability in a shared runtime.",
+    "release_date": "2022-10-17T07:46:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "GraalVM Development",
+            "email": "graalvm-dev@oss.oracle.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/oracle/graal",
+    "download_url": "https://repo1.maven.org/maven2/org/graalvm/sdk/graal-sdk/22.3.0/graal-sdk-22.3.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "33c4cca6fb80b020cad87acfcd05c317f39b3003",
+    "sha256": "7313ab89efd29d21afe71bf2ec0aadcfe13bad16390360908077a56617b200ea",
+    "sha512": "6d4d48273ad620d8311dba87b9b38b4aecd6e93d50601575709a930f3e89d7bedf27c5ed7c51544e137665637e1e4212ee2b146e8a2f5dcaeafc6f71722a704f",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/oracle/graal",
+    "vcs_url": "git+https://github.com/oracle/graal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "upl-1.0",
+    "declared_license_expression_spdx": "UPL-1.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/upl-1.0_url_glc_110.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://opensource.org/licenses/UPL",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "upl-1.0_url_glc_110.RULE",
+                    "license_expression": "upl-1.0"
+                }
+            ],
+            "identifier": "upl_1_0-666dbfe3-8c22-4ffb-a5e6-fd3b47b6c8ac",
+            "license_expression": "upl-1.0"
+        }
+    ],
+    "other_license_expression": "upl-1.0",
+    "other_license_expression_spdx": "UPL-1.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Universal Permissive License, Version 1.0\n  url: http://opensource.org/licenses/UPL\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.graalvm.sdk/graal-sdk@22.3.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.graalvm.sdk/graal-sdk@22.3.0?classifier=sources&uuid=f09ac4b4-686d-421b-aab4-ced3a533b693",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.graalvm.sdk/graal-sdk@22.3.0?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

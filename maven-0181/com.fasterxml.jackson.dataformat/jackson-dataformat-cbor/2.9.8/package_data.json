@@ -1,0 +1,93 @@
+{
+    "type": "maven",
+    "namespace": "com.fasterxml.jackson.dataformat",
+    "name": "jackson-dataformat-cbor",
+    "version": "2.9.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3fcb932b-c933-493a-8cbf-56a026170752",
+            "packages": [
+                "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.9.8?uuid=a32b17f3-18be-45e7-89a9-56529bbcf6c7",
+                "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.9.8?classifier=sources&uuid=4ce7a18e-2fce-4b90-a366-e2ecbe655add"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jackson dataformat: CBOR\nSupport for reading and writing Concise Binary Object Representation\n([CBOR](https://www.rfc-editor.org/info/rfc7049)\nencoded data using Jackson abstractions (streaming API, data binding, tree model)",
+    "release_date": "2018-12-15T22:53:02Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tatu Saloranta",
+            "email": "tatu@fasterxml.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "FasterXML",
+            "email": null,
+            "url": "http://fasterxml.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/FasterXML/jackson-dataformats-binary",
+    "download_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.9.8/jackson-dataformat-cbor-2.9.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9570706e2bf2ac4536cc8da6fd7c01f4743a8670",
+    "sha256": "0df4a3ceb990d6aaaf1447ae0ab9140bc76b58956822c132d46ac9c3010e85f9",
+    "sha512": "4431d1fce0e7f92018b1cac4d141e8484c8d36ba36dc0ffb26b208d854a46f967f49fd3b6814d791164dbd25267dbee16058522645542239d4df14aad46e7a81",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.9.8?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.fasterxml/oss-parent@34",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.fasterxml/oss-parent@34"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.9.8?classifier=sources&uuid=4ce7a18e-2fce-4b90-a366-e2ecbe655add",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.9.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.9.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.9.8/jackson-dataformat-cbor-2.9.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.9.8/jackson-dataformat-cbor-2.9.8.pom",
+    "file_references": []
+}

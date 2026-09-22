@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "io.swagger.core.v3",
+    "name": "swagger-integration",
+    "version": "2.1.12",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "048d0c73-db9f-4926-a375-2fc86dc69c03",
+            "packages": [
+                "pkg:maven/io.swagger.core.v3/swagger-integration@2.1.12?uuid=2d03a91d-95e4-4da2-adb2-8f2c05403250",
+                "pkg:maven/io.swagger.core.v3/swagger-integration@2.1.12?classifier=sources&uuid=6be3d073-8f39-4fac-a429-33020a4cfcf0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "swagger-integration",
+    "release_date": "2021-12-23T10:48:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tony Tam",
+            "email": "fehguy@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ron Ratovsky",
+            "email": "webron@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/swagger-api/swagger-core",
+    "download_url": "https://repo1.maven.org/maven2/io/swagger/core/v3/swagger-integration/2.1.12/swagger-integration-2.1.12-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5c575c3a395869a674dce9c41aa3a13a84d71d0d",
+    "sha256": "548c91f470727f17c59c64210053ffb88d474588d207b9b3e8115a8e1108b133",
+    "sha512": "a3d484fe8c816753e99a92daf94ea2e6d0b72f82885fdd8bf9297fff0bcd48f66fefb89b1d212424816fb5246c3e3b775d17339a454c1264060cf1049758701c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.swagger.core.v3/swagger-integration@2.1.12?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.github.classgraph/classgraph",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.swagger.core.v3/swagger-core@2.1.12",
+            "extracted_requirement": "2.1.12",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.swagger.core.v3/swagger-models@2.1.12",
+            "extracted_requirement": "2.1.12",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.swagger.core.v3/swagger-integration@2.1.12?classifier=sources&uuid=6be3d073-8f39-4fac-a429-33020a4cfcf0",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.swagger.core.v3/swagger-integration@2.1.12?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

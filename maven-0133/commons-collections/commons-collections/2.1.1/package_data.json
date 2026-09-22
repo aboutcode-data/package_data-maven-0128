@@ -1,0 +1,57 @@
+{
+    "type": "maven",
+    "namespace": "commons-collections",
+    "name": "commons-collections",
+    "version": "2.1.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ea08a183-91da-4558-bd7b-25aa426c4ab1",
+            "packages": [
+                "pkg:maven/commons-collections/commons-collections@2.1.1?uuid=f0dc733f-1ab4-4b93-bff0-0b09e24683fb",
+                "pkg:maven/commons-collections/commons-collections@2.1.1?classifier=sources&uuid=0bd01c96-0011-44e0-abb0-fcd38d5cfd23"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2005-11-01T16:07:39Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/commons-collections/commons-collections/2.1.1/commons-collections-2.1.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9457642154fbdc4d43bec5f56081a779d7cc4b55",
+    "sha256": "2a235aa62369ff0649e02e8ef12c32fe2c41cae06174378cd12780104417abfa",
+    "sha512": "86f55ab07b65e7106cbe15f4cd30c81c1a123ca59733bf1db6f0ffe3c5b734a36e799ed04d222d6dfb1e4c5e6142a1e7af9ff91e3352d9713457e1c5a80775b2",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/commons-collections/commons-collections@2.1.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/commons-collections/commons-collections@2.1.1?classifier=sources&uuid=0bd01c96-0011-44e0-abb0-fcd38d5cfd23",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/commons-collections/commons-collections@2.1.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/commons-collections/commons-collections/2.1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/commons-collections/commons-collections/2.1.1/commons-collections-2.1.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/commons-collections/commons-collections/2.1.1/commons-collections-2.1.1.pom",
+    "file_references": []
+}

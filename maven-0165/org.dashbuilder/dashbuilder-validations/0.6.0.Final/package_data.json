@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "org.dashbuilder",
+    "name": "dashbuilder-validations",
+    "version": "0.6.0.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Dashbuilder Validations\nDashbuilder validation factory and messages provider.",
+    "release_date": "2017-05-18T05:49:08Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-validations/0.6.0.Final/dashbuilder-validations-0.6.0.Final.jar",
+    "size": 22539,
+    "md5": null,
+    "sha1": "91d62cd5820403d453c7a07cb11b5c25757bc2f8",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.dashbuilder/dashbuilder-validations@0.6.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-dataset-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-dataset-shared",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-dataset-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-displayer-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.errai/errai-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.errai/errai-ioc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.errai/errai-validation",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.gwt/gwt-user",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.validation/validation-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate/hibernate-validator",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.gwt.gwtmockito/gwtmockito",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.dashbuilder/dashbuilder-validations@0.6.0.Final?uuid=f6837857-af3d-4d6a-a8c4-2d7fc814f20a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.dashbuilder/dashbuilder-validations@0.6.0.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-validations/0.6.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-validations/0.6.0.Final/dashbuilder-validations-0.6.0.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-validations/0.6.0.Final/dashbuilder-validations-0.6.0.Final.pom",
+    "file_references": []
+}

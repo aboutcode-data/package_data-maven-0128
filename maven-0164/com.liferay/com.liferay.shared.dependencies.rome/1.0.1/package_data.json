@@ -1,0 +1,90 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.shared.dependencies.rome",
+    "version": "1.0.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Liferay Shared Dependencies Rome",
+    "release_date": "2022-03-24T18:57:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.shared.dependencies.rome/1.0.1/com.liferay.shared.dependencies.rome-1.0.1.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f6ff4ea12a54e8cd276eaa90c13021218f059563",
+    "sha256": "5d76880c9e55c68167b451f2507e17c3d7552e453bbeec3d6698e7796ec549a4",
+    "sha512": "2ef747a5540b9d8c1f937b5c03f125a1d1bc73bc843ea5060f97956f8820da4bcf85bf6e47072f488cbd5b0033e00790c0d3d35a16f2e015b0c9fb69e5a025b4",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.shared.dependencies.rome@1.0.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 5
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.shared.dependencies.rome@1.0.1?uuid=a44d0184-65e5-4618-a4f6-dbdc5529d85f",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.shared.dependencies.rome@1.0.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.shared.dependencies.rome/1.0.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.shared.dependencies.rome/1.0.1/com.liferay.shared.dependencies.rome-1.0.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.shared.dependencies.rome/1.0.1/com.liferay.shared.dependencies.rome-1.0.1.pom",
+    "file_references": []
+}

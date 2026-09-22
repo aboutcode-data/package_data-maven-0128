@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "org.atnos",
+    "name": "eff_sjs0.6_2.12",
+    "version": "4.3.4-20170517065627-33121e0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "core",
+    "release_date": "2017-05-17T07:01:47Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Eric Torreborre",
+            "email": null,
+            "url": "https://github.com/etorreborre/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.atnos",
+            "email": null,
+            "url": "https://github.com/atnos-org/eff"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/atnos-org/eff",
+    "download_url": "https://repo1.maven.org/maven2/org/atnos/eff_sjs0.6_2.12/4.3.4-20170517065627-33121e0/eff_sjs0.6_2.12-4.3.4-20170517065627-33121e0.jar",
+    "size": 1608398,
+    "md5": null,
+    "sha1": "198654f53401a15218cdf97b68fd31cb9d7a3da9",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.atnos/eff_sjs0.6_2.12@4.3.4-20170517065627-33121e0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-js/scalajs-library_2.12",
+            "extracted_requirement": "0.6.15",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/cats-core_sjs0.6_2.12",
+            "extracted_requirement": "0.9.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-js/scalajs-test-interface_2.12",
+            "extracted_requirement": "0.6.15",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.atnos/eff_sjs0.6_2.12@4.3.4-20170517065627-33121e0?uuid=47d482c6-ce70-412e-a3bd-e47ffe4bb37b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.atnos/eff_sjs0.6_2.12@4.3.4-20170517065627-33121e0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/atnos/eff_sjs0.6_2.12/4.3.4-20170517065627-33121e0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/atnos/eff_sjs0.6_2.12/4.3.4-20170517065627-33121e0/eff_sjs0.6_2.12-4.3.4-20170517065627-33121e0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/atnos/eff_sjs0.6_2.12/4.3.4-20170517065627-33121e0/eff_sjs0.6_2.12-4.3.4-20170517065627-33121e0.pom",
+    "file_references": []
+}

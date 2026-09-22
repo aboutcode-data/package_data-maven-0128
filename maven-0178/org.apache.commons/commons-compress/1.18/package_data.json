@@ -1,0 +1,300 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.commons",
+    "name": "commons-compress",
+    "version": "1.18",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9195eaee-4d2f-40e9-abd8-1f14c609d4ac",
+            "packages": [
+                "pkg:maven/org.apache.commons/commons-compress@1.18?uuid=4dccfa54-573d-48e7-86f7-5102ec6add4c",
+                "pkg:maven/org.apache.commons/commons-compress@1.18?classifier=sources&uuid=c19c51a5-c5f5-4d06-bb37-a69db4d34685"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Commons Compress\nApache Commons Compress software defines an API for working with\ncompression and archive formats.  These include: bzip2, gzip, pack200,\nlzma, xz, Snappy, traditional Unix Compress, DEFLATE, DEFLATE64, LZ4,\nBrotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.",
+    "release_date": "2018-08-13T07:24:52Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Torsten Curdt",
+            "email": "tcurdt at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stefan Bodewig",
+            "email": "bodewig at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sebastian Bazley",
+            "email": "sebb at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Grobmeier",
+            "email": "grobmeier at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Julius Davies",
+            "email": "julius at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Damjan Jovanovic",
+            "email": "damjan at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Emmanuel Bourg",
+            "email": "ebourg at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Gary Gregory",
+            "email": "ggregory at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rob Tompkins",
+            "email": "chtompki at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Wolfgang Glas",
+            "email": "wolfgang.glas at ev-i.at",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Christian Kohlsch\u00c3\u00bctte",
+            "email": "ck@newsclub.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bear Giles",
+            "email": "bgiles@coyotesong.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Michael Kuss",
+            "email": "mail at michael minus kuss.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Lasse Collin",
+            "email": "lasse.collin@tukaani.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "John Kodis",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "BELUGA BEHR",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Simon Spero",
+            "email": "sesuncedu@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Michael Hausegger",
+            "email": "hausegger.michael@googlemail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://commons.apache.org/proper/commons-compress/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a25b942b99fde2cc2913ab39ad34abc0df4f5eb9",
+    "sha256": "c8e6896eb3d3880ffc21bb93d563b7cc0d3e2152c8181f261a748502290a5947",
+    "sha512": "8a39dc77ff847c9cb470a12d03516db8eb6486529b0312aebadf54726adedae7485045f71c2924d9e378f7c1f3a51e0c585412a12612a2ffa2028b2dbb017a38",
+    "bug_tracking_url": "https://issues.apache.org/jira/browse/COMPRESS",
+    "code_view_url": "https://git-wip-us.apache.org/repos/asf?p=commons-compress.git",
+    "vcs_url": "git+https://git-wip-us.apache.org/repos/asf/commons-compress.git",
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new AND proprietary-license AND public-domain AND (apache-2.0 AND bsd-new) AND (apache-2.0 AND public-domain)",
+    "other_license_expression_spdx": "BSD-3-Clause AND LicenseRef-scancode-proprietary-license AND LicenseRef-scancode-public-domain AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND LicenseRef-scancode-public-domain)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.commons/commons-compress@1.18?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@19"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.powermock/powermock-module-junit4@1.7.3",
+            "extracted_requirement": "1.7.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.powermock/powermock-api-mockito@1.7.3",
+            "extracted_requirement": "1.7.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.exam/pax-exam-container-native@4.11.0",
+            "extracted_requirement": "4.11.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.exam/pax-exam-junit4@4.11.0",
+            "extracted_requirement": "4.11.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.exam/pax-exam-cm@4.11.0",
+            "extracted_requirement": "4.11.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.exam/pax-exam-link-mvn@4.11.0",
+            "extracted_requirement": "4.11.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.apache.felix.framework@5.6.10",
+            "extracted_requirement": "5.6.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.inject/javax.inject@1",
+            "extracted_requirement": "1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.21",
+            "extracted_requirement": "1.7.21",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.luben/zstd-jni@1.3.3-3",
+            "extracted_requirement": "1.3.3-3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.brotli/dec@0.1.2",
+            "extracted_requirement": "0.1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.tukaani/xz@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core@6.0.0",
+            "extracted_requirement": "6.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.commons/commons-compress@1.18?classifier=sources&uuid=c19c51a5-c5f5-4d06-bb37-a69db4d34685",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.commons/commons-compress@1.18?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18.pom",
+    "file_references": []
+}

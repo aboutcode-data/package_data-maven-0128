@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.pac4j",
+    "name": "pac4j-stormpath",
+    "version": "1.9.8",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "pac4j for Stormpath",
+    "release_date": "2017-05-25T17:17:37Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/pac4j/pac4j-stormpath/1.9.8/pac4j-stormpath-1.9.8.jar",
+    "size": 6916,
+    "md5": null,
+    "sha1": "f62ec67e75219fbfe6b0b85843a09463cd79e83e",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.pac4j/pac4j-stormpath@1.9.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.pac4j/pac4j-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.stormpath.sdk/stormpath-sdk-api",
+            "extracted_requirement": "0.9.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.stormpath.sdk/stormpath-sdk-httpclient",
+            "extracted_requirement": "0.9.3",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.pac4j/pac4j-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.pac4j/pac4j-stormpath@1.9.8?uuid=067d85a8-5ef2-4320-900f-26a923d8c774",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.pac4j/pac4j-stormpath@1.9.8",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/pac4j/pac4j-stormpath/1.9.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/pac4j/pac4j-stormpath/1.9.8/pac4j-stormpath-1.9.8.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/pac4j/pac4j-stormpath/1.9.8/pac4j-stormpath-1.9.8.pom",
+    "file_references": []
+}

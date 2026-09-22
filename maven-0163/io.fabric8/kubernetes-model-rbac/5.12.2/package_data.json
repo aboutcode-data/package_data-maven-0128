@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "io.fabric8",
+    "name": "kubernetes-model-rbac",
+    "version": "5.12.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f9e29dbd-019a-4cf1-b00c-ca6cc300eaee",
+            "packages": [
+                "pkg:maven/io.fabric8/kubernetes-model-rbac@5.12.2?uuid=4b8f8fea-10c2-41a2-949a-b2c77fd89a5b",
+                "pkg:maven/io.fabric8/kubernetes-model-rbac@5.12.2?classifier=sources&uuid=2906591a-958d-409c-a406-f6e12ab872fc",
+                "pkg:github/fabric8io/kubernetes-client@v5.12.2?uuid=6af039a5-977e-45b8-90e8-aaf8698c1854"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Fabric8 :: Kubernetes Model :: RBAC",
+    "release_date": "2022-04-06T09:52:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Fabric8 Development Team",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Red Hat",
+            "email": null,
+            "url": "http://redhat.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://fabric8.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-rbac/5.12.2/kubernetes-model-rbac-5.12.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6e96d6d2f158ec5d0c0a7014bba7b2321e10f37e",
+    "sha256": "3dd17308b2200744962f858c952079013964cbd189851f10c0dda46a6154ee04",
+    "sha512": "f29b6fd67b9a20bf4e517dedd0134ab4c6967025721fb25e40fb9fc8704da23aa4adac7a11afb4806cf14b1116323a1524c78fd9e0c5bb795054f58387a892ae",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.fabric8/kubernetes-model-rbac@5.12.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-model-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-model-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.fabric8/kubernetes-model-rbac@5.12.2?classifier=sources&uuid=2906591a-958d-409c-a406-f6e12ab872fc",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.fabric8/kubernetes-model-rbac@5.12.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-rbac/5.12.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-rbac/5.12.2/kubernetes-model-rbac-5.12.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-rbac/5.12.2/kubernetes-model-rbac-5.12.2.pom",
+    "file_references": []
+}

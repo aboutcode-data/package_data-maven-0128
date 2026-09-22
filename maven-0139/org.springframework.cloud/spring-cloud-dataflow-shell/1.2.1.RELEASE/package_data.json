@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.cloud",
+    "name": "spring-cloud-dataflow-shell",
+    "version": "1.2.1.RELEASE",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-25T06:15:09Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Pivotal Software, Inc.",
+            "email": null,
+            "url": "http://www.spring.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://projects.spring.io/spring-cloud/",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dataflow-shell/1.2.1.RELEASE/spring-cloud-dataflow-shell-1.2.1.RELEASE.jar",
+    "size": 19964558,
+    "md5": null,
+    "sha1": "0392f69a5a27df458210968229ebf6f7c128848b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.cloud/spring-cloud-dataflow-shell@1.2.1.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.cloud/spring-cloud-dataflow-shell-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.cloud/spring-cloud-dataflow-shell@1.2.1.RELEASE?uuid=cefd9bac-71ff-485a-86d3-8d0cfa76692c",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.cloud/spring-cloud-dataflow-shell@1.2.1.RELEASE",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dataflow-shell/1.2.1.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dataflow-shell/1.2.1.RELEASE/spring-cloud-dataflow-shell-1.2.1.RELEASE.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dataflow-shell/1.2.1.RELEASE/spring-cloud-dataflow-shell-1.2.1.RELEASE.pom",
+    "file_references": []
+}

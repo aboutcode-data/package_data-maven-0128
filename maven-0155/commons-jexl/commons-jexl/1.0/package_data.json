@@ -1,0 +1,55 @@
+{
+    "type": "maven",
+    "namespace": "commons-jexl",
+    "name": "commons-jexl",
+    "version": "1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "df04d3d1-ca8b-4252-a670-3fb5ab4a8553",
+            "packages": [
+                "pkg:maven/commons-jexl/commons-jexl@1.0?uuid=687210c8-4789-4ae2-8029-370830468fea",
+                "pkg:maven/commons-jexl/commons-jexl@1.0?classifier=sources&uuid=650fed88-f47b-4cb3-b494-c62a8b80c6a5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2006-06-28T14:00:11Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/commons-jexl/commons-jexl/1.0/commons-jexl-1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "65162e0fe75e7a714c6d1e2fadacdccf6ed2704f",
+    "sha256": "ebe30f00420d7028bc30522bb09890b0c368123762f3ca6d115a2a732b52f095",
+    "sha512": "2470c04f11427f6aacffb9d51ad1cdb3d371edb9061e708b41cc2cd05815687d1b16972c80e01c532a542b4a9a6eb7f09918653abdf0ec4296a4724fff70c308",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/commons-jexl/commons-jexl@1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/commons-jexl/commons-jexl@1.0?classifier=sources&uuid=650fed88-f47b-4cb3-b494-c62a8b80c6a5",
+    "datasource_id": null,
+    "purl": "pkg:maven/commons-jexl/commons-jexl@1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/commons-jexl/commons-jexl/1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/commons-jexl/commons-jexl/1.0/commons-jexl-1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/commons-jexl/commons-jexl/1.0/commons-jexl-1.0.pom",
+    "file_references": []
+}

@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.data.engine.rest.api",
+    "version": "9.2.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d652c9ba-401d-4e1e-8c3d-d4cd84f8006b",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.data.engine.rest.api@9.2.0?uuid=fa0015eb-7ae6-421d-b497-df4bbfd31989",
+                "pkg:maven/com.liferay/com.liferay.data.engine.rest.api@9.2.0?classifier=sources&uuid=9457417e-9a12-4286-8164-acba08cf2483"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Data Engine REST API",
+    "release_date": "2019-09-23T21:53:58Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.data.engine.rest.api/9.2.0/com.liferay.data.engine.rest.api-9.2.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d6791c70526b3a5f3f5dc86b6e15cbaab7fd23da",
+    "sha256": "850339146da71453ed4933862ed48d096dd8fd536ff98a5dfe1a725c8bd5eeb1",
+    "sha512": "76b36c54fd8011f9417c3d863627b18eb6667631d34f9adbaf17addfd6e1e30756b629473ecab032bcf4d10ffe5c86768245db3c4c8e483d5ac85fdec255b807",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.data.engine.rest.api@9.2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.data.engine.rest.api@9.2.0?classifier=sources&uuid=9457417e-9a12-4286-8164-acba08cf2483",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.data.engine.rest.api@9.2.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.data.engine.rest.api/9.2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.data.engine.rest.api/9.2.0/com.liferay.data.engine.rest.api-9.2.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.data.engine.rest.api/9.2.0/com.liferay.data.engine.rest.api-9.2.0.pom",
+    "file_references": []
+}

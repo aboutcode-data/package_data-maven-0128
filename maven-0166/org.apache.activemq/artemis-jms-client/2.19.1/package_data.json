@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.activemq",
+    "name": "artemis-jms-client",
+    "version": "2.19.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9622a27f-5467-4710-8bab-630a6b04ff17",
+            "packages": [
+                "pkg:maven/org.apache.activemq/artemis-jms-client@2.19.1?uuid=b026bd98-591f-4b06-8753-403bba449dcb",
+                "pkg:maven/org.apache.activemq/artemis-jms-client@2.19.1?classifier=sources&uuid=0ced7d7a-ebde-4af2-b889-74f75c8d91cb"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ActiveMQ Artemis JMS Client",
+    "release_date": "2022-01-26T17:25:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/activemq/artemis-jms-client/2.19.1/artemis-jms-client-2.19.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a8663a058c68b04447321ad2c2e7429c09b9b17e",
+    "sha256": "52d20a5f124745798f4b98d2f7c3eeb2351a37d3bdae9bea9c73dfc39629a25a",
+    "sha512": "ad8166f3719d1307e8a07b1b2ff98a418bb2c4e99fbbba9f9c816b28db646ae32ec62d46beca2494f32fc70c2cf56b0a98ac493679840e13f9d48408abaa2baf",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "epl-2.0 AND gpl-2.0 WITH classpath-exception-2.0 AND classpath-exception-2.0 AND gpl-2.0 AND apache-2.0",
+    "other_license_expression_spdx": "EPL-2.0 AND GPL-2.0-only WITH Classpath-exception-2.0 AND Classpath-exception-2.0 AND GPL-2.0-only AND Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.activemq/artemis-jms-client@2.19.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-processor",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.errorprone/error_prone_core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/artemis-core-client@2.19.1",
+            "extracted_requirement": "2.19.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/artemis-commons@2.19.1",
+            "extracted_requirement": "2.19.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/artemis-selector@2.19.1",
+            "extracted_requirement": "2.19.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jakarta.jms/jakarta.jms-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/artemis-core-client@2.19.1",
+            "extracted_requirement": "2.19.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logmanager/jboss-logmanager",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.activemq/artemis-jms-client@2.19.1?classifier=sources&uuid=0ced7d7a-ebde-4af2-b889-74f75c8d91cb",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.activemq/artemis-jms-client@2.19.1?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

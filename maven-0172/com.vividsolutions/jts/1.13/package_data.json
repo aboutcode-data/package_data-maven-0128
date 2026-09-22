@@ -1,0 +1,109 @@
+{
+    "type": "maven",
+    "namespace": "com.vividsolutions",
+    "name": "jts",
+    "version": "1.13",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "041cbdb1-1669-49b9-bdd6-ffe6a589adda",
+            "packages": [
+                "pkg:maven/com.vividsolutions/jts@1.13?uuid=2f95a065-79ea-4861-84b0-fc256e938c40",
+                "pkg:maven/com.vividsolutions/jts@1.13?classifier=sources&uuid=46cbc757-4d4b-4a65-bb4a-b59aba915152"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JTS Topology Suite\nThe JTS Topology Suite is an API for modelling and\n        manipulating 2-dimensional linear geometry. It provides\n        numerous geometric predicates and functions. JTS\n        conforms to the Simple Features Specification for\n        SQL published by the Open GIS Consortium.",
+    "release_date": "2012-12-14T05:29:29Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Davis",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://sourceforge.net/projects/jts-topo-suite",
+    "download_url": "https://repo1.maven.org/maven2/com/vividsolutions/jts/1.13/jts-1.13-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ee922fa0a39de08d193337739d336779e3dfa774",
+    "sha256": "2f1ed39a69d08250701b903dad321effcd543415f35c28bc208d56617ab26c2f",
+    "sha512": "f6198e94f6765a6c03f433449ee6f6a0b0cbe1345e94e6d1c059a1e2b3d01a9f14412aa3974bc793c8a6ee6a6384677f793250031efdf8601a47d0085957ba1c",
+    "bug_tracking_url": null,
+    "code_view_url": "http://jts-topo-suite.svn.sourceforge.net/viewvc/jts-topo-suite/tags/Version_1.13/jts/",
+    "vcs_url": "svn+https://jts-topo-suite.svn.sourceforge.net/svnroot/jts-topo-suite/tags/Version_1.13/jts/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1-plus AND lgpl-2.0-plus",
+    "declared_license_expression_spdx": "LGPL-2.1-or-later AND LGPL-2.0-or-later",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1-plus_162.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Lesser General Public License (LGPL)",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1-plus_162.RULE",
+                    "license_expression": "lgpl-2.1-plus"
+                },
+                {
+                    "score": 75.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl_bare_single_word.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Lesser General Public License (LGPL)",
+                    "match_coverage": 100.0,
+                    "matched_length": 1,
+                    "rule_relevance": 75,
+                    "rule_identifier": "lgpl_bare_single_word.RULE",
+                    "license_expression": "lgpl-2.0-plus"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.0-plus_325.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/copyleft/lesser.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.0-plus_325.RULE",
+                    "license_expression": "lgpl-2.0-plus"
+                }
+            ],
+            "identifier": "lgpl_2_1_plus_and_lgpl_2_0_plus-f65352c8-1242-63d5-cb6e-de27b93cbd0d",
+            "license_expression": "lgpl-2.1-plus AND lgpl-2.0-plus"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus AND lgpl-2.0-plus AND public-domain",
+    "other_license_expression_spdx": "LGPL-2.1-or-later AND LGPL-2.0-or-later AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Lesser General Public License (LGPL)\n  url: http://www.gnu.org/copyleft/lesser.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.vividsolutions/jts@1.13?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.vividsolutions/jts@1.13?classifier=sources&uuid=46cbc757-4d4b-4a65-bb4a-b59aba915152",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.vividsolutions/jts@1.13?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/vividsolutions/jts/1.13/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/vividsolutions/jts/1.13/jts-1.13-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/vividsolutions/jts/1.13/jts-1.13.pom",
+    "file_references": []
+}

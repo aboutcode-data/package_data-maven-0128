@@ -1,0 +1,151 @@
+{
+    "type": "maven",
+    "namespace": "org.checkerframework",
+    "name": "checker-compat-qual",
+    "version": "2.5.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e196f4da-cfa8-4466-93c0-ad7e0d2d886b",
+            "packages": [
+                "pkg:maven/org.checkerframework/checker-compat-qual@2.5.5?uuid=9fae3d2f-b07c-486f-af2c-4fd7cb58fca2",
+                "pkg:maven/org.checkerframework/checker-compat-qual@2.5.5?classifier=sources&uuid=5b086514-b39e-4bfc-959b-dbd36178a475"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Checker Qual\nChecker Qual is the set of annotations (qualifiers) and supporting classes\n        used by the Checker Framework to type check Java source code.  Please\n        see artifact:\n        org.checkerframework:checker",
+    "release_date": "2018-08-31T01:46:03Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michael Ernst",
+            "email": "mernst@cs.washington.edu",
+            "url": "http://homes.cs.washington.edu/~mernst/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Werner M. Dietl",
+            "email": "wdietl@uwaterloo.ca",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Suzanne Millstein",
+            "email": "smillst@cs.washington.edu",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://checkerframework.org",
+    "download_url": "https://repo1.maven.org/maven2/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "54d4253d4d8723096a95b7551bd5639e7e2affba",
+    "sha256": "7c63a4a46b2ef903f941aeac63da87dd345be3243b472796aa945fa715bf3ca9",
+    "sha512": "ab69de59a695512a291f8089b6e2a6585ab0778767452db94cf0f6bdd406a6350996e414756f858f8029e9f7013d6a6ef5df5f12f562b2a140426f6df9a688b9",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/typetools/checker-framework.git",
+    "vcs_url": "https://github.com/typetools/checker-framework.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "gpl-2.0 AND gpl-2.0 WITH classpath-exception-2.0 AND classpath-exception-2.0 AND mit",
+    "declared_license_expression_spdx": "GPL-2.0-only AND GPL-2.0-only WITH Classpath-exception-2.0 AND Classpath-exception-2.0 AND MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0_39.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: GNU General Public License, version 2 (GPL2), with the classpath exception",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "gpl-2.0_39.RULE",
+                    "license_expression": "gpl-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0_with_classpath-exception-2.0_41.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: GNU General Public License, version 2 (GPL2), with the classpath exception",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "gpl-2.0_with_classpath-exception-2.0_41.RULE",
+                    "license_expression": "gpl-2.0 WITH classpath-exception-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/classpath-exception-2.0_2.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/software/classpath/license.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "classpath-exception-2.0_2.RULE",
+                    "license_expression": "classpath-exception-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_27.RULE",
+                    "start_line": 3,
+                    "matched_text": "- name: The MIT License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_27.RULE",
+                    "license_expression": "mit"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_82.RULE",
+                    "start_line": 4,
+                    "matched_text": "  url: http://opensource.org/licenses/MIT",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_82.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "gpl_2_0_and_gpl_2_0_with_classpath_exception_2_0_and_classpath_exception_2_0_and_mit-7a38da61-fc74-dda1-1d80-754757820eec",
+            "license_expression": "gpl-2.0 AND gpl-2.0 WITH classpath-exception-2.0 AND classpath-exception-2.0 AND mit"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: GNU General Public License, version 2 (GPL2), with the classpath exception\n  url: http://www.gnu.org/software/classpath/license.html\n- name: The MIT License\n  url: http://opensource.org/licenses/MIT\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.checkerframework/checker-compat-qual@2.5.5?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.checkerframework/checker-compat-qual@2.5.5?classifier=sources&uuid=5b086514-b39e-4bfc-959b-dbd36178a475",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.checkerframework/checker-compat-qual@2.5.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/checkerframework/checker-compat-qual/2.5.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.pom",
+    "file_references": []
+}

@@ -1,0 +1,158 @@
+{
+    "type": "maven",
+    "namespace": "org.postgresql",
+    "name": "postgresql",
+    "version": "42.4.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4eb5f5c2-68bc-4c2c-a475-7afbb409cd5f",
+            "packages": [
+                "pkg:maven/org.postgresql/postgresql@42.4.3?uuid=6b7cd506-cbbb-4a56-9ca0-832c95f463ef",
+                "pkg:maven/org.postgresql/postgresql@42.4.3?classifier=sources&uuid=254a9058-c8d0-4985-9311-74333715e81a",
+                "pkg:github/pgjdbc/pgjdbc@REL42.4.3?uuid=f7f8321a-c7f7-480f-b740-5bf9cb97c8c7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "PostgreSQL JDBC Driver\nPostgreSQL JDBC Driver Postgresql",
+    "release_date": "2022-11-23T13:56:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dave Cramer",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kris Jurka",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Oliver Jowett",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Craig Ringer",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Vladimir Sitnikov",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brett Okken",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "PostgreSQL Global Development Group",
+            "email": null,
+            "url": "https://jdbc.postgresql.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://jdbc.postgresql.org",
+    "download_url": "https://repo1.maven.org/maven2/org/postgresql/postgresql/42.4.3/postgresql-42.4.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b220cbf79f2ffb4819037e99c052b548340e97fe",
+    "sha256": "39546d2fc09ca5a1eccd2c853c2fcc97b55f6b9aecc9b9249ff81682bc2a1769",
+    "sha512": "f32e68dd7cf214e886e7db4fc3c90ba78469e886b5847f865fdbe3e4653e7397fef6d0887179c848ce8dcd353742e882ddb8dde407cc30032777fa36a9d7b82e",
+    "bug_tracking_url": "https://github.com/pgjdbc/pgjdbc/issues",
+    "code_view_url": "https://github.com/pgjdbc/pgjdbc",
+    "vcs_url": "git+https://github.com/pgjdbc/pgjdbc.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-simplified",
+    "declared_license_expression_spdx": "BSD-2-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_bsd-2-clause_for_bsd-simplified.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: BSD-2-Clause",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_bsd-2-clause_for_bsd-simplified.RULE",
+                    "license_expression": "bsd-simplified"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_bsd-2-clause_for_bsd-simplified.RULE",
+                    "start_line": 3,
+                    "matched_text": "  comments: BSD-2-Clause, copyright PostgreSQL Global Development Group",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_bsd-2-clause_for_bsd-simplified.RULE",
+                    "license_expression": "bsd-simplified"
+                }
+            ],
+            "identifier": "bsd_simplified-dc25c635-b013-908f-9ba7-a7dfdd24bb4d",
+            "license_expression": "bsd-simplified"
+        }
+    ],
+    "other_license_expression": "free-unknown AND bsd-simplified AND unknown-license-reference",
+    "other_license_expression_spdx": "LicenseRef-scancode-free-unknown AND BSD-2-Clause AND LicenseRef-scancode-unknown-license-reference",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: BSD-2-Clause\n  url: https://jdbc.postgresql.org/about/license.html\n  comments: BSD-2-Clause, copyright PostgreSQL Global Development Group\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.postgresql/postgresql@42.4.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.checkerframework/checker-qual@3.5.0",
+            "extracted_requirement": "3.5.0",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.waffle/waffle-jna@1.9.1",
+            "extracted_requirement": "1.9.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.postgresql/postgresql@42.4.3?classifier=sources&uuid=254a9058-c8d0-4985-9311-74333715e81a",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.postgresql/postgresql@42.4.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/postgresql/postgresql/42.4.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/postgresql/postgresql/42.4.3/postgresql-42.4.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/postgresql/postgresql/42.4.3/postgresql-42.4.3.pom",
+    "file_references": []
+}

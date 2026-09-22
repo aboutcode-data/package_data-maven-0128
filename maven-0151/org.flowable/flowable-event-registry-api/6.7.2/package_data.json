@@ -1,0 +1,129 @@
+{
+    "type": "maven",
+    "namespace": "org.flowable",
+    "name": "flowable-event-registry-api",
+    "version": "6.7.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c897615d-f039-45bc-bfaa-1416ac09e779",
+            "packages": [
+                "pkg:maven/org.flowable/flowable-event-registry-api@6.7.2?uuid=4c13ec7b-5150-4d38-b2e0-3eeb4d02f950",
+                "pkg:maven/org.flowable/flowable-event-registry-api@6.7.2?classifier=sources&uuid=6951aad2-e3df-4dc5-ba1c-2ce3c7f508de"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Flowable - Event Registry API",
+    "release_date": "2021-12-28T14:08:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tijs Rademakers",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joram Barrez",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Yvo Swillens",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Josh Long",
+            "email": null,
+            "url": "http://www.pivotal.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Grofcik",
+            "email": null,
+            "url": "http://www.edorasware.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Muelder",
+            "email": null,
+            "url": "http://next-level-integration.com/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Stettler",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Flowable",
+            "email": null,
+            "url": "http://www.flowable.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.flowable.org",
+    "download_url": "https://repo1.maven.org/maven2/org/flowable/flowable-event-registry-api/6.7.2/flowable-event-registry-api-6.7.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d134c6eff7e938504a67d20a7599e92918bb4a94",
+    "sha256": "8e2e6841b2e52b1fe8a06dd7390369eda0cff8a00c2ddcb0f503a74ba4a4fe92",
+    "sha512": "40e4570b36a8c0bd810b568dad80a1e39397b2b93ad0b5045a37d77bf9022ff6e4784014f27a5444c3f4feb17435cba205176d64b619ae86e2f1533ab95e9787",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.flowable/flowable-event-registry-api@6.7.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.flowable/flowable-event-registry-model",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.flowable/flowable-engine-common-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.flowable/flowable-event-registry-api@6.7.2?classifier=sources&uuid=6951aad2-e3df-4dc5-ba1c-2ce3c7f508de",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.flowable/flowable-event-registry-api@6.7.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

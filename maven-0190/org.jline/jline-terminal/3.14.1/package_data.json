@@ -1,0 +1,89 @@
+{
+    "type": "maven",
+    "namespace": "org.jline",
+    "name": "jline-terminal",
+    "version": "3.14.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c082d80c-a2ff-4bc1-adbd-5eec5ff5d9e1",
+            "packages": [
+                "pkg:maven/org.jline/jline-terminal@3.14.1?uuid=0370eb22-0afe-4f91-9cdc-210af8c10d18",
+                "pkg:maven/org.jline/jline-terminal@3.14.1?classifier=sources&uuid=ee3284d7-34b7-4747-ba50-d57d720d80ae"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JLine Terminal",
+    "release_date": "2020-04-08T12:17:28Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Guillaume Nodet",
+            "email": "gnodet@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/org/jline/jline-terminal/3.14.1/jline-terminal-3.14.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6cb96ac49da7e666d6dfe862d4056c6e40895143",
+    "sha256": "d031a8a53c42bdef7708f205622b963a19408dd8d2dd1158cc38371d21be5916",
+    "sha512": "57ff2ccac5ddbd9fcab6a184afa6e190a7f198228ea4894ecc59b9c7d765271ca6542338a743d9c738325a0ba601386adfc1ed650483eee16d1d0028d96b55c0",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) the original author or authors",
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jline/jline-terminal@3.14.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.jline/jline-parent@3.14.1",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.jline/jline-parent@3.14.1"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jline/jline-terminal@3.14.1?classifier=sources&uuid=ee3284d7-34b7-4747-ba50-d57d720d80ae",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.jline/jline-terminal@3.14.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jline/jline-terminal/3.14.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jline/jline-terminal/3.14.1/jline-terminal-3.14.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jline/jline-terminal/3.14.1/jline-terminal-3.14.1.pom",
+    "file_references": []
+}

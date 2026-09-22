@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "com.jamesmurty.utils",
+    "name": "java-xmlbuilder",
+    "version": "0.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6a6d4f9e-5353-421d-ba82-ba8a8b3e591b",
+            "packages": [
+                "pkg:maven/com.jamesmurty.utils/java-xmlbuilder@0.4?uuid=bac036fb-b972-4c72-a716-f18c92e6b8d6",
+                "pkg:maven/com.jamesmurty.utils/java-xmlbuilder@0.4?classifier=sources&uuid=5e502763-661a-4f3c-9bcc-fcdd3917854e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "java-xmlbuilder\nXML Builder is a utility that creates simple XML documents using relatively sparse Java code",
+    "release_date": "2010-10-27T01:03:06Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Murty",
+            "email": null,
+            "url": "http://jamesmurty.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://code.google.com/p/java-xmlbuilder/",
+    "download_url": "https://repo1.maven.org/maven2/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f298d7095120ce5b1f060bf7f06baf43c2aa3d2c",
+    "sha256": "a0ef6a17de41d82583a4226f4c30548793eb77025e7cdbdf241936a658886315",
+    "sha512": "ebc15ec67b12d0fd8e795e68a1ab0f944f8e61ce61279a502db9ecebfac8b6c0c7d997bc54d10d56d7db91ae67aa5a5ced6fd43e2f993f063300d6b32e260da4",
+    "bug_tracking_url": null,
+    "code_view_url": "http://java-xmlbuilder.googlecode.com/svn/tags/java-xmlbuilder-0.4",
+    "vcs_url": "svn+http://java-xmlbuilder.googlecode.com/svn/tags/java-xmlbuilder-0.4",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-428c1364-ecb5-f806-7a2e-77d10737a7ce",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e3a84133-3548-87fd-b873-d193344afada",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND public-domain-disclaimer",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-public-domain-disclaimer",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.jamesmurty.utils/java-xmlbuilder@0.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.jamesmurty.utils/java-xmlbuilder@0.4?classifier=sources&uuid=5e502763-661a-4f3c-9bcc-fcdd3917854e",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.jamesmurty.utils/java-xmlbuilder@0.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/jamesmurty/utils/java-xmlbuilder/0.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4.pom",
+    "file_references": []
+}

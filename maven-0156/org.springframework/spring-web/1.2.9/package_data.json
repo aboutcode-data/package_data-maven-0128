@@ -1,0 +1,185 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework",
+    "name": "spring-web",
+    "version": "1.2.9",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Spring Framework: Web",
+    "release_date": "2007-03-09T02:35:43Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Spring Framework",
+            "email": null,
+            "url": "http://www.springframework.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.springframework.org",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/spring-web/1.2.9/spring-web-1.2.9.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "05d6851aa0985f2ed277f1b98ac08762315ced43",
+    "sha256": "ab979c659a245699a88d7e63f59ae3768fc48759d19c0c5b357b85b6f089a540",
+    "sha512": "1c543972b5ce049ea4fe83c11e6b27567ee7da53404ffb1e74415b2e9e8755689683292b7c02271c20f58d3a772d2ca4c97a9534eb8206a1b4eef9354aa1f2fb",
+    "bug_tracking_url": null,
+    "code_view_url": "http://springframework.cvs.sourceforge.net/springframework/",
+    "vcs_url": "cvs+pserver:anonymous:@springframework.cvs.sourceforge.net:/cvsroot/springframework",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework/spring-web@1.2.9?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 5
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.7.0",
+            "extracted_requirement": "1.7.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-fileupload/commons-fileupload@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.0.4",
+            "extracted_requirement": "1.0.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/cos/cos@05Nov2002",
+            "extracted_requirement": "05Nov2002",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.14",
+            "extracted_requirement": "1.2.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/struts/struts@1.2.9",
+            "extracted_requirement": "1.2.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/taglibs/standard@1.0.6",
+            "extracted_requirement": "1.0.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@1.2.9",
+            "extracted_requirement": "1.2.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context@1.2.9",
+            "extracted_requirement": "1.2.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@1.2.9",
+            "extracted_requirement": "1.2.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.faces/jsf-api@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/jsp-api@2.0",
+            "extracted_requirement": "2.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.4",
+            "extracted_requirement": "2.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework/spring-web@1.2.9?uuid=8396d159-6a9c-4603-832d-a3d90cfa42c6",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.springframework/spring-web@1.2.9",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/spring-web/1.2.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/spring-web/1.2.9/spring-web-1.2.9.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/spring-web/1.2.9/spring-web-1.2.9.pom",
+    "file_references": []
+}

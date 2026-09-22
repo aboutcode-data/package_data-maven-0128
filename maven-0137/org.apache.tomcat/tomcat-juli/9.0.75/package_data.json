@@ -1,0 +1,90 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.tomcat",
+    "name": "tomcat-juli",
+    "version": "9.0.75",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "30d5be77-4cc5-443d-8b01-e60371da1798",
+            "packages": [
+                "pkg:maven/org.apache.tomcat/tomcat-juli@9.0.75?uuid=e316449e-596d-4986-8f9e-85e0c80e5da7",
+                "pkg:maven/org.apache.tomcat/tomcat-juli@9.0.75?classifier=sources&uuid=35e5e4a2-ebb4-4ad8-95d8-6dbe298f3619"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Tomcat Core Logging Package",
+    "release_date": null,
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://tomcat.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-juli/9.0.75/tomcat-juli-9.0.75-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "da1555e5ad90eff8bc9ec6354baacf6abee0f4b5",
+    "sha256": "4b1d31a38940e20ab2fb4e3f5f5912e390c17af41b6a59fc4472417f6de77e6f",
+    "sha512": "caf3af7a765ef3c7524f3b396343f3b297f6d333996f7c25eb5fd10bf9f04a340fe67d2c6e58d9d2765d0d458421d61b2bfe8ce8f88799a312ac94bc0441c616",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-efc1b129-3bcc-a9c0-71ea-964bc53d5512",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.tomcat/tomcat-juli@9.0.75?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.apache.tomcat/tomcat-juli@9.0.75?classifier=sources&uuid=35e5e4a2-ebb4-4ad8-95d8-6dbe298f3619",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.tomcat/tomcat-juli@9.0.75?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-juli/9.0.75/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-juli/9.0.75/tomcat-juli-9.0.75-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-juli/9.0.75/tomcat-juli-9.0.75.pom",
+    "file_references": []
+}

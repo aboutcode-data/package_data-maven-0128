@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "fr.lirmm.graphik",
+    "name": "graal-store-rdbms",
+    "version": "1.0.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "fr.lirmm.graphik:graal-store-rdbms",
+    "release_date": "2015-11-05T14:58:20Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Cl\u00e9ment SIPIETER",
+            "email": "clement@6pi.fr",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/fr/lirmm/graphik/graal-store-rdbms/1.0.2/graal-store-rdbms-1.0.2.jar",
+    "size": 48363,
+    "md5": null,
+    "sha1": "00f153b06945b67071f1b3c1529fa6a5de41af7a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/fr.lirmm.graphik/graal-store-rdbms@1.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/fr.lirmm.graphik/graal-api",
+            "extracted_requirement": "1.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/fr.lirmm.graphik/graal-util",
+            "extracted_requirement": "1.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/fr.lirmm.graphik/graal-core",
+            "extracted_requirement": "1.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/fr.lirmm.graphik/graal-forward-chaining",
+            "extracted_requirement": "1.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/fr.lirmm.graphik/graal-homomorphism",
+            "extracted_requirement": "1.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/mysql/mysql-connector-java",
+            "extracted_requirement": "5.1.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/postgresql/postgresql",
+            "extracted_requirement": "9.1-901-1.jdbc4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xerial/sqlite-jdbc",
+            "extracted_requirement": "3.7.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hsqldb/hsqldb",
+            "extracted_requirement": "2.3.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/fr.lirmm.graphik/graal-io-dlgp",
+            "extracted_requirement": "1.0.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/fr.lirmm.graphik/graal-store-rdbms@1.0.2?uuid=7e650912-80c0-44f7-8fa1-dad0f2d6b255",
+    "datasource_id": null,
+    "purl": "pkg:maven/fr.lirmm.graphik/graal-store-rdbms@1.0.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/fr/lirmm/graphik/graal-store-rdbms/1.0.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/fr/lirmm/graphik/graal-store-rdbms/1.0.2/graal-store-rdbms-1.0.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/fr/lirmm/graphik/graal-store-rdbms/1.0.2/graal-store-rdbms-1.0.2.pom",
+    "file_references": []
+}

@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.jetty",
+    "name": "jetty-http-spi",
+    "version": "9.3.2.v20150730",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Jetty :: Http Service Provider Interface",
+    "release_date": "2015-07-30T18:50:02Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://www.eclipse.org/jetty",
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http-spi/9.3.2.v20150730/jetty-http-spi-9.3.2.v20150730.jar",
+    "size": 21975,
+    "md5": null,
+    "sha1": "0ad54322831070eac757f176f5a69dee83534d51",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.jetty/jetty-http-spi@9.3.2.v20150730?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.toolchain/jetty-test-helper",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.net.httpserver/http",
+            "extracted_requirement": "20070405",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server",
+            "extracted_requirement": "9.3.2.v20150730",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.jetty/jetty-http-spi@9.3.2.v20150730?uuid=93e637f2-1c78-4bcb-8d35-dc7774b69874",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.jetty/jetty-http-spi@9.3.2.v20150730",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http-spi/9.3.2.v20150730/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http-spi/9.3.2.v20150730/jetty-http-spi-9.3.2.v20150730.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http-spi/9.3.2.v20150730/jetty-http-spi-9.3.2.v20150730.pom",
+    "file_references": []
+}

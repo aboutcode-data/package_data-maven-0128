@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "org.webjars",
+    "name": "isotope",
+    "version": "2.2.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Isotope\nWebJar for Isotope",
+    "release_date": "2015-07-01T22:32:20Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "James Ward",
+            "email": "james@jamesward.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://webjars.org",
+    "download_url": "https://repo1.maven.org/maven2/org/webjars/isotope/2.2.1/isotope-2.2.1.jar",
+    "size": 40728,
+    "md5": null,
+    "sha1": "75f628c65bb54e152b117dd4b15284cfbc37db26",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "gpl-3.0 AND unknown",
+    "declared_license_expression_spdx": "GPL-3.0-only AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Commercial\nhttp://isotope.metafizzy.co/license.html\ngpl-3.0\nhttp://choosealicense.com/licenses/gpl-3.0/",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.webjars/isotope@2.2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.webjars/jquery",
+            "extracted_requirement": "2.1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.webjars/isotope@2.2.1?uuid=b90ad29d-e270-445b-8971-111bd17c8815",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.webjars/isotope@2.2.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/webjars/isotope/2.2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/webjars/isotope/2.2.1/isotope-2.2.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/webjars/isotope/2.2.1/isotope-2.2.1.pom",
+    "file_references": []
+}

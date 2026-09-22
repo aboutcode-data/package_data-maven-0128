@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.project.templates.service.builder",
+    "version": "1.0.188",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2b5d6725-0971-48a3-8f40-a857febf9f68",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.project.templates.service.builder@1.0.188?uuid=aff42bbd-06b5-4fc7-880a-4e23f2de411d",
+                "pkg:maven/com.liferay/com.liferay.project.templates.service.builder@1.0.188?classifier=sources&uuid=c3727279-9220-4400-b1ef-a18ebedc8bb8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Creates a Liferay Service Builder project by generating an API and implementation module.",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.project.templates.service.builder/1.0.188/com.liferay.project.templates.service.builder-1.0.188-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f1f5c7529157332caa37c59b6a4fc4e7153c68a5",
+    "sha256": "3a50767df7248785f5544273f423d2e62d82d244495c16c42983b91d1d00028e",
+    "sha512": "2f356ea8fa5b42f94dd0ee3c1e198bd4dfad6fb72e9b6277373bbd148be72a6c439fed23981e8b15711d4bb44677a666eabc7df591740fc90f503728ed3f9699",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR liferay-dxp-eula-2.0.0-2023-06",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.project.templates.service.builder@1.0.188?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.project.templates.service.builder@1.0.188?classifier=sources&uuid=c3727279-9220-4400-b1ef-a18ebedc8bb8",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.project.templates.service.builder@1.0.188?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

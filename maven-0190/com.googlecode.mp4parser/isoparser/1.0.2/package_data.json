@@ -1,0 +1,156 @@
+{
+    "type": "maven",
+    "namespace": "com.googlecode.mp4parser",
+    "name": "isoparser",
+    "version": "1.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "015f9f3f-0d75-420d-abeb-e886064c3e8b",
+            "packages": [
+                "pkg:maven/com.googlecode.mp4parser/isoparser@1.0.2?uuid=93fd28ab-8775-42e6-9837-aec63e97a35e",
+                "pkg:maven/com.googlecode.mp4parser/isoparser@1.0.2?classifier=sources&uuid=1c12f826-4beb-43d4-9139-8187748c8235"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ISO Parser\nA generic parser and writer for all ISO 14496 based files (MP4, Quicktime, DCF, PDCF, ...)",
+    "release_date": "2014-06-20T14:29:45Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": "Sebastian.Annies@googlemail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://code.google.com/p/mp4parser/",
+    "download_url": "https://repo1.maven.org/maven2/com/googlecode/mp4parser/isoparser/1.0.2/isoparser-1.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1bde01a7228625dbc0d7385f2dd2b28604ae174d",
+    "sha256": "7b90d243cbef582b6300ff18d7322c31309087f3fcc5146e37071fad0121f4b1",
+    "sha512": "5d36f07c1d63574ce22e8c9dacfe5efcaedd392c88ae870815c391b5785cdc92a50e9e42936dba87575f4072ec0c19c34100f7721558d189f8911aa360834256",
+    "bug_tracking_url": "http://code.google.com/p/mp4parser/issues/list",
+    "code_view_url": "http://code.google.com/p/mp4parser/source/browse/tags/mp4parser-project-1.0.2/browse",
+    "vcs_url": "svn+https://mp4parser.googlecode.com/svn/tags/mp4parser-project-1.0.2/isoparser",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_217.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache 2",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_217.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 65.22,
+                    "matcher": "3-seq",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1277.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: A business-friendly OSS license",
+                    "match_coverage": 65.22,
+                    "matched_length": 15,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1277.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bf463a17-9c1e-f0ec-d255-69357b7fa73f",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-4be2ba6045d15fdbd875638b2bc23f939975870b",
+                    "start_line": 1,
+                    "matched_text": "license - name: Apache 2\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: A business-friendly OSS license",
+                    "match_coverage": 100.0,
+                    "matched_length": 19,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-4be2ba6045d15fdbd875638b2bc23f939975870b",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-f1b72d83-550b-6eb4-8e36-4584b84205aa",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND mit AND (apache-2.0 AND lgpl-2.1)",
+    "other_license_expression_spdx": "Apache-2.0 AND MIT AND (Apache-2.0 AND LGPL-2.1-only)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: A business-friendly OSS license\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.googlecode.mp4parser/isoparser@1.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.aspectj/aspectjrt@1.8.0",
+            "extracted_requirement": "1.8.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.android/android@1.6_r2",
+            "extracted_requirement": "1.6_r2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.10",
+            "extracted_requirement": "4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io@2.4",
+            "extracted_requirement": "2.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.googlecode.mp4parser/isoparser@1.0.2?classifier=sources&uuid=1c12f826-4beb-43d4-9139-8187748c8235",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.googlecode.mp4parser/isoparser@1.0.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/googlecode/mp4parser/isoparser/1.0.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/googlecode/mp4parser/isoparser/1.0.2/isoparser-1.0.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/googlecode/mp4parser/isoparser/1.0.2/isoparser-1.0.2.pom",
+    "file_references": []
+}

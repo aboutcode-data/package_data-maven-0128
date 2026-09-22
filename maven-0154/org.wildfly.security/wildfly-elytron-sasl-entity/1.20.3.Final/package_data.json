@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.wildfly.security",
+    "name": "wildfly-elytron-sasl-entity",
+    "version": "1.20.3.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "62ae0f2f-fc5e-4f99-8d13-77c06f56cc52",
+            "packages": [
+                "pkg:maven/org.wildfly.security/wildfly-elytron-sasl-entity@1.20.3.Final?uuid=49042517-ba48-40ef-ad26-76573716359e",
+                "pkg:maven/org.wildfly.security/wildfly-elytron-sasl-entity@1.20.3.Final?classifier=sources&uuid=e5c305d5-1b3d-495e-8a46-331f06c8774b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "WildFly Elytron - SASL Entity\nWildFly Security Entity SASL Implementation",
+    "release_date": "2023-02-21T15:41:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/wildfly/security/wildfly-elytron-sasl-entity/1.20.3.Final/wildfly-elytron-sasl-entity-1.20.3.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "40ccb5b7a380bdc9d6585dfd244f094fd5212ee1",
+    "sha256": "001c1221e489316a4aa87538ad8b9f394cfb7fefed60d8a44eb19e4675067e19",
+    "sha512": "8d55574c6f2c753722ab7745adc72db70b0f7aa6f5fba49b8a7ce57c6d8e656ac24c136694074b3e1b6dda6cae19917c8559d375bcdd88a9654b37261aad54de",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat, Inc., and individual contributors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.wildfly.security/wildfly-elytron-sasl-entity@1.20.3.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-asn1",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-credential",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-auth-server",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-mechanism",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-sasl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-x500",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.common/wildfly-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kohsuke.metainf-services/metainf-services",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.wildfly.security/wildfly-elytron-sasl-entity@1.20.3.Final?classifier=sources&uuid=e5c305d5-1b3d-495e-8a46-331f06c8774b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-sasl-entity@1.20.3.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

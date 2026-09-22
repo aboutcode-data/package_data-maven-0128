@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.xwiki.commons",
+    "name": "xwiki-commons-environment-common",
+    "version": "5.0.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "XWiki Commons - Environment - Common\nCommon implementation classes for all Environment implementations",
+    "release_date": "2013-06-03T12:55:17Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/xwiki/commons/xwiki-commons-environment-common/5.0.3/xwiki-commons-environment-common-5.0.3.jar",
+    "size": 17538,
+    "md5": null,
+    "sha1": "0f614c931eabb2bd732edf632c46228dd42343d0",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.xwiki.commons/xwiki-commons-environment-common@5.0.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.xwiki.commons/xwiki-commons-environment-api",
+            "extracted_requirement": "5.0.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xwiki.commons/xwiki-commons-configuration-api",
+            "extracted_requirement": "5.0.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.xwiki.commons/xwiki-commons-environment-common@5.0.3?uuid=af6dac25-bd48-41f0-8475-784d1244692d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.xwiki.commons/xwiki-commons-environment-common@5.0.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/xwiki/commons/xwiki-commons-environment-common/5.0.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/xwiki/commons/xwiki-commons-environment-common/5.0.3/xwiki-commons-environment-common-5.0.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/xwiki/commons/xwiki-commons-environment-common/5.0.3/xwiki-commons-environment-common-5.0.3.pom",
+    "file_references": []
+}

@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.mdsal.model",
+    "name": "ietf-type-util",
+    "version": "9.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c1188bc6-5b71-428e-aa64-7cc1951bc7c1",
+            "packages": [
+                "pkg:maven/org.opendaylight.mdsal.model/ietf-type-util@9.0.2?uuid=669c3c6f-0163-4bed-9128-f932f0490091",
+                "pkg:maven/org.opendaylight.mdsal.model/ietf-type-util@9.0.2?classifier=sources&uuid=a66520f2-ec3d-4a91-81cd-b258e334f2e9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2022-04-14T08:13:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/model/ietf-type-util/9.0.2/ietf-type-util-9.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3a75c7aa731c0b74d26181230ea60aef9483b92c",
+    "sha256": "54cb8fe3c26dbdd80a317197af8c724f0403684aadbb70514732436c8c35b586",
+    "sha512": "5892bfa3b5909342a6e1203f1b0920f78963d27c9158a84fa2dbe7e65f66b9072f988a65ac85e62ae57e7f9e3a94cb6e4b7e730728d75076fca4900ae9e84997",
+    "bug_tracking_url": null,
+    "code_view_url": "https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL",
+    "vcs_url": "git+http://git.opendaylight.org/gerrit/controller.git",
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "epl-1.0 AND bsd-new",
+    "other_license_expression_spdx": "EPL-1.0 AND BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.mdsal.model/ietf-type-util@9.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal/mdsal-binding-spec-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/mockito-configuration",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.mdsal.model/ietf-type-util@9.0.2?classifier=sources&uuid=a66520f2-ec3d-4a91-81cd-b258e334f2e9",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.mdsal.model/ietf-type-util@9.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

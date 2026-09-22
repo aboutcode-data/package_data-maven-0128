@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.wildfly.security",
+    "name": "wildfly-elytron-http",
+    "version": "1.20.1.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a6ef3a7b-b20b-4b20-8c1c-de80add210be",
+            "packages": [
+                "pkg:maven/org.wildfly.security/wildfly-elytron-http@1.20.1.Final?uuid=4ef71f98-9d44-4dce-8857-e511caa26f81",
+                "pkg:maven/org.wildfly.security/wildfly-elytron-http@1.20.1.Final?classifier=sources&uuid=d37f0b3c-a0a2-4136-b86e-749f379775fa"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "WildFly Elytron - HTTP\nWildFly Security HTTP Framework",
+    "release_date": "2022-08-17T15:38:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/wildfly/security/wildfly-elytron-http/1.20.1.Final/wildfly-elytron-http-1.20.1.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3d4b184ca215e6d54f44631671fdb324d0c7dc92",
+    "sha256": "159d0ed2ebcc16a73d887b8747504ddc75645e5c38ace3585a58c047368c4e7a",
+    "sha512": "bed7dce5c981dc757900eac4950a58bb499d7c149ed5b0b8a75b8beecc770173e5cbb84483eadb4aa23b4bdd43a86de6ec59a1912eaebc49db98ccf0a3f6f5c5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat, Inc., and individual contributors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.wildfly.security/wildfly-elytron-http@1.20.1.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.wildfly.common/wildfly-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-auth-server",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-credential",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.servlet/jboss-servlet-api_3.1_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-annotations",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-processor",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.wildfly.security/wildfly-elytron-http@1.20.1.Final?classifier=sources&uuid=d37f0b3c-a0a2-4136-b86e-749f379775fa",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-http@1.20.1.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,129 @@
+{
+    "type": "maven",
+    "namespace": "nu.validator.htmlparser",
+    "name": "htmlparser",
+    "version": "1.0.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c24e46da-55b2-452c-9988-07de51a2f58f",
+            "packages": [
+                "pkg:maven/nu.validator.htmlparser/htmlparser@1.0.5?uuid=7ce96543-f9e0-4d1a-a310-d2690b3052d2",
+                "pkg:maven/nu.validator.htmlparser/htmlparser@1.0.5?classifier=sources&uuid=cc2e63b7-b77f-42dc-8453-0746fbf73879"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "htmlparser\nThe Validator.nu HTML Parser is an implementation of the HTML5 parsing algorithm in Java for applications that do not run scripts. The parser is designed to work as a drop-in replacement for the XML parser in applications that already support XHTML 1.x content with an XML parser and use SAX, DOM or XOM to interface with the parser.",
+    "release_date": "2007-11-11T22:09:27Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Henri Sivonen",
+            "email": "hsivonen@iki.fi",
+            "url": "http://hsivonen.iki.fi/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://about.validator.nu/htmlparser/",
+    "download_url": "https://repo1.maven.org/maven2/nu/validator/htmlparser/htmlparser/1.0.5/htmlparser-1.0.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "80a53c88bb6b8b6810aca6f5876ad227acef826a",
+    "sha256": "8821d0e363976372fb042490c6c6628b775e1c213ebffea29b5fb3d46630fe60",
+    "sha512": "4f1e1b5effa0f9ea0b510fab178ddff4b4a4c8f7ae8ef25a4e8bf440a1e6f9b33b050947abc0ba1d035c9b2fac3b347e7265fd73271fff014a2e9cfeb3242fa0",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": "svn+http://svn.versiondude.net/whattf/htmlparser/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_27.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The MIT License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_27.RULE",
+                    "license_expression": "mit"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_237.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.opensource.org/licenses/mit-license.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_237.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-b25fa533-c536-1062-9012-a925b16f3d93",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": "mit AND html5",
+    "other_license_expression_spdx": "MIT AND LicenseRef-scancode-html5",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The MIT License\n  url: http://www.opensource.org/licenses/mit-license.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/nu.validator.htmlparser/htmlparser@1.0.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.ibm.icu/icu4j@3.8",
+            "extracted_requirement": "3.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xom/xom@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xalan/xalan@2.7.0",
+            "extracted_requirement": "2.7.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sdicons.jsontools/jsontools-core@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/nu.validator.htmlparser/htmlparser@1.0.5?classifier=sources&uuid=cc2e63b7-b77f-42dc-8453-0746fbf73879",
+    "datasource_id": null,
+    "purl": "pkg:maven/nu.validator.htmlparser/htmlparser@1.0.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/nu/validator/htmlparser/htmlparser/1.0.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/nu/validator/htmlparser/htmlparser/1.0.5/htmlparser-1.0.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/nu/validator/htmlparser/htmlparser/1.0.5/htmlparser-1.0.5.pom",
+    "file_references": []
+}

@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.maven.archetype",
+    "name": "archetype-descriptor",
+    "version": "2.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "655c51b6-1a6d-4dfb-ad58-4f10ee7a3346",
+            "packages": [
+                "pkg:maven/org.apache.maven.archetype/archetype-descriptor@2.4?uuid=f8c326b2-bcec-4bbb-9802-c88b6b58913c",
+                "pkg:maven/org.apache.maven.archetype/archetype-descriptor@2.4?classifier=sources&uuid=59663f68-94f2-4287-8ff2-6d775258e8c0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Maven Archetype Descriptor Model\nCore Archetype Descriptor Model.",
+    "release_date": "2015-08-09T20:16:32Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/2.4/archetype-descriptor-2.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b63d0a3341429b03522e4e9d18d7273f8df665af",
+    "sha256": "e7edd060ff5ed994a26ec22f8672f1c8e1e8cef6483cedfa96c0144bb529014b",
+    "sha512": "e17e3b8c9de0ca14881ce17996d20761fe8967246db7be50f32b2a237b89514ed81d474dc8f4f68ef571ba4a2a4154f0aeaef4cf6419fa72647001517bf0166e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.maven.archetype/archetype-descriptor@2.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.maven.archetype/archetype-descriptor@2.4?classifier=sources&uuid=59663f68-94f2-4287-8ff2-6d775258e8c0",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.maven.archetype/archetype-descriptor@2.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/2.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/2.4/archetype-descriptor-2.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/maven/archetype/archetype-descriptor/2.4/archetype-descriptor-2.4.pom",
+    "file_references": []
+}

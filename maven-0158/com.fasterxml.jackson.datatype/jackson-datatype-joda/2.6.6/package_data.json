@@ -1,0 +1,109 @@
+{
+    "type": "maven",
+    "namespace": "com.fasterxml.jackson.datatype",
+    "name": "jackson-datatype-joda",
+    "version": "2.6.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c25346b0-785a-49f1-a540-241987b9c496",
+            "packages": [
+                "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.6.6?uuid=f6987034-c81e-4640-bdda-f61ac77660e3",
+                "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.6.6?classifier=sources&uuid=cdb6b44c-85aa-41c0-b625-a300dd9766f8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jackson-datatype-Joda\nAdd-on module for Jackson (http://jackson.codehaus.org) to support\nJoda (http://joda-time.sourceforge.net/) data types.",
+    "release_date": "2016-04-05T03:49:36Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tatu Saloranta",
+            "email": "tatu@fasterxml.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "FasterXML",
+            "email": null,
+            "url": "http://fasterxml.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://wiki.fasterxml.com/JacksonModuleJoda",
+    "download_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.6.6/jackson-datatype-joda-2.6.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f134cfabdd41dff1a394c608ab17a1850540a52c",
+    "sha256": "915567a9d7b9e80e1e3d561ae76ece595054c0d56e37582c03b3ca97b1e6c99e",
+    "sha512": "7aa3a069a60e8c49d671c53c7f0269a3c170afcbbd9975f1ce46f91b4c459efd61e774745b3801ad538f9430bb043a6df33e55cc22a6a052d7d173418c527bba",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/FasterXML/jackson-datatype-joda",
+    "vcs_url": "git+https://github.com/FasterXML/jackson-datatype-joda.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.6.6?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.fasterxml/oss-parent@24",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.fasterxml/oss-parent@24"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.6.0",
+            "extracted_requirement": "2.6.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.6.6",
+            "extracted_requirement": "2.6.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.6.6",
+            "extracted_requirement": "2.6.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time@2.2",
+            "extracted_requirement": "2.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.6.6?classifier=sources&uuid=cdb6b44c-85aa-41c0-b625-a300dd9766f8",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.6.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.6.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.6.6/jackson-datatype-joda-2.6.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.6.6/jackson-datatype-joda-2.6.6.pom",
+    "file_references": []
+}

@@ -1,0 +1,81 @@
+{
+    "type": "maven",
+    "namespace": "com.google.auth",
+    "name": "google-auth-library-credentials",
+    "version": "0.15.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "fa79ac66-0dd8-4531-bfc1-0e92a0c6eae8",
+            "packages": [
+                "pkg:maven/com.google.auth/google-auth-library-credentials@0.15.0?uuid=2c857df0-cfd7-486b-8dc5-5777e92e2267",
+                "pkg:maven/com.google.auth/google-auth-library-credentials@0.15.0?classifier=sources&uuid=0c9e311c-da43-4c02-bc80-7e76838b5631"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Google Auth Library for Java - Credentials",
+    "release_date": "2019-03-27T19:55:47Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "http://www.google.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.15.0/google-auth-library-credentials-0.15.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ecf04ea73f3942a05d86f9601b87726073420a21",
+    "sha256": "8ce128992c196a961ace4ff5ead9c04f10bb2841a48f8c637c6c96d8bc484250",
+    "sha512": "c2e03c9fb34a38a30e5d081d834ecc5d6ae185b583ba62a5ed4c5d957e63287bfe56b680590fc4c680a0fd810b159ada5cd81e4f2afccc8e2fc10d3a88fa783f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.auth/google-auth-library-credentials@0.15.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@7",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@7",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@7",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.google.auth/google-auth-library-parent@0.15.0",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.google.auth/google-auth-library-parent@0.15.0"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.auth/google-auth-library-credentials@0.15.0?classifier=sources&uuid=0c9e311c-da43-4c02-bc80-7e76838b5631",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.google.auth/google-auth-library-credentials@0.15.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.15.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.15.0/google-auth-library-credentials-0.15.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.15.0/google-auth-library-credentials-0.15.0.pom",
+    "file_references": []
+}

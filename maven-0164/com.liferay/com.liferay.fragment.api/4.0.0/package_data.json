@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.fragment.api",
+    "version": "4.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "af409843-f503-4cfd-8893-bc44c47c8384",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.fragment.api@4.0.0?uuid=ab464dd9-4a29-42f1-85b3-b633b4380f56",
+                "pkg:maven/com.liferay/com.liferay.fragment.api@4.0.0?classifier=sources&uuid=1676de54-e514-4bac-ad4d-17b3e494bb7e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Fragment API",
+    "release_date": "2019-09-22T02:31:41Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.fragment.api/4.0.0/com.liferay.fragment.api-4.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "754cfb34efa8a7569e886ec3d444164e0db75ae1",
+    "sha256": "0234104d08ab6cc11fcb447b68ffe40ae954318b1851c7b3b4aab95242f289d4",
+    "sha512": "553b47f9a383f95ab0f1a603572ca8b08668552cfba6d9a9e9f8a76cbe8e25396a92027b3d0a6c1bf91a5ae59b756355ff1439ff56b6a264cb2375dcc64074de",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.fragment.api@4.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.fragment.api@4.0.0?classifier=sources&uuid=1676de54-e514-4bac-ad4d-17b3e494bb7e",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.fragment.api@4.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.fragment.api/4.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.fragment.api/4.0.0/com.liferay.fragment.api-4.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.fragment.api/4.0.0/com.liferay.fragment.api-4.0.0.pom",
+    "file_references": []
+}

@@ -1,0 +1,87 @@
+{
+    "type": "maven",
+    "namespace": "com.google.auth",
+    "name": "google-auth-library-credentials",
+    "version": "0.24.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "96dcceff-f254-428d-bc02-059de33494e6",
+            "packages": [
+                "pkg:maven/com.google.auth/google-auth-library-credentials@0.24.1?uuid=974b0ae6-0d25-4d73-aa62-ec806beebf34",
+                "pkg:maven/com.google.auth/google-auth-library-credentials@0.24.1?classifier=sources&uuid=087dc7af-9f61-4a55-8b4f-9286d5c283ab",
+                "pkg:github/googleapis/google-auth-library-java@v0.24.1?uuid=c11e3763-39e7-4d3b-a0bf-13eec9863fe7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Google Auth Library for Java - Credentials",
+    "release_date": "2021-02-25T22:17:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeff Ching",
+            "email": "chingor@google.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "http://www.google.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/googleapis/google-auth-library-java",
+    "download_url": "https://repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.24.1/google-auth-library-credentials-0.24.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "38a0787009dee94671aa6826411778192829c557",
+    "sha256": "08281dbb33a5bdedff8d2438675d9c4d8280b5441fee2517d99137299f857ec2",
+    "sha512": "0a1a00b6b0ecd7ede8b3d09c1d2d42d28450cf99fdad2323f14900bff856d1852e62eb1141b5173d022da7ca0e94328b76a6dd3dd47815147f4d1e89428d2630",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.auth/google-auth-library-credentials@0.24.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.google.auth/google-auth-library-parent@0.24.1",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/com.google.auth/google-auth-library-parent@0.24.1",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.google.auth/google-auth-library-parent@0.24.1"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.auth/google-auth-library-credentials@0.24.1?classifier=sources&uuid=087dc7af-9f61-4a55-8b4f-9286d5c283ab",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.google.auth/google-auth-library-credentials@0.24.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.24.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.24.1/google-auth-library-credentials-0.24.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.24.1/google-auth-library-credentials-0.24.1.pom",
+    "file_references": []
+}

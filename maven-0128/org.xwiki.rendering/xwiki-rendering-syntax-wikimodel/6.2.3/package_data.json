@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.xwiki.rendering",
+    "name": "xwiki-rendering-syntax-wikimodel",
+    "version": "6.2.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "XWiki Rendering - Syntax - WikiModel Bridge\nBridge WikiModel Model and XWiki Rendering Model",
+    "release_date": "2014-10-28T20:50:03Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-syntax-wikimodel/6.2.3/xwiki-rendering-syntax-wikimodel-6.2.3.jar",
+    "size": 34606,
+    "md5": null,
+    "sha1": "5b546b7b8437c739df26174055b1852ad5ddcd60",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.xwiki.rendering/xwiki-rendering-syntax-wikimodel@6.2.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.xwiki.rendering/xwiki-rendering-wikimodel",
+            "extracted_requirement": "6.2.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xwiki.commons/xwiki-commons-xml",
+            "extracted_requirement": "${commons.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xwiki.rendering/xwiki-rendering-syntax-plain",
+            "extracted_requirement": "6.2.3",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xwiki.rendering/xwiki-rendering-test",
+            "extracted_requirement": "6.2.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.xwiki.rendering/xwiki-rendering-syntax-wikimodel@6.2.3?uuid=5b271567-fea8-4e01-84a1-f216ae4e0000",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.xwiki.rendering/xwiki-rendering-syntax-wikimodel@6.2.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-syntax-wikimodel/6.2.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-syntax-wikimodel/6.2.3/xwiki-rendering-syntax-wikimodel-6.2.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-syntax-wikimodel/6.2.3/xwiki-rendering-syntax-wikimodel-6.2.3.pom",
+    "file_references": []
+}

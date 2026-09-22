@@ -1,0 +1,240 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.weld.servlet",
+    "name": "weld-servlet-core",
+    "version": "1.1.6.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "dc989b6c-430d-46fb-a929-6dec34229586",
+            "packages": [
+                "pkg:maven/org.jboss.weld.servlet/weld-servlet-core@1.1.6.Final?uuid=f73915d1-4491-4de8-b3bb-4ebb09b0b16b",
+                "pkg:maven/org.jboss.weld.servlet/weld-servlet-core@1.1.6.Final?classifier=sources&uuid=dc1e0d5e-564d-4950-bc08-dd86003dae66"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Weld Servlet Core",
+    "release_date": "2012-03-21T18:10:40Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Weld committers",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Seam Framework",
+            "email": null,
+            "url": "http://seamframework.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.seamframework.org/Weld",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/weld/servlet/weld-servlet-core/1.1.6.Final/weld-servlet-core-1.1.6.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "80df0cf9ed69ebd159266f2aa96867a669a42f95",
+    "sha256": "19aeccecb114a958e2615c8432d1fb232b16a11b442c08c3fbd4b8d13638813d",
+    "sha512": "e2f4cd67c66ae8710a3f65a3b36e8bc9a7e7ac0cb311dcf75f9ad5e629f575c77496836a5b4a3cb0e97d7cb502262efe028fe8044f5e5352ce2a1d13481170f9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_20.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_20.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-7d137d37-53e7-c8f9-ff61-4d38eeb134a3",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND lgpl-2.1-plus AND (apache-2.0 AND mpl-1.1 AND lgpl-2.1 AND lgpl-2.0-plus AND mit)",
+    "other_license_expression_spdx": "Apache-2.0 AND LGPL-2.1-or-later AND (Apache-2.0 AND MPL-1.1 AND LGPL-2.1-only AND LGPL-2.0-or-later AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.weld.servlet/weld-servlet-core@1.1.6.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.weld/weld-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.javassist/javassist",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss/jboss-vfs",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat/catalina@6.0.18",
+            "extracted_requirement": "6.0.18",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat/tomcat-catalina",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mortbay.jetty/jetty",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mortbay.jetty/jetty-plus",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-plus",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.faces/jsf-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet.jsp/jsp-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.weld.servlet/weld-servlet-core@1.1.6.Final?classifier=sources&uuid=dc1e0d5e-564d-4950-bc08-dd86003dae66",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.weld.servlet/weld-servlet-core@1.1.6.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/weld/servlet/weld-servlet-core/1.1.6.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/weld/servlet/weld-servlet-core/1.1.6.Final/weld-servlet-core-1.1.6.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/weld/servlet/weld-servlet-core/1.1.6.Final/weld-servlet-core-1.1.6.Final.pom",
+    "file_references": []
+}

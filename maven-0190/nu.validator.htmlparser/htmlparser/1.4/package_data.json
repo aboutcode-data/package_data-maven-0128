@@ -1,0 +1,166 @@
+{
+    "type": "maven",
+    "namespace": "nu.validator.htmlparser",
+    "name": "htmlparser",
+    "version": "1.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "08ed7c15-37b9-435d-a528-4fc368b9c5a8",
+            "packages": [
+                "pkg:maven/nu.validator.htmlparser/htmlparser@1.4?uuid=cefec719-44cd-43cf-9a5d-1f357429e051",
+                "pkg:maven/nu.validator.htmlparser/htmlparser@1.4?classifier=sources&uuid=67419487-6827-4840-8efa-3dfe4605c767"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "htmlparser\nThe Validator.nu HTML Parser is an implementation of the HTML5 parsing algorithm in Java for applications. The parser is designed to work as a drop-in replacement for the XML parser in applications that already support XHTML 1.x content with an XML parser and use SAX, DOM or XOM to interface with the parser.",
+    "release_date": "2012-06-07T18:55:45Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Henri Sivonen",
+            "email": "hsivonen@iki.fi",
+            "url": "http://hsivonen.iki.fi/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://about.validator.nu/htmlparser/",
+    "download_url": "https://repo1.maven.org/maven2/nu/validator/htmlparser/htmlparser/1.4/htmlparser-1.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7703abdb7fba3ed993330e5d3aac163268f69e15",
+    "sha256": "58197c27b4a7854f4dabc323e6659dcd8ed053b7b1944da43244dd30e23a0386",
+    "sha512": "b75f591b3ccf704cd6eaaf8414e1dd6638a029ef0203c382170fccd529af36983ac57be63c2842ce7f8dc8133ad683d99dbd3525a75084664eb1c1bf589af766",
+    "bug_tracking_url": null,
+    "code_view_url": "http://hg.mozilla.org/projects/htmlparser/",
+    "vcs_url": "hg+http://hg.mozilla.org/projects/htmlparser/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit AND bsd-new",
+    "declared_license_expression_spdx": "MIT AND BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_27.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: The MIT License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_27.RULE",
+                    "license_expression": "mit",
+                    "spdx_license_expression": "MIT"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_237.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.opensource.org/licenses/mit-license.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_237.RULE",
+                    "license_expression": "mit",
+                    "spdx_license_expression": "MIT"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_119.RULE",
+                    "from_file": null,
+                    "start_line": 3,
+                    "matched_text": "- name: The (New) BSD License",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_119.RULE",
+                    "license_expression": "bsd-new",
+                    "spdx_license_expression": "BSD-3-Clause"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_30.RULE",
+                    "from_file": null,
+                    "start_line": 4,
+                    "matched_text": "  url: http://www.opensource.org/licenses/bsd-license.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_30.RULE",
+                    "license_expression": "bsd-new",
+                    "spdx_license_expression": "BSD-3-Clause"
+                }
+            ],
+            "identifier": "mit_and_bsd_new-5decf04c-9510-7cd1-a585-cb692d3c1730",
+            "license_expression": "mit AND bsd-new",
+            "license_expression_spdx": "MIT AND BSD-3-Clause"
+        }
+    ],
+    "other_license_expression": "mit AND html5 AND bsd-new",
+    "other_license_expression_spdx": "MIT AND LicenseRef-scancode-html5 AND BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The MIT License\n  url: http://www.opensource.org/licenses/mit-license.php\n- name: The (New) BSD License\n  url: http://www.opensource.org/licenses/bsd-license.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/nu.validator.htmlparser/htmlparser@1.4?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.ibm.icu/icu4j@4.0.1",
+            "extracted_requirement": "4.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xom/xom@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.jchardet/jchardet@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sdicons.jsontools/jsontools-core@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/nu.validator.htmlparser/htmlparser@1.4?classifier=sources&uuid=67419487-6827-4840-8efa-3dfe4605c767",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/nu.validator.htmlparser/htmlparser@1.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/nu/validator/htmlparser/htmlparser/1.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/nu/validator/htmlparser/htmlparser/1.4/htmlparser-1.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/nu/validator/htmlparser/htmlparser/1.4/htmlparser-1.4.pom",
+    "file_references": []
+}

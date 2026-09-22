@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-security-runtime-spi",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ce0e06d2-8cb6-4975-a64f-d4059751b270",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-security-runtime-spi@2.13.7.Final?uuid=03da924a-1ca8-47e8-bb4a-7a47f8665153",
+                "pkg:maven/io.quarkus/quarkus-security-runtime-spi@2.13.7.Final?classifier=sources&uuid=08d600cc-27b9-40e2-aa88-6b195207f1a8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - Security - Runtime SPI",
+    "release_date": "2023-01-19T10:21:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-security-runtime-spi/2.13.7.Final/quarkus-security-runtime-spi-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "da94a5df4373a363e4dd34b524b0cde333706eaa",
+    "sha256": "3b773b056d7487f340093429efb57e55fd01a935d7da675b090232643bff0692",
+    "sha512": "a1ebb535e0373da5361be4d9d88ca6c8ea7c20fb875279f65fee4f623882ca8b8560efe57a778e3b25a5ed2da24b6e83ddd40098c4f285bb9b37a3e527310d74",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-security-runtime-spi@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus.security/quarkus-security",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-security-runtime-spi@2.13.7.Final?classifier=sources&uuid=08d600cc-27b9-40e2-aa88-6b195207f1a8",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-security-runtime-spi@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

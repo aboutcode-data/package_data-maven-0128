@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.asset.tags.navigation.api",
+    "version": "3.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "38cba12c-48f7-44bf-abc6-6363a7c030ea",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.asset.tags.navigation.api@3.0.0?uuid=e4b60004-5ea6-40dd-9c82-ebdbc5a860a7",
+                "pkg:maven/com.liferay/com.liferay.asset.tags.navigation.api@3.0.0?classifier=sources&uuid=6858081c-ace0-41e6-b743-8d7024b52142"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Asset Tags Navigation API",
+    "release_date": "2019-04-25T04:00:41Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.asset.tags.navigation.api/3.0.0/com.liferay.asset.tags.navigation.api-3.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2dfa330dbc3376d5e5f7ed2048cf60a75bceeaa9",
+    "sha256": "e70cd42b4bdf87acc4d6430a2d098d48e5c002d59b94cb5dc14e97ef5bc2d464",
+    "sha512": "7c80fc6517b95efb13cb0ce52d7a6b21aeaf5ffe80424cfb36cf79333fcbec80e53d22a6af3724e76c4799716a6b6617bb2b0d5652d66afb1eb7422a40b87039",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.asset.tags.navigation.api@3.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.asset.tags.navigation.api@3.0.0?classifier=sources&uuid=6858081c-ace0-41e6-b743-8d7024b52142",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.asset.tags.navigation.api@3.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.asset.tags.navigation.api/3.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.asset.tags.navigation.api/3.0.0/com.liferay.asset.tags.navigation.api-3.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.asset.tags.navigation.api/3.0.0/com.liferay.asset.tags.navigation.api-3.0.0.pom",
+    "file_references": []
+}

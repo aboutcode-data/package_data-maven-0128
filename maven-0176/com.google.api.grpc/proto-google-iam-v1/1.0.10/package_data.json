@@ -1,0 +1,128 @@
+{
+    "type": "maven",
+    "namespace": "com.google.api.grpc",
+    "name": "proto-google-iam-v1",
+    "version": "1.0.10",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d77b6deb-63f9-4c32-bf2e-fd7902ab2a30",
+            "packages": [
+                "pkg:maven/com.google.api.grpc/proto-google-iam-v1@1.0.10?uuid=6192d296-bd3f-4db3-b6cb-160412b67386",
+                "pkg:maven/com.google.api.grpc/proto-google-iam-v1@1.0.10?classifier=sources&uuid=922116a1-31af-4d9b-9b62-900e7fbbfd20",
+                "pkg:github/googleapis/java-iam@v1.0.10?uuid=6666ff4d-7a69-4fbb-ac8c-9a25b799ac5e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "proto-google-iam-v1\nPROTO library for proto-google-iam-v1",
+    "release_date": "2021-02-25T23:07:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeff Ching",
+            "email": "chingor@google.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google LLC",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/googleapis/java-iam/proto-google-iam-v1",
+    "download_url": "https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-iam-v1/1.0.10/proto-google-iam-v1-1.0.10-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "477a45a7ccd5a5c8d7047babbaee0eb0c0b36395",
+    "sha256": "67a22b91db808145cf1b611578cd0022a839190af0a1d664813168c8d21fc583",
+    "sha512": "97dce776ba5448c826c21e96bb611ce242f526fe59b4d630189b77245f49118791ef71e4564f11a7be1a606921d85b25fe3361daca4bde0afaf3eda41a922cc2",
+    "bug_tracking_url": "https://github.com/googleapis/java-iam/issues",
+    "code_view_url": "https://github.com/googleapis/java-iam/proto-google-iam-v1",
+    "vcs_url": "git+https://github.com/googleapis/java-iam.git/proto-google-iam-v1",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_216.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: https://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_216.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-822037b5-0a3a-f249-e93a-96c3510165df",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.api.grpc/proto-google-iam-v1@1.0.10?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.protobuf/protobuf-java@3.15.2",
+            "extracted_requirement": "3.15.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.api.grpc/proto-google-common-protos@2.1.0",
+            "extracted_requirement": "2.1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.api.grpc/proto-google-iam-v1@1.0.10?classifier=sources&uuid=922116a1-31af-4d9b-9b62-900e7fbbfd20",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.google.api.grpc/proto-google-iam-v1@1.0.10?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-iam-v1/1.0.10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-iam-v1/1.0.10/proto-google-iam-v1-1.0.10-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/api/grpc/proto-google-iam-v1/1.0.10/proto-google-iam-v1-1.0.10.pom",
+    "file_references": []
+}

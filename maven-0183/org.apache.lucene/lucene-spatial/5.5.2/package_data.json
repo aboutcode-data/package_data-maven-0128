@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.lucene",
+    "name": "lucene-spatial",
+    "version": "5.5.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d5c9ba93-4941-4be5-bda6-9e1aaf44b4c9",
+            "packages": [
+                "pkg:maven/org.apache.lucene/lucene-spatial@5.5.2?uuid=849915bc-2c11-4ae8-8a83-77b6c36a8172",
+                "pkg:maven/org.apache.lucene/lucene-spatial@5.5.2?classifier=sources&uuid=bc929d5b-2df1-4821-ae5d-1ffe5a4a6499"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Lucene Spatial\nSpatial Strategies for Apache Lucene",
+    "release_date": "2016-06-24T18:28:59Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/5.5.2/lucene-spatial-5.5.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b81217a645ec3e5c2d7928eb31c785eae307670e",
+    "sha256": "f2c06682d90f1ac080a9c6f757844629345c2805df218054a05d377b5ad81f84",
+    "sha512": "367bc2c1a0b5dae83e8fcf12dc0b651079d471f80e3599efccbf24ea314e78831b9fe3f38d9d52c5c41446face14f97cf9d234accc3d52516c293cd842c5dad9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND bsd-new AND (apache-2.0 AND cpl-1.0 AND bsd-new) AND bsd-simplified AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND (mit AND unicode AND bsd-new) AND (mit AND x11) AND naist-2003 AND python AND (unicode AND bsd-new AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND cddl-1.0) AND unicode-mappings AND x11",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND (Apache-2.0 AND CPL-1.0 AND BSD-3-Clause) AND BSD-2-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND (MIT AND LicenseRef-scancode-unicode AND BSD-3-Clause) AND (MIT AND ICU) AND NAIST-2003 AND Python-2.0 AND (LicenseRef-scancode-unicode AND BSD-3-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND CDDL-1.0) AND LicenseRef-scancode-unicode-mappings AND ICU",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.lucene/lucene-spatial@5.5.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-test-framework",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-codecs",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.spatial4j/spatial4j",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-misc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-queries",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-spatial3d",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.spatial4j/spatial4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.lucene/lucene-spatial@5.5.2?classifier=sources&uuid=bc929d5b-2df1-4821-ae5d-1ffe5a4a6499",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.lucene/lucene-spatial@5.5.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/5.5.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/5.5.2/lucene-spatial-5.5.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/5.5.2/lucene-spatial-5.5.2.pom",
+    "file_references": []
+}

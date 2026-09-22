@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "com.lightbend.lagom",
+    "name": "lagom-server_2.12",
+    "version": "1.5.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e7880754-c6a0-4b20-87a8-1d281af0936c",
+            "packages": [
+                "pkg:maven/com.lightbend.lagom/lagom-server_2.12@1.5.5?uuid=0ec93710-caf4-4eca-ade7-2d9ea48ccc74",
+                "pkg:maven/com.lightbend.lagom/lagom-server_2.12@1.5.5?classifier=sources&uuid=70e2cc3d-e091-4aa9-ae7d-d04523075438"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "lagom-server",
+    "release_date": "2019-12-05T09:48:25Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Lagom Contributors",
+            "email": null,
+            "url": "https://github.com/lagom"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.lightbend.lagom",
+            "email": null,
+            "url": "https://www.lagomframework.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.lagomframework.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-server_2.12/1.5.5/lagom-server_2.12-1.5.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a6ac5cee64408569878f86dd56ea3d2ba909a6fd",
+    "sha256": "d51042880cd1239acff1d0fabebb92cfe8e8046bbc75a50272c65c2dc0d01eb5",
+    "sha512": "c036f6b8dba695e9a1b610b767ae30675192f2d745f6379bd1b021868150d340e4415c746e4ca07e2ab2782b7f290c95d9977803b43e58dfb5f1bad5644152c7",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/lagom/lagom",
+    "vcs_url": "git+https://github.com/lagom/lagom.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_20.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_20.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bcefe950-fdcf-2a12-721d-7f0d69b15c83",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.lightbend.lagom/lagom-server_2.12@1.5.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.12.9",
+            "extracted_requirement": "2.12.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.lightbend.lagom/lagom-client_2.12@1.5.5",
+            "extracted_requirement": "1.5.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.lightbend.lagom/lagom-server_2.12@1.5.5?classifier=sources&uuid=70e2cc3d-e091-4aa9-ae7d-d04523075438",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.lightbend.lagom/lagom-server_2.12@1.5.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-server_2.12/1.5.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-server_2.12/1.5.5/lagom-server_2.12-1.5.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-server_2.12/1.5.5/lagom-server_2.12-1.5.5.pom",
+    "file_references": []
+}

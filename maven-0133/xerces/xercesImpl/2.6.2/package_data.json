@@ -1,0 +1,57 @@
+{
+    "type": "maven",
+    "namespace": "xerces",
+    "name": "xercesImpl",
+    "version": "2.6.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "37c7b203-9507-475c-b163-09cfb29c0991",
+            "packages": [
+                "pkg:maven/xerces/xercesImpl@2.6.2?uuid=4bffed69-f897-4f5f-b295-e505ec2255c1",
+                "pkg:maven/xerces/xercesImpl@2.6.2?classifier=sources&uuid=8aa4b5b5-b673-42f6-9d51-11f49c3662a7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2005-11-01T16:40:06Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "eb9e01cc90dfc083dd41d7f76a5efd102ab6b01e",
+    "sha256": "01bd6dcc31403f36a89dd1c8d7e34b5f5f92cfc4035148b00729072482372026",
+    "sha512": "1010177bc2a13d611e9735c7255e86019f0d37b0be0f4a62b39274b18f7293b6c7f9a0fd6fc57d507d7b977e6728663d58a54ece7ac833e8cac66114ad4d8cba",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-1.1 AND w3c AND w3c-software-19980720",
+    "other_license_expression_spdx": "Apache-1.1 AND W3C AND W3C-19980720",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/xerces/xercesImpl@2.6.2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/xerces/xercesImpl@2.6.2?classifier=sources&uuid=8aa4b5b5-b673-42f6-9d51-11f49c3662a7",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/xerces/xercesImpl@2.6.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/xerces/xercesImpl/2.6.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.pom",
+    "file_references": []
+}

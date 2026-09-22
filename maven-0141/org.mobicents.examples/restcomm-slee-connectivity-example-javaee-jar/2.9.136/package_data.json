@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.mobicents.examples",
+    "name": "restcomm-slee-connectivity-example-javaee-jar",
+    "version": "2.9.136",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-25T11:02:52Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/mobicents/examples/restcomm-slee-connectivity-example-javaee-jar/2.9.136/restcomm-slee-connectivity-example-javaee-jar-2.9.136.jar",
+    "size": 4666,
+    "md5": null,
+    "sha1": "ad86480b0832b3d0a06d5bdc87c04468609855ea",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mobicents.examples/restcomm-slee-connectivity-example-javaee-jar@2.9.136?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.slee/jain-slee",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mobicents.servers.jainslee.core/spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mobicents.examples/restcomm-slee-connectivity-example-event",
+            "extracted_requirement": "2.9.136",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.mobicents.examples/restcomm-slee-connectivity-example-javaee-jar@2.9.136?uuid=cace644b-2f01-412d-8781-63bbd5d15210",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.mobicents.examples/restcomm-slee-connectivity-example-javaee-jar@2.9.136",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mobicents/examples/restcomm-slee-connectivity-example-javaee-jar/2.9.136/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mobicents/examples/restcomm-slee-connectivity-example-javaee-jar/2.9.136/restcomm-slee-connectivity-example-javaee-jar-2.9.136.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mobicents/examples/restcomm-slee-connectivity-example-javaee-jar/2.9.136/restcomm-slee-connectivity-example-javaee-jar-2.9.136.pom",
+    "file_references": []
+}

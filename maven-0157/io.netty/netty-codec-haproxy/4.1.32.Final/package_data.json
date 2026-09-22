@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-codec-haproxy",
+    "version": "4.1.32.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9f946d62-4c2b-4e9c-a914-5d8a8fa30b4f",
+            "packages": [
+                "pkg:maven/io.netty/netty-codec-haproxy@4.1.32.Final?uuid=31a0868c-1d49-415d-95e1-10e239457813",
+                "pkg:maven/io.netty/netty-codec-haproxy@4.1.32.Final?classifier=sources&uuid=77d33fdd-a73e-4de4-b9c7-f2e1bf185f5a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty/Codec/HAProxy",
+    "release_date": "2018-11-29T12:24:28Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "http://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "http://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-haproxy/4.1.32.Final/netty-codec-haproxy-4.1.32.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b7e6f843e6fe513b8b884516df0ea4bb1b3bd6ea",
+    "sha256": "f90caf822bf36ff6c183a3cb4c5754a16508fc0df0cc04278d30b334805796b8",
+    "sha512": "bb78434a32666205d541271915ac0c0d92a4c3f7d41f89ba2c7d04959db923584ef5337be04591e8ff989899fe5e0afcb2e1b88627717fb87b9b8ad072def4ea",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-codec-haproxy@4.1.32.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-codec@4.1.32.Final",
+            "extracted_requirement": "4.1.32.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty-codec-haproxy@4.1.32.Final?classifier=sources&uuid=77d33fdd-a73e-4de4-b9c7-f2e1bf185f5a",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.netty/netty-codec-haproxy@4.1.32.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-haproxy/4.1.32.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-haproxy/4.1.32.Final/netty-codec-haproxy-4.1.32.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-haproxy/4.1.32.Final/netty-codec-haproxy-4.1.32.Final.pom",
+    "file_references": []
+}

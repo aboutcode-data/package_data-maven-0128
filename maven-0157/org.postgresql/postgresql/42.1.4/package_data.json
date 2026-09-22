@@ -1,0 +1,85 @@
+{
+    "type": "maven",
+    "namespace": "org.postgresql",
+    "name": "postgresql",
+    "version": "42.1.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1c09ea2f-8ada-4a9c-a5f8-c547603cda2f",
+            "packages": [
+                "pkg:maven/org.postgresql/postgresql@42.1.4?uuid=eab5c09c-98be-4292-921b-84276f1ed449",
+                "pkg:maven/org.postgresql/postgresql@42.1.4?classifier=sources&uuid=a21016b0-eaaf-4514-9d73-6ad116ca7eb6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "PostgreSQL JDBC Driver - JDBC 4.2\nJava JDBC 4.2 (JRE 8+) driver for PostgreSQL database",
+    "release_date": "2017-08-01T17:15:25Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "PostgreSQL Global Development Group",
+            "email": null,
+            "url": "https://jdbc.postgresql.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/pgjdbc/pgjdbc",
+    "download_url": "https://repo1.maven.org/maven2/org/postgresql/postgresql/42.1.4/postgresql-42.1.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b8d38561090968e66bfeff72eb6833a4b0da1d4a",
+    "sha256": "53d23b85ec7c0dc68c37838b7babd36135088d8c1e569813ca08a069c3c062f1",
+    "sha512": "c508a73b0ad3a188aec0cb3c859f6709e08dffa359f7e859f47541ac8d5fcb0ec6aa893a527eca4d237dc27d8cd99f0c61626860dba418bfb37b452c706bc727",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-simplified",
+    "declared_license_expression_spdx": "BSD-2-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_bsd-2-clause_for_bsd-simplified.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: BSD-2-Clause",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_bsd-2-clause_for_bsd-simplified.RULE",
+                    "license_expression": "bsd-simplified"
+                }
+            ],
+            "identifier": "bsd_simplified-7cacd81a-0bdb-1c32-cf2d-2250f633f213",
+            "license_expression": "bsd-simplified"
+        }
+    ],
+    "other_license_expression": "free-unknown AND apache-2.0 AND bsd-simplified AND cc-pd AND public-domain-disclaimer AND unknown-license-reference",
+    "other_license_expression_spdx": "LicenseRef-scancode-free-unknown AND Apache-2.0 AND BSD-2-Clause AND CC-PDDC AND LicenseRef-scancode-public-domain-disclaimer AND LicenseRef-scancode-unknown-license-reference",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: BSD-2-Clause\n  url: https://jdbc.postgresql.org/about/license.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.postgresql/postgresql@42.1.4?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.postgresql/postgresql@42.1.4?classifier=sources&uuid=a21016b0-eaaf-4514-9d73-6ad116ca7eb6",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.postgresql/postgresql@42.1.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/postgresql/postgresql/42.1.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/postgresql/postgresql/42.1.4/postgresql-42.1.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/postgresql/postgresql/42.1.4/postgresql-42.1.4.pom",
+    "file_references": []
+}

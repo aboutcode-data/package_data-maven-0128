@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "org.keycloak",
+    "name": "keycloak-model-map",
+    "version": "21.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c5b5fc8b-2056-408c-b698-2ac48ea9bdf5",
+            "packages": [
+                "pkg:maven/org.keycloak/keycloak-model-map@21.0.2?uuid=317e31cc-9d82-4750-b4ae-dad7d2a1a36f",
+                "pkg:maven/org.keycloak/keycloak-model-map@21.0.2?classifier=sources&uuid=8187b579-bdf8-46a0-b36c-4e3dcdc83272"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Keycloak Model Map",
+    "release_date": "2023-03-30T10:56:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Keycloak Team",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://keycloak.org",
+    "download_url": "https://repo1.maven.org/maven2/org/keycloak/keycloak-model-map/21.0.2/keycloak-model-map-21.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ffec6d501b606b87f5ca0cd129876ca4ebe0d16a",
+    "sha256": "8edf76df81a6270a2e8ab676496594c45c4f7cf76ac5e34233f08c89522a36fd",
+    "sha512": "d73c262437035383c7d500cb74381ddb3956837a938658ccf72b17e3185dd28e26b6b5f1be23df9dae847376c5cacd689964908312cf05b1a09e3194eb012194",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.keycloak/keycloak-model-map@21.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.keycloak/keycloak-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.keycloak/keycloak-server-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.keycloak/keycloak-server-spi-private",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.keycloak/keycloak-model-build-processor@21.0.2",
+            "extracted_requirement": "21.0.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.keycloak/keycloak-model-map@21.0.2?classifier=sources&uuid=8187b579-bdf8-46a0-b36c-4e3dcdc83272",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.keycloak/keycloak-model-map@21.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

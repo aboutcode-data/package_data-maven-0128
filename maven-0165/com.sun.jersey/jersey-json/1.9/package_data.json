@@ -1,0 +1,137 @@
+{
+    "type": "maven",
+    "namespace": "com.sun.jersey",
+    "name": "jersey-json",
+    "version": "1.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5f8d8cc1-de0e-4ab8-ba37-c47049c9ea66",
+            "packages": [
+                "pkg:maven/com.sun.jersey/jersey-json@1.9?uuid=9dc70028-0d2c-4b07-96d4-0d422cb2320c",
+                "pkg:maven/com.sun.jersey/jersey-json@1.9?classifier=sources&uuid=cce9416d-4697-462a-a1c5-92a95416f2bd"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jersey-json",
+    "release_date": "2011-09-02T11:27:03Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle Corporation",
+            "email": null,
+            "url": "http://www.oracle.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://java.net/",
+    "download_url": "https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9831f56e36a870f372cc2844675d76193144151a",
+    "sha256": "fba0b8d309951fdf23263026e85f9b87f2ed6fdff0ea65cda6930b08db61c32c",
+    "sha512": "ce848a3a2274ebeedee9f3c2e681fbd563760ce7faa9b3fda7f71ea3d9fdf33927230c3e949b8911762febff2be664de0801c3e6b2ef1f4045438e486c78bb9c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "cddl-1.1 AND gpl-2.0",
+    "declared_license_expression_spdx": "CDDL-1.1 AND GPL-2.0-only",
+    "license_detections": [],
+    "other_license_expression": "cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0",
+    "other_license_expression_spdx": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.sun.jersey/jersey-json@1.9?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/net.java/jvnet-parent@1",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/net.java/jvnet-parent@1",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/net.java/jvnet-parent@1",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.sun.jersey/jersey-project@1.9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.sun.jersey/jersey-project@1.9"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.jettison/jettison@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-impl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-core-asl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-jaxrs",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-xc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.jersey/jersey-core@1.9",
+            "extracted_requirement": "1.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.sun.jersey/jersey-json@1.9?classifier=sources&uuid=cce9416d-4697-462a-a1c5-92a95416f2bd",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.sun.jersey/jersey-json@1.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.pom",
+    "file_references": []
+}

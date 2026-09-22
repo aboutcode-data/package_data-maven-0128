@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.hibernate.validator",
+    "name": "hibernate-validator-annotation-processor",
+    "version": "6.0.0.Beta2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Hibernate Validator Annotation Processor",
+    "release_date": "2017-05-24T10:21:44Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator-annotation-processor/6.0.0.Beta2/hibernate-validator-annotation-processor-6.0.0.Beta2.jar",
+    "size": 126563,
+    "md5": null,
+    "sha1": "bed6653fb6e72c7c97d903a47ebd45cc1985bd99",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.hibernate.validator/hibernate-validator-annotation-processor@6.0.0.Beta2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.hibernate.validator/hibernate-validator",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate.validator/hibernate-validator-test-utils",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.money/money-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.hibernate.validator/hibernate-validator-annotation-processor@6.0.0.Beta2?uuid=df55181d-fa76-4b0c-ab3b-2e8c5cf4c031",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.hibernate.validator/hibernate-validator-annotation-processor@6.0.0.Beta2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator-annotation-processor/6.0.0.Beta2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator-annotation-processor/6.0.0.Beta2/hibernate-validator-annotation-processor-6.0.0.Beta2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator-annotation-processor/6.0.0.Beta2/hibernate-validator-annotation-processor-6.0.0.Beta2.pom",
+    "file_references": []
+}

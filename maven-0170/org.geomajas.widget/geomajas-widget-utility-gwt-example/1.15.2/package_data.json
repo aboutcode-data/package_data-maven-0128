@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.geomajas.widget",
+    "name": "geomajas-widget-utility-gwt-example",
+    "version": "1.15.2",
+    "qualifiers": "type=war",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Geomajas GWT client: Plugin Widget Utility - Example",
+    "release_date": "2016-02-23T12:40:56Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://www.geomajas.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/geomajas/widget/geomajas-widget-utility-gwt-example/1.15.2/geomajas-widget-utility-gwt-example-1.15.2.war",
+    "size": 65191781,
+    "md5": null,
+    "sha1": "060b53054c6e8dcfb2e8582426801a73bec8531c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.geomajas.widget/geomajas-widget-utility-gwt-example@1.15.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-java",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-server",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.geomajas.widget/geomajas-widget-utility-gwt-example-jar",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jcl-over-slf4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/log4j-over-slf4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.gwt/gwt-user",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.gwt/gwt-servlet",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.geomajas.widget/geomajas-widget-utility-gwt-example@1.15.2?type=war&uuid=00fe018d-fb28-4e67-b99d-49f7fd9c6a0b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.geomajas.widget/geomajas-widget-utility-gwt-example@1.15.2?type=war",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/geomajas/widget/geomajas-widget-utility-gwt-example/1.15.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/geomajas/widget/geomajas-widget-utility-gwt-example/1.15.2/geomajas-widget-utility-gwt-example-1.15.2.war",
+    "api_data_url": "https://repo1.maven.org/maven2/org/geomajas/widget/geomajas-widget-utility-gwt-example/1.15.2/geomajas-widget-utility-gwt-example-1.15.2.pom",
+    "file_references": []
+}

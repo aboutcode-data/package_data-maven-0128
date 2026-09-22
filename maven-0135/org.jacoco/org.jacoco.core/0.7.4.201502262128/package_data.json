@@ -1,0 +1,114 @@
+{
+    "type": "maven",
+    "namespace": "org.jacoco",
+    "name": "org.jacoco.core",
+    "version": "0.7.4.201502262128",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "eed5cced-61b0-4895-a8e3-50057c435fc1",
+            "packages": [
+                "pkg:maven/org.jacoco/org.jacoco.core@0.7.4.201502262128?uuid=cadc9921-8b96-41cb-8e2c-161b1da7bbf9",
+                "pkg:maven/org.jacoco/org.jacoco.core@0.7.4.201502262128?classifier=sources&uuid=927da245-e7bc-4369-a196-ec71b022ba3e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JaCoCo :: Core\nJaCoCo Core",
+    "release_date": "2015-02-26T21:53:23Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marc R. Hoffmann",
+            "email": "hoffmann@mountainminds.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brock Janiczak",
+            "email": "brockj@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Evgeny Mandrikov",
+            "email": "mandrikov@gmail.com",
+            "url": "http://godin.net.ru"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mirko Friedenhagen",
+            "email": "mfriedenhagen@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Radek Liba",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Christoph Beck",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Mountainminds GmbH & Co. KG",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jacoco.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b6356a696e396a348a673237eee1f496ef75b4b1",
+    "sha256": "7eaba205f09791d521f12e2f6e1ccc57dd719e2305de7cc01e21eb5faa220bdf",
+    "sha512": "e06742e19491d9d79f98097de8c9a9900fc2be69ca032aa3bde0d032eebc787eafc8d99a9b359d8b8c4ec2550379a87813370bd9be65d6b8d056a7c6c50ed9cd",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "epl-1.0 AND (epl-2.0 AND epl-1.0)",
+    "other_license_expression_spdx": "EPL-1.0 AND (EPL-2.0 AND EPL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jacoco/org.jacoco.core@0.7.4.201502262128?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm-debug-all",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jacoco/org.jacoco.core@0.7.4.201502262128?classifier=sources&uuid=927da245-e7bc-4369-a196-ec71b022ba3e",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jacoco/org.jacoco.core@0.7.4.201502262128?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/0.7.4.201502262128/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.pom",
+    "file_references": []
+}

@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.nifi",
+    "name": "nifi-ambari-reporting-task",
+    "version": "0.7.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Publishes NiFi metrics to Ambari",
+    "release_date": "2017-05-14T22:25:10Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-ambari-reporting-task/0.7.3/nifi-ambari-reporting-task-0.7.3.jar",
+    "size": 22645,
+    "md5": null,
+    "sha1": "5c4401357a7283dff7e8f7bcf88f8888c356f72a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.nifi/nifi-ambari-reporting-task@0.7.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.core/jersey-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish/javax.json",
+            "extracted_requirement": "1.0.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.json/javax.json-api",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.yammer.metrics/metrics-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-processor-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-mock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.nifi/nifi-ambari-reporting-task@0.7.3?uuid=2faf70e0-6607-49e3-8076-6565808d2a37",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.nifi/nifi-ambari-reporting-task@0.7.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-ambari-reporting-task/0.7.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-ambari-reporting-task/0.7.3/nifi-ambari-reporting-task-0.7.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-ambari-reporting-task/0.7.3/nifi-ambari-reporting-task-0.7.3.pom",
+    "file_references": []
+}

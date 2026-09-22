@@ -1,0 +1,70 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.hbase.thirdparty",
+    "name": "hbase-shaded-netty",
+    "version": "2.1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "fa8c4c49-ef55-4de9-85c3-4a688c6343a1",
+            "packages": [
+                "pkg:maven/org.apache.hbase.thirdparty/hbase-shaded-netty@2.1.0?uuid=13984780-32cd-4946-aa71-17bb7cc8eaa5",
+                "pkg:maven/org.apache.hbase.thirdparty/hbase-shaded-netty@2.1.0?classifier=sources&uuid=bc45103b-578a-48b7-aa3b-b8e45ab8f03e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache HBase Relocated (Shaded) Netty Libs\nPulls down netty.io, relocates nd then makes a fat new jar with them all in it.",
+    "release_date": "2018-03-19T23:02:13Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-netty/2.1.0/hbase-shaded-netty-2.1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f031c84dd2ef132df1136ec4cfeff22b4e8a9367",
+    "sha256": "15d0f46bd38afe1333b1ed5a3301ab93085d1891ed95f6bbd3e55f4888a29878",
+    "sha512": "be108758ad3638f1bfe2f20c3739fcb4189a60d7c6d511edac3640946496f95739ef049cbdb446961f64fe84c1336470c59e4f13292f0d4188f6348cdbe11a9b",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "(apache-2.0 AND mit) AND ((apache-2.0 AND bsd-new) AND bsd-new) AND ((apache-2.0 AND cc-pd) AND cc-pd) AND (apache-2.0 AND cc0-1.0)",
+    "other_license_expression_spdx": "(Apache-2.0 AND MIT) AND ((Apache-2.0 AND BSD-3-Clause) AND BSD-3-Clause) AND ((Apache-2.0 AND CC-PDDC) AND CC-PDDC) AND (Apache-2.0 AND CC0-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.hbase.thirdparty/hbase-shaded-netty@2.1.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@18",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@18",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@18"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.apache.hbase.thirdparty/hbase-shaded-netty@2.1.0?classifier=sources&uuid=bc45103b-578a-48b7-aa3b-b8e45ab8f03e",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.hbase.thirdparty/hbase-shaded-netty@2.1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-netty/2.1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-netty/2.1.0/hbase-shaded-netty-2.1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-netty/2.1.0/hbase-shaded-netty-2.1.0.pom",
+    "file_references": []
+}

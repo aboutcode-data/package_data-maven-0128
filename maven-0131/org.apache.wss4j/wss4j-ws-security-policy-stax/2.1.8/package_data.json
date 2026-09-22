@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.wss4j",
+    "name": "wss4j-ws-security-policy-stax",
+    "version": "2.1.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "feab805c-960d-4007-b412-c083c692c15c",
+            "packages": [
+                "pkg:maven/org.apache.wss4j/wss4j-ws-security-policy-stax@2.1.8?uuid=9a3a16ce-52fe-4147-bf98-3718d19d4c37",
+                "pkg:maven/org.apache.wss4j/wss4j-ws-security-policy-stax@2.1.8?classifier=sources&uuid=7d702f1c-cfc0-4c31-9bb0-95477b13f16f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache WSS4J Streaming WS-SecurityPolicy",
+    "release_date": "2016-12-05T12:35:14Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/wss4j/wss4j-ws-security-policy-stax/2.1.8/wss4j-ws-security-policy-stax-2.1.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e802d8737d26500d97ab563e0473860411e5e6a1",
+    "sha256": "76cf9ff43b7424b3150a5e8981740c1ec4dde09e6926950985fabd51d3a4b2d0",
+    "sha512": "76ddee1111788c92b36a41c3d559c482412be83dab3e5be0d657f1a245624f041bc55fcd9c6efc22ed2cbf93a763556584a6369bdd1be7e511c3e50b4ba87754",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND oasis-ws-security-spec AND (apache-2.0 AND gpl-1.0-plus AND cddl-1.0 AND mit AND lgpl-2.1 AND cpl-1.0 AND bsd-new) AND w3c AND ws-addressing-spec AND ws-policy-specification",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-oasis-ws-security-spec AND (Apache-2.0 AND GPL-1.0-or-later AND CDDL-1.0 AND MIT AND LGPL-2.1-only AND CPL-1.0 AND BSD-3-Clause) AND W3C AND LicenseRef-scancode-ws-addressing-spec AND LicenseRef-scancode-ws-policy-specification",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.wss4j/wss4j-ws-security-policy-stax@2.1.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.wss4j/wss4j-ws-security-stax@2.1.8",
+            "extracted_requirement": "2.1.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.wss4j/wss4j-policy@2.1.8",
+            "extracted_requirement": "2.1.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/wsdl4j/wsdl4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.wss4j/wss4j-ws-security-stax@2.1.8",
+            "extracted_requirement": "2.1.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.wss4j/wss4j-ws-security-dom@2.1.8",
+            "extracted_requirement": "2.1.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.wss4j/wss4j-ws-security-policy-stax@2.1.8?classifier=sources&uuid=7d702f1c-cfc0-4c31-9bb0-95477b13f16f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.wss4j/wss4j-ws-security-policy-stax@2.1.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/wss4j/wss4j-ws-security-policy-stax/2.1.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/wss4j/wss4j-ws-security-policy-stax/2.1.8/wss4j-ws-security-policy-stax-2.1.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/wss4j/wss4j-ws-security-policy-stax/2.1.8/wss4j-ws-security-policy-stax-2.1.8.pom",
+    "file_references": []
+}

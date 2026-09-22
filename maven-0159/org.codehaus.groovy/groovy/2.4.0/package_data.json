@@ -1,0 +1,740 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.groovy",
+    "name": "groovy",
+    "version": "2.4.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "046f9a3e-f6a7-4f6e-ada2-65b61036c8aa",
+            "packages": [
+                "pkg:maven/org.codehaus.groovy/groovy@2.4.0?uuid=6c717d34-ea6d-48ed-8d3a-0920f0554a15",
+                "pkg:maven/org.codehaus.groovy/groovy@2.4.0?classifier=sources&uuid=26b86cba-6fa6-4db7-a04b-1ba9098f7d78"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Groovy\nGroovy: A powerful, dynamic language for the JVM",
+    "release_date": "2015-01-21T15:56:46Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Guillaume Laforge",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "bob mcwhirter",
+            "email": "bob@werken.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Strachan",
+            "email": "james@coredevelopers.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joe Walnes",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Chris Stevenson",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jamie McCrindle",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Matt Foemmel",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sam Pullara",
+            "email": "sam@sampullara.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kasper Nielsen",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Travis Kay",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Zohar Melamed",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "John Wilson",
+            "email": "tug@wilson.co.uk",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Chris Poirier",
+            "email": "cpoirier@dreaming.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christiaan ten Klooster",
+            "email": "ckl@dacelo.nl",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Steve Goetze",
+            "email": "goetze@dovetail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bing Ran",
+            "email": "b55r@sina.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeremy Rayner",
+            "email": "jeremy.rayner@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "John Stump",
+            "email": "johnstump2@yahoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jochen Theodorou",
+            "email": "blackdrag@gmx.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Russel Winder",
+            "email": "russel@russel.org.uk",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Pilho Kim",
+            "email": "phkim@cluecom.co.kr",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Stein",
+            "email": "sormuras@gmx.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dierk Koenig",
+            "email": "dierk.koenig@canoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Paul King",
+            "email": "paulk@asert.com.au",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Guillaume Alleon",
+            "email": "guillaume.alleon@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jason Dillon",
+            "email": "jason@planet57.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Danno Ferrin",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Williams",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Andres Almiray",
+            "email": "aalmiray@users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marc Guillemot",
+            "email": "mguillemot@yahoo.fr",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jim White",
+            "email": "jim@pagesmiths.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Peter Niederwieser",
+            "email": "pniederw@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Hamlet D'Arcy",
+            "email": "hamletdrc@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Cedric Champeau",
+            "email": "cedric.champeau@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Joern Eyrich",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Robert Kuzelj",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Rod Cope",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Yuri Schimke",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "James Birchfield",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Robert Fuller",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Sergey Udovenko",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Hallvard Traetteberg",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Peter Reilly",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Brian McCallister",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Richard Monson-Haefel",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Brian Larson",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Artur Biesiadowski",
+            "email": "abies@pg.gda.pl",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ivan Z. Ganza",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Arjun Nayyar",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mark Chu-Carroll",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mark Turansky",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jean-Louis Berliet",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Graham Miller",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Marc Palmer",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Tugdual Grall",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Edwin Tellman",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Evan A Slatis",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mike Dillon",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bernhard Huber",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Marc DeXeT",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Dejan Bosanac",
+            "email": "dejan@nighttale.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Denver Dino",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ted Naleid",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Chanwit Kaewkasi",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Brad Long",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "John Bito",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jim Jagielski",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "John Hurst",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Merlyn Albery-Speyer",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "jeremi Joslin",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "UEHARA Junji",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "NAKANO Yasuharu",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Dinko Srkoc",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Raffaele Cigni",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Alberto Vilches Raton",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Paulo Poiati",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Alexander Klein",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Adam Murdoch",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "David Durham",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Daniel Henrique Alves Lima",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "John Wagenleitner",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Colin Harrington",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Brian Alexander",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jan Weitz",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Joachim Baumann",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "David Sutherland",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mattias Reichel",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "David Lee",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Codehaus",
+            "email": null,
+            "url": "http://codehaus.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://groovy.codehaus.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/groovy/groovy/2.4.0/groovy-2.4.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1de30b56375339904a444d4be188112cebc6dec2",
+    "sha256": "0a8193f9bdc5bf579275677afe00fcabf62fda96341a289dac592f140cd5d229",
+    "sha512": "1f6315688401056d7a27b5bb3f31f799e0fd3ec96a45c633a54ec2fbb913af75e426b3419547d31b9f81f3c55943945377280fa610fa75f4d2ec9a46556cf82a",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/groovy/groovy-core.git",
+    "vcs_url": "git+https://github.com/groovy/groovy-core.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND warranty-disclaimer AND public-domain AND ((epl-1.0 AND bsd-new) AND cpl-1.0 AND apache-2.0) AND cc-pd",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-warranty-disclaimer AND LicenseRef-scancode-public-domain AND ((EPL-1.0 AND BSD-3-Clause) AND CPL-1.0 AND Apache-2.0) AND CC-PDDC",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.groovy/groovy@2.4.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.ant/ant@1.9.4",
+            "extracted_requirement": "1.9.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.thoughtworks.xstream/xstream@1.4.7",
+            "extracted_requirement": "1.4.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ivy/ivy@2.4.0",
+            "extracted_requirement": "2.4.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.fusesource.jansi/jansi@1.11",
+            "extracted_requirement": "1.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.gpars/gpars@1.2.1",
+            "extracted_requirement": "1.2.1",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.codehaus.groovy/groovy@2.4.0?classifier=sources&uuid=26b86cba-6fa6-4db7-a04b-1ba9098f7d78",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.codehaus.groovy/groovy@2.4.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/groovy/groovy/2.4.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/groovy/groovy/2.4.0/groovy-2.4.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/groovy/groovy/2.4.0/groovy-2.4.0.pom",
+    "file_references": []
+}

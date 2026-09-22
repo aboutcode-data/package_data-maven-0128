@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.netconf",
+    "name": "ietf-netconf-notifications",
+    "version": "3.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5666089c-9207-492c-ba6a-a10b4df55c6c",
+            "packages": [
+                "pkg:maven/org.opendaylight.netconf/ietf-netconf-notifications@3.0.2?uuid=667020fb-8622-4e83-bab9-836dfaa74241",
+                "pkg:maven/org.opendaylight.netconf/ietf-netconf-notifications@3.0.2?classifier=sources&uuid=282a3bd8-59e7-4bb3-a632-da58c31a1095"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ietf-netconf-notifications",
+    "release_date": "2022-04-25T08:04:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/netconf/ietf-netconf-notifications/3.0.2/ietf-netconf-notifications-3.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "79712e84d6db2c56c93b35d5a207791b6ee11eeb",
+    "sha256": "25f022b39f3c1ee4fc3c7866003a7b69eca10b55952be3d01dacb7209ef7a866",
+    "sha512": "7ded174543bbb63fb71db8070e989e0ab15970f8df00fe45b159ea01bb90fe2d02c012cd60b271113ee376ec6e07d122cf2e9aa7ce1f202fd883d0b5f5fae10a",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.netconf/ietf-netconf-notifications@3.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.opendaylight.netconf/ietf-netconf",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc6991-ietf-inet-types",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc6991-ietf-yang-types",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.netconf/ietf-netconf-notifications@3.0.2?classifier=sources&uuid=282a3bd8-59e7-4bb3-a632-da58c31a1095",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.netconf/ietf-netconf-notifications@3.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

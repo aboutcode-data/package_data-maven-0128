@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.amazonaws",
+    "name": "aws-java-sdk-efs",
+    "version": "1.11.271",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d5bebe27-1d82-44e2-8284-a117b4839d37",
+            "packages": [
+                "pkg:maven/com.amazonaws/aws-java-sdk-efs@1.11.271?uuid=f6769856-3720-45a7-9a82-9d26d4560ef4",
+                "pkg:maven/com.amazonaws/aws-java-sdk-efs@1.11.271?classifier=sources&uuid=55489343-3bfd-4a30-bfff-262ff0fff7f7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Java SDK for Amazon Elastic File System\nThe AWS Java SDK for Amazon Elastic File System module holds the client classes that are used for communicating with Amazon Elastic File System",
+    "release_date": "2018-01-27T00:05:16Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-efs/1.11.271/aws-java-sdk-efs-1.11.271-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "45deb7a7c24674ceadf838e3bd3d0fea841b5435",
+    "sha256": "fb07aa7c490a752cd3f29923791a35aea260ea73f260fe14021ce8d9ab408729",
+    "sha512": "64edcafd339f0e1b71b6443ab3feb61e3b6ac939cd7100f59dc249f1d4c09d3fe2cf87144d3cc5c76173d9061fef0effbebfbce14bd123b36ea6b5d600d6bb46",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-efs@1.11.271?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-core",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/jmespath-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-test-utils",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.amazonaws/aws-java-sdk-efs@1.11.271?classifier=sources&uuid=55489343-3bfd-4a30-bfff-262ff0fff7f7",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.amazonaws/aws-java-sdk-efs@1.11.271?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-efs/1.11.271/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-efs/1.11.271/aws-java-sdk-efs-1.11.271-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-efs/1.11.271/aws-java-sdk-efs-1.11.271.pom",
+    "file_references": []
+}

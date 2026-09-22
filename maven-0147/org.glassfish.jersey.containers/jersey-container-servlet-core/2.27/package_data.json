@@ -1,0 +1,200 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.jersey.containers",
+    "name": "jersey-container-servlet-core",
+    "version": "2.27",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8fa01d33-d44e-4da4-9968-17bc4ad5114f",
+            "packages": [
+                "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.27?uuid=e9155ac6-5d49-49b9-a2c0-6d97406bccc1",
+                "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.27?classifier=sources&uuid=2bd51339-4034-4ccf-bc9e-072328065571"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jersey-container-servlet-core\nJersey core Servlet 2.x implementation",
+    "release_date": "2018-04-10T11:23:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Roman Grigoriadi",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Lukas Jungmann",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dmitry Kornilov",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tomas Kraus",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tomas Langer",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Santiago Pericas-Geertsen",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jan Supol",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Petr Bouda",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Pavel Bucek",
+            "email": null,
+            "url": "https://blogs.oracle.com/PavelBucek"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Michal Gajdos",
+            "email": null,
+            "url": "http://blog.dejavu.sk"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Petr Janouch",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Libor Kramolis",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Adam Lindenthal",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jakub Podlesak",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Marek Potociar",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Stepan Vavra",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle Corporation",
+            "email": null,
+            "url": "http://www.oracle.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://jersey.github.io/",
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.27/jersey-container-servlet-core-2.27-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "10a4ea7084f735680266fe8d0998105e4f0f10f1",
+    "sha256": "e3c96897e6842a2964bc301b47c3441b38402489c9cc5ea30d943034ca57bd4f",
+    "sha512": "dff2ca4ef2e14a58934e156c00a87e22e0b3a3480a5fe2d63b243f8122ddff64000b67fd9d7babd3d6d9a3e4a53f40e3443dba29cf7c7a16ec0952ccbbaf83e5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "cddl-1.1 AND (gpl-2.0 WITH classpath-exception-2.0 OR cddl-1.1) AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND apache-2.0 AND public-domain AND cc0-1.0 AND bsd-new",
+    "declared_license_expression_spdx": "CDDL-1.1 AND (GPL-2.0-only WITH Classpath-exception-2.0 OR CDDL-1.1) AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND Apache-2.0 AND LicenseRef-scancode-public-domain AND CC0-1.0 AND BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": "gpl-2.0 WITH classpath-exception-2.0 OR cddl-1.1",
+    "other_license_expression_spdx": "GPL-2.0-only WITH Classpath-exception-2.0 OR CDDL-1.1",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.27?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": "${servlet2.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.persistence/persistence-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.hk2.external/javax.inject",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.27?classifier=sources&uuid=2bd51339-4034-4ccf-bc9e-072328065571",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.27?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.27/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.27/jersey-container-servlet-core-2.27-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.27/jersey-container-servlet-core-2.27.pom",
+    "file_references": []
+}

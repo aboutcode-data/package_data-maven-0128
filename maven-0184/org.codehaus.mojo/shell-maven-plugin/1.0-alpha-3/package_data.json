@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.mojo",
+    "name": "shell-maven-plugin",
+    "version": "1.0-alpha-3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Shell Script Executor Plugin",
+    "release_date": "2007-01-23T15:07:38Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/mojo/shell-maven-plugin/1.0-alpha-3/shell-maven-plugin-1.0-alpha-3.jar",
+    "size": 7311,
+    "md5": null,
+    "sha1": "cf5c2185bce08e9fe6ebfb2bb0521935c62dcd7c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.mojo/shell-maven-plugin@1.0-alpha-3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-project",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-plugin-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.mojo/antcall",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ant/ant",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-artifact",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.codehaus.mojo/shell-maven-plugin@1.0-alpha-3?uuid=333d4384-94cc-4589-8866-7ef8971d1ab1",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.codehaus.mojo/shell-maven-plugin@1.0-alpha-3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/mojo/shell-maven-plugin/1.0-alpha-3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/mojo/shell-maven-plugin/1.0-alpha-3/shell-maven-plugin-1.0-alpha-3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/mojo/shell-maven-plugin/1.0-alpha-3/shell-maven-plugin-1.0-alpha-3.pom",
+    "file_references": []
+}

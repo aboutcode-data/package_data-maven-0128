@@ -1,0 +1,63 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.kerby",
+    "name": "kerby-xdr",
+    "version": "1.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8c997af7-f8cd-4fe4-b0de-ab0d5350b531",
+            "packages": [
+                "pkg:maven/org.apache.kerby/kerby-xdr@1.0.0?uuid=86dc978b-8418-4a2f-8a1c-d95199b653d0",
+                "pkg:maven/org.apache.kerby/kerby-xdr@1.0.0?classifier=sources&uuid=0760239a-7000-48f7-afc4-8f2ba5a32a5a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Kerby XDR Project",
+    "release_date": "2017-05-10T09:10:54Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerby-xdr/1.0.0/kerby-xdr-1.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3206d3538ae7bdf488448d3f47825c43dd3e2c07",
+    "sha256": "7b26f1f5c48754511370ec459974c9edc763ca9ba287059300600504015cad68",
+    "sha512": "a67e67baf0a1061c802014ec58ffb4cfc5d4ea825672ebc525ee8b9faeb2e34245c3663fa152a88eababd50e561b9f182e442b9cdfaadf2e7451dd7e036041fc",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.kerby/kerby-xdr@1.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.apache.kerby/kerby-xdr@1.0.0?classifier=sources&uuid=0760239a-7000-48f7-afc4-8f2ba5a32a5a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.kerby/kerby-xdr@1.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerby-xdr/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerby-xdr/1.0.0/kerby-xdr-1.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerby-xdr/1.0.0/kerby-xdr-1.0.0.pom",
+    "file_references": []
+}

@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-resteasy",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4063e1b5-fb66-4a2c-84d1-88d9a7fbdffc",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-resteasy@2.13.7.Final?uuid=a26f8315-9953-45f5-90f4-e9e0cbc95a8b",
+                "pkg:maven/io.quarkus/quarkus-resteasy@2.13.7.Final?classifier=sources&uuid=ccde418d-4fc1-4d5f-9089-a685edcbcb29"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - RESTEasy - Runtime\nREST endpoint framework implementing JAX-RS and more",
+    "release_date": "2023-01-19T10:25:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-resteasy/2.13.7.Final/quarkus-resteasy-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "edfa6fc65ba9ec8d25127097ed87ca129185f72a",
+    "sha256": "7c12ea638b7c6a14d22d0a42485d69198713673a27d4bad8df2ba43a9e9b285d",
+    "sha512": "589155b1d34e320d97fb06f804791bc87c545df72fc9fe04042b96f156a7b0489ccda76cb9374928d5a216b4d3076bdf51bfd2fda1d594a58104314033158aef",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-resteasy@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/jakarta.servlet/jakarta.servlet-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-vertx-http",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-resteasy-server-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-resteasy@2.13.7.Final?classifier=sources&uuid=ccde418d-4fc1-4d5f-9089-a685edcbcb29",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-resteasy@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

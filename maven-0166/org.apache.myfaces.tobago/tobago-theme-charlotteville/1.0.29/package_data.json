@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.myfaces.tobago",
+    "name": "tobago-theme-charlotteville",
+    "version": "1.0.29",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Theme Charlotteville",
+    "release_date": "2010-09-15T05:55:58Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/myfaces/tobago/tobago-theme-charlotteville/1.0.29/tobago-theme-charlotteville-1.0.29.jar",
+    "size": 17551,
+    "md5": null,
+    "sha1": "4396245725c74e8567668af86c1fa6b1e6942169",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.myfaces.tobago/tobago-theme-charlotteville@1.0.29?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.myfaces.tobago/tobago-theme-speyside",
+            "extracted_requirement": "1.0.29",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.myfaces.tobago/tobago-core",
+            "extracted_requirement": "1.0.29",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.myfaces.tobago/tobago-theme-charlotteville@1.0.29?uuid=a618a821-2609-40c2-a63e-c45a3682d1d6",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.myfaces.tobago/tobago-theme-charlotteville@1.0.29",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/myfaces/tobago/tobago-theme-charlotteville/1.0.29/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/myfaces/tobago/tobago-theme-charlotteville/1.0.29/tobago-theme-charlotteville-1.0.29.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/myfaces/tobago/tobago-theme-charlotteville/1.0.29/tobago-theme-charlotteville-1.0.29.pom",
+    "file_references": []
+}

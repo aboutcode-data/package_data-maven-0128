@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.portal.osgi.web.servlet.context.helper.api",
+    "version": "2.1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b1bbd73f-e7d9-473e-b389-2fb9f8258b32",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.portal.osgi.web.servlet.context.helper.api@2.1.0?uuid=22d3142d-305a-4eb0-920a-8bc316c98b0b",
+                "pkg:maven/com.liferay/com.liferay.portal.osgi.web.servlet.context.helper.api@2.1.0?classifier=sources&uuid=551c790b-2398-4ad3-a260-fa17df7d4057"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Portal OSGi Web Servlet Context Helper API",
+    "release_date": "2019-07-03T04:48:09Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.osgi.web.servlet.context.helper.api/2.1.0/com.liferay.portal.osgi.web.servlet.context.helper.api-2.1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "dbc4b77f35a069516251f94871e13b42d3624840",
+    "sha256": "635ba63874212b50a41ab88a0e81d5689311d52c634721fa01a71907f9589a51",
+    "sha512": "d853cce8c490673c2afe5f578932ec036dcdda77d84d0a1d57100fe88a07600a7cb8c344556409beb2ac1d823bcc467d43c50a5dd499befdd8e7cb3dc369b468",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.portal.osgi.web.servlet.context.helper.api@2.1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.portal.osgi.web.servlet.context.helper.api@2.1.0?classifier=sources&uuid=551c790b-2398-4ad3-a260-fa17df7d4057",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.portal.osgi.web.servlet.context.helper.api@2.1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.osgi.web.servlet.context.helper.api/2.1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.osgi.web.servlet.context.helper.api/2.1.0/com.liferay.portal.osgi.web.servlet.context.helper.api-2.1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.osgi.web.servlet.context.helper.api/2.1.0/com.liferay.portal.osgi.web.servlet.context.helper.api-2.1.0.pom",
+    "file_references": []
+}

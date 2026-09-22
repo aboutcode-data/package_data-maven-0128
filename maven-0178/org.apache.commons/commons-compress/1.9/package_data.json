@@ -1,0 +1,176 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.commons",
+    "name": "commons-compress",
+    "version": "1.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7f3c4374-6b4b-4a7b-883a-3ed85162d75a",
+            "packages": [
+                "pkg:maven/org.apache.commons/commons-compress@1.9?uuid=421c62c0-e4e8-4a72-b8a2-a5124cec8c6b",
+                "pkg:maven/org.apache.commons/commons-compress@1.9?classifier=sources&uuid=6f326c94-38b3-4053-bb31-940049bf2488"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Commons Compress\nApache Commons Compress software defines an API for working with\ncompression and archive formats.\nThese include: bzip2, gzip, pack200, lzma, xz, Snappy, traditional\nUnix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.",
+    "release_date": "2014-10-06T05:02:38Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Torsten Curdt",
+            "email": "tcurdt at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stefan Bodewig",
+            "email": "bodewig at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sebastian Bazley",
+            "email": "sebb at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Grobmeier",
+            "email": "grobmeier at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Julius Davies",
+            "email": "julius at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Damjan Jovanovic",
+            "email": "damjan at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Emmanuel Bourg",
+            "email": "ebourg at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Wolfgang Glas",
+            "email": "wolfgang.glas at ev-i.at",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Christian Kohlsch\u00c3\u00bctte",
+            "email": "ck@newsclub.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bear Giles",
+            "email": "bgiles@coyotesong.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Michael Kuss",
+            "email": "mail at michael minus kuss.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Lasse Collin",
+            "email": "lasse.collin@tukaani.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "John Kodis",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "BELUGA BEHR",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://commons.apache.org/proper/commons-compress/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "24371fe090cb7c9f90ecf297342ce02b8ed15575",
+    "sha256": "172320a06fcbf5f4c49d9f80a0b10631b5499bce2d5c086ff02577e46ca5d2f2",
+    "sha512": "c6f225bd0f94c38a4081ea2de3c56df542f5e92b257e6c58d5fc6c05cac729b3bcfd4848908bbd029f6b8b9feb4c0a77ba1569264dd635347fb96d4405c2f27c",
+    "bug_tracking_url": "http://issues.apache.org/jira/browse/COMPRESS",
+    "code_view_url": "http://svn.apache.org/repos/asf/commons/proper/compress/tags/COMPRESS-1.9",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/commons/proper/compress/tags/COMPRESS-1.9",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND bsd-new AND public-domain AND (apache-2.0 AND bsd-new)",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND LicenseRef-scancode-public-domain AND (Apache-2.0 AND BSD-3-Clause)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.commons/commons-compress@1.9?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@13"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.tukaani/xz@1.5",
+            "extracted_requirement": "1.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.commons/commons-compress@1.9?classifier=sources&uuid=6f326c94-38b3-4053-bb31-940049bf2488",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.commons/commons-compress@1.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.pom",
+    "file_references": []
+}

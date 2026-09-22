@@ -1,0 +1,160 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.nifi.minifi",
+    "name": "minifi-framework-core",
+    "version": "0.2.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-15T15:15:28Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/nifi/minifi/minifi-framework-core/0.2.0/minifi-framework-core-0.2.0.jar",
+    "size": 30420,
+    "md5": null,
+    "sha1": "75cf571a602b18abdae938545b2a3c96174fa51e",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.nifi.minifi/minifi-framework-core@0.2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server",
+            "extracted_requirement": "9.3.9.v20160517",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet",
+            "extracted_requirement": "9.3.9.v20160517",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp",
+            "extracted_requirement": "9.3.9.v20160517",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets",
+            "extracted_requirement": "9.3.9.v20160517",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-annotations",
+            "extracted_requirement": "9.3.9.v20160517",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/apache-jsp",
+            "extracted_requirement": "9.3.9.v20160517",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/apache-jstl",
+            "extracted_requirement": "9.3.9.v20160517",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi.minifi/minifi-nar-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-runtime",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-administration",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi.minifi/minifi-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi.minifi/minifi-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-framework-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-framework-core-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.nifi.minifi/minifi-framework-core@0.2.0?uuid=e60f2572-429c-431c-ac2e-e4497f66000f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.nifi.minifi/minifi-framework-core@0.2.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/nifi/minifi/minifi-framework-core/0.2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/nifi/minifi/minifi-framework-core/0.2.0/minifi-framework-core-0.2.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/nifi/minifi/minifi-framework-core/0.2.0/minifi-framework-core-0.2.0.pom",
+    "file_references": []
+}

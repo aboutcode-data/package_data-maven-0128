@@ -1,0 +1,129 @@
+{
+    "type": "maven",
+    "namespace": "org.flowable",
+    "name": "flowable-task-service-api",
+    "version": "6.7.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d7c21c0f-49d9-4dcf-8c89-73a8b102d5f3",
+            "packages": [
+                "pkg:maven/org.flowable/flowable-task-service-api@6.7.2?uuid=6e4f82a8-142c-4793-98b9-1329aa187289",
+                "pkg:maven/org.flowable/flowable-task-service-api@6.7.2?classifier=sources&uuid=344a33d8-e8de-4b6a-8439-aa923f96c45f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Flowable - Task Service API",
+    "release_date": "2021-12-28T14:09:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tijs Rademakers",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joram Barrez",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Yvo Swillens",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Josh Long",
+            "email": null,
+            "url": "http://www.pivotal.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Grofcik",
+            "email": null,
+            "url": "http://www.edorasware.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Muelder",
+            "email": null,
+            "url": "http://next-level-integration.com/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Stettler",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Flowable",
+            "email": null,
+            "url": "http://www.flowable.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.flowable.org",
+    "download_url": "https://repo1.maven.org/maven2/org/flowable/flowable-task-service-api/6.7.2/flowable-task-service-api-6.7.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e1894fa7e2c881ee0f18f1f6bce920f891064a6f",
+    "sha256": "158e1c94452868bd7eb5c4e931ff27f031a6278eefdfd9d4e885b925fd6350da",
+    "sha512": "9e365d9609b863c1a6a4cd9b0bb7d16904a91b673b28d719a4927b1b7d6b9b06483a897c253bc9cbb6116355c4d3947cc491378ce23a76923692d28e09bb0e3a",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.flowable/flowable-task-service-api@6.7.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.flowable/flowable-engine-common-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.flowable/flowable-identitylink-service-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.flowable/flowable-task-service-api@6.7.2?classifier=sources&uuid=344a33d8-e8de-4b6a-8439-aa923f96c45f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.flowable/flowable-task-service-api@6.7.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

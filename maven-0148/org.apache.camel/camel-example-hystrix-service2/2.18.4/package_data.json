@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.camel",
+    "name": "camel-example-hystrix-service2",
+    "version": "2.18.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Camel :: Example :: Hystrix :: Service 2\nAn example showing how to use Hystrix EIP as circuit breaker in Camel routes",
+    "release_date": "2017-05-20T22:32:54Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-hystrix-service2/2.18.4/camel-example-hystrix-service2-2.18.4.jar",
+    "size": 15374,
+    "md5": null,
+    "sha1": "dcb43184d6eb8891530671b67fdbe33bb9f38506",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.camel/camel-example-hystrix-service2@2.18.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-parent",
+            "extracted_requirement": "2.18.4",
+            "scope": "import",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-hystrix",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-undertow",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.camel/camel-example-hystrix-service2@2.18.4?uuid=e1280a34-9e22-41b4-915b-4f630812e96d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.camel/camel-example-hystrix-service2@2.18.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-hystrix-service2/2.18.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-hystrix-service2/2.18.4/camel-example-hystrix-service2-2.18.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-hystrix-service2/2.18.4/camel-example-hystrix-service2-2.18.4.pom",
+    "file_references": []
+}

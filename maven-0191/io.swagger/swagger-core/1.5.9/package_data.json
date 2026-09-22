@@ -1,0 +1,217 @@
+{
+    "type": "maven",
+    "namespace": "io.swagger",
+    "name": "swagger-core",
+    "version": "1.5.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "de549a31-5bc2-46ff-918f-a82c11f02d31",
+            "packages": [
+                "pkg:maven/io.swagger/swagger-core@1.5.9?uuid=cef28a13-ccc2-4d40-9545-21e41ee295ff",
+                "pkg:maven/io.swagger/swagger-core@1.5.9?classifier=sources&uuid=0a93815d-3938-41a7-8ea3-22787af0bb9b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "swagger-core",
+    "release_date": "2016-05-15T04:07:09Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tony Tam",
+            "email": "fehguy@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/io/swagger/swagger-core/1.5.9/swagger-core-1.5.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "577402546e992b42baac335efb9487141d29f7e6",
+    "sha256": "76eca4fa01338e7a6db4db45b1e9f71e8ac11a2d6b47afcf2298e2ca2264a5b6",
+    "sha512": "82f13c2a1d7e4d43d40ce378246ac72e8140f79d0d36f1b6fdbf297ae46d43cf99c5ac537c08fd85e84c0091a0c5e650bade36c5d415b860f4561a7779cd6696",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.swagger/swagger-core@1.5.9?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@5",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@5",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@5",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.swagger/swagger-project@1.5.9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.swagger/swagger-project@1.5.9"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+            "extracted_requirement": "${jackson-version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": "${jackson-version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda",
+            "extracted_requirement": "${jackson-version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml",
+            "extracted_requirement": "${jackson-version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.swagger/swagger-models@1.5.9",
+            "extracted_requirement": "1.5.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava@18.0",
+            "extracted_requirement": "18.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.validation/validation-api@1.1.0.Final",
+            "extracted_requirement": "1.1.0.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time",
+            "extracted_requirement": "${joda-time-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.joda/joda-convert",
+            "extracted_requirement": "${joda-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava",
+            "extracted_requirement": "${jackson-guava-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.ws.rs/jsr311-api@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.hk2.external/javax.inject@2.2.0",
+            "extracted_requirement": "2.2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": "${logback-version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-core",
+            "extracted_requirement": "${logback-version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.swagger/swagger-core@1.5.9?classifier=sources&uuid=0a93815d-3938-41a7-8ea3-22787af0bb9b",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.swagger/swagger-core@1.5.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/swagger/swagger-core/1.5.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/swagger/swagger-core/1.5.9/swagger-core-1.5.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/swagger/swagger-core/1.5.9/swagger-core-1.5.9.pom",
+    "file_references": []
+}

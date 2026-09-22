@@ -1,0 +1,137 @@
+{
+    "type": "maven",
+    "namespace": "org.flowable",
+    "name": "flowable-dmn-model",
+    "version": "6.7.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0c3c94a5-46f4-4eec-a016-1330b22d742a",
+            "packages": [
+                "pkg:maven/org.flowable/flowable-dmn-model@6.7.2?uuid=e405f424-7da3-47c6-b69b-6bfe56631e9f",
+                "pkg:maven/org.flowable/flowable-dmn-model@6.7.2?classifier=sources&uuid=1226e029-9b3e-4f41-b0c9-ee55f1061860"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Flowable - DMN Model",
+    "release_date": "2021-12-28T14:11:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tijs Rademakers",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joram Barrez",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Yvo Swillens",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Josh Long",
+            "email": null,
+            "url": "http://www.pivotal.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Grofcik",
+            "email": null,
+            "url": "http://www.edorasware.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Muelder",
+            "email": null,
+            "url": "http://next-level-integration.com/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Stettler",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Flowable",
+            "email": null,
+            "url": "http://www.flowable.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.flowable.org",
+    "download_url": "https://repo1.maven.org/maven2/org/flowable/flowable-dmn-model/6.7.2/flowable-dmn-model-6.7.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c73ff1b737fe3fcb91ff6b993589216c80bcadb4",
+    "sha256": "f3bb2ce2ba4c80462807f75067414995d1acb2cf518dc89cf171a7428597c81e",
+    "sha512": "c250a60380c722a6904c57fa7713172f2bbe6f4bd94889338daf5bbbbfc913b4ed7b865473d9f0e80029ad1d5634893c141c45c21cc8dcadece2fa0a03cecacd",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.flowable/flowable-dmn-model@6.7.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.flowable/flowable-dmn-model@6.7.2?classifier=sources&uuid=1226e029-9b3e-4f41-b0c9-ee55f1061860",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.flowable/flowable-dmn-model@6.7.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

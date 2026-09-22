@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.maven.plugin-tools",
+    "name": "maven-plugin-annotations",
+    "version": "3.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a2bf073b-b625-4c2a-8598-cf8cd28bbb0f",
+            "packages": [
+                "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.3?uuid=32b216b7-8cf7-4999-bda9-0473a6c194bc",
+                "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.3?classifier=sources&uuid=7d4966a0-479b-4da1-b4f9-214363635456"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Maven Plugin Tools Java 5 Annotations\nJava 5 annotations to use in Mojos",
+    "release_date": "2014-05-03T19:28:03Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "63ce1be72c0653cee7b846622249fb38ce6e346a",
+    "sha256": "48fefc43ae7c2bc24d4213c024ae5d75b5c1164c822ca2e2a36975a5acad7682",
+    "sha512": "125550cfbc5b45b4c97030537ae312b3e38c17604c939c67ba0e1181d43e3650841432979dd8df27c4fefda1082ce072e5a66984c2f1e9558cdcdd38377f4695",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-artifact@3.0",
+            "extracted_requirement": "3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.3?classifier=sources&uuid=7d4966a0-479b-4da1-b4f9-214363635456",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.pom",
+    "file_references": []
+}

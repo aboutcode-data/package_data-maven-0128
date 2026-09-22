@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.project.templates.panel.app",
+    "version": "1.0.187",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "638af3d7-f319-48cf-b181-38e6faa87bc5",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.project.templates.panel.app@1.0.187?uuid=ba0195d1-e99b-4dfc-a62b-002b6610bb87",
+                "pkg:maven/com.liferay/com.liferay.project.templates.panel.app@1.0.187?classifier=sources&uuid=5e6345ea-af42-4581-bf09-00f7ec0bd47e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Creates a Liferay panel app that customizes a panel category (e.g., Control Panel) by inserting an entry that gives access to an application.",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.project.templates.panel.app/1.0.187/com.liferay.project.templates.panel.app-1.0.187-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3bae65c27ee0999cddf7d0a7f2381b9094cf430c",
+    "sha256": "d4ea5cd90dff445885ce17e7f2d7925b3d1f0a8d844895f5789ecac7e1b4ae24",
+    "sha512": "1e39fc7935d145470e7279cbc6527de97f9eb8b6fd083976ce4e5ec092c07585289137e613f127766ceb8267afb5763e42158b2caf97675488744b7a19597bae",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR liferay-dxp-eula-2.0.0-2023-06",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.project.templates.panel.app@1.0.187?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.project.templates.panel.app@1.0.187?classifier=sources&uuid=5e6345ea-af42-4581-bf09-00f7ec0bd47e",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.project.templates.panel.app@1.0.187?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

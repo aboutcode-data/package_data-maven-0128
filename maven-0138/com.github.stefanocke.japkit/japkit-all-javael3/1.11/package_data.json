@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "com.github.stefanocke.japkit",
+    "name": "japkit-all-javael3",
+    "version": "1.11",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Japkit All - Java EL 3\nAll dependencies that can be used in the annotation processor path. For convenience and due to https://issues.apache.org/jira/browse/MCOMPILER-272.\n\tTomcat's Java EL 3 implementation is used.",
+    "release_date": "2017-05-21T08:51:20Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/github/stefanocke/japkit/japkit-all-javael3/1.11/japkit-all-javael3-1.11.jar",
+    "size": 1857,
+    "md5": null,
+    "sha1": "f275b43467adb54ac51651afbafd9e0d1a75489a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.stefanocke.japkit/japkit-all-javael3@1.11?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.github.stefanocke.japkit/japkit-annotation-processor",
+            "extracted_requirement": "1.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.stefanocke.japkit/japkit-javael3",
+            "extracted_requirement": "1.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el",
+            "extracted_requirement": "8.5.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.stefanocke.japkit/japkit-groovy",
+            "extracted_requirement": "1.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.stefanocke.japkit/japkit-all-javael3@1.11?uuid=5abab992-0b62-4c8e-bc57-bb6a4dc22c76",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.github.stefanocke.japkit/japkit-all-javael3@1.11",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/stefanocke/japkit/japkit-all-javael3/1.11/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/stefanocke/japkit/japkit-all-javael3/1.11/japkit-all-javael3-1.11.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/stefanocke/japkit/japkit-all-javael3/1.11/japkit-all-javael3-1.11.pom",
+    "file_references": []
+}

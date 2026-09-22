@@ -1,0 +1,69 @@
+{
+    "type": "maven",
+    "namespace": "org.slf4j",
+    "name": "slf4j-api",
+    "version": "1.6.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b8574f9d-0239-4c6a-b267-679b87143758",
+            "packages": [
+                "pkg:maven/org.slf4j/slf4j-api@1.6.4?uuid=915f37a4-7cc8-41dd-9d98-fce125d12630",
+                "pkg:maven/org.slf4j/slf4j-api@1.6.4?classifier=sources&uuid=e2ae57ef-cf04-4112-93fc-407e47a1d757"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SLF4J API Module\nThe slf4j API",
+    "release_date": "2011-10-31T22:45:42Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "QOS.ch",
+            "email": null,
+            "url": "http://www.qos.ch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.slf4j.org",
+    "download_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a045ecb292c2b2559e8e9778303a08c91f537c68",
+    "sha256": "bd1a4463bf50c6aa6f843b59c61287db9086c7647368aedc0eff52d281c77f32",
+    "sha512": "7bbff5d99682ae49fb511ab303331647d34193a3a51e4bb4430b53bab68203745712f999f51fa9c9481aec583b32eb5b1b7a787b1dbf0e500341e1a9172de0a9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.slf4j/slf4j-api@1.6.4?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.slf4j/slf4j-parent@1.6.4",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.slf4j/slf4j-parent@1.6.4"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.slf4j/slf4j-api@1.6.4?classifier=sources&uuid=e2ae57ef-cf04-4112-93fc-407e47a1d757",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.slf4j/slf4j-api@1.6.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom",
+    "file_references": []
+}

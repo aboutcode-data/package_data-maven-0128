@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "org.jvnet.localizer",
+    "name": "localizer",
+    "version": "1.7",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c0e833ff-1f68-45ec-a471-d712aac7cd31",
+            "packages": [
+                "pkg:maven/org.jvnet.localizer/localizer@1.7?uuid=a8fb4cc8-8372-4303-8ea5-3f12286e44f8",
+                "pkg:maven/org.jvnet.localizer/localizer@1.7?classifier=sources&uuid=eee45a6f-7640-4fa6-889e-4480a3dd8192"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Localizer",
+    "release_date": "2010-05-19T11:02:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/jvnet/localizer/localizer/1.7/localizer-1.7-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fe56f19a61c3e97faf4a06609e91697ddcecb62b",
+    "sha256": "e73c5d898afd7a75f79c8e57cda99d4bae778747a0f62ae0e89cd621ba978b6e",
+    "sha512": "541b39b16f1db9732e01b0d2e6d812a98f6ad380c6532142f5d448a70a20903fc36c65dc1bf873435609e5e1aed8966d00be3b4c6b71414b17ba969dd9b68c7c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jvnet.localizer/localizer@1.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.0",
+            "extracted_requirement": "4.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jvnet.localizer/localizer@1.7?classifier=sources&uuid=eee45a6f-7640-4fa6-889e-4480a3dd8192",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jvnet.localizer/localizer@1.7?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jvnet/localizer/localizer/1.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jvnet/localizer/localizer/1.7/localizer-1.7-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jvnet/localizer/localizer/1.7/localizer-1.7.pom",
+    "file_references": []
+}

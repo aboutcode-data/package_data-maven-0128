@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.chemistry.opencmis",
+    "name": "chemistry-opencmis-client-api",
+    "version": "0.14.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d9c669cc-aed3-46df-a02c-32b830ed800e",
+            "packages": [
+                "pkg:maven/org.apache.chemistry.opencmis/chemistry-opencmis-client-api@0.14.0?uuid=7649f5a3-0496-475e-8a9f-3954b92cce80",
+                "pkg:maven/org.apache.chemistry.opencmis/chemistry-opencmis-client-api@0.14.0?classifier=sources&uuid=1be8fe65-4d85-402c-bf42-181b8e728392"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "OpenCMIS Client API",
+    "release_date": "2016-04-26T21:13:38Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/chemistry/opencmis/chemistry-opencmis-client-api/0.14.0/chemistry-opencmis-client-api-0.14.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d8dc72becb8f0d5c6fb11f5284400c90e2d0cf65",
+    "sha256": "ca3dca21c4b0bc632fa01e835baae254274dce80d10b67f0a68b29c5d3399556",
+    "sha512": "db0da8dd3eefb9eb88f6fbd4de95571af922fe7f1b3df5adb0992ebd582c161557ed7133b008a1a0307674eb03b5adc9702d2eeb393c4db9cde36829f7d12100",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "mit AND apache-2.0",
+    "other_license_expression_spdx": "MIT AND Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.chemistry.opencmis/chemistry-opencmis-client-api@0.14.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@16",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@16",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@16"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.chemistry.opencmis/chemistry-opencmis-commons-api@0.14.0",
+            "extracted_requirement": "0.14.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.chemistry.opencmis/chemistry-opencmis-client-api@0.14.0?classifier=sources&uuid=1be8fe65-4d85-402c-bf42-181b8e728392",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.chemistry.opencmis/chemistry-opencmis-client-api@0.14.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/chemistry/opencmis/chemistry-opencmis-client-api/0.14.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/chemistry/opencmis/chemistry-opencmis-client-api/0.14.0/chemistry-opencmis-client-api-0.14.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/chemistry/opencmis/chemistry-opencmis-client-api/0.14.0/chemistry-opencmis-client-api-0.14.0.pom",
+    "file_references": []
+}

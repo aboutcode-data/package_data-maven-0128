@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.adleritech",
+    "name": "flexibee-core",
+    "version": "0.0.11",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-17T09:34:12Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/adleritech/flexibee-core/0.0.11/flexibee-core-0.0.11.jar",
+    "size": 37324,
+    "md5": null,
+    "sha1": "9623e725637dd296600560c06e0a647cbe6853e1",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.adleritech/flexibee-core@0.0.11?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.squareup.retrofit2/converter-simplexml",
+            "extracted_requirement": "2.1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.simpleframework/simple-xml",
+            "extracted_requirement": "2.7.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.projectlombok/lombok",
+            "extracted_requirement": "RELEASE",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": "3.6.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.adleritech/flexibee-core@0.0.11?uuid=4a562d77-6170-424e-b736-60ce45cf8368",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.adleritech/flexibee-core@0.0.11",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/adleritech/flexibee-core/0.0.11/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/adleritech/flexibee-core/0.0.11/flexibee-core-0.0.11.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/adleritech/flexibee-core/0.0.11/flexibee-core-0.0.11.pom",
+    "file_references": []
+}

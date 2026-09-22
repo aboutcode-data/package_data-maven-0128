@@ -1,0 +1,117 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.cxf",
+    "name": "cxf-rt-rs-security-jose",
+    "version": "3.4.10",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b53060ff-bb4a-4520-887f-a7c78856201b",
+            "packages": [
+                "pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.4.10?uuid=e74c07d5-7f2f-410b-8390-d71a0b89d742",
+                "pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.4.10?classifier=sources&uuid=736165c6-69fb-4c7d-8fe7-0924405b362a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache CXF Runtime JOSE Core",
+    "release_date": "2022-12-07T18:51:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Apache CXF Team",
+            "email": "dev@cxf.apache.org",
+            "url": "https://cxf.apache.org"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://cxf.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-security-jose/3.4.10/cxf-rt-rs-security-jose-3.4.10-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "959c8c66d6cc4b873e5d301029b8d3cb9e497e92",
+    "sha256": "0f1964086995588c801e799c35f71208bbd2e31c8227bcebc15cfea8c95212b7",
+    "sha512": "b97798ea82cc78d2694d689946ee5d49a4832e65d96b1b4ff267227f5174bdf74067f93c3d2ff805e9e265c57387c1acb778bfaf682dc268c527ced091cfdd63",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new AND apache-2.0",
+    "other_license_expression_spdx": "BSD-3-Clause AND Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.4.10?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache.cxf/cxf@3.4.10",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache.cxf/cxf@3.4.10"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-core@3.4.10",
+            "extracted_requirement": "3.4.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-security@3.4.10",
+            "extracted_requirement": "3.4.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-json-basic@3.4.10",
+            "extracted_requirement": "3.4.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.4.10?classifier=sources&uuid=736165c6-69fb-4c7d-8fe7-0924405b362a",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-security-jose@3.4.10?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-security-jose/3.4.10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-security-jose/3.4.10/cxf-rt-rs-security-jose-3.4.10-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-security-jose/3.4.10/cxf-rt-rs-security-jose-3.4.10.pom",
+    "file_references": []
+}

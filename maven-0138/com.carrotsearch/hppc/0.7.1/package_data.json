@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "com.carrotsearch",
+    "name": "hppc",
+    "version": "0.7.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4662e961-e523-4ee0-8080-91d03ae95b22",
+            "packages": [
+                "pkg:maven/com.carrotsearch/hppc@0.7.1?uuid=28e13fb5-5352-445b-a0ed-16238139c4ff",
+                "pkg:maven/com.carrotsearch/hppc@0.7.1?classifier=sources&uuid=bd587f47-704f-41dc-9a6f-9b0cea4f3563"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "HPPC Collections\nHigh Performance Primitive Collections. \n  Fundamental data structures (maps, sets, lists, stacks, queues) generated for\n  combinations of object and primitive types to conserve JVM memory and speed\n  up execution.",
+    "release_date": "2015-05-07T07:33:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dawid Weiss",
+            "email": "dawid.weiss@carrotsearch.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stanis\u00c5\u0082aw Osi\u00c5\u0084ski",
+            "email": "stanislaw.osinski@carrotsearch.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Carrot Search s.c.",
+            "email": null,
+            "url": "http://www.carrotsearch.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.7.1/hppc-0.7.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a8c1a544cf6ce0d109b874ab335e68f335f773f8",
+    "sha256": "ec343f3d6c35250cae16c1c922a4ef0a25b153b0469fb0f2a4d76f118cb25308",
+    "sha512": "8a9c2a495d051fb66e3eac7c7f48062763113391c63d177f4b0750ded76733cc8f55dbbdf439a9cb8734c9a4a20a3ed69725d9d917c8c8a8ab9c4ad456cfd13e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.carrotsearch/hppc@0.7.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.carrotsearch/hppc-parent@0.7.1",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.carrotsearch/hppc-parent@0.7.1"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.carrotsearch.randomizedtesting/randomizedtesting-runner",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.carrotsearch/hppc-template-processor@0.7.1",
+            "extracted_requirement": "0.7.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.carrotsearch/hppc@0.7.1?classifier=sources&uuid=bd587f47-704f-41dc-9a6f-9b0cea4f3563",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.carrotsearch/hppc@0.7.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.7.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.7.1/hppc-0.7.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.7.1/hppc-0.7.1.pom",
+    "file_references": []
+}

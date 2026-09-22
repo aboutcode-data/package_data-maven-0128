@@ -1,0 +1,134 @@
+{
+    "type": "maven",
+    "namespace": "org.drools",
+    "name": "drools-decisiontables",
+    "version": "5.4.0.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "87726222-ec56-491f-941e-49c429a4b9c5",
+            "packages": [
+                "pkg:maven/org.drools/drools-decisiontables@5.4.0.Final?uuid=5485d609-1da3-476f-a9ac-50c3288b3977",
+                "pkg:maven/org.drools/drools-decisiontables@5.4.0.Final?classifier=sources&uuid=60c12d84-d2c5-461f-bab9-0ae2d9827f87"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Drools :: Decision Tables",
+    "release_date": "2012-05-12T14:36:57Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "All developers are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "All contributors are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org/drools",
+    "download_url": "https://repo1.maven.org/maven2/org/drools/drools-decisiontables/5.4.0.Final/drools-decisiontables-5.4.0.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c6dd5052c93e2ecb65fb6ed7a95658e8349a2acd",
+    "sha256": "1efd9997e7574a38f2313ba7b2e30b6b3b5c57dadbaa38ae573d2719a591090f",
+    "sha512": "794595896fd13865e2bd082a2f65617439b813c1753c36e82e1acb02acfed38ece91935a7b1b7cb4104d08bd8678ce719349d9b145eddc221cf4fd2dbf6cb9a4",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.drools/drools-decisiontables@5.4.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.drools/drools-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.drools/drools-compiler",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.drools/drools-templates",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.jexcelapi/jxl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.osgi.core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.osgi.compendium",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.drools/drools-decisiontables@5.4.0.Final?classifier=sources&uuid=60c12d84-d2c5-461f-bab9-0ae2d9827f87",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.drools/drools-decisiontables@5.4.0.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/drools/drools-decisiontables/5.4.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/drools/drools-decisiontables/5.4.0.Final/drools-decisiontables-5.4.0.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/drools/drools-decisiontables/5.4.0.Final/drools-decisiontables-5.4.0.Final.pom",
+    "file_references": []
+}

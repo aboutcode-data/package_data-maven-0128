@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.arquillian.testenricher",
+    "name": "arquillian-testenricher-osgi",
+    "version": "2.1.0.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4f89dbe2-6ac6-466c-b70c-eab65bc1152e",
+            "packages": [
+                "pkg:maven/org.jboss.arquillian.testenricher/arquillian-testenricher-osgi@2.1.0.Final?uuid=584c2b8b-142a-4728-a29d-15e76311ba7e",
+                "pkg:maven/org.jboss.arquillian.testenricher/arquillian-testenricher-osgi@2.1.0.Final?classifier=sources&uuid=9b4cb20b-cf81-4bd1-b3e2-4bcf9c0c19d7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Arquillian OSGi :: Enricher",
+    "release_date": "2015-11-17T12:03:10Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/testenricher/arquillian-testenricher-osgi/2.1.0.Final/arquillian-testenricher-osgi-2.1.0.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fdca68277ad88e239a60479c96f16bf7d00620d0",
+    "sha256": "fc9907ca6a5e2ff4b3ee38ca080c7d4f6545c984043303cf6c15a53a0081657a",
+    "sha512": "45e65165797405a0b379678629d129533c049580d0dda86e34ad8538fa214b9f291fa26d17b88cf105d46dd464a9aa414830418de5028d24b8b1a7f79202ebc8",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain AND cc0-1.0",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain AND CC0-1.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.arquillian.testenricher/arquillian-testenricher-osgi@2.1.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.test/arquillian-test-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-test-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-test-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-test-impl-base",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.arquillian.testenricher/arquillian-testenricher-osgi@2.1.0.Final?classifier=sources&uuid=9b4cb20b-cf81-4bd1-b3e2-4bcf9c0c19d7",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.arquillian.testenricher/arquillian-testenricher-osgi@2.1.0.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/testenricher/arquillian-testenricher-osgi/2.1.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/testenricher/arquillian-testenricher-osgi/2.1.0.Final/arquillian-testenricher-osgi-2.1.0.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/testenricher/arquillian-testenricher-osgi/2.1.0.Final/arquillian-testenricher-osgi-2.1.0.Final.pom",
+    "file_references": []
+}

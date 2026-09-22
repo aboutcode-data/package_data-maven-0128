@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.activiti",
+    "name": "activiti-secure-tasks",
+    "version": "6.0.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Activiti - Secure Tasks",
+    "release_date": "2017-05-25T10:01:02Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/activiti/activiti-secure-tasks/6.0.0/activiti-secure-tasks-6.0.0.jar",
+    "size": 3340,
+    "md5": null,
+    "sha1": "5a75dc7ace584b3ea5045a5aea0b46f3f81f6573",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.activiti/activiti-secure-tasks@6.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.activiti/activiti-engine",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.h2database/h2",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.activiti/activiti-secure-tasks@6.0.0?uuid=0aa9e9c6-849f-4f81-8fd3-9c94db2861aa",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.activiti/activiti-secure-tasks@6.0.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/activiti/activiti-secure-tasks/6.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/activiti/activiti-secure-tasks/6.0.0/activiti-secure-tasks-6.0.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/activiti/activiti-secure-tasks/6.0.0/activiti-secure-tasks-6.0.0.pom",
+    "file_references": []
+}

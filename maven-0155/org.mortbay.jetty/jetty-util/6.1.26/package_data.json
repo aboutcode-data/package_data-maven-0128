@@ -1,0 +1,200 @@
+{
+    "type": "maven",
+    "namespace": "org.mortbay.jetty",
+    "name": "jetty-util",
+    "version": "6.1.26",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9ec87467-7251-40d6-9f32-5b4a9ebacd23",
+            "packages": [
+                "pkg:maven/org.mortbay.jetty/jetty-util@6.1.26?uuid=913c1a35-e0b5-4a8e-980a-724537610c38",
+                "pkg:maven/org.mortbay.jetty/jetty-util@6.1.26?classifier=sources&uuid=3de47a02-042b-436f-a085-9c952880b677"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jetty Utilities\nUtility classes for Jetty",
+    "release_date": "2010-11-10T21:38:14Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Greg Wilkins",
+            "email": "gregw@apache.org",
+            "url": "http://www.mortbay.com/mortbay/people/gregw"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jan Bartel",
+            "email": "janb@apache.org",
+            "url": "http://www.mortbay.com/people/janb"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jules Gosnell",
+            "email": "jules@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Strachan",
+            "email": "jstrachan@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Simone Bordet",
+            "email": "simone.bordet@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tim Vernum",
+            "email": "tim@adjective.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Nik Gonzalez",
+            "email": "ngonzalez@exist.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeanfrancois Arcand",
+            "email": "jfarcand@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jesse McConnell",
+            "email": "jesse@webtide.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Jencks",
+            "email": "david_jencks@yahoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Yu",
+            "email": "david.yu.ftw@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Athena Yao",
+            "email": "yao.athena@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joakim Erdfelt",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Hugues Malphettes",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michael Gorovoy",
+            "email": "michael@webtide.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Mort Bay Consulting",
+            "email": null,
+            "url": "http://www.mortbay.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.eclipse.org/jetty",
+    "download_url": "https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0ca704dfc9e26567bd69ee3f065a1337fa6d296f",
+    "sha256": "f2ef5a14f8089cf9191c2510e242fa88395a9599d462cd98d31e046d02590ddd",
+    "sha512": "2e8f24884b9ec6e02bd546da1f8dce0942f26be69db1c1fe207bbe1f8d89074bd6d6cf803bb86a96b347c416fd65be1a7cbae5a450fb929090d4f35dfb4b6e73",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND epl-1.0",
+    "declared_license_expression_spdx": "Apache-2.0 AND EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (epl-1.0 OR apache-2.0)",
+    "other_license_expression_spdx": "Apache-2.0 AND (EPL-1.0 OR Apache-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mortbay.jetty/jetty-util@6.1.26?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.eclipse.jetty/jetty-parent@14",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.eclipse.jetty/jetty-parent@14",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.eclipse.jetty/jetty-parent@14"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mortbay.jetty/servlet-api",
+            "extracted_requirement": "${servlet-version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.mortbay.jetty/jetty-util@6.1.26?classifier=sources&uuid=3de47a02-042b-436f-a085-9c952880b677",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.mortbay.jetty/jetty-util@6.1.26?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom",
+    "file_references": []
+}

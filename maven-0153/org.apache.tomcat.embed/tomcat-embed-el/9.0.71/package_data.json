@@ -1,0 +1,90 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.tomcat.embed",
+    "name": "tomcat-embed-el",
+    "version": "9.0.71",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f825027a-5435-4191-8bd2-7865af28df11",
+            "packages": [
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.71?uuid=1d3ff242-2275-4197-bff2-c6510bd2dbc6",
+                "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.71?classifier=sources&uuid=771e0dff-b552-4a10-b470-b1c695896aa9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Core Tomcat implementation",
+    "release_date": "2023-01-09T22:44:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://tomcat.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.71/tomcat-embed-el-9.0.71-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4f5242587726872581f004ddd8a49dc86911df20",
+    "sha256": "8413cacee0a2fc2776aeffe341365b9b2a61ecf0c9bfe6b676e3f0d76ff72e91",
+    "sha512": "e3c937c45f85ddb1a9db917ad989db2240f910d5fdd3f3921e5948bf88eda8bbf87b0c44cc63d0306b9bee4bfe6c2df75fcb2835b5d31cd29f0887feede0627d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-efc1b129-3bcc-a9c0-71ea-964bc53d5512",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.71?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.71?classifier=sources&uuid=771e0dff-b552-4a10-b470-b1c695896aa9",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.71?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.71/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.71/tomcat-embed-el-9.0.71-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.71/tomcat-embed-el-9.0.71.pom",
+    "file_references": []
+}

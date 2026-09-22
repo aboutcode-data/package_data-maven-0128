@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.kevoree.tools",
+    "name": "org.kevoree.tools.marShell",
+    "version": "2.0.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Kevoree :: Tools :: M@R Shell",
+    "release_date": "2013-08-01T19:22:54Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/kevoree/tools/org.kevoree.tools.marShell/2.0.3/org.kevoree.tools.marShell-2.0.3.jar",
+    "size": 845355,
+    "md5": null,
+    "sha1": "cc03b19ee15534e71e3e75d632561b8ed0cc6a3c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.kevoree.tools/org.kevoree.tools.marShell@2.0.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "${scala.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kevoree/org.kevoree.model",
+            "extracted_requirement": "2.0.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kevoree/org.kevoree.framework",
+            "extracted_requirement": "2.0.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kevoree/org.kevoree.merger",
+            "extracted_requirement": "2.0.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.9.2",
+            "extracted_requirement": "1.6.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.kevoree.tools/org.kevoree.tools.marShell@2.0.3?uuid=bc225f20-f8e5-4099-a3bf-41567e71a9c7",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.kevoree.tools/org.kevoree.tools.marShell@2.0.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/kevoree/tools/org.kevoree.tools.marShell/2.0.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/kevoree/tools/org.kevoree.tools.marShell/2.0.3/org.kevoree.tools.marShell-2.0.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/kevoree/tools/org.kevoree.tools.marShell/2.0.3/org.kevoree.tools.marShell-2.0.3.pom",
+    "file_references": []
+}

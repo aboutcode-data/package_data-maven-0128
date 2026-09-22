@@ -1,0 +1,288 @@
+{
+    "type": "maven",
+    "namespace": "com.sun.jersey",
+    "name": "jersey-bundle",
+    "version": "1.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3879c4ff-072d-4763-9539-38849eb9bca4",
+            "packages": [
+                "pkg:maven/com.sun.jersey/jersey-bundle@1.9?uuid=1974d52f-f178-4d7b-b8d9-ef620e301385",
+                "pkg:maven/com.sun.jersey/jersey-bundle@1.9?classifier=sources&uuid=6028a48d-4715-4a92-831a-c14a9b1958dd"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jersey-bundle\nA bundle containing code of all jar-based modules that provide\n        JAX-RS and Jersey-related features. Such a bundle is *only intended* for\n        developers that do not use Maven's dependency system.\n        The bundle does not include code for contributes, tests and samples.",
+    "release_date": "2011-09-02T11:47:30Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle Corporation",
+            "email": null,
+            "url": "http://www.oracle.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://java.net/",
+    "download_url": "https://repo1.maven.org/maven2/com/sun/jersey/jersey-bundle/1.9/jersey-bundle-1.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "bd37eb43c73f414f1126dba95a6d84e2ea0a3312",
+    "sha256": "cead09c73f2e9e40df178e7bc28f712461392d1e0e055cf92b5906a1a2ff37c2",
+    "sha512": "c5df575273c49e6e0fa15b85212e39a81bb4895af5325e2e43e9786bc9c44fb4cb092d4cffcfd528da9ffc28f4f0f8fbedf291446c88601cfaafcecb7ca88f67",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "cddl-1.1 AND gpl-2.0",
+    "declared_license_expression_spdx": "CDDL-1.1 AND GPL-2.0-only",
+    "license_detections": [],
+    "other_license_expression": "(cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND cddl-1.0 AND apache-2.0 AND (((cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND mit) AND cddl-1.0) AND ((cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND apache-2.0) AND ((cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND w3c) AND (cddl-1.1 AND apache-2.0 AND cddl-1.0)",
+    "other_license_expression_spdx": "(CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND CDDL-1.0 AND Apache-2.0 AND (((CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND MIT) AND CDDL-1.0) AND ((CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND Apache-2.0) AND ((CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND W3C) AND (CDDL-1.1 AND Apache-2.0 AND CDDL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.sun.jersey/jersey-bundle@1.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.ws.rs/jsr311-api@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.jersey/jersey-grizzly@1.9",
+            "extracted_requirement": "1.9",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.jersey/jersey-client@1.9",
+            "extracted_requirement": "1.9",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.jersey/jersey-atom@1.9",
+            "extracted_requirement": "1.9",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.jersey/jersey-json@1.9",
+            "extracted_requirement": "1.9",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.jersey/jersey-fastinfoset@1.9",
+            "extracted_requirement": "1.9",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.persistence/persistence-api@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.mail/mail@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.xml.bind/jaxb-api@2.1",
+            "extracted_requirement": "2.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-impl",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-core-asl",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-jaxrs",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-xc",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.0.1",
+            "extracted_requirement": "3.0.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/jsp-api@2.0",
+            "extracted_requirement": "2.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish/javax.ejb@3.1",
+            "extracted_requirement": "3.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.weld/weld-osgi-bundle@1.1.2.Final",
+            "extracted_requirement": "1.1.2.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/ant/ant@1.6.5",
+            "extracted_requirement": "1.6.5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.grizzly/grizzly-servlet-webserver@1.9.31",
+            "extracted_requirement": "1.9.31",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.net.httpserver/http@20070405",
+            "extracted_requirement": "20070405",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/rome/rome@0.9",
+            "extracted_requirement": "0.9",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jdom/jdom@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jettison/jettison@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.fastinfoset/FastInfoset@1.2.9",
+            "extracted_requirement": "1.2.9",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/asm/asm@3.1",
+            "extracted_requirement": "3.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/osgi_R4_core@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.sun.jersey/jersey-bundle@1.9?classifier=sources&uuid=6028a48d-4715-4a92-831a-c14a9b1958dd",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.sun.jersey/jersey-bundle@1.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/sun/jersey/jersey-bundle/1.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/sun/jersey/jersey-bundle/1.9/jersey-bundle-1.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/sun/jersey/jersey-bundle/1.9/jersey-bundle-1.9.pom",
+    "file_references": []
+}

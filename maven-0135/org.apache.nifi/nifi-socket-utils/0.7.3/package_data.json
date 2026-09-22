@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.nifi",
+    "name": "nifi-socket-utils",
+    "version": "0.7.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Utilities for socket communication",
+    "release_date": "2017-05-14T22:27:43Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-socket-utils/0.7.3/nifi-socket-utils-0.7.3.jar",
+    "size": 49616,
+    "md5": null,
+    "sha1": "45b1c456c4ff26600ea9978fe03d2e1eeee14a10",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.nifi/nifi-socket-utils@0.7.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-logging-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-net/commons-net",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-properties",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.nifi/nifi-socket-utils@0.7.3?uuid=0bf4813d-d8da-424b-917a-e66f92ad07e1",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.nifi/nifi-socket-utils@0.7.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-socket-utils/0.7.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-socket-utils/0.7.3/nifi-socket-utils-0.7.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-socket-utils/0.7.3/nifi-socket-utils-0.7.3.pom",
+    "file_references": []
+}
